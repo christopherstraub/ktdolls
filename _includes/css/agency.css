@@ -330,22 +330,22 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 50px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
+    font-size: 18px;
+    /* font-style: italic; */
     font-weight: 400;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -638,7 +638,7 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin: 0 auto;
+    margin: 1.5rem auto 1rem;
     border: 7px solid #fff;
 }
 
@@ -747,11 +747,11 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 60px;
     outline: 0;
     color: #fff;
     background-color: #222;
