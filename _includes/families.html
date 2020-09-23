@@ -1,0 +1,66 @@
+<!-- Portfolio Modals -->
+{% for family in site.families %}
+<div
+  class="portfolio-modal modal"
+  id="{{ family.pic }}"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="modal-body">
+          <div class="family-heading">
+            <div class="family-heading-text">
+              <h2>{{ family.title }}</h2>
+              <h3>{{ family.pic }}/12</h3>
+            </div>
+            <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                <div class="rl"></div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="star-primary" />
+          <div class="image-section">
+            <button
+              type="button"
+              class="btn btn-default"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#{{ family.previous }}"
+            >
+              <i class="fa fa-arrow-left"></i>
+            </button>
+            <img
+              src="../img/fur-ever-homes/{{ family.img }}"
+              class="img-responsive img-centered"
+              alt="{{ family.title }}"
+            />
+            <button
+              type="button"
+              class="btn btn-default"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#{{ family.next }}"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <p>{{ post.description }}</p>
+          <ul class="list-inline item-details">
+            <li>
+              <span class="section-subheading text-muted">
+                {{ family.subtitle }}
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
