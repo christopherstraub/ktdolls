@@ -355,8 +355,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+    display: inline-block;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -424,12 +423,6 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .timeline {
@@ -806,18 +799,18 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content img {
-    margin: 0 20px;
+    margin: 0 20px 20px;
     max-width: 80vw;
     max-height: 69vh;
 }
 
 @media only screen and (max-width: 768px) {
     .portfolio-modal .modal-content img {
-        margin: 0;
-        max-width: 100vw;
+        margin: 0 0 20px;
+        max-width: 99vw;
     }
 
-    .image-section .btn{
+    .image-section .btn, .family-image-subtitle {
         display: none;
     }
 

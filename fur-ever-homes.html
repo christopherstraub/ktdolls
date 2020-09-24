@@ -11,27 +11,20 @@ layout: page
         <h3 class="section-subheading text-muted">Meet our families!</h3>
       </div>
     </div>
-    {% for family in site.families %}
-    <div class="col-md-4 col-sm-6 portfolio-item">
-      <h3 class="text-center">{{ family.title }}</h3>
-
-      <a href="#{{ family.pic }}" class="portfolio-link" data-toggle="modal">
-        <div class="portfolio-hover">
-          <div class="portfolio-hover-content">
-            <i class="fa fa-plus fa-3x"></i>
+    <div class="gallery">
+      {% for family in site.families %}
+      <div class="portfolio-item">
+        <a href="#{{ family.pic }}" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
           </div>
-        </div>
-        <img
-          src="../img/fur-ever-homes/{{ family.img }}"
-          class="img-responsive img-centered"
-          alt=""
-        />
-      </a>
-      <div class="portfolio-caption">
-        <span class="section-subheading text-muted">{{ family.subtitle }}</span>
+          <img src="../img/fur-ever-homes/{{ family.img }}" alt="" />
+        </a>
       </div>
-    </div>
 
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </section>
