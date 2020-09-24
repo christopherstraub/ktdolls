@@ -740,11 +740,11 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 80px;
     outline: 0;
     color: #fff;
     background-color: #222;
@@ -775,6 +775,7 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background: rgba(255, 255, 255, .9);
 }
 
 .portfolio-modal .modal-content h2 {
@@ -804,13 +805,14 @@ ul.social-buttons li a:active {
     max-height: 69vh;
 }
 
+/* Families Media Queries */
 @media only screen and (max-width: 768px) {
     .portfolio-modal .modal-content img {
         margin: 0 0 20px;
         max-width: 99vw;
     }
 
-    .image-section .btn, .family-image-subtitle {
+    .image-section .btn, {
         display: none;
     }
 
@@ -821,6 +823,7 @@ ul.social-buttons li a:active {
   }
 
 .portfolio-modal .close-modal {
+    color: black;
     position: absolute;
     top: 25px;
     right: 25px;
