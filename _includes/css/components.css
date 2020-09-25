@@ -1,0 +1,15 @@
+/* Component Classes */
+.btn-custom{
+  font-size: 3rem;
+  padding: 4px 12px;
+  color: #{{ site.data.template.color.secondary-dark }};
+  background-color: white;
+  border-color: #{{ site.data.template.color.secondary-dark }};
+  border-radius: 50%;
+  transition: all .3s;
+}
+
+.btn-custom:hover{
+  color: white;
+  background-color: #{{ site.data.template.color.secondary-dark }};
+}

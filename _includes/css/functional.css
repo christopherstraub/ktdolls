@@ -1,0 +1,10 @@
+/* Functional Classes */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-dark{
+  border-top: 1px solid #{{ site.data.template.color.secondary-dark }};
+}
