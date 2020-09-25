@@ -12,9 +12,29 @@
       <div class="row">
         <div class="modal-body">
           <div>
-            <div class="family-heading-text">
+            <div class="family-heading">
               <h2>{{ family.title }}</h2>
-              <h3>{{ family.pic }}/12</h3>
+              <div class="flex-center">
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-dismiss="modal"
+                  data-toggle="modal"
+                  data-target="#{{ family.previous }}"
+                >
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+                <h3>{{ family.pic }}/12</h3>
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-dismiss="modal"
+                  data-toggle="modal"
+                  data-target="#{{ family.next }}"
+                >
+                  <i class="fa fa-arrow-right"></i>
+                </button>
+              </div>
             </div>
             <div class="close-modal" data-dismiss="modal">
               <div class="lr">
@@ -22,26 +42,28 @@
               </div>
             </div>
           </div>
-
-          <hr class="star-primary" />
-          <div class="image-section">
+          <hr class="star-primary hr-dark" />
+          <div class="image-container flex-center">
+            <img
+              src="../img/fur-ever-homes/{{ family.img }}"
+              class="img-responsive img-centered"
+              alt="{{ family.title }}"
+            />
+          </div>
+          <div class="modal-nav-mobile flex-center">
             <button
               type="button"
-              class="btn btn-default"
+              class="btn btn-custom"
               data-dismiss="modal"
               data-toggle="modal"
               data-target="#{{ family.previous }}"
             >
               <i class="fa fa-arrow-left"></i>
             </button>
-            <img
-              src="../img/fur-ever-homes/{{ family.img }}"
-              class="img-responsive img-centered"
-              alt="{{ family.title }}"
-            />
+            <h4 class="family-heading-text-mobile">{{ family.title }}</h4>
             <button
               type="button"
-              class="btn btn-default"
+              class="btn btn-custom"
               data-dismiss="modal"
               data-toggle="modal"
               data-target="#{{ family.next }}"
@@ -49,14 +71,9 @@
               <i class="fa fa-arrow-right"></i>
             </button>
           </div>
-
-          <ul class="list-inline item-details">
-            <li>
-              <span class="section-subheading text-muted">
-                {{ family.subtitle }}
-              </span>
-            </li>
-          </ul>
+          <span class="family-subtitle section-subheading text-muted"
+            >{{ family.subtitle }}</span
+          >
         </div>
       </div>
     </div>

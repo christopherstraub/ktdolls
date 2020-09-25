@@ -801,32 +801,15 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin: 0 20px 20px;
-    max-width: 80vw;
-    max-height: 69vh;
+    max-height: 68vh;
+    max-width: 99vw;
 }
-
-/* Families Media Queries */
-@media only screen and (max-width: 768px) {
-    .portfolio-modal .modal-content img {
-        margin: 0 0 20px;
-        max-width: 99vw;
-    }
-
-    .image-section .btn, {
-        display: none;
-    }
-
-    .family-heading-text{
-        visibility: hidden;
-        height: 50px;
-    }
-  }
 
 .portfolio-modal .close-modal {
     color: black;
     position: absolute;
     top: 25px;
-    right: 25px;
+    right: 0;
     width: 75px;
     height: 75px;
     background-color: transparent;

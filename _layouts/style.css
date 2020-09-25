@@ -79,44 +79,89 @@
 }
 
 /* Families */
-.family-heading-text{
-  color: black;
-
+.family-heading{
+  padding: 0 55px;
 }
 
-.image-section .btn{
-  background-color: white;
-  border-radius: 50%;
-  transition: all .3s;
+.family-heading h3{
+  margin: 0 25px;
 }
 
-.image-section .btn:hover{
-  background-color: black;
-}
-
-.image-section .btn i{
-  color: black;
-  padding: 5px;
-  font-size: 3.5rem;
-}
-
-.image-section .btn i:hover{
-  color: white;
-}
-
-.image-section{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image-section img{
+.modal-body .image-container img{
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
 }
 
-/* Fur-ever Homes */
+.family-heading-text-mobile{
+  display: none;
+}
+
+.modal-nav-mobile .btn-custom{
+  display: none;
+}
+
+/* Custom Classes */
+.btn-custom{
+  font-size: 3rem;
+  padding: 4px 12px;
+  color: #{{ site.data.template.color.secondary-dark }};
+  background-color: white;
+  border-color: #{{ site.data.template.color.secondary-dark }};
+  border-radius: 50%;
+  transition: all .3s;
+}
+
+.btn-custom:hover{
+  color: white;
+  background-color: #{{ site.data.template.color.secondary-dark }};
+}
+
+/* Functional Classes */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-dark{
+  border-top: 1px solid #{{ site.data.template.color.secondary-dark }};
+}
+
+/* Families Media Queries */
+@media only screen and (max-width: 768px) {
+  .portfolio-modal .modal-content img {
+      margin-top: 70px;
+  }
+
+  .family-heading, .modal-content hr{
+    display: none;
+  }
+
+  .portfolio-modal .close-modal{
+    top: 0;
+  }
+
+  .family-heading-text-mobile{
+    display: block;
+    margin: 0 15px;
+  }
+
+  .btn-custom{
+    font-size: 2.2rem;
+    padding: 4px 10px;
+  }
+
+  .modal-nav-mobile{
+    margin-bottom: 15px;
+  }
+
+  .modal-nav-mobile .btn-custom{
+    display: inline-block;
+  }
+}
+
+/* Seamless Responsive Photo Grid */
 .gallery{
   /* background-color: lightblue; */
   /* Prevent vertical gaps */
@@ -135,7 +180,6 @@
     width: 100% !important;
     height: auto !important;
 }
-
 @media (max-width: 1200px) {
   .gallery {
   -moz-column-count:    4;
@@ -155,12 +199,5 @@
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
-  }
-}
-@media (max-width: 400px) {
-  .gallery {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
   }
 }
