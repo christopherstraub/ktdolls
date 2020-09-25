@@ -1,103 +1,128 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+{% include css/photo-grid.css %}
+{% include css/functional.css %}
+{% include css/components.css %}
 {{ content }}
 
 /* Header */
-.nav.navbar-nav.navbar-right li a{
+.nav.navbar-nav.navbar-right li a {
   font-size: 2rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   padding-left: 75px;
 }
 
-.collapse.navbar-collapse{
+.collapse.navbar-collapse {
   padding-right: 75px;
 }
 
 /* Shipping */
-.united-petsafe-logo{
+.united-petsafe-logo {
   width: 500px;
   max-width: 75vw;
 }
 
 /* Social */
-.facebook-btn{
-  background-color: #1877F2 !important;
+.facebook-btn {
+  background-color: #1877f2 !important;
 }
 
-.facebook-btn:hover, .instagram-btn:hover{
-  opacity: .6;
+.facebook-btn:hover,
+.instagram-btn:hover {
+  opacity: 0.6;
 }
 
-.instagram-btn{
-  background: #f09433; 
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+.instagram-btn {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
 /* Families */
-.family-heading{
+.family-heading {
   padding: 0 55px;
 }
 
-.family-heading h3{
+.family-heading h3 {
   margin: 0 25px;
 }
 
-.modal-body .image-container img{
-  -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+.modal-body .image-container img {
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
 }
 
-.family-heading-text-mobile{
+.family-heading-text-mobile {
   display: none;
 }
 
-.modal-nav-mobile .btn-custom{
+.modal-nav-mobile .btn-custom {
   display: none;
 }
 
 /* Header Media Queries */
-@media only screen and (max-width: 1069px){
-  .nav.navbar-nav.navbar-right li a{
+@media only screen and (max-width: 1069px) {
+  .nav.navbar-nav.navbar-right li a {
     font-size: 1.8rem;
   }
 }
 
-@media only screen and (max-width: 999px){
-  .nav.navbar-nav.navbar-right li a{
+@media only screen and (max-width: 999px) {
+  .nav.navbar-nav.navbar-right li a {
     font-size: 1.6rem;
   }
 }
 
-@media only screen and (max-width: 929px){
-  .nav.navbar-nav.navbar-right li a{
+@media only screen and (max-width: 929px) {
+  .nav.navbar-nav.navbar-right li a {
     font-size: 1.4rem;
   }
 }
 
-@media only screen and (max-width: 859px){
-  .nav.navbar-nav.navbar-right li a{
+@media only screen and (max-width: 859px) {
+  .nav.navbar-nav.navbar-right li a {
     font-size: 1.2rem;
   }
 }
 
-@media only screen and (max-width: 788px){
-  .nav.navbar-nav.navbar-right li a{
+@media only screen and (max-width: 788px) {
+  .nav.navbar-nav.navbar-right li a {
     font-size: 1.1rem;
   }
 }
 
-@media only screen and (max-width: 1300px){
-  .navbar-brand{
+@media only screen and (max-width: 1300px) {
+  .navbar-brand {
     padding-left: 25px;
   }
-  
-  .collapse.navbar-collapse{
+
+  .collapse.navbar-collapse {
     padding-right: 25px;
   }
 }
@@ -105,32 +130,33 @@
 /* Families Media Queries */
 @media only screen and (max-width: 768px) {
   .portfolio-modal .modal-content img {
-      margin-top: 70px;
+    margin-top: 70px;
   }
 
-  .family-heading, .modal-content hr{
+  .family-heading,
+  .modal-content hr {
     display: none;
   }
 
-  .portfolio-modal .close-modal{
+  .portfolio-modal .close-modal {
     top: 0;
   }
 
-  .family-heading-text-mobile{
+  .family-heading-text-mobile {
     display: block;
     margin: 0 15px;
   }
 
-  .btn-custom{
+  .btn-custom {
     font-size: 2.2rem;
     padding: 4px 10px;
   }
 
-  .modal-nav-mobile{
+  .modal-nav-mobile {
     margin-bottom: 15px;
   }
 
-  .modal-nav-mobile .btn-custom{
+  .modal-nav-mobile .btn-custom {
     display: inline-block;
   }
 }
