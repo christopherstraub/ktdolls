@@ -1,3 +1,4 @@
+
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/photo-grid.css %}
@@ -6,16 +7,20 @@
 {{ content }}
 
 /* Header */
-.nav.navbar-nav.navbar-right li a {
-  font-size: 2rem;
-}
-
 .navbar-brand {
   padding-left: 75px;
 }
 
 .collapse.navbar-collapse {
   padding-right: 75px;
+}
+
+.navbar-nav{
+  flex-direction: row;
+}
+
+.nav li a {
+  font-size: 2rem;
 }
 
 /* Shipping */
