@@ -92,39 +92,31 @@
 }
 
 /* Header Media Queries */
-@media only screen and (max-width: 1069px) {
+@media only screen and (max-width: 1119px) {
   .nav.navbar-nav.navbar-right li a {
     font-size: 1.8rem;
   }
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 1048px) {
   .nav.navbar-nav.navbar-right li a {
     font-size: 1.6rem;
   }
 }
 
-@media only screen and (max-width: 929px) {
+@media only screen and (max-width: 954px) {
   .nav.navbar-nav.navbar-right li a {
     font-size: 1.4rem;
-  }
-}
-
-@media only screen and (max-width: 859px) {
-  .nav.navbar-nav.navbar-right li a {
-    font-size: 1.2rem;
-  }
-}
-
-@media only screen and (max-width: 788px) {
-  .nav.navbar-nav.navbar-right li a {
-    font-size: 1.1rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .nav.navbar-nav.navbar-right li a {
     font-size: 1.8rem;
+  }
+
+  .navbar-nav{
+    flex-direction: column;
   }
 }
 
