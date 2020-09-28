@@ -30,12 +30,14 @@
 
         {% for item in site.data.navigation %}
         <li>
-          {% if page.url == item.link and item.not-top-of-page %}
-          <a class="page-scroll" href="#{{ item.id }}">{{ item.name }}</a>
+          {% if page.url == item.link and item.link == '/' %}
+          <a class="page-scroll" href="#{{ item.name | slugify }}"
+            >{{ item.name }}</a
+          >
           {% elsif page.url == item.link %}
           <a class="page-scroll" href="#page-top">{{ item.name }}</a>
           {% elsif item.not-top-of-page %}
-          <a href="{{ item.link | relative_url }}#{{ item.id }}"
+          <a href="{{ item.link | relative_url }}#{{ item.name | slugify }}"
             >{{ item.name }}</a
           >
           {% else %}
