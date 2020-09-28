@@ -1,0 +1,24 @@
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav li a {
+  font-size: 20px;
+}
+
+// Media queries.
+@media only screen and (max-width: 1199px) {
+  .nav.navbar-nav.navbar-right li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .nav.navbar-nav.navbar-right li a {
+    font-size: 18px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+}

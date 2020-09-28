@@ -1,0 +1,14 @@
+.btn-custom {
+  font-size: 3rem;
+  padding: 4px 12px;
+  color: $clr-secondary-dark;
+  background-color: white;
+  border-color: $clr-secondary-dark;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.btn-custom:hover {
+  color: white;
+  background-color: $clr-secondary-dark;
+}

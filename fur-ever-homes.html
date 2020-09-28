@@ -12,7 +12,7 @@ layout: page
         </div>
       </div>
       <div class="gallery">
-        {% for family in site.families %}
+        {% for family in site.data.families %}
         <div class="portfolio-item">
           <a
             href="#{{ family.pic }}"
@@ -24,7 +24,7 @@ layout: page
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="../img/fur-ever-homes/{{ family.img }}" alt="" />
+            <img src="assets/img/fur-ever-homes/{{ family.img }}" alt="" />
           </a>
         </div>
 

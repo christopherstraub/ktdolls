@@ -1,0 +1,20 @@
+- name: available kittens
+  link: /
+  id: 'available-kittens'
+  not-top-of-page: true
+
+- name: about
+  link: /about
+  id: 'about'
+
+- name: past litters
+  link: /past-litters
+  id: 'past-litters'
+
+- name: fur-ever homes
+  link: /fur-ever-homes
+  id: 'fur-ever-homes'
+
+- name: contact
+  link: /contact
+  id: 'contact'

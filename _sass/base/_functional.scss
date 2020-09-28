@@ -1,0 +1,9 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-dark {
+  border-top: 1px solid $clr-secondary-dark;
+}
