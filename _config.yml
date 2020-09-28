@@ -4,6 +4,7 @@ url: https://christopherstraub.github.io/ktdolls/
 title: KTDolls
 email: ktdolls2017@gmail.com
 description: 'KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens. Established in 2017, we are located in Katy, Texas, 30 miles west of downtown Houston.'
+baseurl: /ktdolls
 
 # Build settings
 markdown: kramdown
