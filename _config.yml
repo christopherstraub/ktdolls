@@ -5,10 +5,20 @@ title: KTDolls
 email: ktdolls2017@gmail.com
 description: 'KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens. Established in 2017, we are located in Katy, Texas, 30 miles west of downtown Houston.'
 baseurl: /ktdolls
-permalink: /:title
+permalink: none # permalink defaults to 'date' (/:categories/:year/:month/:day/:title:output_ext)
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+
+include:
+  - _pages
 
 # Team names, titles and social links
 people:

@@ -36,7 +36,7 @@
           >
           {% elsif page.url == item.link %}
           <a class="page-scroll" href="#page-top">{{ item.name }}</a>
-          {% elsif item.not-top-of-page %}
+          {% elsif item.link == '/' %}
           <a href="{{ item.link | relative_url }}#{{ item.name | slugify }}"
             >{{ item.name }}</a
           >
