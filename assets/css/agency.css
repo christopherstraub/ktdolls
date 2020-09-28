@@ -286,6 +286,10 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+.empty-header .intro-text{
+    padding: 0;
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
@@ -309,8 +313,8 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
-    header .intro-text.page {
-        padding: 55px 0;
+    .empty-header .intro-text {
+        padding: 74px 0;
     }
 
     header .intro-text .intro-lead-in {
@@ -328,6 +332,12 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+}
+
+@media(min-width: 992px){
+    .empty-header .intro-text {
+        padding: 55px 0;
     }
 }
 
