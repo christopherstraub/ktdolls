@@ -1,5 +1,5 @@
 <!-- Portfolio Modals -->
-{% for family in site.families %}
+{% for family in site.data.families %}
 <div
   class="portfolio-modal modal"
   id="{{ family.pic }}"
@@ -45,7 +45,7 @@
           <hr class="star-primary hr-dark" />
           <div class="image-container flex-center">
             <img
-              src="../img/fur-ever-homes/{{ family.img }}"
+              src="assets/img/fur-ever-homes/{{ family.img }}"
               class="img-responsive img-centered"
               alt="{{ family.title }}"
             />

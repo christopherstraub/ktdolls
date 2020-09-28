@@ -1,10 +1,12 @@
-url: https://y7kim.github.io
-baseurl: /ktdolls
+url: https://christopherstraub.github.io/ktdolls/
 
 # Site settings
 title: KTDolls
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
+email: ktdolls2017@gmail.com
+description: 'KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens. Established in 2017, we are located in Katy, Texas, 30 miles west of downtown Houston.'
+
+# Build settings
+markdown: kramdown
 
 # Team names, titles and social links
 people:
@@ -52,93 +54,3 @@ social:
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-# Families in Fur-ever Homes
-families:
-  - pic: 1
-    title: Bryan & Vanessa
-    subtitle:
-    img: 1.webp
-    previous: 12
-    next: 2
-
-  - pic: 2
-    title: Todd & Leslie
-    subtitle:
-    img: 2.webp
-    previous: 1
-    next: 3
-
-  - pic: 3
-    title: Keith & Kimberly
-    subtitle:
-    img: 3.webp
-    previous: 2
-    next: 4
-
-  - pic: 4
-    title: Cloe & Patricia
-    subtitle:
-    img: 4.webp
-    previous: 3
-    next: 5
-
-  - pic: 5
-    title: Glenda & Joyce
-    subtitle:
-    img: 5.webp
-    previous: 4
-    next: 6
-
-  - pic: 6
-    title: Ray & Kai
-    subtitle: Ray & Kai now live with their kids in Weston Lakes, TX.
-    img: 6.webp
-    previous: 5
-    next: 7
-
-  - pic: 7
-    title: Dayton & Mike
-    subtitle: Dayton now lives with Mike & Family in Houston, TX.
-    img: 7.webp
-    previous: 6
-    next: 8
-
-  - pic: 8
-    title: Idalia & her brother
-    subtitle: Idalia lives with her new brother in Corpus Christi, TX.
-    img: 8.webp
-    previous: 7
-    next: 9
-
-  - pic: 9
-    title: Anakin, Malla & Brian
-    subtitle: Anakin & Malla (Beaux & Cloe) now live in Indiana with their furever mom & dad; Wendy & Brian.
-    img: 9.webp
-    previous: 8
-    next: 10
-
-  - pic: 10
-    title: Binks, Padme & Josie
-    subtitle: Binks & Padme now live with Josie in Cat Springs, Texas.
-    img: 10.webp
-    previous: 9
-    next: 11
-
-  - pic: 11
-    title: Rose & Ben
-    subtitle: Rose now lives with her dad Ben in Las Vegas, NV.
-    img: 11.webp
-    previous: 10
-    next: 12
-
-  - pic: 12
-    title: Schmi & her parents
-    subtitle: Shmi now lives with her mommy & daddy in Tampa, Florida.
-    img: 12.webp
-    previous: 11
-    next: 1
