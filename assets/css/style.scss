@@ -4,6 +4,8 @@
 $clr-secondary-dark: #{{ site.data.template.color.secondary-dark }};
 
 // Functional classes.
+@import 'base/variables';
+@import 'base/mixins';
 @import 'base/functional';
 
 // Components.

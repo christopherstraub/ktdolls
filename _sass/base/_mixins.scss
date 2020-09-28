@@ -1,0 +1,11 @@
+@mixin btn-color($color, $background-color, $border-color: $background-color) {
+  color: $color;
+  background-color: $background-color;
+  border-color: $border-color;
+
+  &:hover {
+    color: $background-color;
+    background-color: $color;
+    border-color: $border-color;
+  }
+}

@@ -1,9 +1,10 @@
 .united-petsafe-logo {
   width: 500px;
   max-width: 75vw;
-  margin-bottom: 45px;
+  margin-bottom: 55px;
 }
 
+// make this a mixin or some shit
 .united-petsafe-btn {
-  background-color: #00349a;
+  @include btn-color(white, $clr-united-petsafe);
 }
