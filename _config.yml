@@ -20,41 +20,6 @@ defaults:
 include:
   - _pages
 
-# Team names, titles and social links
-people:
-  - name: Princess Patience
-    pic: 1
-    position: Princess Patience is a beautiful Blue Colorpoint Mink.
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: stack-overflow
-        url: #
-
-  - name: Lady Annabella
-    pic: 2
-    position: Lady Annabella is a beautiful Blue Colorpoint Bicolor.
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: linkedin
-        url: #
-
-  - name: Sir Glenn
-    pic: 3
-    position: Sir Glenn is a handsome Seal Colorpoint Traditional.
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: google-plus
-        url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
