@@ -3,16 +3,16 @@
   <div class="container">
     {% include section-heading.html heading="queens and kings" %}
     <div class="row">
-      {% for member in site.people %}
+      {% for cat in site.data.queens-and-kings %}
       <div class="col-sm-4">
         <div class="team-member">
-          <h4>{{ member.name }}</h4>
+          <h4>{{ cat.name }}</h4>
           <img
-            src="{{ site.baseurl }}/assets/img/team/{{ member.pic }}.webp"
+            src="{{ site.baseurl }}/assets/img/team/{{ cat.pic }}.webp"
             class="img-responsive mt-2 mb-2"
             alt=""
           />
-          <p class="text-muted">{{ member.position }}</p>
+          <p class="text-muted">{{ cat.description }}</p>
         </div>
       </div>
       {% endfor %}

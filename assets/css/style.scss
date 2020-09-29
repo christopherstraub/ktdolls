@@ -14,6 +14,8 @@ $clr-secondary-dark: #{{ site.data.template.color.secondary-dark }};
 
 // Layout.
 @import 'layout/families';
+@import 'layout/header';
+@import 'layout/nav-background';
 @import 'layout/nav';
 @import 'layout/shipping';
 @import 'layout/social';

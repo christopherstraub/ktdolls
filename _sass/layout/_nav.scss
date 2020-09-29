@@ -1,46 +1,80 @@
-.navbar-nav {
+.navbar-default .nav-container {
+  padding: 0;
+}
+
+.navbar-default .navbar-nav {
   flex-direction: column;
 }
 
-.nav > li > a {
+.navbar-default .nav li a {
   font-size: 18px;
+  padding: 12px 15px;
 }
 
-.navbar-nav > li > a {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.navbar-default .navbar-brand {
+  padding: 22px 0;
+  margin: 0 0 0 30px;
 }
 
 // Media queries.
 @media only screen and (min-width: 768px) {
-  .navbar-nav {
+  .navbar-default .navbar-nav {
     flex-direction: row;
   }
 
-  .nav > li > a {
-    font-size: 16px;
-    padding: 10px 10px;
+  // Mimic container-fluid
+  .navbar-default .nav-container {
+    min-width: 100%;
   }
 
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .navbar-default .nav li a {
+    font-size: 14px;
+    padding: 22px 7px;
+    letter-spacing: 0px;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 26px;
+    padding-left: 0px;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .nav > li > a {
-    font-size: 16px;
-    padding: 10px 15px;
+  .navbar-default .nav li a {
+    font-size: 19px;
   }
 
-  .navbar-nav > li > a {
-    padding-top: 19.5px;
-    padding-bottom: 19.5px;
+  .navbar-default .navbar-brand {
+    font-size: 30px;
   }
 }
+
 @media only screen and (min-width: 1200px) {
-  .nav > li > a {
-    font-size: 20px;
+  .navbar-default .nav li a {
+    font-size: 20.5px;
+    padding: 22px 15px;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 36px;
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  // Center nav
+  .navbar-default .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav {
+    float: none !important;
+    display: inline-block;
+  }
+  // End center nav
+
+  .navbar-default .nav li a {
+    font-size: 24px;
+    letter-spacing: 0px;
   }
 }

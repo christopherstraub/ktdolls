@@ -1,0 +1,11 @@
+.nav-background {
+  background-image: none;
+  background-color: white;
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-background {
+    height: 80px;
+  }
+}

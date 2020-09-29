@@ -1,6 +1,6 @@
 <!-- Navigation -->
 <nav class="navbar-default navbar-fixed-top">
-  <div class="container">
+  <div class="container nav-container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header page-scroll">
       <button
@@ -21,33 +21,34 @@
       {% endif %}
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="#page-top"></a>
-        </li>
+    <div class="container">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
 
-        {% for item in site.data.navigation %}
-        <li>
-          {% if page.url == item.link and item.link == '/' %}
-          <a class="page-scroll" href="#{{ item.name | slugify }}"
-            >{{ item.name }}</a
-          >
-          {% elsif page.url == item.link %}
-          <a class="page-scroll" href="#page-top">{{ item.name }}</a>
-          {% elsif item.link == '/' %}
-          <a href="{{ item.link | relative_url }}#{{ item.name | slugify }}"
-            >{{ item.name }}</a
-          >
-          {% else %}
-          <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
+          {% for item in site.data.navigation %}
+          <li>
+            {% if page.url == item.link and item.name == 'available kittens' %}
+            <a class="page-scroll" href="#{{ item.name | slugify }}"
+              >{{ item.name }}</a
+            >
+            {% elsif page.url == item.link %}
+            <a class="page-scroll" href="#page-top">{{ item.name }}</a>
+            {% elsif item.name == 'available kittens' %}
+            <a href="{{ item.link | relative_url }}#{{ item.name | slugify }}"
+              >{{ item.name }}</a
+            >
+            {% else %}
+            <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-    <!-- /.navbar-collapse -->
   </div>
-  <!-- /.container-fluid -->
 </nav>
