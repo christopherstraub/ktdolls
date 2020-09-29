@@ -1,26 +1,36 @@
 ---
 permalink: /fur-ever-homes
-heading: fur-ever homes
-subheading: Meet our families!
 ---
 
-<div id="portfolio">
-  <div class="gallery">
-    {% for family in site.data.families %}
-    <div class="portfolio-item">
-      <a href="#{{ family.pic }}" class="portfolio-link" data-toggle="modal">
-        <div class="portfolio-hover">
-          <div class="portfolio-hover-content">
-            <i class="fa fa-plus fa-3x"></i>
-          </div>
+<section>
+  <div class="container">
+    {% include section-heading.html heading="fur-ever homes" subheading="Meet
+    our families!"%}
+    <!-- <div class="row"> -->
+    <div id="portfolio">
+      <div class="gallery">
+        {% for family in site.data.families %}
+        <div class="portfolio-item">
+          <a
+            href="#{{ family.pic }}"
+            class="portfolio-link"
+            data-toggle="modal"
+          >
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img
+              src="{{ site.baseurl }}/assets/img/fur-ever-homes/{{ family.img }}"
+              alt=""
+            />
+          </a>
         </div>
-        <img
-          src="{{ site.baseurl }}/assets/img/fur-ever-homes/{{ family.img }}"
-          alt=""
-        />
-      </a>
-    </div>
 
-    {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    <!-- </div> -->
   </div>
-</div>
+</section>

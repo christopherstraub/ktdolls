@@ -9,7 +9,6 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: lightcoral;
 }
 
 .text-muted {
@@ -356,8 +355,8 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 18px;
-    /* font-style: italic; */
     font-weight: 400;
+    line-height: 1.5;
 }
 
 @media(min-width:768px) {

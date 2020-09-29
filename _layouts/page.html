@@ -2,16 +2,5 @@
 layout: default
 ---
 
-{% include empty-header.html %}
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ page.heading }}</h2>
-        <h3 class="section-subheading text-muted">{{ page.subheading }}</h3>
-      </div>
-    </div>
-    {{ content }}
-  </div>
-</section>
-{% include social.html %}
+{% include empty-header.html %} {{ content }} {% for include in page.includes %}
+{% include {{ include }} %} {% endfor %} {% include social.html %}

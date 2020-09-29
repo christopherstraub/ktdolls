@@ -3,7 +3,9 @@
   background-color: $background-color;
   border-color: $border-color;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     color: $background-color;
     background-color: $color;
     border-color: $border-color;

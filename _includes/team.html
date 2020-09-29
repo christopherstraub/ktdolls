@@ -1,18 +1,14 @@
 <!-- Team Section -->
 <section id="team" class="bg-light-gray">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">queens and kings</h2>
-      </div>
-    </div>
+    {% include section-heading.html heading="queens and kings" %}
     <div class="row">
       {% for member in site.people %}
       <div class="col-sm-4">
         <div class="team-member">
           <h4>{{ member.name }}</h4>
           <img
-            src="assets/img/team/{{ member.pic }}.webp"
+            src="{{ site.baseurl }}/assets/img/team/{{ member.pic }}.webp"
             class="img-responsive mt-2 mb-2"
             alt=""
           />
