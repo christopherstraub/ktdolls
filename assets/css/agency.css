@@ -315,6 +315,8 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     height: 84vh;
+    margin: 76px 16px 0;
+    border-radius: 10px;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -325,6 +327,12 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+@media only screen and (min-width: 768px){
+    header{
+        margin-top: 0;
+    }
 }
 
 
