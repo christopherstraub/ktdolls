@@ -313,40 +313,11 @@ fieldset[disabled] .btn-xl.active {
 
 }
 
-header {
-    height: 84vh;
-    margin: 76px 16px 0;
-    border-radius: 10px;
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url('../img/header-bg.jpg');
-    background-position: center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-@media only screen and (min-width: 768px){
-    header{
-        margin-top: 0;
-    }
-}
-
-
-header .intro-text {
-    padding-top: 140px;
-    padding-bottom: 200px;
-}
-
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    font-size: 32px;
+    line-height: 1.2;
 }
 
 header .intro-text .intro-heading {
