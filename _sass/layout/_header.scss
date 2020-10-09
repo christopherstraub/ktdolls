@@ -1,3 +1,41 @@
 .cta-area {
   padding-bottom: 40px;
 }
+
+header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url('../img/header-bg.jpg');
+  background-position: center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header .intro-text {
+  padding-top: 140px;
+  padding-bottom: 166px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    margin: 0 16px;
+    border-radius: 10px;
+  }
+
+  header .intro-text {
+    padding-top: 75px;
+    padding-bottom: 360px;
+  }
+}
+
+header .intro-lead-in:nth-child(1) {
+  margin-bottom: 12px;
+}
+
+header .intro-lead-in:nth-child(2) {
+  font-size: 24px;
+}
