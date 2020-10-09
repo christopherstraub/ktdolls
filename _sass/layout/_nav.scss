@@ -7,8 +7,16 @@
 }
 
 .navbar-default .nav li a {
+  color: #222;
   font-size: 18px;
   padding: 12px 15px;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default.navbar-shrink .nav li a:hover {
+  outline: 0;
+  color: white;
+  background-color: $clr-secondary;
 }
 
 .navbar-default .navbar-brand {
@@ -17,6 +25,12 @@
 }
 
 // Media queries.
+@media only screen and (min-width: 576px) {
+  .navbar-default .nav li a {
+    border-radius: 5px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-default .navbar-nav {
     flex-direction: row;
@@ -33,9 +47,22 @@
     letter-spacing: 0px;
   }
 
+  .navbar-default.navbar-shrink .nav li a {
+    color: white;
+  }
+
+  .navbar-default.navbar-shrink .nav li a:hover {
+    color: white;
+    background-color: $clr-secondary;
+  }
+
   .navbar-default .navbar-brand {
     font-size: 26px;
     padding-left: 0px;
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand {
+    color: white;
   }
 }
 

@@ -173,26 +173,18 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: white;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: white;
-}
-
-.navbar-default .navbar-brand:focus{
-    color: white;
-}
-
-.navbar-default.navbar-shrink .navbar-brand {
-    color: white;
+    color: #222;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #222;
 }
 
 .navbar-default .navbar-collapse {
@@ -221,28 +213,10 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all ease .15s;
     transition: all ease .15s;
     letter-spacing: 1px;
-    border-radius: 5px;
-}
-
-.navbar-default.navbar-shrink .nav li a {
-    color: white;
-}
-
-.navbar-default .nav li a:hover {
-    outline: 0;
-    color: white;
-    background-color: #{{ site.data.template.color.secondary }};
-}
-
-.navbar-default.navbar-shrink .nav li a:hover {
-    outline: 0;
-    color: white;
-    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     background-color: #{{ site.data.template.color.primary }};
-    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
