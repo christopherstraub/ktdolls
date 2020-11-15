@@ -1,7 +1,8 @@
 <section id="available-kittens">
   <div class="container">
-    {% include section-heading.html heading="available kittens" subheading="The
-    babies are here! Born August 18th."%}
+    {% include section-heading.html heading="wedded bliss 2020" subheading="The
+    babies are here! Born August 18th. Available to go home November 10,
+    2020."%}
     <div class="row mb-5">
       <img
         src="{{ site.baseurl }}/assets/img/available-kittens/litter.webp"
@@ -9,11 +10,10 @@
         class="img-default"
       />
     </div>
-
     <div class="row">
       {% for cat in site.data.available-kittens %}
-      <div class="col-sm-4 mb-5">
-        <div class="team-member">
+      <div class="col-sm-4">
+        <div class="team-member available-kitten">
           {% if cat.reserved %}
           <h4>{{ cat.name }} (Reserved)</h4>
           {% else %}

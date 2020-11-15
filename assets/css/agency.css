@@ -634,6 +634,10 @@ section h3.section-subheading {
     .team-member{
         margin-bottom: 0;
     }
+
+    .available-kitten{
+        margin-bottom: 30px;
+    }
 }
 
 .team-member h4 {
