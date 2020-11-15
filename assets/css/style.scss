@@ -15,6 +15,7 @@ $clr-secondary-dark: #{{ site.data.template.color.secondary-dark }};
 @import 'components/buttons';
 
 // Layout.
+@import 'layout/available-kittens';
 @import 'layout/families';
 @import 'layout/header';
 @import 'layout/nav-background';

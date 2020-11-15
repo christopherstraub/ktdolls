@@ -20,8 +20,8 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 18px;
+    line-height: 1.1;
 }
 
 p.large {
@@ -232,13 +232,8 @@ fieldset[disabled] .btn-xl.active {
         color: #{{ site.data.template.color.secondary-dark }}
     }
 
-    .navbar-default .nav li a:hover {
-        color: #{{ site.data.template.color.secondary }};
-        background-color: transparent;
-    }
-
     .navbar-default {
-        padding: 10px 0;
+        padding: 10px 0 5px;
         border: 0;
         background-color: transparent;
         -webkit-transition: background-color .15s;
@@ -332,6 +327,7 @@ section {
 }
 
 section h2.section-heading {
+    color: #{{ site.data.template.color.primary }};
     margin-top: 0;
     margin-bottom: 25px;
     font-size: 40px;
@@ -634,9 +630,10 @@ section h3.section-subheading {
     text-align: center;
 }
 
-.team-member img {
-    margin: 1.5rem auto 1rem;
-    border: 7px solid #fff;
+@media only screen and (min-width: 576px){
+    .team-member{
+        margin-bottom: 0;
+    }
 }
 
 .team-member h4 {

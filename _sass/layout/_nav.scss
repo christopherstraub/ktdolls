@@ -42,13 +42,19 @@
   }
 
   .navbar-default .nav li a {
-    font-size: 14px;
+    font-size: 13px;
     padding: 22px 7px;
     letter-spacing: 0px;
   }
 
   .navbar-default.navbar-shrink .nav li a {
     color: white;
+  }
+
+  .navbar-default .nav li a:hover,
+  .navbar-default.navbar-shrink .nav li a:hover {
+    color: $clr-secondary;
+    background-color: transparent;
   }
 
   .navbar-default.navbar-shrink .nav li a:hover {
@@ -68,7 +74,7 @@
 
 @media only screen and (min-width: 992px) {
   .navbar-default .nav li a {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .navbar-default .navbar-brand {
@@ -78,7 +84,7 @@
 
 @media only screen and (min-width: 1200px) {
   .navbar-default .nav li a {
-    font-size: 20.5px;
+    font-size: 20px;
     padding: 22px 15px;
   }
 
@@ -101,7 +107,7 @@
   // End center nav
 
   .navbar-default .nav li a {
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 0px;
   }
 }

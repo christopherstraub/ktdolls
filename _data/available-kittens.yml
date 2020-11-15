@@ -1,0 +1,55 @@
+- name: Amanda
+  pic: 1
+  description: Female Blue Colorpoint Mink.
+  cost: 1150
+  deposit: 500
+  reserved: true
+
+- name: Skyla
+  pic: 2
+  description: Female Blue Colorpoint Mink.
+  cost: 1150
+  deposit: 500
+  reserved: true
+
+- name: Zaya
+  pic: 3
+  description: Female Seal Colorpoint Traditional.
+  cost: 1150
+  deposit: 500
+  reserved: true
+
+- name: Alex
+  pic: 4
+  description: Male Blue Colorpoint Mink.
+  cost: 1050
+  deposit: 500
+  reserved: true
+
+- name: Kaden
+  pic: 5
+  description: Male Seal Colorpoint Mink.
+  cost: 1050
+  deposit: 500
+  reserved: true
+
+- name: Jack
+  pic: 6
+  description: Male Seal Colorpoint Traditional.
+  cost: 1050
+  deposit: 500
+  reserved: true
+
+- name: Chris
+  pic: 7
+  description: Male Blue Colorpoint Mink.
+  cost: 1050
+  deposit: 500
+  reserved: true
+
+- name: Libby
+  pic: 8
+  description: Female Seal Colorpoint Mink.
+  cost: 1150
+  deposit: 500
+  reserved: true
