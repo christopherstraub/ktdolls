@@ -33,9 +33,27 @@ header .intro-text {
 }
 
 header .intro-lead-in:nth-child(1) {
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 header .intro-lead-in:nth-child(2) {
   font-size: 24px;
+}
+
+header a {
+  font-weight: bold;
+  color: white;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: white;
+  }
+
+  &:focus,
+  &:active,
+  &.active {
+    text-decoration: none;
+  }
 }

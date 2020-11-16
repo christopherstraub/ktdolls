@@ -127,7 +127,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: white;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -242,22 +242,18 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        color: black;
+        color: #222;
         -webkit-transition: all .15s;
         -moz-transition: all .15s;
         transition: all .15s;
     }
 
     .navbar-default .navbar-brand:focus {
-        color: black;
+        color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand:focus {
         color: white;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand:hover {
-        color: #{{ site.data.template.color.secondary }};
     }
 
     .navbar-default .navbar-nav>.active>a, 
@@ -656,9 +652,10 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('../img/map-image.png');
+    background-image: url('../img/contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section#contact .section-heading {

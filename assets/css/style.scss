@@ -1,8 +1,10 @@
 ---
 ---
 
+$clr-primary: #{{ site.data.template.color.primary }};
 $clr-secondary: #{{ site.data.template.color.secondary }};
 $clr-secondary-dark: #{{ site.data.template.color.secondary-dark }};
+$clr-muted: #{{ site.data.template.color.muted }};
 
 // Functional classes.
 @import 'base/reset';

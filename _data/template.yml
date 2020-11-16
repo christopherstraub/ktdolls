@@ -2,8 +2,8 @@
 color:
   primary: 4b0084
   secondary: 7300ca
-  secondary-dark: 333
-  muted: 777
+  secondary-dark: 333333
+  muted: 777777
 
 # Font Families
 font:

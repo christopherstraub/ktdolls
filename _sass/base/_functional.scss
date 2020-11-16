@@ -13,7 +13,7 @@ hr {
 
 @media only screen and (min-width: 1600px) {
   .hr-dark {
-    border-top: 1px solid #777777; // Fallback for older browsers.
+    border-top: 1px solid $clr-muted; // Fallback for older browsers.
     border-top: 1px solid #77777780;
   }
 }
@@ -24,5 +24,5 @@ hr {
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 0px 50px 0px rgba(17, 7, 7, 0.25);
   -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
-  border: 1px solid black;
+  border: 1px solid $clr-muted;
 }
