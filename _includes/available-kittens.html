@@ -13,22 +13,22 @@ endcapture %}
       />
     </div>
     <div class="row">
-      {% for cat in site.data.available-kittens.cats %}
+      {% for kitten in site.data.available-kittens.kittens %}
       <div class="col-md-4">
         <div class="team-member available-kitten">
-          {% if cat.reserved %}
-          <h4>{{ cat.name }} (Reserved)</h4>
+          {% if kitten.reserved %}
+          <h4>{{ kitten.name }} (Reserved)</h4>
           {% else %}
-          <h4>{{ cat.name }}</h4>
+          <h4>{{ kitten.name }}</h4>
           {% endif %}
           <img
-            src="{{ site.baseurl }}/assets/img/available-kittens/{{ cat.img }}"
+            src="{{ site.baseurl }}/assets/img/available-kittens/{{ kitten.img }}"
             class="img-fluid img-default"
             alt=""
           />
-          <p class="text-muted">{{ cat.description }}</p>
+          <p class="text-muted">{{ kitten.description }}</p>
           <p class="text-muted">
-            ${{ cat.cost }}+tax/${{ cat.deposit}} deposit.
+            ${{ kitten.cost }}+tax/${{ kitten.deposit}} deposit.
           </p>
         </div>
       </div>
