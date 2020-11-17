@@ -1,4 +1,6 @@
 ---
-permalink: /
+permalink: "/"
 layout: home
+
 ---
+test
