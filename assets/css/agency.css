@@ -333,7 +333,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 25px;
     font-size: 40px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 section h3.section-heading {
@@ -775,7 +775,6 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    /* padding-top: 100px; */
     min-height: 100%;
     border: 0;
     border-radius: 0;

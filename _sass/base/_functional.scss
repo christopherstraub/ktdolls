@@ -6,16 +6,10 @@
 
 hr {
   border-top: 1px solid transparent;
-  &.below-nav {
-    margin-bottom: -20px;
-  }
 }
 
-@media only screen and (min-width: 1600px) {
-  .hr-dark {
-    border-top: 1px solid $clr-muted; // Fallback for older browsers.
-    border-top: 1px solid #77777780;
-  }
+.hr-dark {
+  border-top: 1px solid $clr-divider;
 }
 
 .img-default {
