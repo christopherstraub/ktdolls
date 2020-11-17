@@ -338,7 +338,6 @@ section h2.section-heading {
 
 section h3.section-heading {
     color: #{{ site.data.template.color.primary }};
-    margin-top: 0;
     margin-bottom: 25px;
     font-size: 36px;
     font-weight: normal;
