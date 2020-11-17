@@ -26,3 +26,20 @@ hr {
   -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
   border: 1px solid $clr-muted;
 }
+
+.btn-default {
+  @include btn-color(white, $clr-primary);
+}
+
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+
+.my-6 {
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}

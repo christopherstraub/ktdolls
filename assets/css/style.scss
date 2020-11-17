@@ -17,6 +17,7 @@ $clr-muted: #{{ site.data.template.color.muted }};
 @import 'components/buttons';
 
 // Layout.
+@import 'layout/about';
 @import 'layout/available-kittens';
 @import 'layout/families';
 @import 'layout/header';
