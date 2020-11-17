@@ -1,7 +1,10 @@
+{% capture heading %} {{ site.data.available-kittens.heading }} {% endcapture %}
+{% capture subheading %} {{ site.data.available-kittens.subheading }} {%
+endcapture %}
+
 <section id="available-kittens">
   <div class="container">
-    {% include section-heading.html heading="wedded bliss 2020" subheading="The
-    babies are here! Born August 18. Available to go home November 10, 2020."%}
+    {% include section-heading.html heading=heading subheading=subheading %}
     <div class="row mt-4 mb-6">
       <img
         src="{{ site.baseurl }}/assets/img/available-kittens/litter.webp"
@@ -10,7 +13,7 @@
       />
     </div>
     <div class="row">
-      {% for cat in site.data.available-kittens %}
+      {% for cat in site.data.available-kittens.cats %}
       <div class="col-md-4">
         <div class="team-member available-kitten">
           {% if cat.reserved %}

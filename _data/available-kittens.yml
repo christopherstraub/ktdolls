@@ -1,55 +1,59 @@
-- name: Amanda
-  description: Female Blue Colorpoint Mink.
-  img: 1.webp
-  cost: 1150
-  deposit: 500
-  reserved: true
+heading: wedded bliss 2020
+subheading: The babies are here! Born August 18. Available to go home November 10, 2020.
 
-- name: Skyla
-  description: Female Blue Colorpoint Mink.
-  img: 2.webp
-  cost: 1150
-  deposit: 500
-  reserved: true
+cats:
+  - name: Amanda
+    description: Female Blue Colorpoint Mink.
+    img: 1.webp
+    cost: 1150
+    deposit: 500
+    reserved: true
 
-- name: Zaya
-  description: Female Seal Colorpoint Traditional.
-  img: 3.webp
-  cost: 1150
-  deposit: 500
-  reserved: true
+  - name: Skyla
+    description: Female Blue Colorpoint Mink.
+    img: 2.webp
+    cost: 1150
+    deposit: 500
+    reserved: true
 
-- name: Alex
-  description: Male Blue Colorpoint Mink.
-  img: 4.webp
-  cost: 1050
-  deposit: 500
-  reserved: true
+  - name: Zaya
+    description: Female Seal Colorpoint Traditional.
+    img: 3.webp
+    cost: 1150
+    deposit: 500
+    reserved: true
 
-- name: Kaden
-  description: Male Seal Colorpoint Mink.
-  img: 5.webp
-  cost: 1050
-  deposit: 500
-  reserved: true
+  - name: Alex
+    description: Male Blue Colorpoint Mink.
+    img: 4.webp
+    cost: 1050
+    deposit: 500
+    reserved: true
 
-- name: Jack
-  description: Male Seal Colorpoint Traditional.
-  img: 6.webp
-  cost: 1050
-  deposit: 500
-  reserved: true
+  - name: Kaden
+    description: Male Seal Colorpoint Mink.
+    img: 5.webp
+    cost: 1050
+    deposit: 500
+    reserved: true
 
-- name: Chris
-  description: Male Blue Colorpoint Mink.
-  img: 7.webp
-  cost: 1050
-  deposit: 500
-  reserved: true
+  - name: Jack
+    description: Male Seal Colorpoint Traditional.
+    img: 6.webp
+    cost: 1050
+    deposit: 500
+    reserved: true
 
-- name: Libby
-  description: Female Seal Colorpoint Mink.
-  img: 8.webp
-  cost: 1150
-  deposit: 500
-  reserved: true
+  - name: Chris
+    description: Male Blue Colorpoint Mink.
+    img: 7.webp
+    cost: 1050
+    deposit: 500
+    reserved: true
+
+  - name: Libby
+    description: Female Seal Colorpoint Mink.
+    img: 8.webp
+    cost: 1150
+    deposit: 500
+    reserved: true
