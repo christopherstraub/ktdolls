@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
-    .navbar-default .nav li a{
+    .navbar-default .nav li a {
         color: #{{ site.data.template.color.secondary-dark }}
     }
 

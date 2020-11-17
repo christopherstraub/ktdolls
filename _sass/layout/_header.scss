@@ -50,10 +50,4 @@ header a {
   &.active {
     color: white;
   }
-
-  &:focus,
-  &:active,
-  &.active {
-    text-decoration: none;
-  }
 }

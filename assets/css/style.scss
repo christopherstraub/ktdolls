@@ -18,7 +18,6 @@ $clr-divider: #{{ site.data.template.color.divider }};
 @import 'components/buttons';
 
 // Layout.
-@import 'layout/about';
 @import 'layout/available-kittens';
 @import 'layout/families';
 @import 'layout/header';
