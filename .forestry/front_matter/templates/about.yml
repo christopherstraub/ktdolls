@@ -14,3 +14,5 @@ fields:
     maxSize: 64
   label: Picture
   description: Picture of the first cat
+pages:
+- _pages/about.html

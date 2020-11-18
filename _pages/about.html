@@ -1,9 +1,10 @@
 ---
-permalink: /about/
+permalink: "/about/"
 includes:
-  - queens-and-kings.html
----
+- queens-and-kings.html
+picture: "/uploads/component-3.png"
 
+---
 <section id="about">
   <div class="container">
     <hr class="hr-dark" />
@@ -19,7 +20,7 @@ includes:
       </div>
       <div class="col-md text-center">
         <img
-          src="{{ site.baseurl }}/assets/img/about/cat1.jpg"
+          src="{{ site.baseurl }}{{ page.picture }}"
           alt=""
           class="img-fluid img-default"
         />
