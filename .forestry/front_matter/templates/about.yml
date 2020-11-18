@@ -1,0 +1,10 @@
+---
+label: about
+hide_body: false
+fields:
+- type: text
+  name: permalink
+  label: permalink
+- type: list
+  name: includes
+  label: includes
