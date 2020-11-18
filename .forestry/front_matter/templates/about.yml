@@ -8,3 +8,9 @@ fields:
 - type: list
   name: includes
   label: includes
+- name: picture
+  type: file
+  config:
+    maxSize: 64
+  label: Picture
+  description: Picture of the first cat
