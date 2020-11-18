@@ -2,6 +2,8 @@
 permalink: /about/
 includes:
   - queens-and-kings.html
+picture: /assets/img/about/cat1.jpg
+title: family-owned ragdoll breeder
 ---
 
 <section id="about">
@@ -10,7 +12,7 @@ includes:
     {% include section-heading.html heading="about us" %}
     <div class="row align-items-center mt-5 mb-6">
       <div class="col-md text-center">
-        <h3 class="section-heading">family-owned ragdoll breeder</h3>
+        <h3 class="section-heading">{{ page.title }}</h3>
         <h3 class="section-subheading text-muted">
           KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens.
           Established in 2017, we are located in Katy, Texas, 30 miles west of
@@ -19,7 +21,7 @@ includes:
       </div>
       <div class="col-md text-center">
         <img
-          src="{{ site.baseurl }}/assets/img/about/cat1.jpg"
+          src="{{ site.baseurl }}{{ page.picture }}"
           alt=""
           class="img-fluid img-default"
         />
