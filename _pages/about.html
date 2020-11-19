@@ -1,48 +1,48 @@
 ---
 permalink: "/about/"
-picture: "/assets/img/about/cat1.jpg"
-title: family-owned ragdoll breeder
+title: About Us - KTDolls
 page-title: about us
 first-heading: family-owned ragdoll breeder
 first-subheading: KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens.
   Established in 2017, we are located in Katy, Texas, 30 miles west of downtown Houston.
+first-picture: /assets/img/about/cat1.webp
 second-heading: healthy and social kittens
 second-subheading: All our litters are registered with TICA. Kittens go to their fur-ever
   homes at 12 weeks of age pre-spoiled, de-wormed and given two rounds of kitten vaccines.
   They are micro-chipped and have a health guarantee for up to 1 year.
+second-picture: "/assets/img/about/cat2.webp"
 third-heading: fur-ever friend
 third-subheading: Check out our available ragdoll kittens to find your fur-ever friend.
 queens-and-kings-title: queens and kings
 queens-and-kings:
 - name: Princess Patience
-  picture: ''
+  picture: /assets/img/queens-and-kings/1.webp
   description: Princess Patience is a beautiful Blue Colorpoint Mink.
 - name: Lady Annabella
-  picture: ''
+  picture: /assets/img/queens-and-kings/2.webp
   description: Lady Annabella is a beautiful Blue Colorpoint Bicolor.
 - name: Sir Glenn
-  picture: ''
+  picture: /assets/img/queens-and-kings/3.webp
   description: Sir Glenn is a handsome Seal Colorpoint Traditional.
-first-picture: ''
-second_picture: ''
-
 ---
+
 <section id="about">
   <div class="container">
     <hr class="hr-dark" />
-    {% include section-heading.html heading="about us" %}
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="section-heading">{{ page.page-title }}</h2>
+        <h3 class="section-subheading text-muted">{{ include.subheading }}</h3>
+      </div>
+    </div>
     <div class="row align-items-center mt-5 mb-6">
       <div class="col-md text-center">
-        <h3 class="section-heading">{{ page.title }}</h3>
-        <h3 class="section-subheading text-muted">
-          KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens.
-          Established in 2017, we are located in Katy, Texas, 30 miles west of
-          downtown Houston.
-        </h3>
+        <h3 class="section-heading">{{ page.first-heading }}</h3>
+        <h3 class="section-subheading text-muted">{{ page.first-subheading }}</h3>
       </div>
       <div class="col-md text-center">
         <img
-          src="{{ site.baseurl }}{{ page.picture }}"
+          src="{{ site.baseurl }}{{ page.first-picture }}"
           alt=""
           class="img-fluid img-default"
         />
@@ -50,28 +50,21 @@ second_picture: ''
     </div>
     <div class="row align-items-center mt-6">
       <div class="col-md text-center">
-        <h3 class="section-heading">healthy and social kittens</h3>
-        <h3 class="section-subheading text-muted">
-          All our litters are registered with TICA. Kittens go to their fur-ever
-          homes at 12 weeks of age pre-spoiled, de-wormed and given two rounds
-          of kitten vaccines. They are micro-chipped and have a health guarantee
-          for up to 1 year.
-        </h3>
+        <h3 class="section-heading">{{ page.second-heading }}</h3>
+        <h3 class="section-subheading text-muted">{{ page.second-subheading }}</h3>
       </div>
     </div>
     <div class="row align-items-center mt-6">
       <div class="col-md text-center">
         <img
-          src="{{ site.baseurl }}/assets/img/about/cat2.jpg"
+          src="{{ site.baseurl }}{{ page.second-picture }}"
           alt=""
           class="img-fluid img-default"
         />
       </div>
       <div class="col text-center">
-        <h3 class="section-heading">fur-ever friend</h3>
-        <h3 class="section-subheading text-muted">
-          Check out our available ragdoll kittens to find your fur-ever friend.
-        </h3>
+        <h3 class="section-heading">{{ page.third-heading }}</h3>
+        <h3 class="section-subheading text-muted">{{ page.third-subheading }}</h3>
         <a
           href={{ "/#available-kittens" | relative_url }}
           class="btn btn-xl btn-default"
@@ -86,12 +79,12 @@ second_picture: ''
   <div class="container">
     {% include section-heading.html heading="queens and kings" %}
     <div class="row">
-      {% for cat in site.data.queens-and-kings %}
+      {% for cat in page.queens-and-kings %}
       <div class="col-md-4">
         <div class="team-member">
           <h4>{{ cat.name }}</h4>
           <img
-            src="{{ site.baseurl }}/assets/img/queens-and-kings/{{ cat.img }}"
+            src="{{ site.baseurl }}{{ cat.picture }}"
             class="img-responsive img-default"
             alt=""
           />
