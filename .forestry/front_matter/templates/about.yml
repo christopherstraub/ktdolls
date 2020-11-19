@@ -54,7 +54,7 @@ fields:
       format: markdown
   label: Second Subheading
   description: The second subheading on the About page.
-- name: second_picture
+- name: second-picture
   type: file
   config:
     maxSize: 64
