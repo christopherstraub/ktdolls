@@ -13,7 +13,6 @@ fields:
       required: false
       color_format: Hex
     description: The primary color of the website. Used for headings, buttons, etc.
-      For example dark purple.
   - name: secondary
     type: color
     label: Secondary
