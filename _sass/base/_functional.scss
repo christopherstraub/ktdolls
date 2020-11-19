@@ -22,6 +22,10 @@ hr {
   @include btn-color(white, $clr-primary);
 }
 
+.btn-bg-light-gray {
+  @include btn-color(#f7f7f7, $clr-primary);
+}
+
 .mt-6 {
   margin-top: 6rem !important;
 }
