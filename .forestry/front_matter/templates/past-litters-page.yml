@@ -40,7 +40,7 @@ fields:
       min: 
       max: 
       labelField: 
-    label: Photo Gallery
+    label: Photos
     description: The photo gallery of the litter.
   config:
     min: 
