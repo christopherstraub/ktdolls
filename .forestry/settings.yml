@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _pages/past-litters.html
+  label: Past Litters Page
+  match: "**/*"
+- type: document
   path: _pages/about.html
   label: About Page
 upload_dir: uploads
