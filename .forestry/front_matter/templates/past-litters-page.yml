@@ -48,3 +48,5 @@ fields:
     labelField: 
   label: Litters
   description: List of litters.
+pages:
+- _pages/past-litters.html
