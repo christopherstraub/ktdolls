@@ -121,3 +121,5 @@ fields:
     labelField: 
   label: Queens and Kings
   description: List of queens and kings.
+pages:
+- _pages/about.html
