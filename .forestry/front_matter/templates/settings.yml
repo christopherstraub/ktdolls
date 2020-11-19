@@ -60,3 +60,5 @@ fields:
     required: false
   label: Site URL
   description: The site URL.
+pages:
+- _config.yml
