@@ -3,40 +3,65 @@ label: Theme
 hide_body: true
 fields:
 - type: field_group
-  name: color
-  label: color
+  name: colors
+  label: Colors
   fields:
-  - type: text
-    name: primary
-    label: primary
-  - type: text
-    name: secondary
-    label: secondary
-  - type: number
-    name: secondary-dark
-    label: secondary-dark
-  - type: number
-    name: muted
-    label: muted
-  - type: number
-    name: divider
-    label: divider
-  - name: main
+  - name: primary
     type: color
-    label: Main
+    label: Primary
     config:
       required: false
       color_format: Hex
-    description: Main color
+    description: The primary color of the website. Used for headings, buttons, etc.
+      For example dark purple.
+  - name: secondary
+    type: color
+    label: Secondary
+    config:
+      required: false
+      color_format: Hex
+    description: The secondary color of the website. Appears on hover, click, etc.
+      For example light purple.
+  - name: body
+    type: color
+    label: Body
+    config:
+      required: false
+      color_format: Hex
+    description: The color of cat and kitten names and the default color of text the
+      website.
+  - name: subheading
+    type: color
+    label: Subheading
+    config:
+      required: false
+      color_format: Hex
+    description: The color of subheading text. A light gray works great.
+  description: The colors of the website.
 - type: field_group
-  name: font
-  label: font
+  name: fonts
+  label: Fonts
   fields:
   - type: text
     name: primary
-    label: primary
+    label: Primary
+    description: The primary font. Used for headings and titles.
   - type: text
     name: secondary
-    label: secondary
+    label: Secondary
+    description: The secondary font. Used for subheadings, body text, etc.
+  - name: navigation
+    type: text
+    config:
+      required: false
+    label: Navigation
+    description: The font used in the navigation menu.
+  - name: logo
+    type: text
+    config:
+      required: false
+    label: Logo
+    description: The font used by the "KTDolls" logo in the top-left of the website.
+  description: The fonts of the website.
 pages:
 - _data/theme.yml
