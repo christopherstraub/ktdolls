@@ -12,8 +12,8 @@ fields:
   type: text
   config:
     required: false
-  label: Site Name
-  description: The name of the website.
+  label: Site Title
+  description: The title of the website.
 - name: email
   type: text
   config:
