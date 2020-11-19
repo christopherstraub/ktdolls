@@ -1,0 +1,123 @@
+---
+label: About Page Template
+hide_body: true
+fields:
+- name: page-title
+  type: text
+  config:
+    required: false
+  label: Page Title
+  description: The title of the About page.
+- name: first-heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: First Heading
+  description: The first heading on the About page.
+- name: first-subheading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: First Subheading
+  description: The first subheading on the About page.
+- name: first-picture
+  type: file
+  config:
+    maxSize: 64
+  label: First Picture
+  description: The first picture on the About page. Located next to the first heading.
+- name: second-heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Second Heading
+  description: The second heading on the About page.
+- name: second-subheading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Second Subheading
+  description: The second subheading on the About page.
+- name: second_picture
+  type: file
+  config:
+    maxSize: 64
+  label: Second Picture
+  description: The second picture on the About page. Located next to the third heading.
+- name: third-heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Third Heading
+  description: The third heading on the About page.
+- name: third-subheading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Third Subheading
+  description: The third subheading on the About page.
+- name: queens-and-kings-title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Queens and Kings Title
+  description: Title of the Queens and Kings sections.
+- name: queens-and-kings
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: The name of the queen/king.
+  - name: picture
+    type: file
+    config:
+      maxSize: 64
+    label: Picture
+    description: A picture of the queen/king.
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: A description of the queen/king.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Queens and Kings
+  description: List of queens and kings.
