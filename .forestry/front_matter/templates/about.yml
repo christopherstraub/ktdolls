@@ -34,6 +34,17 @@ fields:
     maxSize: 64
   label: First Picture
   description: The first picture on the About page. Located next to the first heading.
+- name: first-picture-alt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: First Picture Alternative Text
+  description: Alternative text helps visually impaired users using screen readers
+    and improves search engine optimization.
 - name: second-heading
   type: textarea
   default: ''
@@ -60,6 +71,17 @@ fields:
     maxSize: 64
   label: Second Picture
   description: The second picture on the About page. Located next to the third heading.
+- name: second-picture-alt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  description: Alternative text helps visually impaired users using screen readers
+    and improves search engine optimization.
+  label: Second Picture Alternative Text
 - name: third-heading
   type: textarea
   default: ''
