@@ -713,7 +713,7 @@ ul.social-buttons li a {
     line-height: 80px;
     outline: 0;
     color: #fff;
-    background-color: {{ site.data.theme.colors.body }};
+    background-color: {{ site.data.theme.colors.secondary }};
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;

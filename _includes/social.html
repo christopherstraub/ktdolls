@@ -14,8 +14,8 @@
             <a
               href="{{ network.url }}"
               target="_blank"
-              class="{{ network.title }}-btn"
-              ><i class="fa fa-{{ network.title }}"></i
+              class="{{ network.title | slugify }}-btn"
+              ><i class="fa fa-{{ network.title | slugify }}"></i
             ></a>
           </li>
           {% endfor %}
