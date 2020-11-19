@@ -33,3 +33,12 @@ hr {
 .mb-6 {
   margin-bottom: 6rem !important;
 }
+
+.carousel {
+  max-width: 650px;
+
+  & .carousel-caption > h3 {
+    padding: 15px;
+    background-color: black;
+  }
+}
