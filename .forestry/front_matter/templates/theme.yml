@@ -22,6 +22,13 @@ fields:
       color_format: Hex
     description: The secondary color of the website. Appears on hover, click, etc.
       Should be slightly lighter than the primary color.
+  - name: subheading
+    type: color
+    label: Subheading
+    config:
+      required: false
+      color_format: Hex
+    description: The color of subheading text. A light gray works great.
   - name: body
     type: color
     label: Body
@@ -30,13 +37,6 @@ fields:
       color_format: Hex
     description: The color of cat and kitten names and the default color of text the
       website.
-  - name: subheading
-    type: color
-    label: Subheading
-    config:
-      required: false
-      color_format: Hex
-    description: The color of subheading text. A light gray works great.
   description: The colors of the website.
 - type: field_group
   name: fonts
@@ -50,7 +50,7 @@ fields:
     name: secondary
     label: Secondary
     description: The secondary font. Used for subheadings, body text, etc.
-  - name: navigation
+  - name: nav
     type: text
     config:
       required: false
