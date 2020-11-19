@@ -60,9 +60,11 @@ litters:
       </div>
     </div>
     {% for litter in page.litters %}
-    <div class="row align-items-center mt-4">
+    <div id="{{ litter.title | slugify }}" class="row align-items-center mt-4">
       <div class="col text-center">
-        <h3 class="section-heading">{{ litter.title }}</h3>
+        <a href="#{{ litter.title | slugify }}">
+          <h3 class="section-heading">{{ litter.title }}</h3>
+        </a>
       </div>
     </div>
     <div
