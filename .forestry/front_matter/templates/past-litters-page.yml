@@ -20,6 +20,12 @@ fields:
   - name: gallery
     type: field_group_list
     fields:
+    - name: image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+      description: An image of the litter.
     - name: description
       type: textarea
       default: ''
@@ -29,13 +35,7 @@ fields:
         schema:
           format: markdown
       label: Description
-      description: A description of the picture.
-    - name: picture
-      type: file
-      config:
-        maxSize: 64
-      label: Picture
-      description: A picture of the litter.
+      description: A description of the image.
     config:
       min: 
       max: 
