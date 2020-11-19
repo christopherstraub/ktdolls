@@ -111,7 +111,7 @@ fields:
     schema:
       format: markdown
   label: Queens and Kings Title
-  description: Title of the Queens and Kings sections.
+  description: The title of the Queens and Kings section.
 - name: queens-and-kings
   type: field_group_list
   fields:
@@ -143,5 +143,45 @@ fields:
     labelField: 
   label: Queens and Kings
   description: List of queens and kings.
+- name: ragdoll-history-heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Ragdoll History Heading
+  description: The heading of the Ragdoll History section.
+- name: ragdoll-history-subheading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Ragdoll History Subheading
+  description: The subheading of the Ragdoll History section.
+- name: mink-ragdoll-heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Mink Ragdoll Heading
+  description: The heading of the Mink Ragdoll section.
+- name: mink-ragdoll-subheading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  description: The subheading of the Mink Ragdoll section.
+  label: Mink Ragdoll Subheading
 pages:
 - _pages/about.html
