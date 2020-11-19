@@ -34,7 +34,7 @@ fields:
     maxSize: 64
   label: First Image
   description: The first image on the About page. Located next to the first heading.
-- name: first-picture-alt
+- name: first-image-alt
   type: textarea
   default: ''
   config:
@@ -42,7 +42,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: First Picture Alternative Text
+  label: First Image Alternative Text
   description: Alternative text helps visually impaired users using screen readers
     and improves search engine optimization.
 - name: second-heading
