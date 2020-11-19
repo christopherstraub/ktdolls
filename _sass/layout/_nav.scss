@@ -33,7 +33,7 @@
 
 @media only screen and (min-width: 768px) {
   .navbar-default {
-    padding: 20px 0;
+    padding: 5px 0 0;
     border: 0;
     background-color: transparent;
   }
@@ -60,7 +60,7 @@
 
   .navbar-default .nav li a {
     font-size: 15px;
-    padding: 5px 5px 0;
+    padding: 20px 5px;
     letter-spacing: 1px;
   }
 
@@ -91,7 +91,7 @@
 @media only screen and (min-width: 992px) {
   .navbar-default .nav li a {
     font-size: 18px;
-    padding: 5px 10px 0;
+    padding: 20px 10px;
   }
 }
 
@@ -103,7 +103,14 @@
   .navbar-default .navbar-brand {
     display: inline-block;
     font-size: 34px;
-    margin-left: 32px;
+    line-height: 60px;
+    margin: 0 0 0 32px;
     padding: 0;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .navbar-default .nav li a {
+    font-size: 22px;
   }
 }
