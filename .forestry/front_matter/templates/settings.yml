@@ -2,24 +2,24 @@
 label: Settings
 hide_body: true
 fields:
-- name: url
-  type: text
-  config:
-    required: false
-  label: Site URL
-  description: The site URL.
-- name: title
-  type: text
-  config:
-    required: false
-  label: Site Title
-  description: The title of the website.
 - name: email
   type: text
   config:
     required: false
   label: Email
   description: Contact email.
+- name: phone
+  type: text
+  config:
+    required: false
+  label: Contact number
+  description: Contact phone/text number.
+- name: title
+  type: text
+  config:
+    required: false
+  label: Site Title
+  description: The title of the website.
 - name: description
   type: textarea
   default: ''
@@ -54,3 +54,9 @@ fields:
     labelField: 
   label: Social
   description: Social media links.
+- name: url
+  type: text
+  config:
+    required: false
+  label: Site URL
+  description: The site URL.
