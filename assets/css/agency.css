@@ -228,14 +228,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
-    .navbar-default .nav li a {
-        color: #{{ site.data.template.color.secondary-dark }}
-    }
-
     .navbar-default {
-        padding: 10px 0 5px;
-        border: 0;
-        background-color: transparent;
         -webkit-transition: background-color .15s;
         -moz-transition: background-color .15s;
         transition: background-color .15s;

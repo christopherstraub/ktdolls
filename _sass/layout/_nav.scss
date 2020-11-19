@@ -21,7 +21,7 @@
 
 .navbar-default .navbar-brand {
   padding: 22px 0;
-  margin: 0 0 0 47px;
+  margin-left: 47px;
 }
 
 // Media queries.
@@ -32,6 +32,23 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .navbar-default {
+    padding: 20px 0;
+    border: 0;
+    background-color: transparent;
+  }
+
+  // Center nav
+  .navbar-default .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav {
+    float: none !important;
+    display: inline-block;
+  }
+  // End center nav
+
   .navbar-default .navbar-nav {
     flex-direction: row;
   }
@@ -42,9 +59,9 @@
   }
 
   .navbar-default .nav li a {
-    font-size: 13px;
-    padding: 22px 7px;
-    letter-spacing: 0px;
+    font-size: 15px;
+    padding: 5px 5px 0;
+    letter-spacing: 1px;
   }
 
   .navbar-default.navbar-shrink .nav li a {
@@ -63,8 +80,7 @@
   }
 
   .navbar-default .navbar-brand {
-    font-size: 26px;
-    padding-left: 0px;
+    display: none;
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
@@ -75,39 +91,19 @@
 @media only screen and (min-width: 992px) {
   .navbar-default .nav li a {
     font-size: 18px;
-  }
-
-  .navbar-default .navbar-brand {
-    font-size: 30px;
+    padding: 5px 10px 0;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .navbar-default .nav li a {
     font-size: 20px;
-    padding: 22px 15px;
   }
 
   .navbar-default .navbar-brand {
-    font-size: 36px;
-    margin-left: 32px;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  // Center nav
-  .navbar-default .navbar-collapse {
-    text-align: center;
-  }
-
-  .navbar-default .navbar-nav {
-    float: none !important;
     display: inline-block;
-  }
-  // End center nav
-
-  .navbar-default .nav li a {
-    font-size: 20px;
-    letter-spacing: 0px;
+    font-size: 34px;
+    margin-left: 32px;
+    padding: 0;
   }
 }
