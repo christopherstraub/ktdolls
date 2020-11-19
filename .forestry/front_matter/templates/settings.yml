@@ -1,0 +1,64 @@
+---
+label: Settings
+hide_body: true
+fields:
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+  description: Contact email.
+- name: phone
+  type: text
+  config:
+    required: false
+  label: Contact number
+  description: Contact phone/text number.
+- name: title
+  type: text
+  config:
+    required: false
+  label: Site Title
+  description: The title of the website.
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Site description
+  description: A description of the website.
+- name: social
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Search on <a href="https://fontawesome.com/" title="https://fontawesome.com/"
+      target="_blank">https://fontawesome.com/</a> to see if they offer an icon of
+      the social media platform. If they do, enter the name of the platform here.
+      For example "facebook" or "instagram".
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Link
+    description: The link to your profile on the social media platform.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Social
+  description: Social media links.
+- name: url
+  type: text
+  config:
+    required: false
+  label: Site URL
+  description: The site URL.
+pages:
+- _config.yml

@@ -5,14 +5,17 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _config.yml
+  label: Settings
+- type: document
   path: _data/theme.yml
   label: Theme
 - type: document
-  path: _pages/past-litters.html
-  label: Past Litters Page
-- type: document
   path: _pages/about.html
   label: About Page
+- type: document
+  path: _pages/past-litters.html
+  label: Past Litters Page
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
