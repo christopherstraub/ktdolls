@@ -21,6 +21,13 @@ fields:
   - type: number
     name: divider
     label: divider
+  - name: main
+    type: color
+    label: Main
+    config:
+      required: false
+      color_format: Hex
+    description: Main color
 - type: field_group
   name: font
   label: font
