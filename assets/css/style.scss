@@ -1,11 +1,12 @@
 ---
 ---
 
-$clr-primary: {{ site.data.theme.color.primary }};
-$clr-secondary: {{ site.data.theme.color.secondary }};
-$clr-secondary-dark: {{ site.data.theme.color.secondary-dark }};
-$clr-muted: {{ site.data.theme.color.muted }};
-$clr-divider: {{ site.data.theme.color.divider }};
+$clr-primary: {{ site.data.theme.colors.primary }};
+$clr-secondary: {{ site.data.theme.colors.secondary }};
+$clr-subheading: {{ site.data.theme.colors.subheading }};
+$clr-body: {{ site.data.theme.colors.body }};
+
+$font-secondary: {{ site.data.theme.fonts.secondary }};
 
 // Functional classes.
 @import 'base/reset';
@@ -22,5 +23,6 @@ $clr-divider: {{ site.data.theme.color.divider }};
 @import 'layout/header';
 @import 'layout/nav-background';
 @import 'layout/nav';
+@import 'layout/past-litters';
 @import 'layout/shipping';
 @import 'layout/social';

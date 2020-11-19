@@ -55,15 +55,13 @@ mink-ragdoll-subheading:
     <hr class="hr-dark" />
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading">{{ page.page-title }}</h2>
+        <h2 class="section-heading bold">{{ page.page-title }}</h2>
       </div>
     </div>
     <div class="row align-items-center mt-5 mb-6">
       <div class="col-md text-center">
         <h3 class="section-heading">{{ page.first-heading }}</h3>
-        <h3 class="section-subheading text-muted">
-          {{ page.first-subheading }}
-        </h3>
+        <p class="section-subheading">{{ page.first-subheading }}</p>
       </div>
       <div class="col-md text-center">
         <img
@@ -76,9 +74,7 @@ mink-ragdoll-subheading:
     <div class="row align-items-center mt-6">
       <div class="col-md text-center">
         <h3 class="section-heading">{{ page.second-heading }}</h3>
-        <h3 class="section-subheading text-muted">
-          {{ page.second-subheading }}
-        </h3>
+        <p class="section-subheading">{{ page.second-subheading }}</p>
       </div>
     </div>
     <div class="row align-items-center mt-6">
@@ -91,9 +87,7 @@ mink-ragdoll-subheading:
       </div>
       <div class="col text-center">
         <h3 class="section-heading">{{ page.third-heading }}</h3>
-        <h3 class="section-subheading text-muted">
-          {{ page.third-subheading }}
-        </h3>
+        <p class="section-subheading">{{ page.third-subheading }}</p>
         <a
           href="{{ site.baseurl }}/#available-kittens"
           alt="Link to available kittens"
@@ -109,7 +103,7 @@ mink-ragdoll-subheading:
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading">{{ page.queens-and-kings-title }}</h2>
+        <h2 class="section-heading bold">{{ page.queens-and-kings-title }}</h2>
       </div>
     </div>
 
@@ -123,7 +117,7 @@ mink-ragdoll-subheading:
             alt="{{ cat.description }}"
             class="img-responsive img-default"
           />
-          <p class="text-muted">{{ cat.description }}</p>
+          <p class="section-subheading">{{ cat.description }}</p>
         </div>
       </div>
       {% endfor %}
@@ -135,10 +129,8 @@ mink-ragdoll-subheading:
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading">{{ page.ragdoll-history-heading }}</h2>
-        <h3 class="section-subheading text-muted">
-          {{ page.ragdoll-history-subheading }}
-        </h3>
+        <h2 class="section-heading bold">{{ page.ragdoll-history-heading }}</h2>
+        <p class="section-subheading">{{ page.ragdoll-history-subheading }}</p>
         <a
           href="https://en.wikipedia.org/wiki/Ragdoll"
           target="_blank"
@@ -155,10 +147,8 @@ mink-ragdoll-subheading:
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading">{{ page.mink-ragdoll-heading }}</h2>
-        <h3 class="section-subheading text-muted">
-          {{ page.mink-ragdoll-subheading }}
-        </h3>
+        <h2 class="section-heading bold">{{ page.mink-ragdoll-heading }}</h2>
+        <p class="section-subheading">{{ page.mink-ragdoll-subheading }}</p>
       </div>
     </div>
   </div>

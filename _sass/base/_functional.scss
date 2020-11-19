@@ -5,7 +5,7 @@
 }
 
 .hr-dark {
-  border-top: 1px solid $clr-divider;
+  border-top: 1px solid #77777780;
   display: none;
 }
 
@@ -18,7 +18,7 @@
 .img-default {
   margin: 15px auto;
   border-radius: 5px;
-  border: 1px solid $clr-muted;
+  border: 1px solid $clr-subheading;
 }
 
 .btn-default {
@@ -44,4 +44,33 @@
     padding: 15px;
     background-color: black;
   }
+}
+
+.section-heading {
+  color: $clr-primary;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  font-weight: normal;
+
+  &.bold {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-heading.bold {
+    padding-top: 75px;
+  }
+}
+
+.section-subheading {
+  color: $clr-subheading;
+  text-transform: none;
+  font-family: $font-secondary;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
 }

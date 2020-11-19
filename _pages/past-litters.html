@@ -51,14 +51,19 @@ litters:
         description: 'Padme: Female Seal Point Mink'
 ---
 
-<section>
+<section id="past-litters">
   <div class="container">
     <hr class="hr-dark" />
+
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading">{{ page.page-title }}</h2>
+        <h2 class="section-heading bold">{{ page.page-title }}</h2>
+        <p class="section-subheading">
+          Scroll or click litter title to bring carousel into view.
+        </p>
       </div>
     </div>
+
     {% for litter in page.litters %}
     <div id="{{ litter.title | slugify }}" class="row align-items-center mt-4">
       <div class="col text-center">
@@ -69,7 +74,7 @@ litters:
     </div>
     <div
       id="carouselExampleIndicators"
-      class="carousel slide mx-auto mb-6"
+      class="carousel slide mx-auto"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">
