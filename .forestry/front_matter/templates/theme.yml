@@ -1,0 +1,33 @@
+---
+label: Theme
+hide_body: true
+fields:
+- type: field_group
+  name: color
+  label: color
+  fields:
+  - type: text
+    name: primary
+    label: primary
+  - type: text
+    name: secondary
+    label: secondary
+  - type: number
+    name: secondary-dark
+    label: secondary-dark
+  - type: number
+    name: muted
+    label: muted
+  - type: number
+    name: divider
+    label: divider
+- type: field_group
+  name: font
+  label: font
+  fields:
+  - type: text
+    name: primary
+    label: primary
+  - type: text
+    name: secondary
+    label: secondary
