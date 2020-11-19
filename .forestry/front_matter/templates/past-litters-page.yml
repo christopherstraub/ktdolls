@@ -1,0 +1,50 @@
+---
+label: Past Litters Page
+hide_body: true
+fields:
+- name: page-title
+  type: text
+  config:
+    required: false
+  label: Page Title
+  description: The title of the Past Litters page.
+- name: litters
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: The name of the litter.
+  - name: gallery
+    type: field_group_list
+    fields:
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+      description: A description of the picture.
+    - name: picture
+      type: file
+      config:
+        maxSize: 64
+      label: Picture
+      description: A picture of the litter.
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Photo Gallery
+    description: The photo gallery of the litter.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Litters
+  description: List of litters.

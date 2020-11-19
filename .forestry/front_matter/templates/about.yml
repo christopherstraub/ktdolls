@@ -28,12 +28,12 @@ fields:
       format: markdown
   label: First Subheading
   description: The first subheading on the About page.
-- name: first-picture
+- name: first-image
   type: file
   config:
     maxSize: 64
-  label: First Picture
-  description: The first picture on the About page. Located next to the first heading.
+  label: First Image
+  description: The first image on the About page. Located next to the first heading.
 - name: first-picture-alt
   type: textarea
   default: ''
@@ -65,13 +65,13 @@ fields:
       format: markdown
   label: Second Subheading
   description: The second subheading on the About page.
-- name: second-picture
+- name: second-image
   type: file
   config:
     maxSize: 64
-  label: Second Picture
-  description: The second picture on the About page. Located next to the third heading.
-- name: second-picture-alt
+  label: Second Image
+  description: The second image on the About page. Located next to the third heading.
+- name: second-image-alt
   type: textarea
   default: ''
   config:
@@ -81,7 +81,7 @@ fields:
       format: markdown
   description: Alternative text helps visually impaired users using screen readers
     and improves search engine optimization.
-  label: Second Picture Alternative Text
+  label: Second Image Alternative Text
 - name: third-heading
   type: textarea
   default: ''
@@ -121,12 +121,12 @@ fields:
       required: false
     label: Name
     description: The name of the queen/king.
-  - name: picture
+  - name: image
     type: file
     config:
       maxSize: 64
-    label: Picture
-    description: A picture of the queen/king.
+    label: Image
+    description: An image of the queen/king.
   - name: description
     type: textarea
     default: ''
