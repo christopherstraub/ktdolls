@@ -13,7 +13,6 @@ fields:
       required: false
       color_format: Hex
     description: The primary color of the website. Used for headings, buttons, etc.
-      For example dark purple.
   - name: secondary
     type: color
     label: Secondary
@@ -35,7 +34,7 @@ fields:
     config:
       required: false
       color_format: Hex
-    description: The color of the logo, navigation menu, cat and kitten names and
+    description: The color of the logo, navigation menu, cat and kitten names, and
       the default color of text the website.
   description: The colors of the website.
 - type: field_group
