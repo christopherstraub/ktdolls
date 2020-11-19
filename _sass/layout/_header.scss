@@ -6,6 +6,18 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
+  background: #6a3093; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a044ff,
+    #6a3093
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a044ff,
+    #6a3093
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-image: url('../img/header-background.webp');
   background-position: center;
   background-repeat: none;

@@ -4,12 +4,15 @@
   align-items: center;
 }
 
-hr {
-  border-top: 1px solid transparent;
-}
-
 .hr-dark {
   border-top: 1px solid $clr-divider;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hr-dark {
+    display: block;
+  }
 }
 
 .img-default {
