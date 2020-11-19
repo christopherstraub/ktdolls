@@ -5,7 +5,8 @@ colors:
   subheading: '#777777'
   body: '#333333'
 fonts:
-  primary: "Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  secondary: "'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  nav: "Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  logo: "'Kaushan Script','Helvetica Neue', Helvetica, Arial, cursive"
+  primary: 'Montserrat'
+  secondary: 'Droid Serif'
+  nav: 'Montserrat'
+  logo: 'Kaushan Script'
+  backup: 'Helvetica Neue, Helvetica, Arial, sans-serif'
