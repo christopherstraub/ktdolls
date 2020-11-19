@@ -8,7 +8,6 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-primary {
@@ -169,7 +168,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: {{ site.data.theme.fonts.logo }};
     color: {{ site.data.theme.colors.body }};
 }
 
@@ -199,7 +198,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.theme.fonts.primary }};
+    font-family: {{ site.data.theme.fonts.nav }};
     font-weight: 400;
     -webkit-transition: all ease .15s;
     -moz-transition: all ease .15s;
@@ -301,15 +300,6 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
-}
-
-
-
-
-
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
 }
 
 #portfolio .portfolio-item {

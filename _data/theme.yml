@@ -7,5 +7,5 @@ colors:
 fonts:
   primary: "Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif"
   secondary: "'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  nav: "'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-  logo: "'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  nav: "Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  logo: "'Kaushan Script','Helvetica Neue', Helvetica, Arial, cursive"

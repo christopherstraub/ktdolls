@@ -7,6 +7,8 @@ $clr-subheading: {{ site.data.theme.colors.subheading }};
 $clr-body: {{ site.data.theme.colors.body }};
 
 $font-secondary: {{ site.data.theme.fonts.secondary }};
+$font-nav: {{ site.data.theme.fonts.nav }};
+$font-logo: {{ site.data.theme.fonts.logo }};
 
 // Functional classes.
 @import 'base/reset';
