@@ -10,7 +10,15 @@ fields:
     config:
       required: false
     label: Name
-    description: Name of the litter.
+    description: The name of the litter.
+  - name: picture
+    type: field_group_list
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Picture
+    description: A picture of the litter.
   config:
     min: 
     max: 
