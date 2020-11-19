@@ -1,10 +1,11 @@
+---
 color:
   primary: 4b0084
   secondary: 7300ca
   secondary-dark: 333333
   muted: 777777
   divider: 77777780
-
+  main: "#0CEFC7"
 font:
-  primary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  primary: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif'
