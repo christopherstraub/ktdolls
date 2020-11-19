@@ -21,7 +21,7 @@ fields:
       required: false
       color_format: Hex
     description: The secondary color of the website. Appears on hover, click, etc.
-      For example light purple.
+      Should be slightly lighter than the primary color.
   - name: body
     type: color
     label: Body
