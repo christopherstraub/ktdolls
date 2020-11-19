@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/theme.yml
+  label: Theme
+  match: "**/*"
+- type: document
   path: _pages/past-litters.html
   label: Past Litters Page
 - type: document
