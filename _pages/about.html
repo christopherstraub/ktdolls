@@ -6,11 +6,13 @@ first-heading: FAMILY-OWNED RAGDOLL BREEDER
 first-subheading: KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens.
   Established in 2017, we are located in Katy, Texas, 30 miles west of downtown Houston.
 first-picture: "/assets/img/about/cat1.webp"
+first-picture-alt: "Kitten sleeping on bed"
 second-heading: HEALTHY AND SOCIAL KITTENS
 second-subheading: All our litters are registered with TICA. Kittens go to their fur-ever
   homes at 12 weeks of age pre-spoiled, de-wormed and given two rounds of kitten vaccines.
   They are micro-chipped and have a health guarantee for up to 1 year.
 second-picture: "/assets/img/about/cat2.webp"
+second-picture-alt: "Kitten meowing next to another kitten"
 third-heading: FUR-EVER FRIEND
 third-subheading: Check out our available ragdoll kittens to find your fur-ever friend.
 queens-and-kings-title: QUEENS AND KINGS
@@ -42,7 +44,7 @@ queens-and-kings:
       <div class="col-md text-center">
         <img
           src="{{ site.baseurl }}{{ page.first-picture }}"
-          alt=""
+          alt="{{ page.first-picture-alt }}"
           class="img-fluid img-default"
         />
       </div>
@@ -57,7 +59,7 @@ queens-and-kings:
       <div class="col-md text-center">
         <img
           src="{{ site.baseurl }}{{ page.second-picture }}"
-          alt=""
+          alt="{{ page.second-picture-alt }}"
           class="img-fluid img-default"
         />
       </div>
@@ -89,8 +91,8 @@ queens-and-kings:
           <h4>{{ cat.name }}</h4>
           <img
             src="{{ site.baseurl }}{{ cat.picture }}"
+            alt="{{ cat.description }}"
             class="img-responsive img-default"
-            alt=""
           />
           <p class="text-muted">{{ cat.description }}</p>
         </div>
