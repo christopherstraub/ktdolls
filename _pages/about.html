@@ -1,7 +1,5 @@
 ---
 permalink: /about/
-includes:
-  - queens-and-kings.html
 picture: /assets/img/about/cat1.jpg
 title: family-owned ragdoll breeder
 ---
@@ -57,6 +55,27 @@ title: family-owned ragdoll breeder
           >available kittens</a
         >
       </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    {% include section-heading.html heading="queens and kings" %}
+    <div class="row">
+      {% for cat in site.data.queens-and-kings %}
+      <div class="col-md-4">
+        <div class="team-member">
+          <h4>{{ cat.name }}</h4>
+          <img
+            src="{{ site.baseurl }}/assets/img/queens-and-kings/{{ cat.img }}"
+            class="img-responsive img-default"
+            alt=""
+          />
+          <p class="text-muted">{{ cat.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
