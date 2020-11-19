@@ -1,4 +1,32 @@
 ---
 label: Settings
 hide_body: true
-fields: []
+fields:
+- name: url
+  type: text
+  config:
+    required: false
+  label: Site URL
+  description: The site URL.
+- name: title
+  type: text
+  config:
+    required: false
+  label: Site Name
+  description: The name of the website.
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+  description: Contact email.
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Site description
+  description: A description of the website.
