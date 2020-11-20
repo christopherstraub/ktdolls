@@ -10,18 +10,12 @@ sections:
 - type: document
   path: _data/theme.yml
   label: Theme
-- type: heading
-  label: Homepage
 - type: document
   path: index.html
   label: Landing
-- type: heading
-  label: About Page
 - type: document
   path: _pages/about.html
   label: About Page
-- type: heading
-  label: Past Litters Page
 - type: document
   path: _pages/past-litters.html
   label: Past Litters Page
