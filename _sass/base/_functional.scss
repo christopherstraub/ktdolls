@@ -5,6 +5,9 @@
 }
 
 .hr-dark {
+  // Fallback for browsers that don't support #rrggbbaa hex color notation.
+  border-top: 1px solid #777777;
+  // Hex code 80 indicates an alpha value of 50%.
   border-top: 1px solid #77777780;
   display: none;
 }
