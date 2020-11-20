@@ -1,0 +1,62 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: text
+  name: url
+  label: url
+- type: text
+  name: baseurl
+  label: baseurl
+- type: text
+  name: title
+  label: title
+- type: text
+  name: email
+  label: email
+- type: text
+  name: phone
+  label: phone
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: markdown
+  label: markdown
+- type: field_group_list
+  name: defaults
+  label: defaults
+  fields:
+  - type: field_group
+    name: scope
+    label: scope
+    fields:
+    - type: text
+      name: path
+      label: path
+    - type: text
+      name: type
+      label: type
+  - type: field_group
+    name: values
+    label: values
+    fields:
+    - type: text
+      name: layout
+      label: layout
+- type: list
+  name: include
+  label: include
+- type: field_group_list
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
