@@ -28,5 +28,11 @@ fields:
     maxSize: 64
   label: Background Image
   description: The landing page background image.
+- name: available-kittens-title
+  type: text
+  config:
+    required: false
+  label: Available Kittens Title
+  description: The title of the Available Kittens section.<br>
 pages:
 - index.html
