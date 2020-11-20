@@ -3,9 +3,58 @@ permalink: '/'
 layout: home
 heading: Family-owned cattery from Katy, Texas.
 subheading: Pedigreed Traditional and Mink Ragdoll kittens for sale.
-background: '/assets/img/header-background.webp'
+bg-img: '/assets/img/header-background.webp'
+available-kittens-title: WEDDED BLISS 2020
+available-kittens-subheading: The babies are here! Born August 18. Available to go home November 10, 2020.
+available-kittens-picture: The babies are here! Born August 18. Available to go home November 10, 2020.
+available-kittens-img: /assets/img/available-kittens/litter.webp
+available-kittens-img-alt: A litter of nine kittens
+available-kittens:
+  - name: Amanda
+    reserved: true
+    img: 1.webp
+    description: Female Blue Colorpoint Mink.
+    cost: 1150
+
+  - name: Skyla
+    reserved: true
+    img: 2.webp
+    description: Female Blue Colorpoint Mink.
+    cost: 1150
+  - name: Zaya
+    reserved: true
+    img: 3.webp
+    description: Female Seal Colorpoint Traditional.
+    cost: 1150
+  - name: Alex
+    reserved: true
+    img: 4.webp
+    description: Male Blue Colorpoint Mink.
+    cost: 1050
+  - name: Kaden
+    reserved: true
+    img: 5.webp
+    description: Male Seal Colorpoint Mink.
+    cost: 1050
+  - name: Jack
+    reserved: true
+    img: 6.webp
+    description: Male Seal Colorpoint Traditional.
+    cost: 1050
+  - name: Chris
+    reserved: true
+    img: 7.webp
+    description: Male Blue Colorpoint Mink.
+    cost: 1050
+  - name: Libby
+    reserved: true
+    img: 8.webp
+    description: Female Seal Colorpoint Mink.
+    cost: 1150
+kitten-deposit: 500
 ---
 
+<!-- Landing Page -->
 <header style="background-image: url('{{ page.background }}');">
   <div class="container-fluid">
     <div class="row">
@@ -25,3 +74,46 @@ background: '/assets/img/header-background.webp'
     </div>
   </div>
 </header>
+
+<!-- Available Kittens Section -->
+<section id="available-kittens">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col text-center">
+        <h2 class="section-heading bold">{{ page.available-kittens-title }}</h2>
+        <h3 class="section-subheading">
+          {{ page.available-kittens-subheading }}
+        </h3>
+      </div>
+    </div>
+    <div class="row mt-4 mb-6">
+      <img
+        src="{{ site.baseurl }}{{ page.available-kittens-img }}"
+        alt="{{ page.available-kittens-img-alt }}"
+        class="img-fluid img-default"
+      />
+    </div>
+    <div class="row">
+      {% for kitten in page.available-kittens %}
+      <div class="col-md-4 col-sm-6">
+        <div class="team-member available-kitten">
+          {% if kitten.reserved %}
+          <h4>{{ kitten.name }} (Reserved)</h4>
+          {% else %}
+          <h4>{{ kitten.name }}</h4>
+          {% endif %}
+          <img
+            src="{{ site.baseurl }}/assets/img/available-kittens/{{ kitten.img }}"
+            class="img-fluid img-default"
+            alt=""
+          />
+          <p class="section-subheading">
+            {{ kitten.description }} <br />${{ kitten.cost }}+tax/${{
+            page.kitten-deposit}} deposit.
+          </p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
