@@ -12,43 +12,43 @@ available-kittens-img-alt: A litter of nine kittens
 available-kittens:
   - name: Amanda
     reserved: true
-    img: 1.webp
+    img: /assets/img/available-kittens/1.webp
     description: Female Blue Colorpoint Mink.
     cost: 1150
 
   - name: Skyla
     reserved: true
-    img: 2.webp
+    img: /assets/img/available-kittens/2.webp
     description: Female Blue Colorpoint Mink.
     cost: 1150
   - name: Zaya
     reserved: true
-    img: 3.webp
+    img: /assets/img/available-kittens/3.webp
     description: Female Seal Colorpoint Traditional.
     cost: 1150
   - name: Alex
     reserved: true
-    img: 4.webp
+    img: /assets/img/available-kittens/4.webp
     description: Male Blue Colorpoint Mink.
     cost: 1050
   - name: Kaden
     reserved: true
-    img: 5.webp
+    img: /assets/img/available-kittens/5.webp
     description: Male Seal Colorpoint Mink.
     cost: 1050
   - name: Jack
     reserved: true
-    img: 6.webp
+    img: /assets/img/available-kittens/6.webp
     description: Male Seal Colorpoint Traditional.
     cost: 1050
   - name: Chris
     reserved: true
-    img: 7.webp
+    img: /assets/img/available-kittens/7.webp
     description: Male Blue Colorpoint Mink.
     cost: 1050
   - name: Libby
     reserved: true
-    img: 8.webp
+    img: /assets/img/available-kittens/8.webp
     description: Female Seal Colorpoint Mink.
     cost: 1150
 deposit: 500
@@ -103,7 +103,7 @@ deposit: 500
           <h4>{{ kitten.name }}</h4>
           {% endif %}
           <img
-            src="{{ site.baseurl }}/assets/img/available-kittens/{{ kitten.img }}"
+            src="{{ site.baseurl }}{{ kitten.img }}"
             class="img-fluid img-default"
             alt=""
           />
