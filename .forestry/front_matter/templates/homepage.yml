@@ -1,4 +1,10 @@
 ---
 label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: landing
+  type: include
+  config: {}
+  template: header-section
+  label: Landing Page
+  description: Landing page.
