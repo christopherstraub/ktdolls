@@ -1,6 +1,7 @@
 ---
-label: Homepage
+label: Landing
 hide_body: true
+display_field: heading
 fields:
 - name: heading
   type: textarea
