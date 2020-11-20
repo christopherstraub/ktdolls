@@ -1,7 +1,11 @@
-#past-litters h3.section-heading {
+#past-litters .section-heading {
   padding-top: 100px;
+
+  &.bold {
+    padding-top: 75px;
+  }
 }
 
-#past-litters p.section-subheading:first-of-type {
-  margin-bottom: -60px;
+#past-litters .section-heading + .section-subheading {
+  margin-bottom: -75px;
 }
