@@ -70,6 +70,26 @@ fields:
       maxSize: 64
     label: Image
     description: An image of the kitten.
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: A description of the kitten. For example Female Blue Colorpoint Mink.
+  - name: cost
+    type: number
+    label: Cost
+    description: The cost of the kitten. For example "1150". Will show up as "$1150+tax"
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   config:
     min: 
     max: 
@@ -77,5 +97,15 @@ fields:
   label: Available Kittens
   description: List of available kittens (name, reservation status, picture, description,
     cost, and deposit).
+- name: deposit
+  type: number
+  description: The cost of a kitten deposit. For example "500".
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Kitten Deposit
 pages:
 - index.html
