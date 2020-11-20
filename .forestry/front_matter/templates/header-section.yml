@@ -44,7 +44,7 @@ fields:
       format: markdown
   label: Available Kittens Subheading
   description: The subheading of the Available Kittens section.
-- name: available-kittens-image
+- name: available-kittens-img
   type: file
   config:
     maxSize: 64
@@ -64,7 +64,7 @@ fields:
     label: Reserved?
     description: If the kitten is reserved, set the toggle to on; if it is not, keep
       it on off.
-  - name: image
+  - name: img
     type: file
     config:
       maxSize: 64
@@ -83,7 +83,8 @@ fields:
   - name: cost
     type: number
     label: Cost
-    description: The cost of the kitten. For example "1150". Will show up as "$1150+tax"
+    description: The cost of the kitten. For example "1150". Will show up on website
+      as "$1150+tax".
     default: 0
     required: true
     config:
