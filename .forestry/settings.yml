@@ -20,6 +20,8 @@ sections:
 - type: document
   path: _pages/about.html
   label: About Page
+- type: heading
+  label: Past Litters Page
 - type: document
   path: _pages/past-litters.html
   label: Past Litters Page
