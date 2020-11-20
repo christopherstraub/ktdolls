@@ -12,7 +12,7 @@ sections:
   label: Theme
 - type: document
   path: index.html
-  label: Landing
+  label: Homepage
 - type: document
   path: _pages/about.html
   label: About Page
