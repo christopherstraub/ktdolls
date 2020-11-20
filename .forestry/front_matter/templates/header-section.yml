@@ -33,6 +33,49 @@ fields:
   config:
     required: false
   label: Available Kittens Title
-  description: The title of the Available Kittens section.<br>
+  description: The title of the Available Kittens section.
+- name: available-kittens-subheading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Available Kittens Subheading
+  description: The subheading of the Available Kittens section.
+- name: available-kittens-image
+  type: file
+  config:
+    maxSize: 64
+  label: Available Kittens Image
+  description: The image below the Available Kittens subheading.
+- name: available-kittens
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: The name of the kitten.
+  - name: reserved
+    type: boolean
+    label: Reserved?
+    description: If the kitten is reserved, set the toggle to on; if it is not, keep
+      it on off.
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    description: An image of the kitten.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Available Kittens
+  description: List of available kittens (name, reservation status, picture, description,
+    cost, and deposit).
 pages:
 - index.html
