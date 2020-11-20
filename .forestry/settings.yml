@@ -12,7 +12,7 @@ sections:
 - type: document
   path: index.html
   label: Home Page
-  read_only: true
+  read_only: false
 - type: document
   path: _pages/about.html
   label: About Page
@@ -26,7 +26,7 @@ upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":year:/:filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
