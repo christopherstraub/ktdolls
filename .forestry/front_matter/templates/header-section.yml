@@ -79,7 +79,7 @@ fields:
       schema:
         format: markdown
     label: Description
-    description: A description of the kitten. For example Female Blue Colorpoint Mink.
+    description: A description of the kitten.
   - name: cost
     type: number
     label: Cost
