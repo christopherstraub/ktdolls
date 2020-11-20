@@ -4,12 +4,16 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Settings
 - type: document
   path: _config.yml
   label: Settings
 - type: document
   path: _data/theme.yml
   label: Theme
+- type: heading
+  label: Website
 - type: document
   path: index.html
   label: Homepage
