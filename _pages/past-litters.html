@@ -65,7 +65,7 @@ litters:
     </div>
 
     {% for litter in page.litters %}
-    <div id="{{ litter.title | slugify }}" class="row align-items-center mt-4">
+    <div id="{{ litter.title | slugify }}" class="litter-section row mt-4">
       <div class="col text-center">
         <a href="#{{ litter.title | slugify }}">
           <h3 class="section-heading">{{ litter.title }}</h3>

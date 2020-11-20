@@ -1,11 +1,19 @@
 #past-litters .section-heading {
-  padding-top: 100px;
+  display: inline-block;
+}
 
-  &.bold {
-    padding-top: 75px;
-  }
+#past-litters .litter-section {
+  padding-top: 100px;
 }
 
 #past-litters .section-heading + .section-subheading {
   margin-bottom: -75px;
+}
+
+#past-litters a .section-heading:hover {
+  color: $clr-secondary;
+}
+
+#past-litters a .section-heading {
+  transition: 0.2s ease color;
 }
