@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Homepage
 - type: document
   path: index.html
   label: Landing
-  match: "**/*"
 - type: document
   path: _config.yml
   label: Settings
