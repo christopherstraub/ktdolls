@@ -50,6 +50,17 @@ fields:
     maxSize: 64
   label: Available Kittens Image
   description: The image below the Available Kittens subheading.
+- name: available-kittens-img-alt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Available Kittens Image Alternative Text
+  description: Alternative text helps visually impaired users using screen readers
+    and improves search engine optimization.
 - name: available-kittens
   type: field_group_list
   fields:
