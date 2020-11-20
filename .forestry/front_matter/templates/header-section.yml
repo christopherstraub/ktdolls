@@ -1,0 +1,30 @@
+---
+label: Landing
+hide_body: true
+fields:
+- name: heading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Heading
+  description: The heading of the landing page.
+- name: subheading
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subheading
+  description: The subheading of the landing page.
+- name: background
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image
+  description: The landing page background image.
