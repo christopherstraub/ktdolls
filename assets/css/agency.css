@@ -538,6 +538,10 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
 }
 
+.team-member h4{
+    font-size: 24px;
+}
+
 @media only screen and (min-width: 576px){
     .team-member{
         margin-bottom: 0;
@@ -646,8 +650,8 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
+    font-size: 20px;
+    text-transform: capitalize;
     font-family: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }};
     line-height: 40px;
 }

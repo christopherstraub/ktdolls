@@ -25,7 +25,7 @@
   @include btn-color(white, $clr-primary);
 }
 
-.btn-bg-light-gray {
+.btn-default-bg-light-gray {
   @include btn-color(#f7f7f7, $clr-primary);
 }
 
@@ -69,8 +69,8 @@
 .section-subheading {
   color: $clr-subheading;
   text-transform: none;
-  font-family: $font-secondary;
-  font-size: 18px;
+  font-family: $font-primary;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
 }

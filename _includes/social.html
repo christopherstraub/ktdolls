@@ -1,26 +1,31 @@
+{% if include.bg-light-gray %}
 <section id="social" class="bg-light-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col text-center">
-        <h2 class="section-heading bold">SOCIAL</h2>
-        <p class="section-subheading">Follow us on Facebook and Instagram!</p>
+  {% else %}
+  <section id="social">
+    {% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="section-heading bold">SOCIAL</h2>
+          <p class="section-subheading">Follow us on Facebook and Instagram!</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-12 text-center">
+          <ul class="list-inline social-buttons">
+            {% for network in site.social %}
+            <li>
+              <a
+                href="{{ network.url }}"
+                target="_blank"
+                class="{{ network.title | slugify }}-btn"
+                ><i class="fa fa-{{ network.title | slugify }}"></i
+              ></a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-lg-12 text-center">
-        <ul class="list-inline social-buttons">
-          {% for network in site.social %}
-          <li>
-            <a
-              href="{{ network.url }}"
-              target="_blank"
-              class="{{ network.title | slugify }}-btn"
-              ><i class="fa fa-{{ network.title | slugify }}"></i
-            ></a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
+  </section>
 </section>

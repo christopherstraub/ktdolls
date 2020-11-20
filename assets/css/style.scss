@@ -6,6 +6,7 @@ $clr-secondary: {{ site.data.theme.colors.secondary }};
 $clr-subheading: {{ site.data.theme.colors.subheading }};
 $clr-body: {{ site.data.theme.colors.body }};
 
+$font-primary: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }}, {{ site.data.theme.fonts.backup }};
 $font-secondary: {{ site.data.theme.fonts.secondary }}, {{ site.data.theme.fonts.backup }}, {{ site.data.theme.fonts.backup }};
 
 // Functional classes.
@@ -24,5 +25,4 @@ $font-secondary: {{ site.data.theme.fonts.secondary }}, {{ site.data.theme.fonts
 @import 'layout/nav-background';
 @import 'layout/nav';
 @import 'layout/past-litters';
-@import 'layout/shipping';
 @import 'layout/social';
