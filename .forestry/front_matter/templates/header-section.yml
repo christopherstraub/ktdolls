@@ -28,3 +28,5 @@ fields:
     maxSize: 64
   label: Background Image
   description: The landing page background image.
+pages:
+- index.html
