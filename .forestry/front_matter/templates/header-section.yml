@@ -22,7 +22,7 @@ fields:
       format: markdown
   label: Subheading
   description: The subheading of the landing page.
-- name: background
+- name: bg-img
   type: file
   config:
     maxSize: 64
