@@ -52,8 +52,8 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Social
-  description: Social media links.
+  label: Social Media Links
+  description: List of your social media links.
 - name: url
   type: text
   config:
