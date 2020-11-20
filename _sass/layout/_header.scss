@@ -1,7 +1,3 @@
-.cta-area {
-  padding-bottom: 40px;
-}
-
 header {
   text-align: center;
   color: #fff;
@@ -20,7 +16,7 @@ header {
     #41295a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background-image: url('../img/header-background.webp');
+  background-image: url('/assets/img/header-background.webp');
   background-position: center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -29,29 +25,11 @@ header {
   -o-background-size: cover;
 }
 
-header .intro-text {
-  padding-top: 120px;
-  padding-bottom: 166px;
-}
-
 @media only screen and (min-width: 768px) {
   header {
     margin: 0 16px;
     border-radius: 10px;
   }
-
-  header .intro-text {
-    padding-top: 75px;
-    padding-bottom: 450px;
-  }
-}
-
-header .intro-lead-in:nth-child(1) {
-  margin-bottom: 0px;
-}
-
-header .intro-lead-in:nth-child(2) {
-  font-size: 24px;
 }
 
 header a {
@@ -63,5 +41,47 @@ header a {
   &:active,
   &.active {
     color: white;
+  }
+}
+
+header .heading,
+header .subheading {
+  font-family: $font-secondary;
+  text-transform: none;
+  font-weight: normal;
+}
+
+header .heading {
+  font-size: 40px;
+}
+
+header .subheading {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+header .heading {
+  padding-top: 100px;
+}
+
+header .heading + .subheading {
+  margin-bottom: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  header .heading {
+    font-size: 64px;
+  }
+
+  header .subheading {
+    font-size: 36px;
+  }
+
+  header .heading {
+    padding-top: 50px;
+  }
+
+  header .heading + .subheading {
+    margin-bottom: 55vh;
   }
 }
