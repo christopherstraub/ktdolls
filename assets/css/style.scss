@@ -6,8 +6,10 @@ $clr-secondary: {{ site.data.theme.colors.secondary }};
 $clr-subheading: {{ site.data.theme.colors.subheading }};
 $clr-body: {{ site.data.theme.colors.body }};
 
-$font-primary: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }}, {{ site.data.theme.fonts.backup }};
-$font-secondary: {{ site.data.theme.fonts.secondary }}, {{ site.data.theme.fonts.backup }}, {{ site.data.theme.fonts.backup }};
+$font-primary: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }};
+$font-secondary: {{ site.data.theme.fonts.secondary }}, {{ site.data.theme.fonts.backup }};
+$font-nav: {{ site.data.theme.fonts.nav }}, {{ site.data.theme.fonts.backup }};
+$font-logo: {{ site.data.theme.fonts.logo }}, {{ site.data.theme.fonts.backup }};
 
 // Functional classes.
 @import 'base/reset';

@@ -1,35 +1,75 @@
-.navbar-default .nav-container {
-  padding: 0;
-}
+.navbar-default {
+  background-color: white;
 
-.navbar-default .navbar-nav {
-  flex-direction: column;
-}
+  & .nav-container {
+    padding: 0;
+  }
 
-.navbar-default .nav li a {
-  color: $clr-body;
-  font-size: 24px;
-  padding: 15px;
-}
+  & .navbar-toggle {
+    border-color: $clr-primary;
+    background-color: $clr-primary;
 
-.navbar-default .nav li a:hover,
-.navbar-default.navbar-shrink .nav li a:hover {
-  outline: 0;
-  color: white;
-  background-color: $clr-secondary;
-}
+    &:hover,
+    &:focus {
+      background-color: $clr-primary;
+    }
 
-.navbar-default .navbar-brand {
-  font-size: 30px;
-  padding: 0;
-  margin-left: 30px;
-  line-height: 60px;
+    & .icon-bar {
+      background-color: white;
+    }
+  }
+
+  & .navbar-collapse {
+    border-color: rgba(0, 0, 0, 0.25);
+  }
+
+  & .navbar-brand {
+    color: $clr-body;
+    font-family: $font-logo;
+    font-size: 30px;
+    padding: 0;
+    margin-left: 30px;
+    line-height: 60px;
+
+    &:hover,
+    &:active {
+      color: $clr-body;
+    }
+  }
+
+  & .nav li a {
+    color: $clr-body;
+    font-family: $font-nav;
+    font-size: 24px;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &:hover,
+    &:focus {
+      color: white;
+      background-color: $clr-secondary;
+    }
+  }
+
+  & .nav li.active a {
+    background-color: $clr-primary;
+
+    &:hover,
+    &:focus {
+      background-color: $clr-secondary;
+    }
+
+    &:focus {
+      // color: green;
+    }
+  }
 }
 
 // Media queries.
 @media only screen and (min-width: 576px) {
   .navbar-default .nav li a {
-    border-radius: 5px;
+    border-radius: 10px;
   }
 }
 
@@ -38,81 +78,108 @@
     padding: 6px 0 0;
     border: 0;
     background-color: transparent;
-  }
+    transition: background-color 0.15s;
 
-  // Center nav
-  .navbar-default .navbar-collapse {
-    text-align: center;
-  }
+    // Center nav.
+    & .navbar-collapse {
+      text-align: center;
+    }
+    & .navbar-nav {
+      float: none !important;
+      display: inline-block;
+    }
+    // End center nav.
 
-  .navbar-default .navbar-nav {
-    float: none !important;
-    display: inline-block;
-  }
-  // End center nav
+    // Occupy the entire width of the page.
+    & .nav-container {
+      min-width: 100%;
+    }
 
-  .navbar-default .navbar-nav {
-    flex-direction: row;
-  }
+    & .navbar-brand {
+      display: none;
+    }
 
-  // Mimic container-fluid
-  .navbar-default .nav-container {
-    min-width: 100%;
-  }
+    & .nav li a {
+      font-size: 16px;
+      padding: 20px 5px;
+      letter-spacing: 0px;
 
-  .navbar-default .nav li a {
-    font-size: 15px;
-    padding: 20px 5px;
-    letter-spacing: 1px;
-  }
+      transition: all 0.15s;
 
-  .navbar-default.navbar-shrink .nav li a {
-    color: white;
-  }
+      &:hover {
+        color: $clr-secondary;
+        background-color: transparent;
+      }
+    }
 
-  .navbar-default .nav li a:hover,
-  .navbar-default.navbar-shrink .nav li a:hover {
-    color: $clr-secondary;
-    background-color: transparent;
-  }
+    & .nav li.active a {
+      color: $clr-primary;
+      background-color: transparent;
+      font-weight: bold;
 
-  .navbar-default.navbar-shrink .nav li a:hover {
-    color: white;
-    background-color: $clr-secondary;
-  }
+      &:hover,
+      &:focus {
+        color: $clr-secondary;
+        background-color: transparent;
+      }
+    }
 
-  .navbar-default .navbar-brand {
-    display: none;
-  }
+    &.navbar-shrink {
+      // Fallback for browsers that don't support the rgba() function.
+      background-color: $clr-body;
+      background-color: rgba($clr-body, 0.9);
 
-  .navbar-default.navbar-shrink .navbar-brand {
-    color: white;
+      & .nav li a {
+        color: white;
+
+        &:hover {
+          color: white;
+          background-color: $clr-secondary;
+        }
+      }
+
+      & .nav li.active a {
+        background-color: transparent;
+
+        &:hover,
+        &:focus {
+          background-color: $clr-secondary;
+        }
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 992px) {
   .navbar-default .nav li a {
-    font-size: 18px;
+    font-size: 21px;
     padding: 20px 10px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .navbar-default .nav li a {
-    font-size: 20px;
-  }
+  .navbar-default {
+    & .navbar-brand {
+      display: inline-block;
+      font-size: 34px;
+      line-height: 60px;
+      margin: 0 0 0 32px;
+      padding: 0;
+      transition: color 0.15s;
+    }
 
-  .navbar-default .navbar-brand {
-    display: inline-block;
-    font-size: 34px;
-    line-height: 60px;
-    margin: 0 0 0 32px;
-    padding: 0;
+    &.navbar-shrink .navbar-brand {
+      color: white;
+    }
+
+    & .nav li a {
+      font-size: 23px;
+    }
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .navbar-default .nav li a {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
