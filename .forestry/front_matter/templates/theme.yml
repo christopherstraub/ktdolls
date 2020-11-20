@@ -35,7 +35,7 @@ fields:
       required: false
       color_format: Hex
     description: The color of the logo, navigation menu, cat and kitten names, and
-      the default color of text the website.
+      the default color of text of the website.
   description: The colors of the website.
 - type: field_group
   name: fonts
