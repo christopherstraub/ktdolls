@@ -34,7 +34,7 @@ fields:
     required: false
   label: Available Kittens Title
   description: The title of the Available Kittens section.
-- name: available-kittens-subheading
+- name: available-kittens-body
   type: textarea
   default: ''
   config:
@@ -42,8 +42,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Available Kittens Subheading
-  description: The subheading of the Available Kittens section.
+  label: Available Kittens Body
+  description: The body of the Available Kittens section.
 - name: available-kittens-img
   type: file
   config:

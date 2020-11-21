@@ -18,7 +18,7 @@ fields:
       format: markdown
   label: First Heading
   description: The first heading on the About page.
-- name: first-subheading
+- name: first-body
   type: textarea
   default: ''
   config:
@@ -26,8 +26,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: First Subheading
-  description: The first subheading on the About page.
+  label: First Paragraph
+  description: The first paragraph on the About page.
 - name: first-img
   type: file
   config:
@@ -55,7 +55,7 @@ fields:
       format: markdown
   label: Second Heading
   description: The second heading on the About page.
-- name: second-subheading
+- name: second-body
   type: textarea
   default: ''
   config:
@@ -63,8 +63,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Second Subheading
-  description: The second subheading on the About page.
+  label: Second Paragraph
+  description: The second paragraph on the About page.
 - name: second-img
   type: file
   config:
@@ -92,7 +92,7 @@ fields:
       format: markdown
   label: Third Heading
   description: The third heading on the About page.
-- name: third-subheading
+- name: third-body
   type: textarea
   default: ''
   config:
@@ -100,8 +100,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Third Subheading
-  description: The third subheading on the About page.
+  label: Third Paragraph
+  description: The third paragraphon the About page.
 - name: queens-and-kings-title
   type: textarea
   default: ''
@@ -141,7 +141,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Queens and Kings
+  label: Queen or King
   description: List of queens and kings.
 - name: ragdoll-history-heading
   type: textarea
@@ -153,7 +153,7 @@ fields:
       format: markdown
   label: Ragdoll History Heading
   description: The heading of the Ragdoll History section.
-- name: ragdoll-history-subheading
+- name: ragdoll-history-body
   type: textarea
   default: ''
   config:
@@ -161,8 +161,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Ragdoll History Subheading
-  description: The subheading of the Ragdoll History section.
+  label: Ragdoll History Paragraph
+  description: The paragraph of the Ragdoll History section.
 - name: mink-ragdoll-heading
   type: textarea
   default: ''
@@ -173,7 +173,7 @@ fields:
       format: markdown
   label: Mink Ragdoll Heading
   description: The heading of the Mink Ragdoll section.
-- name: mink-ragdoll-subheading
+- name: mink-ragdoll-body
   type: textarea
   default: ''
   config:
@@ -181,7 +181,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  description: The subheading of the Mink Ragdoll section.
-  label: Mink Ragdoll Subheading
+  description: The paragraph of the Mink Ragdoll section.
+  label: Mink Ragdoll Paragraph
 pages:
 - _pages/about.html
