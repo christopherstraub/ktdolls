@@ -54,6 +54,8 @@ available-kittens:
     description: Female Seal Colorpoint Mink.
     cost: 1150
 deposit: 500
+shipping-title: SHIPPING TEMPORARILY SUSPENDED
+shipping-body: PetSafe shipping has been suspended due to Covid-19. We'll update you once the situation changes.
 ---
 
 <!-- Landing Page -->
@@ -127,11 +129,8 @@ deposit: 500
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading bold">SHIPPING TEMPORARILY SUSPENDED</h2>
-        <p class="section-body">
-          PetSafe shipping has been suspended due to Covid-19. We'll update you
-          once the situation changes.
-        </p>
+        <h2 class="section-heading bold">{{ page.shipping-title }}</h2>
+        <p class="section-body">{{ page.shipping-body }}</p>
       </div>
     </div>
     <div class="row mt-5">
