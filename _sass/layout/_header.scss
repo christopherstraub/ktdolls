@@ -77,6 +77,10 @@ header .heading + .subheading {
   margin-bottom: 175px;
 }
 
+header .subheading:first-child {
+  font-family: $font-primary;
+}
+
 @media only screen and (min-width: 768px) {
   header .heading {
     font-size: 64px;
