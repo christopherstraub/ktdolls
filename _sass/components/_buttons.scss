@@ -4,5 +4,5 @@
   border-radius: 50%;
   transition: all 0.3s;
 
-  @include btn-color($clr-body, white, $clr-body);
+  @include btn-color($clr-dark, white, $clr-dark);
 }

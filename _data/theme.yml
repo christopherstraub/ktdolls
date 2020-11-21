@@ -2,8 +2,8 @@
 colors:
   primary: '#4b0084'
   secondary: '#7300ca'
-  subheading: '#777777'
-  body: '#333333'
+  dark: '#333333'
+  dark-accent: '#777777'
 fonts:
   primary: 'Montserrat'
   secondary: 'Droid Serif'

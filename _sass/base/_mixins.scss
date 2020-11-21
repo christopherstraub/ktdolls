@@ -11,3 +11,12 @@
     border-color: $border-color;
   }
 }
+
+@mixin font-default($color, $font-size, $font-weight: normal) {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-primary;
+  text-transform: none;
+  font-weight: $font-weight;
+  line-height: 1.6;
+}

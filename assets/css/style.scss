@@ -3,8 +3,8 @@
 
 $clr-primary: {{ site.data.theme.colors.primary }};
 $clr-secondary: {{ site.data.theme.colors.secondary }};
-$clr-subheading: {{ site.data.theme.colors.subheading }};
-$clr-body: {{ site.data.theme.colors.body }};
+$clr-dark-accent: {{ site.data.theme.colors.dark-accent }};
+$clr-dark: {{ site.data.theme.colors.dark }};
 
 $font-primary: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }};
 $font-secondary: {{ site.data.theme.fonts.secondary }}, {{ site.data.theme.fonts.backup }};

@@ -433,37 +433,8 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
 .team-member h4{
     font-size: 24px;
-}
-
-@media only screen and (min-width: 576px){
-    .team-member{
-        margin-bottom: 0;
-    }
-
-    .available-kitten{
-        margin-bottom: 30px;
-    }
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
-
-aside.clients img {
-    margin: 50px auto;
 }
 
 section#contact {
@@ -653,7 +624,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: {{ site.data.theme.colors.body }};
+    background-color: {{ site.data.theme.colors.dark }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -663,7 +634,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: {{ site.data.theme.colors.body }};
+    background-color: {{ site.data.theme.colors.dark }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -671,12 +642,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: {{ site.data.theme.colors.primary }};
+    background: {{ site.data.theme.colors.secondary }};
 }
 
 ::selection {
     text-shadow: none;
-    background: {{ site.data.theme.colors.primary }};
+    background: {{ site.data.theme.colors.secondary }};
 }
 
 img::selection {

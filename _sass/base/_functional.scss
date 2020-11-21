@@ -18,12 +18,6 @@
   }
 }
 
-.img-default {
-  margin: 15px auto;
-  border-radius: 5px;
-  border: 1px solid $clr-subheading;
-}
-
 .btn-default {
   @include btn-color(white, $clr-primary);
 }
@@ -69,11 +63,14 @@
   }
 }
 
-.section-subheading {
-  color: $clr-subheading;
-  text-transform: none;
-  font-family: $font-primary;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.5;
+.section-body {
+  @include font-default($clr-dark, 20px);
+}
+
+.title {
+  @include font-default($clr-dark, 24px, bold);
+}
+
+.caption {
+  @include font-default($clr-dark-accent, 20px);
 }
