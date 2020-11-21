@@ -141,7 +141,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Queens and Kings
+  label: Queens or King
   description: List of queens and kings.
 - name: ragdoll-history-heading
   type: textarea
