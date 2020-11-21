@@ -44,11 +44,11 @@ fields:
   - type: text
     name: primary
     label: Primary
-    description: The primary font. Used for headings and titles.
+    description: The primary font. Used for headings, paragraphs, etc.
   - type: text
     name: secondary
     label: Secondary
-    description: The secondary font. Used for subheadings, body text, etc.
+    description: The secondary font. Used on the landing page.
   - name: nav
     type: text
     config:
