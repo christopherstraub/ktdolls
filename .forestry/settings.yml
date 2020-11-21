@@ -12,7 +12,6 @@ sections:
 - type: document
   path: index.html
   label: Home Page
-  read_only: false
 - type: document
   path: _pages/about.html
   label: About Page
