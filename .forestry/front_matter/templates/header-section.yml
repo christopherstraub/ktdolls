@@ -42,8 +42,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Available Kittens Body
-  description: The body of the Available Kittens section.
+  label: Available Kittens Paragraph
+  description: The paragraph of the Available Kittens section.
 - name: available-kittens-img
   type: file
   config:
@@ -119,5 +119,21 @@ fields:
     max: 
     step: 
   label: Kitten Deposit
+- name: shipping-title
+  type: text
+  config:
+    required: false
+  label: Shipping Title
+  description: The title of the Shipping section.
+- name: shipping-body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Shipping Paragraph
+  description: The paragraph of the Shipping section.
 pages:
 - index.html
