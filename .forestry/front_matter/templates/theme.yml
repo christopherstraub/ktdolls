@@ -21,21 +21,21 @@ fields:
       color_format: Hex
     description: The secondary color of the website. Appears on hover, click, etc.
       Should be slightly lighter than the primary color.
-  - name: subheading
+  - name: dark
     type: color
-    label: Subheading
+    label: Dark
     config:
       required: false
       color_format: Hex
-    description: The color of subheading text. A light gray works great.
-  - name: body
+    description: The color used by the logo, navigation menu, and most text on the
+      website. Should be dark but not completely black.
+  - name: dark-accent
     type: color
-    label: Body
+    label: Dark Accent
     config:
       required: false
       color_format: Hex
-    description: The color of the logo, navigation menu, cat and kitten names, and
-      the default color of text of the website.
+    description: A lighter black/gray used for image captions.
   description: The colors of the website.
 - type: field_group
   name: fonts
