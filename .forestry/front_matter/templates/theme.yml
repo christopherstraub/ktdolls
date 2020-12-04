@@ -23,7 +23,7 @@ fields:
       Should be slightly lighter than the primary color.
   - name: dark
     type: color
-    label: Dark
+    label: Body Text
     config:
       required: false
       color_format: Hex
@@ -31,11 +31,19 @@ fields:
       website. Should be dark but not completely black.
   - name: dark-accent
     type: color
-    label: Dark Accent
+    label: Image Caption Text
     config:
       required: false
       color_format: Hex
     description: A lighter black/gray used for image captions.
+  - name: navbar-bg
+    type: color
+    label: Navigation Menu Background
+    config:
+      required: false
+      color_format: Hex
+    description: The background of the navigation menu when you scroll down on the
+      website.
   description: The colors of the website.
 - type: field_group
   name: fonts
