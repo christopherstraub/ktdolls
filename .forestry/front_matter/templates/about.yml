@@ -1,6 +1,6 @@
 ---
 label: About Page
-hide_body: true
+hide_body: false
 fields:
 - name: page-title
   type: text
