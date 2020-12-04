@@ -42,8 +42,8 @@ fields:
     config:
       required: false
       color_format: Hex
-    description: The background of the navigation menu when you scroll down on the
-      website.
+    description: The background color of the navigation menu when you scroll down
+      on the website.
   description: The colors of the website.
 - type: field_group
   name: fonts
