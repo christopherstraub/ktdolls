@@ -4,6 +4,7 @@ colors:
   secondary: '#7300ca'
   dark: '#333333'
   dark-accent: '#777777'
+  navbar-bg: '#4b0084'
 fonts:
   primary: 'Montserrat'
   secondary: 'Droid Serif'

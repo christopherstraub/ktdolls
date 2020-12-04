@@ -123,8 +123,8 @@
 
     &.navbar-shrink {
       // Fallback for browsers that don't support the rgba() function.
-      background-color: $clr-dark;
-      background-color: rgba($clr-dark, 0.9);
+      background-color: $clr-navbar-bg;
+      background-color: rgba($clr-navbar-bg, 0.9);
 
       & .nav li a {
         color: white;
