@@ -44,13 +44,13 @@ fields:
       format: markdown
   label: Available Kittens Paragraph
   description: The paragraph of the Available Kittens section.
-- name: available-kittens-img
+- name: litter-img
   type: file
   config:
     maxSize: 64
-  label: Available Kittens Image
-  description: The image below the Available Kittens subheading.
-- name: available-kittens-img-alt
+  label: Litter Image
+  description: The picture of the litter.
+- name: litter-img-alt
   type: textarea
   default: ''
   config:
@@ -58,7 +58,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Available Kittens Image Alternative Text
+  label: Litter Image Alternative Text
   description: Alternative text helps visually impaired users using screen readers
     and improves search engine optimization.
 - name: available-kittens
