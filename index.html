@@ -8,10 +8,7 @@ available-kittens-title: WEDDED BLISS 2020
 available-kittens-body:
   The babies are here! Born August 18. Available to go home
   November 10, 2020.
-available-kittens-picture:
-  The babies are here! Born August 18. Available to go home
-  November 10, 2020.
-litter-img: ''
+litter-img: '/assets/img/available-kittens/litter.webp'
 litter-img-alt: A litter of nine kittens
 available-kittens:
   - name: Amanda
@@ -88,9 +85,10 @@ shipping-body:
     <div class="row mt-5">
       <div class="col text-center">
         <h2 class="section-heading bold">{{ page.available-kittens-title }}</h2>
-        <h3 class="section-body">{{ page.available-kittens-subheading }}</h3>
+        <h3 class="section-body">{{ page.available-kittens-body }}</h3>
       </div>
     </div>
+    {% if page.litter-img != '' %}
     <div class="row mt-4 mb-6">
       <div class="col text-center">
         <img
@@ -100,6 +98,8 @@ shipping-body:
         />
       </div>
     </div>
+    {% endif %}
+
     <div class="row">
       {% for kitten in page.available-kittens %}
       <div class="col-md-4 col-sm-6 text-center">
