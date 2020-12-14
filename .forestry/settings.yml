@@ -21,7 +21,6 @@ sections:
 - type: document
   path: _pages/fur-ever-homes.html
   label: Fur-ever Homes Page
-  match: "**/*"
 - type: document
   path: _data/theme.yml
   label: Theme
