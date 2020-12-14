@@ -16,7 +16,7 @@ header {
     #41295a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background-position: top;
+  background-position: 50% 13%;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -87,7 +87,7 @@ header .subheading:first-child {
   }
 
   header .subheading {
-    font-size: 32px;
+    font-size: 34px;
   }
 
   header .heading {
@@ -95,6 +95,6 @@ header .subheading:first-child {
   }
 
   header .heading + .subheading {
-    margin-bottom: 55vh;
+    margin-bottom: 400px;
   }
 }

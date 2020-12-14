@@ -17,3 +17,14 @@
 #past-litters a .section-heading {
   transition: 0.2s ease color;
 }
+
+#past-litters .carousel .carousel-item > img {
+  max-height: 450px;
+  max-width: 650px;
+}
+
+@media only screen and (min-width: 768px) {
+  #past-litters .carousel .carousel-item > img {
+    max-height: 600px;
+  }
+}
