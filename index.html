@@ -9,14 +9,12 @@ available-kittens-body:
   We're sorry, we don't have any available kittens at this time.
   Please check back with us in February and March.
 litter-title: ''
-litter-img: ''
 available-kittens: []
 deposit: 500
 shipping-title: SHIPPING TEMPORARILY SUSPENDED
 shipping-body:
   PetSafe shipping has been suspended due to Covid-19. We'll update you
   once the situation changes.
-litter-img-alt: ''
 gallery-title: photo gallery
 gallery:
   - path: '/assets/img/home/gallery/1.webp'
@@ -141,17 +139,6 @@ gallery:
       </div>
       {% endfor %}
     </div>
-    {% if page.litter-img != '' %}
-    <div class="row">
-      <div class="col text-center">
-        <img
-          src="{{ site.baseurl }}{{ page.litter-img }}"
-          alt="{{ page.litter-img-alt }}"
-          class="img-fluid rounded"
-        />
-      </div>
-    </div>
-    {% endif %}
   </div>
 </section>
 
