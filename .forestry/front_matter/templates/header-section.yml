@@ -53,7 +53,8 @@ fields:
     schema:
       format: markdown
   label: Litter Title
-  description: The name of the litter.
+  description: The name of the litter. For example "wedded bliss 2020". Leave empty
+    if there are not currently any available kittens.
 - name: available-kittens
   type: field_group_list
   fields:
