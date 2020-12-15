@@ -41,7 +41,7 @@ header {
   }
 
   & .row:first-child {
-    margin: 80px 0 120px;
+    margin: 80px 0 130px;
   }
 
   // Second subheading.
@@ -118,6 +118,10 @@ header {
 
     & .row:first-child {
       margin: 50px 0 400px;
+    }
+
+    & .row:nth-child(2) {
+      padding-bottom: 3rem !important;
     }
 
     & .fa-arrow-down {
