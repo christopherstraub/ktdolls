@@ -69,6 +69,8 @@ gallery:
     caption: 'Summer 2019'
   - path: '/assets/img/home/gallery/26.webp'
     caption: 'Cyrus: In Loving Memory'
+kitten-deposit-title: kitten deposit
+kitten-deposit-body: A $500 deposit will reserve your kitten until they are ready to go to their fur-ever home at 12 weeks.
 ---
 
 <!-- Landing Page -->
@@ -98,7 +100,6 @@ gallery:
 <!-- Available Kittens Section -->
 <section id="available-kittens">
   <div class="container">
-    <div class="row mt-5">
       <div class="col text-center">
         <h2 class="section-heading bold">{{ page.available-kittens-title }}</h2>
         <h3 class="section-body">{{ page.available-kittens-body }}</h3>
@@ -139,6 +140,69 @@ gallery:
       </div>
       {% endfor %}
     </div>
+  </div>
+</section>
+
+<!-- Kitten Deposit Section -->
+<section id="kitten-deposit" class="pt-0">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col text-center">
+        <h2 class="section-heading bold">
+          {{ page.kitten-deposit-title }}
+        </h2>
+        <h3 class="section-body mb-5">{{ page.kitten-deposit-body }}</h3>
+      </div>
+    </div>
+    <div id="smart-button-container">
+      <div style="text-align: center">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+    <script
+      src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
+      data-sdk-integration-source="button-factory"
+    ></script>
+    <script>
+      function initPayPalButton() {
+        paypal
+          .Buttons({
+            style: {
+              shape: 'rect',
+              color: 'white',
+              layout: 'vertical',
+              label: 'pay',
+            },
+
+            createOrder: function (data, actions) {
+              return actions.order.create({
+                purchase_units: [
+                  {
+                    description: 'Kitten deposit.',
+                    amount: { currency_code: 'USD', value: 500 },
+                  },
+                ],
+              });
+            },
+
+            onApprove: function (data, actions) {
+              return actions.order.capture().then(function (details) {
+                alert(
+                  'Transaction completed by ' +
+                    details.payer.name.given_name +
+                    '!'
+                );
+              });
+            },
+
+            onError: function (err) {
+              console.log(err);
+            },
+          })
+          .render('#paypal-button-container');
+      }
+      initPayPalButton();
+    </script>
   </div>
 </section>
 
