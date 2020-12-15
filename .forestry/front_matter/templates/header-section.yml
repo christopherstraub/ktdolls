@@ -147,5 +147,40 @@ fields:
       format: markdown
   label: Shipping Paragraph
   description: The paragraph of the Shipping section.
+- name: gallery-title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Photo Gallery Title
+  description: The title of the photo gallery.
+- name: gallery
+  type: field_group_list
+  fields:
+  - name: path
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    description: An image.
+  - name: caption
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Caption
+    description: The image caption.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Photos
+  description: The photos contained in the gallery.
 pages:
 - index.html
