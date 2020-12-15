@@ -23,110 +23,96 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
+  & > container-fluid {
+    padding: 0 2rem;
+  }
+
+  & .heading,
+  & .subheading {
+    font-family: $font-secondary;
+    text-transform: none;
+    font-weight: normal;
+  }
+
+  & .heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding-top: 80px;
+  }
+
+  & .subheading {
+    font-size: 20px;
+  }
+
+  // First subheading.
+  & .heading + .subheading {
+    margin-bottom: 150px;
+  }
+
+  // Second subheading.
+  & .subheading:first-child {
+    cursor: default;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(black, 0.25);
+    transition: background-color 0.15s;
+
+    &:hover {
+      background-color: rgba(black, 0.5);
+    }
+  }
+
+  & a {
+    color: white;
+    font-weight: bold;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: white;
+    }
+  }
+
+  & .fa-arrow-down {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    color: $clr-primary;
+    font-size: 6rem;
+    transform: translateX(-50%);
+    bottom: -8rem;
+    transition: color 0.15s;
+
+    &:hover {
+      color: $clr-secondary;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
   header {
     margin: 0 16px;
     border-radius: 10px;
-  }
-}
 
-header a {
-  color: white;
-  font-weight: bold;
+    & > .container-fluid {
+      padding: 0 4rem;
+    }
 
-  &:hover,
-  &:focus,
-  &:active,
-  &.active {
-    color: white;
-  }
-}
+    & .heading {
+      font-size: 52px;
+      margin-bottom: 15px;
+      padding-top: 50px;
+    }
 
-header > .container-fluid {
-  padding: 0 2rem;
-}
+    & .subheading {
+      font-size: 32px;
+    }
 
-@media only screen and (min-width: 768px) {
-  header > .container-fluid {
-    padding: 0 4rem;
-  }
-}
-
-header .heading,
-header .subheading {
-  font-family: $font-secondary;
-  text-transform: none;
-  font-weight: normal;
-}
-
-header .heading {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-  header .heading {
-    margin-bottom: 15px;
-  }
-}
-
-header .subheading {
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-header .heading {
-  padding-top: 80px;
-}
-
-header .heading + .subheading {
-  margin-bottom: 175px;
-}
-
-header .subheading:first-child {
-  cursor: default;
-  display: inline-block;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: rgba(black, 0.25);
-  transition: background-color 0.15s;
-
-  &:hover {
-    background-color: rgba(black, 0.5);
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  header .heading {
-    font-size: 52px;
-  }
-
-  header .subheading {
-    font-size: 32px;
-  }
-
-  header .heading {
-    padding-top: 50px;
-  }
-
-  header .heading + .subheading {
-    margin-bottom: 400px;
-  }
-}
-
-header .fa-arrow-down {
-  position: absolute;
-  cursor: pointer;
-  z-index: 1;
-  color: $clr-primary;
-  font-size: 6rem;
-  transform: translateX(-50%);
-  bottom: -8rem;
-  transition: color 0.15s;
-
-  &:hover {
-    color: $clr-secondary;
+    & .heading + .subheading {
+      margin-bottom: 400px;
+    }
   }
 }
