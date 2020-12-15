@@ -61,6 +61,16 @@ fields:
   label: Litter Image Alternative Text
   description: Alternative text helps visually impaired users using screen readers
     and improves search engine optimization.
+- name: litter-title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Litter Title
+  description: The name of the litter.
 - name: available-kittens
   type: field_group_list
   fields:
