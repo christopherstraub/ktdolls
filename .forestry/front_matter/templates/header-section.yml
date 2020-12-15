@@ -53,8 +53,8 @@ fields:
     schema:
       format: markdown
   label: Litter Title
-  description: The name of the litter. For example "wedded bliss 2020". Leave empty
-    if there are not currently any available kittens.
+  description: The name of the litter. For example "wedded bliss 2020". Field should
+    be empty if there are not currently any available kittens.
 - name: available-kittens
   type: field_group_list
   fields:
@@ -108,7 +108,8 @@ fields:
   config:
     maxSize: 64
   label: Litter Image
-  description: The picture of the litter.
+  description: The picture of the litter. There should be no image if there are not
+    currently any available kittens.
 - name: litter-img-alt
   type: textarea
   default: ''
