@@ -51,5 +51,5 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Gallery
-  description: The gallery of the Fur-ever Homes page.
+  label: Photos
+  description: The photos on the Fur-ever Homes page.
