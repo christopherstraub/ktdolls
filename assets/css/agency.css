@@ -178,11 +178,10 @@ fieldset[disabled] .btn-xl.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-    background: rgba(75, 0, 132, .3); /* Fallback for browsers with no support for 8-digit hex codes */
-    background: {{ site.data.theme.colors.primary }}4d;
+    -webkit-transition: all ease .25s;
+    -moz-transition: all ease .25s;
+    transition: all ease .25s;
+    background-color: {{ site.data.theme.colors.secondary }}4d; /* 4d = 30% opacity */
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {

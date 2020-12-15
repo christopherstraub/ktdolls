@@ -1,6 +1,45 @@
 ---
 permalink: /fur-ever-homes/
 title: Fur-ever Homes | KTDolls
+page-title: FUR-EVER HOMES
+page-body: Meet our families!
+gallery:
+  - path: '/assets/img/fur-ever-homes/1.webp'
+    title: Bryan & Vanessa
+    subtitle:
+  - path: '/assets/img/fur-ever-homes/2.webp'
+    title: Todd & Leslie
+    subtitle:
+  - path: '/assets/img/fur-ever-homes/3.webp'
+    title: Keith & Kimberly
+    subtitle:
+  - path: '/assets/img/fur-ever-homes/4.webp'
+    title: Cloe & Patricia
+    subtitle:
+  - path: '/assets/img/fur-ever-homes/5.webp'
+    title: Glenda & Joyce
+    subtitle:
+  - path: '/assets/img/fur-ever-homes/6.webp'
+    title: Ray & Kai
+    subtitle: Ray & Kai now live with their kids in Weston Lakes, TX.
+  - path: '/assets/img/fur-ever-homes/7.webp'
+    title: Dayton & Mike
+    subtitle: Dayton now lives with Mike & Family in Houston, TX.
+  - path: '/assets/img/fur-ever-homes/8.webp'
+    title: Idalia & her brother
+    subtitle: Idalia lives with her new brother in Corpus Christi, TX.
+  - path: '/assets/img/fur-ever-homes/9.webp'
+    title: Anakin, Malla & Brian
+    subtitle: Anakin & Malla (Beaux & Cloe) now live in Indiana with their furever mom & dad; Wendy & Brian.
+  - path: '/assets/img/fur-ever-homes/10.webp'
+    title: Binks, Padme & Josie
+    subtitle: Binks & Padme now live with Josie in Cat Springs, Texas.
+  - path: '/assets/img/fur-ever-homes/11.webp'
+    title: Rose & Ben
+    subtitle: Rose now lives with her dad Ben in Las Vegas, NV.
+  - path: '/assets/img/fur-ever-homes/12.webp'
+    title: Schmi & her parents
+    subtitle: Shmi now lives with her mommy & daddy in Tampa, Florida.
 ---
 
 <section>
@@ -9,28 +48,24 @@ title: Fur-ever Homes | KTDolls
 
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading bold">FUR-EVER HOMES</h2>
-        <p class="section-body">Meet our families!</p>
+        <h2 class="section-heading bold">{{ page.page-title }}</h2>
+        <p class="section-body">{{ page.page-body }}</p>
       </div>
     </div>
 
     <div id="portfolio" class="mt-5">
       <div class="gallery">
-        {% for family in site.data.families %}
+        {% for image in page.gallery %}
         <div class="portfolio-item">
           <a
-            href="#{{ family.pic }}"
+            href="#{{ forloop.index }}"
             class="portfolio-link"
             data-toggle="modal"
           >
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
+            <div class="portfolio-hover"></div>
             <img
-              src="{{ site.baseurl }}/assets/img/fur-ever-homes/{{ family.img }}"
-              alt=""
+              src="{{ site.baseurl }}{{ image.path }}"
+              alt="{{ image.title }}"
             />
           </a>
         </div>
@@ -40,3 +75,133 @@ title: Fur-ever Homes | KTDolls
     </div>
   </div>
 </section>
+
+<!-- Fur-ever Homes Modals -->
+{% for image in page.gallery %}
+<div
+  class="portfolio-modal modal"
+  id="{{ forloop.index }}"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+        <div class="modal-body">
+          <div>
+            <div class="family-heading">
+              <h2>{{ image.title }}</h2>
+              <div class="flex-center">
+                {% if forloop.first %}
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-dismiss="modal"
+                  data-toggle="modal"
+                  data-target="#{{ forloop.length }}"
+                >
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+                {% else %}
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-dismiss="modal"
+                  data-toggle="modal"
+                  data-target="#{{ forloop.index | minus: 1 }}"
+                >
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+                {% endif %}
+
+                <h3>{{ forloop.index }}/{{ forloop.length }}</h3>
+                {% if forloop.last %}
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-dismiss="modal"
+                  data-toggle="modal"
+                  data-target="#1"
+                >
+                  <i class="fa fa-arrow-right"></i>
+                </button>
+                {% else %}
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  data-dismiss="modal"
+                  data-toggle="modal"
+                  data-target="#{{ forloop.index | plus: 1 }}"
+                >
+                  <i class="fa fa-arrow-right"></i>
+                </button>
+                {% endif %}
+              </div>
+            </div>
+            <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                <div class="rl"></div>
+              </div>
+            </div>
+          </div>
+          <hr class="hr-dark" />
+          <div class="flex-center">
+            <img
+              src="{{ site.baseurl }}{{ image.path }}"
+              class="img-fluid"
+              alt="{{image.title }}"
+            />
+          </div>
+          <div class="modal-nav-mobile flex-center">
+            {% if forloop.first %}
+            <button
+              type="button"
+              class="btn btn-custom"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#{{ forloop.length }}"
+            >
+              <i class="fa fa-arrow-left"></i>
+            </button>
+            {% else %}
+            <button
+              type="button"
+              class="btn btn-custom"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#{{ forloop.index | minus: 1 }}"
+            >
+              <i class="fa fa-arrow-left"></i>
+            </button>
+            {% endif %}
+            <h4 class="family-heading-text-mobile">{{ image.title }}</h4>
+            {% if forloop.last %}
+            <button
+              type="button"
+              class="btn btn-custom"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#1"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </button>
+            {% else %}
+            <button
+              type="button"
+              class="btn btn-custom"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#{{ forloop.index | plus: 1 }}"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </button>
+            {% endif %}
+          </div>
+          <h3 class="family-subtitle section-body">{{ image.subtitle }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
