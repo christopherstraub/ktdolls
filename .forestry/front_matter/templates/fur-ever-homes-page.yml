@@ -21,12 +21,12 @@ fields:
 - name: gallery
   type: field_group_list
   fields:
-  - name: image
+  - name: path
     type: file
     config:
       maxSize: 64
     label: Image
-    description: The picture of the family.
+    description: A picture of the family.
   - name: title
     type: textarea
     default: ''
