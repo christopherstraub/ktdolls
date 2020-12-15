@@ -1,21 +1,21 @@
-#past-litters .section-heading {
+#past-litters .litter-title {
   display: inline-block;
 }
 
 #past-litters .litter-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
-#past-litters .section-heading + .section-body {
-  margin-bottom: -75px;
+#past-litters .section-heading.bold + .section-body {
+  margin-bottom: -50px;
 }
 
-#past-litters a .section-heading:hover {
+#past-litters a .litter-title:hover {
   color: $clr-secondary;
 }
 
-#past-litters a .section-heading {
-  transition: 0.2s ease color;
+#past-litters a .litter-title {
+  transition: color 0.15s;
 }
 
 #past-litters .carousel .carousel-item > img {
