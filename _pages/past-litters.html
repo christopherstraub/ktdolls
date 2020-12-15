@@ -75,7 +75,7 @@ litters:
 
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading bold">{{ page.page-title }}</h2>
+        <h2 class="section-heading bold below-hr">{{ page.page-title }}</h2>
         <p class="section-body">
           Scroll or click litter title to jump to photo gallery.
         </p>
@@ -83,7 +83,7 @@ litters:
     </div>
 
     {% for litter in page.litters %}
-    <div id="{{ litter.title | slugify }}" class="litter-section row mt-4">
+    <div id="{{ litter.title | slugify }}" class="litter-section row">
       <div class="col text-center">
         <a href="#{{ litter.title | slugify }}">
           <h3 class="litter-title text-uppercase">{{ litter.title }}</h3>

@@ -114,5 +114,9 @@ header {
     & .heading + .subheading {
       margin-bottom: 400px;
     }
+
+    & .fa-arrow-down {
+      display: none;
+    }
   }
 }

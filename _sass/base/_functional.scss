@@ -15,6 +15,7 @@
 @media only screen and (min-width: 768px) {
   .hr-dark {
     display: block;
+    margin-top: -100px;
   }
 }
 
@@ -44,13 +45,10 @@
   &.bold {
     font-size: 40px;
     font-weight: bold;
-    padding-top: 100px;
   }
-}
 
-@media (min-width: 768px) {
-  .section-heading.bold {
-    padding-top: 75px;
+  &.bold.below-hr {
+    padding-top: 50px;
   }
 }
 
