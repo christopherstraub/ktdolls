@@ -19,6 +19,9 @@ sections:
   path: _pages/past-litters.html
   label: Past Litters Page
 - type: document
+  path: _pages/fur-ever-homes.html
+  label: Fur-ever Homes Page
+- type: document
   path: _data/theme.yml
   label: Theme
 upload_dir: uploads
