@@ -44,23 +44,6 @@ fields:
       format: markdown
   label: Available Kittens Paragraph
   description: The paragraph of the Available Kittens section.
-- name: litter-img
-  type: file
-  config:
-    maxSize: 64
-  label: Litter Image
-  description: The picture of the litter.
-- name: litter-img-alt
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Litter Image Alternative Text
-  description: Alternative text helps visually impaired users using screen readers
-    and improves search engine optimization.
 - name: litter-title
   type: textarea
   default: ''
@@ -119,6 +102,23 @@ fields:
   label: Available Kittens
   description: List of available kittens (name, reservation status, picture, description,
     cost, and deposit).
+- name: litter-img
+  type: file
+  config:
+    maxSize: 64
+  label: Litter Image
+  description: The picture of the litter.
+- name: litter-img-alt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Litter Image Alternative Text
+  description: Alternative text helps visually impaired users using screen readers
+    and improves search engine optimization.
 - name: deposit
   type: number
   description: The cost of a kitten deposit. For example "500".
