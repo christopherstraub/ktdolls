@@ -8,16 +8,25 @@ available-kittens-title: available kittens
 available-kittens-body:
   We're sorry, we don't have any available kittens at this time.
   Please check back with us in February and March.
-available-kittens-picture:
-  The babies are here! Born August 18. Available to go home
-  November 10, 2020.
+litter-title: wedded bliss 2020
+litter-img: '/uploads/2020/download.jpg'
 available-kittens:
-  - name: ''
+  - name: 'test'
+    reserved: false
+    img: '/uploads/2020/download.jpg'
+    description: 'desc'
+    cost: 1000
+  - name: 'test'
+    reserved: false
+    img: '/uploads/2020/download.jpg'
+    description: 'desc'
+    cost: 1000
+  - name: 'test'
     reserved: false
     img: '/uploads/2020/download.jpg'
     description: ''
     cost:
-  - name: ''
+  - name: 'test'
     reserved: false
     img: '/uploads/2020/download.jpg'
     description: ''
@@ -29,7 +38,6 @@ shipping-body:
   once the situation changes.
 ---
 
----
 <!-- Landing Page -->
 <header style="background-image: url('{{ page.bg-img }}');">
   <div class="container-fluid">
@@ -66,14 +74,16 @@ shipping-body:
 
     <div class="row">
       <div class="col text-center">
-        <h2 class="section-heading bold mt-5 pt-0">{{ page.litter-title }}</h2>
+        <h2 class="litter-title text-uppercase mt-5 pt-0">
+          {{ page.litter-title }}
+        </h2>
       </div>
     </div>
 
     <div class="row">
       {% for kitten in page.available-kittens %}
       <div class="col-md-4 col-sm-6 text-center">
-        <div class="mb-6">
+        <div class="mb-5">
           {% if kitten.reserved %}
           <h4 class="title mb-4 text-capitalize">
             {{ kitten.name }} (Reserved)

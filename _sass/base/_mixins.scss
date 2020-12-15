@@ -12,10 +12,16 @@
   }
 }
 
-@mixin font-default($color, $font-size, $font-weight: normal) {
+@mixin font-default(
+  $color,
+  $font-size,
+  $font-weight: normal,
+  $font-family: $font-primary
+) {
   color: $color;
   font-size: $font-size;
-  font-family: $font-primary;
+  font-family: $font-family;
+  font-weight: $font-weight;
   text-transform: none;
   font-weight: $font-weight;
   line-height: 1.6;

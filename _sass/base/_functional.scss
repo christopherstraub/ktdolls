@@ -85,6 +85,10 @@
   @include font-default($clr-dark-accent, 20px);
 }
 
+.litter-title {
+  @include font-default($clr-primary, 36px, normal, $font-secondary);
+}
+
 .img-fluid {
   max-height: 450px;
 }
