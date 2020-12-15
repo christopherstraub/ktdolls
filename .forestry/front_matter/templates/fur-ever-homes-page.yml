@@ -27,16 +27,6 @@ fields:
       maxSize: 64
     label: Image
     description: A picture of the family.
-  - name: title
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Title
-    description: The name of the family.
   - name: subtitle
     type: textarea
     default: ''
@@ -47,6 +37,16 @@ fields:
         format: markdown
     description: A description of the family. Not mandatory.
     label: Subtitle
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Title
+    description: The name of the family.
   config:
     min: 
     max: 
