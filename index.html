@@ -8,17 +8,15 @@ available-kittens-title: available kittens
 available-kittens-body:
   We're sorry, we don't have any available kittens at this time.
   Please check back with us in February and March.
-available-kittens-picture:
-  The babies are here! Born August 18. Available to go home
-  November 10, 2020.
+litter-title: 'wedded bliss'
 available-kittens: []
+litter-img: '/assets/img/header-background.jpg'
+litter-img-alt: ''
 deposit: 500
 shipping-title: SHIPPING TEMPORARILY SUSPENDED
 shipping-body:
   PetSafe shipping has been suspended due to Covid-19. We'll update you
   once the situation changes.
-litter-img: ''
-litter-img-alt: ''
 ---
 
 <!-- Landing Page -->
@@ -51,20 +49,15 @@ litter-img-alt: ''
     <div class="row mt-5">
       <div class="col text-center">
         <h2 class="section-heading bold">{{ page.available-kittens-title }}</h2>
-        <h3 class="section-body">{{ page.available-kittens-body }}</h3>
+        <h3 class="section-body mb-5">{{ page.available-kittens-body }}</h3>
       </div>
     </div>
-    {% if page.litter-img != '' %}
-    <div class="row mt-4 mb-6">
+
+    <div class="row">
       <div class="col text-center">
-        <img
-          src="{{ site.baseurl }}{{ page.litter-img }}"
-          alt="{{ page.litter-img-alt }}"
-          class="img-fluid rounded"
-        />
+        <h2 class="section-heading bold mt-5 pt-0">{{ page.litter-title }}</h2>
       </div>
     </div>
-    {% endif %}
 
     <div class="row">
       {% for kitten in page.available-kittens %}
@@ -90,6 +83,17 @@ litter-img-alt: ''
       </div>
       {% endfor %}
     </div>
+    {% if page.litter-img != '' %}
+    <div class="row">
+      <div class="col text-center">
+        <img
+          src="{{ site.baseurl }}{{ page.litter-img }}"
+          alt="{{ page.litter-img-alt }}"
+          class="img-fluid rounded"
+        />
+      </div>
+    </div>
+    {% endif %}
   </div>
 </section>
 

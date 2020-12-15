@@ -89,8 +89,6 @@
   max-height: 450px;
 }
 
-@media (min-width: 768px) {
-  .img-fluid {
-    max-height: 600px;
-  }
+#available-kittens .img-fluid {
+  max-height: 300px;
 }
