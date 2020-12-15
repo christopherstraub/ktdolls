@@ -1,4 +1,5 @@
 header {
+  position: relative;
   text-align: center;
   color: #fff;
   background-attachment: scroll;
@@ -62,6 +63,13 @@ header .subheading {
 
 header .heading {
   font-size: 32px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  header .heading {
+    margin-bottom: 20px;
+  }
 }
 
 header .subheading {
@@ -78,16 +86,25 @@ header .heading + .subheading {
 }
 
 header .subheading:first-child {
-  font-family: $font-primary;
+  cursor: default;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(black, 0.25);
+  transition: background-color 0.15s;
+
+  &:hover {
+    background-color: rgba(black, 0.5);
+  }
 }
 
 @media only screen and (min-width: 768px) {
   header .heading {
-    font-size: 64px;
+    font-size: 52px;
   }
 
   header .subheading {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   header .heading {
@@ -96,5 +113,20 @@ header .subheading:first-child {
 
   header .heading + .subheading {
     margin-bottom: 400px;
+  }
+}
+
+header .fa-arrow-down {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  color: $clr-primary;
+  font-size: 6rem;
+  transform: translateX(-50%);
+  bottom: -8rem;
+  transition: color 0.15s;
+
+  &:hover {
+    color: $clr-secondary;
   }
 }
