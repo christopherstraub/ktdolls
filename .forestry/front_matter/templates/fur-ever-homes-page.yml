@@ -53,3 +53,5 @@ fields:
     labelField: title
   label: Photos
   description: The photos on the Fur-ever Homes page.
+pages:
+- _pages/fur-ever-homes.html
