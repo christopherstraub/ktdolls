@@ -1,4 +1,24 @@
 ---
 label: Fur-ever Homes Page
 hide_body: true
-fields: []
+fields:
+- name: page-title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Title
+  description: The title of the Fur-ever Homes page.
+- name: page-body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Body
+  description: The body of the Fur-ever Homes page.
