@@ -24,10 +24,6 @@ header {
   background-size: cover;
   -o-background-size: cover;
 
-  & > container-fluid {
-    padding: 0 2rem;
-  }
-
   & .heading,
   & .subheading {
     font-family: $font-secondary;
@@ -36,23 +32,20 @@ header {
   }
 
   & .heading {
-    font-size: 32px;
-    margin-bottom: 10px;
-    padding-top: 80px;
+    font-size: 30px;
   }
 
   & .subheading {
+    line-height: 1.2;
     font-size: 22px;
   }
 
-  // First subheading.
-  & .heading + .subheading {
-    margin-bottom: 150px;
+  & .row:first-child {
+    margin: 80px 0 150px;
   }
 
   // Second subheading.
   & .subheading:first-child {
-    cursor: default;
     display: inline-block;
     border-radius: 10px;
     padding: 10px;
@@ -92,6 +85,19 @@ header {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  header .row:first-child {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(black, 0.25);
+    transition: background-color 0.15s;
+
+    &:hover {
+      background-color: rgba(black, 0.5);
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
   header {
     margin: 0 16px;
@@ -104,15 +110,14 @@ header {
     & .heading {
       font-size: 52px;
       margin-bottom: 15px;
-      padding-top: 50px;
     }
 
     & .subheading {
       font-size: 32px;
     }
 
-    & .heading + .subheading {
-      margin-bottom: 400px;
+    & .row:first-child {
+      margin: 50px 0 400px;
     }
 
     & .fa-arrow-down {
