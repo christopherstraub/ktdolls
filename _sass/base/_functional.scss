@@ -56,6 +56,7 @@
 
 .section-body {
   @include font-default($clr-dark, 20px);
+  line-height: 1.4;
 }
 
 .title {
