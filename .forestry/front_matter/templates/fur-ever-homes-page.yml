@@ -50,6 +50,6 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Photos
   description: The photos on the Fur-ever Homes page.
