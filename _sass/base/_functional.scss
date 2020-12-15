@@ -70,14 +70,6 @@
   @include font-default($clr-primary, 36px, normal, $font-secondary);
 }
 
-.img-fluid {
-  max-height: 450px;
-}
-
-#available-kittens .img-fluid {
-  max-height: 300px;
-}
-
 .carousel {
   width: fit-content;
   max-width: 400px;
@@ -97,6 +89,16 @@
   }
 }
 
-.carousel-item .img-fluid {
-  height: 450px;
+// Default image size.
+.img-fluid {
+  max-height: 450px;
+}
+
+.carousel .img-fluid {
+  min-height: 450px;
+}
+
+// Specific image sizes.
+#available-kittens .img-fluid {
+  max-height: 300px;
 }
