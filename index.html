@@ -1,22 +1,24 @@
 ---
-permalink: "/"
+permalink: '/'
 layout: home
 heading: Family-owned cattery from Katy, Texas.
 subheading: Pedigreed Traditional and Mink Ragdoll kittens for sale.
-bg-img: "/assets/img/header-background.jpg"
+bg-img: '/assets/img/header-background.jpg'
 available-kittens-title: available kittens
-available-kittens-body: We're sorry, we don't have any available kittens at this time.
+available-kittens-body:
+  We're sorry, we don't have any available kittens at this time.
   Please check back with us in February and March.
 litter-title: ''
 litter-img: ''
 available-kittens: []
 deposit: 500
 shipping-title: SHIPPING TEMPORARILY SUSPENDED
-shipping-body: PetSafe shipping has been suspended due to Covid-19. We'll update you
+shipping-body:
+  PetSafe shipping has been suspended due to Covid-19. We'll update you
   once the situation changes.
 litter-img-alt: ''
-
 ---
+
 <!-- Landing Page -->
 <header style="background-image: url('{{ page.bg-img }}');">
   <div class="container-fluid">
@@ -47,10 +49,11 @@ litter-img-alt: ''
     <div class="row mt-5">
       <div class="col text-center">
         <h2 class="section-heading bold">{{ page.available-kittens-title }}</h2>
-        <h3 class="section-body mb-5">{{ page.available-kittens-body }}</h3>
+        <h3 class="section-body">{{ page.available-kittens-body }}</h3>
       </div>
     </div>
 
+    {% if page.litter-title != '' %}
     <div class="row">
       <div class="col text-center">
         <h2 class="litter-title text-uppercase mt-5 pt-0">
@@ -58,6 +61,7 @@ litter-img-alt: ''
         </h2>
       </div>
     </div>
+    {% endif %}
 
     <div class="row">
       {% for kitten in page.available-kittens %}
