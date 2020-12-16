@@ -41,7 +41,7 @@ header {
   }
 
   & .row:first-child {
-    margin: 80px 0 130px;
+    margin: 80px 0 145px;
   }
 
   // Second subheading.
@@ -74,9 +74,9 @@ header {
     cursor: pointer;
     z-index: 1;
     color: $clr-primary;
-    font-size: 6rem;
+    font-size: 5rem;
     transform: translateX(-50%);
-    bottom: -8rem;
+    bottom: -6rem;
     transition: color 0.15s;
 
     &:hover {
