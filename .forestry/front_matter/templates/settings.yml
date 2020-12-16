@@ -14,12 +14,18 @@ fields:
     required: false
   label: Contact number
   description: Contact phone/text number.
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+  description: The logo appears in the footer.
 - name: title
   type: text
   config:
     required: false
   label: Site Title
-  description: The title of the website.
+  description: The title of the website. Appears in the browser.
 - name: description
   type: textarea
   default: ''
@@ -29,7 +35,7 @@ fields:
     schema:
       format: markdown
   label: Site description
-  description: A description of the website.
+  description: A description of the website. Appears in the browser.
 - name: social
   type: field_group_list
   fields:
