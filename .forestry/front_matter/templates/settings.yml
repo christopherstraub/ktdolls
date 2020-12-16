@@ -12,7 +12,7 @@ fields:
   type: text
   config:
     required: false
-  label: Contact number
+  label: Contact Number
   description: Contact phone/text number.
 - name: logo
   type: file
@@ -34,7 +34,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Site description
+  label: Site Description
   description: A description of the website. Appears in the browser.
 - name: social
   type: field_group_list
