@@ -44,6 +44,13 @@ fields:
       format: markdown
   label: Available Kittens Paragraph
   description: The paragraph of the Available Kittens section.
+- name: available-kittens-img
+  type: file
+  config:
+    maxSize: 64
+  label: Available Kittens Image
+  description: The image under the Available Kittens paragraph. Can leave empty or
+    upload image of expecting couple or litter.
 - name: litter-title
   type: textarea
   default: ''
