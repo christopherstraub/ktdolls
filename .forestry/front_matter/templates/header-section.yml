@@ -51,6 +51,17 @@ fields:
   label: Available Kittens Image
   description: The image under the Available Kittens paragraph. Can leave empty or
     upload image of expecting couple or litter.
+- name: available-kittens-img-alt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  description: Alternative text helps visually impaired users using screen readers
+    and improves search engine optimization.
+  label: Available Kittens Image Alternative Text
 - name: litter-title
   type: textarea
   default: ''
