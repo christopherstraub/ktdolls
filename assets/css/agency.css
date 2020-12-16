@@ -523,7 +523,7 @@ footer span.copyright {
     font-size: 20px;
     text-transform: capitalize;
     font-family: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }};
-    line-height: 40px;
+    line-height: 1.4;
 }
 
 footer ul.quicklinks {
