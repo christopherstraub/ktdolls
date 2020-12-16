@@ -24,6 +24,7 @@ $font-logo: {{ site.data.theme.fonts.logo }}, {{ site.data.theme.fonts.backup }}
 
 // Layout.
 @import 'layout/families';
+@import 'layout/footer';
 @import 'layout/header';
 @import 'layout/nav-background';
 @import 'layout/nav';
