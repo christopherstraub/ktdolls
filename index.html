@@ -3,11 +3,13 @@ permalink: '/'
 layout: home
 heading: Family-owned cattery from Katy, Texas.
 subheading: Pedigreed Traditional and Mink Ragdoll kittens for sale.
-bg-img: '/assets/img/home/header-background.jpg'
+bg-img: '/assets/img/home/header-background.webp'
 available-kittens-title: available kittens
 available-kittens-body:
   We're sorry, we don't have any available kittens at this time.
   Please check back with us in February and March.
+available-kittens-img: '/assets/img/home/expecting-feb-2021.webp'
+available-kittens-img-alt: 'Expecting February 2021'
 litter-title: ''
 available-kittens: []
 deposit: 500
@@ -106,6 +108,18 @@ kitten-deposit-body: A $500 deposit will reserve your kitten until they are read
       </div>
     </div>
 
+    {% if page.available-kittens-img != '' %}
+    <div class="row mt-4">
+      <div class="col text-center">
+        <img
+          src="{{ site.baseurl }}{{ page.available-kittens-img }}"
+          alt="{{ page.available-kittens-img-alt }}"
+          class="img-fluid rounded"
+        />
+      </div>
+    </div>
+    {% endif %}
+
     {% if page.litter-title != '' %}
     <div class="row">
       <div class="col text-center">
@@ -129,7 +143,7 @@ kitten-deposit-body: A $500 deposit will reserve your kitten until they are read
           {% endif %}
           <img
             src="{{ site.baseurl }}{{ kitten.img }}"
-            class="img-fluid rounded mb-4"
+            class="img-fluid rounded mb-4 available-kitten"
             alt="Kitten"
           />
           <p class="caption">

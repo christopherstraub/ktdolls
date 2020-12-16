@@ -88,7 +88,7 @@
   }
 }
 
-// Default image size.
+// Default image sizes.
 .img-fluid {
   max-height: 450px;
 }
@@ -98,6 +98,6 @@
 }
 
 // Specific image sizes.
-#available-kittens .img-fluid {
+#available-kittens .img-fluid.available-kitten {
   max-height: 300px;
 }
