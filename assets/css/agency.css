@@ -116,7 +116,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }};
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
     background-color: {{ site.data.theme.colors.primary }};
@@ -515,7 +515,7 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 15px 0 25px;
     text-align: center;
 }
 
@@ -523,7 +523,7 @@ footer span.copyright {
     font-size: 20px;
     text-transform: capitalize;
     font-family: {{ site.data.theme.fonts.primary }}, {{ site.data.theme.fonts.backup }};
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 footer ul.quicklinks {
