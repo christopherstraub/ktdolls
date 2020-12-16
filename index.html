@@ -102,58 +102,53 @@ kitten-deposit-body: A $500 deposit will reserve your kitten until they are read
 <!-- Available Kittens Section -->
 <section id="available-kittens">
   <div class="container">
+    <div class="row">
       <div class="col text-center">
         <h2 class="section-heading bold">{{ page.available-kittens-title }}</h2>
         <h3 class="section-body">{{ page.available-kittens-body }}</h3>
       </div>
     </div>
+  </div>
 
-    {% if page.available-kittens-img != '' %}
-    <div class="row mt-4">
-      <div class="col text-center">
+  {% if page.available-kittens-img != '' %}
+  <div class="col text-center mt-4">
+    <img
+      src="{{ site.baseurl }}{{ page.available-kittens-img }}"
+      alt="{{ page.available-kittens-img-alt }}"
+      class="img-fluid rounded"
+    />
+  </div>
+  {% endif %} {% if page.litter-title != '' %}
+  <div class="row">
+    <div class="col text-center">
+      <h2 class="litter-title text-uppercase mt-5 pt-0">
+        {{ page.litter-title }}
+      </h2>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="row">
+    {% for kitten in page.available-kittens %}
+    <div class="col-md-4 col-sm-6 text-center">
+      <div class="mb-5">
+        {% if kitten.reserved %}
+        <h4 class="title mb-4 text-capitalize">{{ kitten.name }} (Reserved)</h4>
+        {% else %}
+        <h4 class="title mb-4 text-capitalize">{{ kitten.name }}</h4>
+        {% endif %}
         <img
-          src="{{ site.baseurl }}{{ page.available-kittens-img }}"
-          alt="{{ page.available-kittens-img-alt }}"
-          class="img-fluid rounded"
+          src="{{ site.baseurl }}{{ kitten.img }}"
+          class="img-fluid rounded mb-4 available-kitten"
+          alt="Kitten"
         />
+        <p class="caption">
+          {{ kitten.description }}<br />${{ kitten.cost }}+tax/${{
+          page.deposit}} deposit.
+        </p>
       </div>
     </div>
-    {% endif %}
-
-    {% if page.litter-title != '' %}
-    <div class="row">
-      <div class="col text-center">
-        <h2 class="litter-title text-uppercase mt-5 pt-0">
-          {{ page.litter-title }}
-        </h2>
-      </div>
-    </div>
-    {% endif %}
-
-    <div class="row">
-      {% for kitten in page.available-kittens %}
-      <div class="col-md-4 col-sm-6 text-center">
-        <div class="mb-5">
-          {% if kitten.reserved %}
-          <h4 class="title mb-4 text-capitalize">
-            {{ kitten.name }} (Reserved)
-          </h4>
-          {% else %}
-          <h4 class="title mb-4 text-capitalize">{{ kitten.name }}</h4>
-          {% endif %}
-          <img
-            src="{{ site.baseurl }}{{ kitten.img }}"
-            class="img-fluid rounded mb-4 available-kitten"
-            alt="Kitten"
-          />
-          <p class="caption">
-            {{ kitten.description }}<br />${{ kitten.cost }}+tax/${{
-            page.deposit}} deposit.
-          </p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% endfor %}
   </div>
 </section>
 
@@ -162,9 +157,7 @@ kitten-deposit-body: A $500 deposit will reserve your kitten until they are read
   <div class="container">
     <div class="row mt-5">
       <div class="col text-center">
-        <h2 class="section-heading bold">
-          {{ page.kitten-deposit-title }}
-        </h2>
+        <h2 class="section-heading bold">{{ page.kitten-deposit-title }}</h2>
         <h3 class="section-body mb-5">{{ page.kitten-deposit-body }}</h3>
       </div>
     </div>
