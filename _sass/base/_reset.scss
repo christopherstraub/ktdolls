@@ -11,6 +11,10 @@ section {
   padding: 75px 0;
 }
 
+hr {
+  border-top: 1px solid rgba($clr-dark-accent, 0.25);
+}
+
 @media only screen and (min-width: 768px) {
   section {
     padding: 100px 0;
