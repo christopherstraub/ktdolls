@@ -5,9 +5,7 @@ heading: Family-owned cattery from Katy, Texas.
 subheading: Pedigreed Traditional and Mink Ragdoll kittens for sale.
 bg-img: '/assets/img/home/header-background.webp'
 available-kittens-title: available kittens
-available-kittens-body:
-  We're sorry, we don't have any available kittens at this time.
-  Please check back with us in February and March.
+available-kittens-body: Sir Glenn and Lady Annabella are expecting a litter in February!
 available-kittens-img: '/assets/img/home/expecting-feb-2021.webp'
 available-kittens-img-alt: 'Expecting February 2021'
 litter-title: ''
@@ -108,34 +106,32 @@ kitten-deposit-body: A $500 deposit will reserve your kitten until they are read
         <h3 class="section-body">{{ page.available-kittens-body }}</h3>
       </div>
     </div>
-  </div>
 
-  {% if page.available-kittens-img != '' %}
-  <div class="col text-center mt-4">
-    <img
-      src="{{ site.baseurl }}{{ page.available-kittens-img }}"
-      alt="{{ page.available-kittens-img-alt }}"
-      class="img-fluid rounded"
-    />
-  </div>
-  {% endif %} {% if page.litter-title != '' %}
-  <div class="row">
-    <div class="col text-center">
-      <h2 class="litter-title text-uppercase mt-5 pt-0">
-        {{ page.litter-title }}
-      </h2>
+    {% if page.available-kittens-img != '' %}
+    <div class="row my-4">
+      <div class="col text-center">
+        <img
+          src="{{ site.baseurl }}{{ page.available-kittens-img }}"
+          alt="{{ page.available-kittens-img-alt }}"
+          class="img-fluid rounded"
+        />
+      </div>
     </div>
-  </div>
-  {% endif %}
 
-  <div class="row">
-    {% for kitten in page.available-kittens %}
-    <div class="col-md-4 col-sm-6 text-center">
-      <div class="mb-5">
+    {% endif %} {% if page.litter-title != '' %}
+    <div class="row mt-5">
+      <div class="col text-center">
+        <h2 class="litter-title text-uppercase">{{ page.litter-title }}</h2>
+      </div>
+    </div>
+    {% endif %}
+    <div class="row justify-content-center">
+      {% for kitten in page.available-kittens %}
+      <div class="col-12 col-lg-6 col-xl-4 text-center">
         {% if kitten.reserved %}
-        <h4 class="title mb-4 text-capitalize">{{ kitten.name }} (Reserved)</h4>
+        <h4 class="title text-capitalize">{{ kitten.name }} (Reserved)</h4>
         {% else %}
-        <h4 class="title mb-4 text-capitalize">{{ kitten.name }}</h4>
+        <h4 class="title text-capitalize">{{ kitten.name }}</h4>
         {% endif %}
         <img
           src="{{ site.baseurl }}{{ kitten.img }}"
@@ -146,70 +142,118 @@ kitten-deposit-body: A $500 deposit will reserve your kitten until they are read
           {{ kitten.description }}<br />${{ kitten.cost }}+tax/${{
           page.deposit}} deposit.
         </p>
+        <hr class="my-5" />
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>
 
 <!-- Kitten Deposit Section -->
 <section id="kitten-deposit" class="pt-0">
   <div class="container">
-    <div class="row mt-5">
+    <div class="row">
       <div class="col text-center">
         <h2 class="section-heading bold">{{ page.kitten-deposit-title }}</h2>
-        <h3 class="section-body mb-5">{{ page.kitten-deposit-body }}</h3>
+        <h3 class="section-body mb-4">{{ page.kitten-deposit-body }}</h3>
       </div>
     </div>
-    <div id="smart-button-container">
-      <div style="text-align: center">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-    <script
-      src="https://www.paypal.com/sdk/js?client-id=AfwH5GqywFLtyEXxnN0yu6COg4tx3F8N26yAfHn7jfRZiYDLev2n-TaDEOUed0u63y1fBuKtwnQnmvEW&currency=USD"
-      data-sdk-integration-source="button-factory"
-    ></script>
-    <script>
-      function initPayPalButton() {
-        paypal
-          .Buttons({
-            style: {
-              shape: 'rect',
-              color: 'white',
-              layout: 'vertical',
-              label: 'pay',
-            },
 
-            createOrder: function (data, actions) {
-              return actions.order.create({
-                purchase_units: [
-                  {
-                    description: 'Kitten deposit.',
-                    amount: { currency_code: 'USD', value: 500 },
+    {% assign unreserved-kittens = page.available-kittens | where : "reserved",
+    false %} {% if page.available-kittens.size == 0 %} {% elsif
+    page.available-kittens.size != 0 and unreserved-kittens.size == 0 %}
+    <hr />
+    <div class="row">
+      <div class="col text-center">
+        <h3 class="section-body mt-4">
+          We're sorry, all of our kittens have been reserved!
+        </h3>
+      </div>
+    </div>
+    {% else %}
+    <hr />
+    <div class="row justify-content-center mt-4">
+      <div class="form-group text-center col col-md-8 col-xl-6">
+        <label for="select-kitten" class="section-body mb-3"
+          >Select the kitten you would like to reserve:</label
+        >
+        <select
+          class="form-control section-body text-capitalize"
+          id="select-kitten"
+        >
+          {% for kitten in unreserved-kittens %}
+          <option
+            value="{{ kitten.name }}"
+            class="section-body text-capitalize"
+          >
+            {{ kitten.name }}
+          </option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+
+    <!-- PayPal Smart Buttons -->
+    <div class="row justify-content-center mt-5">
+      <div id="smart-button-container" class="col col-md-8 col-xl-6">
+        <div style="text-align: center">
+          <div id="paypal-button-container"></div>
+        </div>
+      </div>
+      <script
+        src="https://www.paypal.com/sdk/js?client-id=AcTyn-LfmJLGLfRyvuyExAAivIVsD-WqkX1wWCQFON_CkecIBU5e_sxlJizdWi6AoCSsFBh5IFfRGG7J&currency=USD"
+        data-sdk-integration-source="button-factory"
+      ></script>
+      <script>
+        var selectedKitten;
+        document
+          .getElementById('select-kitten')
+          .addEventListener('click', function () {
+            selectedKitten = this.value;
+            console.log(selectedKitten.value);
+          });
+        function initPayPalButton() {
+          paypal
+            .Buttons({
+              style: {
+                shape: 'rect',
+                color: 'gold',
+                layout: 'vertical',
+                label: 'pay',
+              },
+
+              createOrder: function (data, actions) {
+                return actions.order.create({
+                  purchase_units: [
+                    {
+                      description: `Kitten Deposit - ${selectedKitten}`,
+                      amount: { currency_code: 'USD', value: 500 },
+                    },
+                  ],
+                  application_context: {
+                    shipping_preference: 'NO_SHIPPING',
                   },
-                ],
-              });
-            },
+                });
+              },
 
-            onApprove: function (data, actions) {
-              return actions.order.capture().then(function (details) {
-                alert(
-                  'Thank you, ' +
-                    details.payer.name.given_name +
-                    '! Your kitten has been reserved.'
-                );
-              });
-            },
+              onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                  alert(
+                    `Thank you ${details.payer.name.given_name}! You have reserved ${selectedKitten}.`
+                  );
+                });
+              },
 
-            onError: function (err) {
-              console.log(err);
-            },
-          })
-          .render('#paypal-button-container');
-      }
-      initPayPalButton();
-    </script>
+              onError: function (err) {
+                console.log(err);
+              },
+            })
+            .render('#paypal-button-container');
+        }
+        initPayPalButton();
+      </script>
+    </div>
+    {% endif %}
   </div>
 </section>
 
