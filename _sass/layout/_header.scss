@@ -1,3 +1,17 @@
+// Only display background on heading and first subheading on small devices.
+@media only screen and (max-width: 767px) {
+  header .row:first-child {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(black, 0.25);
+    transition: background-color 0.15s;
+
+    &:hover {
+      background-color: rgba(black, 0.5);
+    }
+  }
+}
+
 header {
   position: relative;
   text-align: center;
@@ -17,7 +31,7 @@ header {
     #41295a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background-position: 50% 13%;
+  background-position: 50% 40%;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -85,19 +99,6 @@ header {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  header .row:first-child {
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgba(black, 0.25);
-    transition: background-color 0.15s;
-
-    &:hover {
-      background-color: rgba(black, 0.5);
-    }
-  }
-}
-
 @media only screen and (min-width: 768px) {
   header {
     margin: 0 16px;
@@ -117,7 +118,7 @@ header {
     }
 
     & .row:first-child {
-      margin: 50px 0 400px;
+      margin: 40px 0 400px;
     }
 
     & .row:nth-child(2) {
