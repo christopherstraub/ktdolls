@@ -111,7 +111,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 15px 25px;
     border-color: {{ site.data.theme.colors.primary }};
     border-radius: 3px;
     text-transform: uppercase;
@@ -120,6 +120,12 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: white;
     background-color: {{ site.data.theme.colors.primary }};
+}
+
+@media only screen and (min-width: 992px) {
+    .btn-xl {
+    padding: 20px 40px;
+    }
 }
 
 .btn-xl:hover,
@@ -523,7 +529,6 @@ section#contact .text-danger {
 
 footer {
     padding: 15px 0 25px;
-    text-align: center;
 }
 
 footer span.copyright {

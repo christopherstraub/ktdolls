@@ -102,9 +102,17 @@ kitten-deposit-title: KITTEN DEPOSIT
 <section id="available-kittens">
   <div class="container">
     <div class="row">
-      <div class="col text-center">
-        <h2 class="section-heading bold">{{ page.available-kittens-title }}</h2>
-        <h3 class="section-body">{{ page.available-kittens-body }}</h3>
+      <div class="col">
+        <h2 class="section-heading bold text-center">
+          {{ page.available-kittens-title }}
+        </h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col col-lg-6">
+        <h3 class="section-body text-justify mt-0">
+          {{ page.available-kittens-body }}
+        </h3>
       </div>
     </div>
 
@@ -154,9 +162,15 @@ kitten-deposit-title: KITTEN DEPOSIT
 <section id="kitten-deposit" class="pt-0" data-cost="{{ page.deposit }}">
   <div class="container">
     <div class="row">
-      <div class="col text-center">
-        <h2 class="section-heading bold">{{ page.kitten-deposit-title }}</h2>
-        <h3 class="section-body mb-4">
+      <div class="col">
+        <h2 class="section-heading bold text-center">
+          {{ page.kitten-deposit-title }}
+        </h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col col-lg-6">
+        <h3 class="section-body mt-0 mb-4 text-justify">
           A ${{ page.deposit }} deposit will reserve your kitten until they are
           ready to go to their fur-ever home at 12 weeks.
         </h3>
@@ -165,13 +179,18 @@ kitten-deposit-title: KITTEN DEPOSIT
 
     {% assign unreserved-kittens = page.available-kittens | where : "reserved",
     false %} {% if page.available-kittens.size == 0 %}
-    <hr />
-    <div class="row">
-      <div class="col text-center">
-        <h3 class="section-body mt-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <hr />
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col col-lg-6">
+        <h3 class="section-body mt-4 text-justify">
           We'd love to put you on the waiting list for our upcoming litter;
           please <a href="#contact" class="font-weight-bold">contact us</a> to
-          find out if we have room to accommodate you. Ask us about making a
+          find out if we have space to accommodate you. Ask us about making a
           "Pick of the Litter" reservation!
         </h3>
       </div>
@@ -179,7 +198,7 @@ kitten-deposit-title: KITTEN DEPOSIT
 
     <!-- PayPal Smart Buttons -->
     <div class="row justify-content-center mt-5">
-      <div id="smart-button-container" class="col col-md-8 col-xl-6">
+      <div id="smart-button-container" class="col col-lg-6">
         <div style="text-align: center">
           <div id="paypal-button-container"></div>
         </div>
@@ -239,18 +258,28 @@ kitten-deposit-title: KITTEN DEPOSIT
     </div>
     {% elsif page.available-kittens.size != 0 and unreserved-kittens.size == 0
     %}
-    <hr />
-    <div class="row">
-      <div class="col text-center">
-        <h3 class="section-body mt-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <hr />
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col col-lg-6">
+        <h3 class="section-body mt-4 text-justify">
           We're sorry, all of our kittens have been reserved!
         </h3>
       </div>
     </div>
     {% else %}
-    <hr />
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <hr />
+      </div>
+    </div>
+
     <div class="row justify-content-center mt-4">
-      <div class="form-group text-center col col-md-8 col-xl-6">
+      <div class="form-group col col-lg-6 text-justify">
         <label for="select-deposit-option" class="section-body mb-3"
           >Select the kitten you would like to reserve:</label
         >
@@ -272,7 +301,7 @@ kitten-deposit-title: KITTEN DEPOSIT
 
     <!-- PayPal Smart Buttons -->
     <div class="row justify-content-center mt-5">
-      <div id="smart-button-container" class="col col-md-8 col-xl-6">
+      <div id="smart-button-container" class="col col-lg-6">
         <div style="text-align: center">
           <div id="paypal-button-container"></div>
         </div>
@@ -347,18 +376,23 @@ kitten-deposit-title: KITTEN DEPOSIT
     <div class="row">
       <div class="col text-center">
         <h2 class="section-heading bold">{{ page.shipping-title }}</h2>
-        <p class="section-body">{{ page.shipping-body }}</p>
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-12 text-center">
-        <a
-          href="https://www.united.com/ual/en/us/fly/travel/animals/petsafe.html"
-          target="_blank"
-          class="btn btn-xl btn-default-bg-light-gray"
-          >find out more</a
-        >
+
+    <div class="row justify-content-center">
+      <div class="col col-lg-6">
+        <p class="section-body text-justify">{{ page.shipping-body }}</p>
       </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a
+        href="https://www.united.com/ual/en/us/fly/travel/animals/petsafe.html"
+        target="_blank"
+        class="btn btn-xl btn-default-bg-light-gray"
+        >find out more</a
+      >
     </div>
   </div>
 </section>
