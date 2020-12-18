@@ -130,7 +130,7 @@ fields:
 - name: deposit
   type: number
   description: The cost of a kitten deposit. This number appears in both the Kitten
-    Deposit body and the order the PayPal buttons generate.
+    Deposit body and the orders the PayPal buttons generate.
   default: 0
   required: true
   config:
