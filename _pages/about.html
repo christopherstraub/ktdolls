@@ -137,16 +137,14 @@ mink-ragdoll-gallery: []
 
     <div class="row mt-5">
       {% for cat in page.queens-and-kings %}
-      <div class="col-md-6 text-center">
-        <div class="mb-6">
-          <h4 class="title mb-4 text-capitalize">{{ cat.name }}</h4>
-          <img
-            src="{{ site.baseurl }}{{ cat.img }}"
-            alt="{{ cat.description }}"
-            class="img-fluid rounded mb-4"
-          />
-          <p class="caption">{{ cat.description }}</p>
-        </div>
+      <div class="col-md-6 text-center mb-5">
+        <h4 class="title mb-4 text-capitalize">{{ cat.name }}</h4>
+        <img
+          src="{{ site.baseurl }}{{ cat.img }}"
+          alt="{{ cat.description }}"
+          class="img-fluid rounded mb-4"
+        />
+        <p class="caption">{{ cat.description }}</p>
       </div>
       {% endfor %}
     </div>
