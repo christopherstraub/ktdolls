@@ -82,26 +82,6 @@ fields:
   description: Alternative text helps visually impaired users using screen readers
     and improves search engine optimization.
   label: Second Image Alternative Text
-- name: third-heading
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Third Heading
-  description: The third heading on the About page.
-- name: third-body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Third Paragraph
-  description: The third paragraphon the About page.
 - name: queens-and-kings-title
   type: textarea
   default: ''
@@ -143,7 +123,7 @@ fields:
     labelField: 
   label: Queen or King
   description: List of queens and kings.
-- name: ragdoll-history-heading
+- name: ragdoll-history-title
   type: textarea
   default: ''
   config:
@@ -151,8 +131,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Ragdoll History Heading
-  description: The heading of the Ragdoll History section.
+  label: Ragdoll History Title
+  description: The title of the Ragdoll History section.
 - name: ragdoll-history-body
   type: textarea
   default: ''
@@ -163,7 +143,13 @@ fields:
       format: markdown
   label: Ragdoll History Paragraph
   description: The paragraph of the Ragdoll History section.
-- name: mink-ragdoll-heading
+- name: ragdoll-history-img
+  type: file
+  config:
+    maxSize: 64
+  description: The image on the Ragdoll History section.
+  label: Ragdoll History Image
+- name: ragdoll-history-img-alt
   type: textarea
   default: ''
   config:
@@ -171,8 +157,19 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Mink Ragdoll Heading
-  description: The heading of the Mink Ragdoll section.
+  description: Alternative text helps visually impaired users using screen readers
+    and improves search engine optimization.
+  label: Ragdoll History Image Alternative Text
+- name: mink-ragdoll-title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Mink Ragdoll Title
+  description: The title of the Mink Ragdoll section.
 - name: mink-ragdoll-body
   type: textarea
   default: ''
@@ -183,5 +180,30 @@ fields:
       format: markdown
   description: The paragraph of the Mink Ragdoll section.
   label: Mink Ragdoll Paragraph
+- name: ming-ragdoll-gallery
+  type: field_group_list
+  fields:
+  - name: path
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    description: The image.
+  - name: caption
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Caption
+    description: The image caption.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Mink Ragdoll Photos
+  description: The photos contained in the Mink Ragdoll section gallery.
 pages:
 - _pages/about.html
