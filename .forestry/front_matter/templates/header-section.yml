@@ -121,17 +121,23 @@ fields:
   label: Available Kittens
   description: List of available kittens (name, reservation status, picture, description,
     cost, and deposit).
+- name: kitten-deposit-title
+  type: text
+  config:
+    required: false
+  label: Kitten Deposit Title
+  description: The title of the Kitten Deposit section.
 - name: deposit
   type: number
-  description: The cost of a kitten deposit. For example "500". This number appears
-    in the Kitten Deposit body as well as the order the PayPal buttons generate.
+  description: The cost of a kitten deposit. This number appears in both the Kitten
+    Deposit body and the order the PayPal buttons generate.
   default: 0
   required: true
   config:
     min: 
     max: 
     step: 
-  label: Kitten Deposit
+  label: Kitten Deposit Cost
 - name: shipping-title
   type: text
   config:
