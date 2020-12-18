@@ -180,7 +180,7 @@ fields:
       format: markdown
   description: The paragraph of the Mink Ragdoll section.
   label: Mink Ragdoll Paragraph
-- name: ming-ragdoll-gallery
+- name: mink-ragdoll-gallery
   type: field_group_list
   fields:
   - name: path
