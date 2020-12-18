@@ -60,7 +60,7 @@
 
 .section-body {
   @include font-default($clr-dark, 20px);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .title {
@@ -69,6 +69,7 @@
 
 .caption {
   @include font-default($clr-dark-accent, 20px);
+  line-height: 1.5;
 }
 
 .litter-title {
