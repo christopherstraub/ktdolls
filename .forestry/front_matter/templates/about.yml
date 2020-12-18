@@ -180,5 +180,30 @@ fields:
       format: markdown
   description: The paragraph of the Mink Ragdoll section.
   label: Mink Ragdoll Paragraph
+- name: ming-ragdoll-gallery
+  type: field_group_list
+  fields:
+  - name: path
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    description: The image.
+  - name: caption
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Caption
+    description: The image caption.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Mink Ragdoll Photos
+  description: The photos contained in the Mink Ragdoll section gallery.
 pages:
 - _pages/about.html
