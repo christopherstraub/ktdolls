@@ -82,26 +82,6 @@ fields:
   description: Alternative text helps visually impaired users using screen readers
     and improves search engine optimization.
   label: Second Image Alternative Text
-- name: third-heading
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Third Heading
-  description: The third heading on the About page.
-- name: third-body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Third Paragraph
-  description: The third paragraphon the About page.
 - name: queens-and-kings-title
   type: textarea
   default: ''
