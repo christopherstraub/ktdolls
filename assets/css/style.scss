@@ -23,6 +23,7 @@ $font-logo: {{ site.data.theme.fonts.logo }}, {{ site.data.theme.fonts.backup }}
 @import 'components/buttons';
 
 // Layout.
+@import 'layout/contact';
 @import 'layout/families';
 @import 'layout/header';
 @import 'layout/nav-background';

@@ -104,10 +104,31 @@ header {
     margin: 0 16px;
     border-radius: 10px;
 
-    & > .container-fluid {
-      padding: 0 4rem;
+    & .heading {
+      font-size: 48px;
+      margin-bottom: 15px;
     }
 
+    & .subheading {
+      font-size: 26px;
+    }
+
+    & .row:first-child {
+      margin: 40px 0 200px;
+    }
+
+    & .row:nth-child(2) {
+      padding-bottom: 3rem !important;
+    }
+
+    & .fa-arrow-down {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
     & .heading {
       font-size: 52px;
       margin-bottom: 15px;
@@ -118,15 +139,15 @@ header {
     }
 
     & .row:first-child {
+      margin: 40px 0 300px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  header {
+    & .row:first-child {
       margin: 40px 0 400px;
-    }
-
-    & .row:nth-child(2) {
-      padding-bottom: 3rem !important;
-    }
-
-    & .fa-arrow-down {
-      display: none;
     }
   }
 }
