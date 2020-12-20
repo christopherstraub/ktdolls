@@ -1,0 +1,36 @@
+#map {
+  height: 350px;
+}
+
+@media only screen and (min-width: 768px) {
+  #map {
+    height: 400px;
+  }
+}
+
+section#contact {
+  padding: 100px 0 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  section#contact {
+    padding: 60px 0;
+  }
+}
+
+.contact-info .subheading,
+.contact-info .subheading a {
+  font-weight: normal;
+  font-family: $font-secondary;
+  text-transform: none;
+  color: white;
+  line-height: 1.2;
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-info .subheading,
+  .contact-info .subheading a {
+    font-size: 26px;
+  }
+}
