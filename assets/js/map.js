@@ -2,7 +2,7 @@
 var mymap = L.map('map').setView([29.785786, -95.824394], 11);
 
 L.tileLayer(
-  'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x4dGxiMGV4NjMwb2RuaXd2a3lqeCJ9.QGoQW28PEf4tCnf_GefGdw',
+  'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x1OTgyMGw2eDJxcXRqYWs0YXNrNSJ9.Nx7D2d_DK_HxjN10WQZS7g',
   {
     attribution:
       'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -11,7 +11,7 @@ L.tileLayer(
     tileSize: 512,
     zoomOffset: -1,
     accessToken:
-      'pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x4dGxiMGV4NjMwb2RuaXd2a3lqeCJ9.QGoQW28PEf4tCnf_GefGdw',
+      'pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x1OTgyMGw2eDJxcXRqYWs0YXNrNSJ9.Nx7D2d_DK_HxjN10WQZS7g',
   }
 ).addTo(mymap);
 
