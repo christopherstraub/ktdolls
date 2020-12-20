@@ -8,6 +8,12 @@
   }
 }
 
+@media only screen and (min-width: 1367px) {
+  #map {
+    height: 500px;
+  }
+}
+
 section#contact {
   padding: 100px 0 60px;
 }
