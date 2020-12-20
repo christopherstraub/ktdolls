@@ -612,7 +612,8 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 20px;
-    max-height: 68vh;
+    height: 69vh;
+    max-height: 650px;
 }
 
 .portfolio-modal .close-modal {

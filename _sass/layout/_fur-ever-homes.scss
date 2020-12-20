@@ -1,9 +1,23 @@
+.portfolio-modal .hr-dark {
+  margin-top: 0;
+}
+
 .family-heading {
-  padding: 0 55px;
+  padding: 0 80px;
 }
 
 .family-heading h3 {
   margin: 0 25px;
+}
+
+.family-subtitle {
+  text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+  .family-subtitle {
+    text-align: center;
+  }
 }
 
 .modal-body .image-container img {
@@ -37,6 +51,7 @@
   }
 
   .family-heading-text-mobile {
+    font-size: 26px;
     display: block;
     margin: 0 15px;
   }

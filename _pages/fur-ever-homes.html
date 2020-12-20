@@ -165,7 +165,7 @@ gallery:
               </div>
             </div>
           </div>
-          <hr class="hr-dark" />
+          <hr class="hr-dark my-4" />
           <div class="flex-center">
             <img
               src="{{ site.baseurl }}{{ image.path }}"
@@ -173,7 +173,7 @@ gallery:
               alt="{{image.title }}"
             />
           </div>
-          <div class="modal-nav-mobile flex-center">
+          <div class="modal-nav-mobile flex-center px-2">
             {% if forloop.first %}
             <button
               type="button"
@@ -218,7 +218,9 @@ gallery:
             </button>
             {% endif %}
           </div>
-          <h3 class="family-subtitle section-body">{{ image.subtitle }}</h3>
+          <h3 class="family-subtitle caption my-0 px-4 pb-5">
+            {{ image.subtitle }}
+          </h3>
         </div>
       </div>
     </div>
