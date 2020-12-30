@@ -17,6 +17,7 @@ defaults:
       layout: page
 include:
   - _pages
+  - _redirects
 social:
   - title: facebook
     url: https://www.facebook.com/KTDolls/
