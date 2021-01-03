@@ -51,17 +51,7 @@ fields:
   label: Expecting Litter 1 Image
   description: The image under the Expecting Litter paragraph. Can leave empty or
     upload image of expecting couple or litter.
-- name: expecting_litter_2
-  type: text
-  config:
-    required: false
-  label: Expecting Litter 2 Paragraph
-- name: expecting-litter2-img
-  type: file
-  config:
-    maxSize: 64
-  label: Expecting Litter 2 Image
-- name: available-kittens-img-alt
+- name: expecting_litter_2_paragraph
   type: textarea
   default: ''
   config:
@@ -69,9 +59,12 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  description: Alternative text helps visually impaired users using screen readers
-    and improves search engine optimization.
-  label: Available Kittens Image Alternative Text
+  label: Expecting Litter 2 Paragraph
+- name: expecting-litter2-img
+  type: file
+  config:
+    maxSize: 64
+  label: Expecting Litter 2 Image
 - name: litter-title
   type: textarea
   default: ''
