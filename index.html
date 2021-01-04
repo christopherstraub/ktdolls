@@ -80,6 +80,14 @@ gallery:
   - path: '/assets/img/home/gallery/11.webp'
     caption: In Loving Memory of Lil' Wayne 2018
 kitten-deposit-title: KITTEN DEPOSIT
+available-kittens-gallery:
+  - litter-title: wedded bliss 2020
+    available-kittens:
+      - name: chris
+        reserved: true
+        img: '/uploads/2021/20200922_134457-1.jpg'
+        cost: 400
+        description: This is a kitten.
 ---
 
 <!-- Landing Page -->
@@ -129,7 +137,7 @@ kitten-deposit-title: KITTEN DEPOSIT
         </div>
       </div>
     </div>
-    {% endfor %} {% for gallery in page.available-kittens-gallery} {% if
+    {% endfor %} {% for gallery in page.available-kittens-gallery %} {% if
     gallery.litter-title != '' %}
     <div class="row">
       <div class="col text-center">
