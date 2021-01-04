@@ -34,7 +34,7 @@ fields:
     required: false
   label: Available Kittens Title
   description: The title of the Available Kittens section.
-- name: available-kittens-text-img
+- name: available-kittens-text-img-pair
   type: field_group_list
   fields:
   - name: text
