@@ -128,7 +128,7 @@ fields:
     max: 
     labelField: 
   label: Available Kittens Gallery
-  description: The litter's name and its available kittens.
+  description: Each gallery contains the litter's name and its available kittens.
 - name: kitten-deposit-title
   type: text
   config:
