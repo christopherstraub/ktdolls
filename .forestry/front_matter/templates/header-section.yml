@@ -34,37 +34,33 @@ fields:
     required: false
   label: Available Kittens Title
   description: The title of the Available Kittens section.
-- name: expecting-litter1-body
-  type: textarea
-  default: ''
+- name: available-kittens-subheading-img
+  type: field_group_list
+  fields:
+  - name: subheading
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Subheading
+    description: The expecting litter/litter description.
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    description: The expecting litter/litter image.
   config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Expecting Litter 1  Paragraph
-  description: The paragraph of the Expecting Litters section.
-- name: expecting-litter1-img
-  type: file
-  config:
-    maxSize: 64
-  label: Expecting Litter 1 Image
-  description: The image under the Expecting Litter paragraph. Can leave empty or
-    upload image of expecting couple or litter.
-- name: expecting_litter_2_paragraph
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Expecting Litter 2 Paragraph
-- name: expecting-litter2-img
-  type: file
-  config:
-    maxSize: 64
-  label: Expecting Litter 2 Image
+    min: 
+    max: 
+    labelField: 
+  label: Available Kittens Subheading and Image Pairs
+  description: 'The subheading(s) and image(s) of the Available Kittens section. Can
+    be used for as many expecting litter subheadings/images as needed or litter description
+    and image. '
 - name: litter-title
   type: textarea
   default: ''
