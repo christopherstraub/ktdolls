@@ -10,8 +10,6 @@ available-kittens-text-img-pair:
     img: '/assets/img/home/expecting-feb-2021.webp'
   - text: Princess Patience & Sir Glenn are expecting a litter in February 2021!
     img: '/uploads/2021/1590529699122.jpg'
-litter-title: ''
-available-kittens: []
 deposit: 500
 shipping-title: SHIPPING TEMPORARILY SUSPENDED
 shipping-body:
@@ -122,7 +120,6 @@ kitten-deposit-title: KITTEN DEPOSIT
     <div class="row justify-content-center mb-5">
       <div class="col col-lg-6">
         <h3 class="section-body text-justify mt-0 mb-lg-5">{{ pair.text }}</h3>
-
         <div class="col text-center">
           <img
             src="{{ site.baseurl }}{{ pair.img }}"
@@ -132,16 +129,16 @@ kitten-deposit-title: KITTEN DEPOSIT
         </div>
       </div>
     </div>
-
-    {% endfor %} {% if page.litter-title != '' %}
+    {% endfor %} {% for gallery in page.available-kittens-gallery} {% if
+    gallery.litter-title != '' %}
     <div class="row">
       <div class="col text-center">
-        <h2 class="litter-title text-uppercase">{{ page.litter-title }}</h2>
+        <h2 class="litter-title text-uppercase">{{ gallery.litter-title }}</h2>
       </div>
     </div>
     {% endif %}
     <div class="row justify-content-center">
-      {% for kitten in page.available-kittens %}
+      {% for kitten in gallery.available-kittens %}
       <div class="col-12 col-lg-6 col-xl-4 text-center">
         {% if kitten.reserved %}
         <h4 class="title text-capitalize">{{ kitten.name }} (Reserved)</h4>
@@ -154,13 +151,14 @@ kitten-deposit-title: KITTEN DEPOSIT
           alt="Kitten"
         />
         <p class="caption">
-          {{ kitten.description }}<br />${{ kitten.cost }}+tax/${{
+          {{ kitten.description }}<br />${{ kitten.cost }} + tax/${{
           page.deposit}} deposit.
         </p>
         <hr class="my-5" />
       </div>
       {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
 
