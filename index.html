@@ -80,14 +80,6 @@ gallery:
   - path: '/assets/img/home/gallery/11.webp'
     caption: In Loving Memory of Lil' Wayne 2018
 kitten-deposit-title: KITTEN DEPOSIT
-available-kittens-gallery:
-  - litter-title: wedded bliss 2020
-    available-kittens:
-      - name: chris
-        reserved: true
-        img: '/uploads/2021/20200922_134457-1.jpg'
-        cost: 400
-        description: This is a kitten.
 ---
 
 <!-- Landing Page -->
@@ -125,9 +117,9 @@ available-kittens-gallery:
       </div>
     </div>
     {% for pair in page.available-kittens-text-img-pair %}
-    <div class="row justify-content-center mb-5">
+    <div class="row justify-content-center mb-6">
       <div class="col col-lg-6">
-        <h3 class="section-body text-justify mt-0 mb-lg-5">{{ pair.text }}</h3>
+        <h3 class="section-body text-justify mt-0 mb-5">{{ pair.text }}</h3>
         <div class="col text-center">
           <img
             src="{{ site.baseurl }}{{ pair.img }}"
@@ -189,8 +181,12 @@ available-kittens-gallery:
       </div>
     </div>
 
-    {% assign unreserved-kittens = page.available-kittens | where : "reserved",
-    false %} {% if page.available-kittens.size == 0 %}
+    {% for gallery in page.available-kittens-gallery %} {% if forloop.first %}
+    {% assign available-kittens = gallery.available-kittens %} {% else %} {%
+    assign available-kittens = available-kittens | concat:
+    gallery.available-kittens %} {% endif %} {% endfor %} {% assign
+    unreserved-kittens = available-kittens | where: "reserved", false %} {% if
+    page.available-kittens-gallery.size == 0 %}
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <hr />
@@ -268,8 +264,8 @@ available-kittens-gallery:
         initPayPalButton();
       </script>
     </div>
-    {% elsif page.available-kittens.size != 0 and unreserved-kittens.size == 0
-    %}
+    {% elsif page.available-kittens-gallery.size != 0 and
+    unreserved-kittens.size == 0 %}
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <hr />
