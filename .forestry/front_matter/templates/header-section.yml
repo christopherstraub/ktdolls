@@ -34,10 +34,10 @@ fields:
     required: false
   label: Available Kittens Title
   description: The title of the Available Kittens section.
-- name: available-kittens-subheading-img
+- name: available-kittens-text-img
   type: field_group_list
   fields:
-  - name: subheading
+  - name: text
     type: textarea
     default: ''
     config:
@@ -45,8 +45,8 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Subheading
-    description: The expecting litter/litter description.
+    label: Text
+    description: The description of the expecting litter or litter.
   - name: img
     type: file
     config:
@@ -57,10 +57,10 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Available Kittens Subheading and Image Pairs
-  description: 'The subheading(s) and image(s) of the Available Kittens section. Can
-    be used for as many expecting litter subheadings/images as needed or litter description
-    and image. '
+  label: Available Kittens Text and Image Pairs
+  description: The text and image(s) of the Available Kittens section. Can be used
+    for as many expecting litter paragraphs/images as needed or litter description
+    and image.
 - name: litter-title
   type: textarea
   default: ''
