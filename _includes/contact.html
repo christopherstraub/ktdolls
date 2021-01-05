@@ -17,12 +17,17 @@
     </div>
     <div class="row">
       <div class="col">
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form
+          id="contactForm"
+          action="https://formspree.io/f/xbjppjav"
+          method="POST"
+        >
           <div class="row">
             <div class="col-md-6">
               <div class="control-group form-group">
                 <input
                   type="text"
+                  name="name"
                   class="form-control"
                   placeholder="Your Name *"
                   id="name"
@@ -34,6 +39,7 @@
               <div class="control-group form-group">
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
                   placeholder="Your Email *"
                   id="email"
@@ -45,8 +51,9 @@
               <div class="control-group form-group">
                 <input
                   type="tel"
+                  name="phone"
                   class="form-control"
-                  placeholder="Your Phone *"
+                  placeholder="Your Phone Number *"
                   id="phone"
                   required
                   data-validation-required-message="Please enter your phone number."
@@ -57,6 +64,7 @@
             <div class="col-md-6">
               <div class="control-group form-group">
                 <textarea
+                  name="message"
                   class="form-control"
                   placeholder="Your Message *"
                   id="message"
