@@ -46,21 +46,22 @@ fields:
       schema:
         format: markdown
     label: Text
-    description: The description of the expecting litter or litter.
+    description: The description of the expecting litter or litter. Should not be
+      left blank.
   - name: img
     type: file
     config:
       maxSize: 64
     label: Image
-    description: The expecting litter/litter image. Should not be left blank.
+    description: The expecting litter/litter image.
   config:
     min: 
     max: 
     labelField: 
   label: Available Kittens Text and Image Pairs
   description: The text and image(s) of the Available Kittens section. Can be used
-    for as many expecting litter paragraphs/images as needed or litter description
-    and image.
+    for as many expecting litter paragraphs/images as needed or for a single litter
+    description and image.
 - name: available-kittens-gallery
   type: field_group_list
   fields:
