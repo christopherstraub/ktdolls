@@ -120,11 +120,13 @@ available-kittens-gallery: []
       <div class="col col-lg-6">
         <h3 class="section-body text-justify mt-0 mb-5">{{ pair.text }}</h3>
         <div class="col text-center">
+          {% if pair.img != '' %}
           <img
             src="{{ site.baseurl }}{{ pair.img }}"
             alt="{{ pair.text }}"
             class="img-fluid rounded"
           />
+           {% endif %}
         </div>
       </div>
     </div>
