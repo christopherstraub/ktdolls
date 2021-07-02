@@ -60,8 +60,8 @@ fields:
     labelField: 
   label: Available Kittens Text and Image Pairs
   description: The text and image(s) of the Available Kittens section. Can be used
-    for as many expecting litter paragraphs/images as needed or litter description
-    and image.
+    for as many expecting litter paragraphs/images as needed or for a single litter
+    description and image.
 - name: available-kittens-gallery
   type: field_group_list
   fields:
