@@ -11,9 +11,14 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 
 ## Before and Afters
 
+### Homepage
+![homepage](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage.PNG)
+
 ### Homepage Before
-![test](https://octodex.github.com/images/yaktocat.png)
+![homepage before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage-before.png)
 
-### Homepage After
-![test](https://octodex.github.com/images/yaktocat.png)
+### Photo Gallery
+![photo gallery](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes.png)
 
+### Photo Gallery Before
+![photo gallery before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes-before.PNG)
