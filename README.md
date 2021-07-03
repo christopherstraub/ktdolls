@@ -11,27 +11,27 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 
 ## What the site looks like (with before and afters)
 
-### Homepage
+### 🟢 Homepage
 ![homepage](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage.PNG)
 
-### Homepage Before
+### 🔴 Homepage Before
 ![homepage before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage-before.png)
 
-### Contact Page
+### 🟢 Contact Page
 ![contact page](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/contact-page.PNG)
 
-### Contact Page Before
+### 🔴 Contact Page Before
 ![contact page before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/contact-page-before.png)
 ![social buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/social-buttons-before.png)
 
-### PayPal Buttons
+### 🟢 PayPal Buttons
 ![paypal buttons](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons.PNG)
 
-### PayPal Buttons Before
+### 🔴 PayPal Buttons Before
 ![paypal buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-before.png)
 
-### Photo Gallery
+### 🟢 Photo Gallery
 ![photo gallery](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes.png)
 
-### Photo Gallery Before
+### 🔴 Photo Gallery Before
 ![photo gallery before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes-before.PNG)
