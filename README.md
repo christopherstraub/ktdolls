@@ -9,16 +9,29 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 2. Fork or download the project and open the project directory in the CLI.
 3. Build the site and make it available on a local server using command `bundle exec jekyll serve`. The site will be served at [http://localhost:4000](http://localhost:4000).
 
-## Before and Afters
+## What the site looks like (with before and afters)
 
-### Homepage
+### 🟢 Homepage
 ![homepage](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage.PNG)
 
-### Homepage Before
+### 🔴 Homepage Before
 ![homepage before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage-before.png)
 
-### Photo Gallery
+### 🟢 Contact Page
+![contact page](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/contact-page.PNG)
+
+### 🔴 Contact Page Before
+![contact page before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/contact-page-before.png)
+![social buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/social-buttons-before.png)
+
+### 🟢 PayPal Buttons
+![paypal buttons](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons.PNG)
+
+### 🔴 PayPal Buttons Before
+![paypal buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-before.png)
+
+### 🟢 Photo Gallery
 ![photo gallery](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes.png)
 
-### Photo Gallery Before
+### 🔴 Photo Gallery Before
 ![photo gallery before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes-before.PNG)
