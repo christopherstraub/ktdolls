@@ -1,5 +1,5 @@
 # KTDolls
-KTDolls is a beautiful, modern, and responsive website built with Jekyll for my client who previously had a costly and unsightly website built with GoDaddy's website builder. The website is set up with the Forestry.io headless CMS so my client can easily edit and upload new content to their site, as they frequently need to do so. By delivering this product to my client they were able to cut their yearly costs by $240, improve their workflow and engage their clientele with a more authentic website and better user experience across all devices.
+KTDolls is a beautiful, modern, and responsive website built with Jekyll for my client who previously had a costly and unsightly website made with GoDaddy's website builder. The website is set up with the Forestry.io headless CMS so my client can easily edit and upload new content to their site, as they frequently need to do so. By delivering this product to my client they were able to cut their yearly costs by $240, improve their workflow and engage their clientele with a more authentic website and better user experience across all devices.
 
 ## View
 KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + click to open in new tab).
