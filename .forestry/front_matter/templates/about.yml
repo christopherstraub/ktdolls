@@ -92,7 +92,7 @@ fields:
       format: markdown
   label: Queens and Kings Title
   description: The title of the Queens and Kings section.
-- name: queens-and-kings
+- name: queens
   type: field_group_list
   fields:
   - name: name
@@ -100,13 +100,13 @@ fields:
     config:
       required: false
     label: Name
-    description: The name of the queen/king.
+    description: The name of the queen.
   - name: img
     type: file
     config:
       maxSize: 64
     label: Image
-    description: An image of the queen/king.
+    description: An image of the queen.
   - name: description
     type: textarea
     default: ''
@@ -116,13 +116,13 @@ fields:
       schema:
         format: markdown
     label: Description
-    description: A description of the queen/king.
+    description: A description of the queen.
   config:
     min: 
     max: 
     labelField: 
-  label: Queen or King
-  description: List of queens and kings.
+  label: Queens
+  description: List of queens.
 - name: ragdoll-history-title
   type: textarea
   default: ''
