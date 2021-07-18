@@ -159,7 +159,18 @@ mink-ragdoll-gallery:
 
     <!-- Queens -->
     <div class="row mt-5">
-      {% for queen in page.queens %}
+      {% for queen in page.queens %} {% assign remainder = page.queens.size |
+      modulo: 2 %} {% if remainder != 0 and forloop.index == page.queens.size %}
+      <div class="col-md-12 text-center mb-5">
+        <h4 class="title mb-4 text-capitalize">{{ queen.name }}</h4>
+        <img
+          src="{{ site.baseurl }}{{ queen.img }}"
+          alt="{{ queen.description }}"
+          class="img-fluid rounded mb-4"
+        />
+        <p class="caption text-center">{{ queen.description }}</p>
+      </div>
+      {% else %}
       <div class="col-md-6 text-center mb-5">
         <h4 class="title mb-4 text-capitalize">{{ queen.name }}</h4>
         <img
@@ -169,14 +180,25 @@ mink-ragdoll-gallery:
         />
         <p class="caption text-center">{{ queen.description }}</p>
       </div>
-      {% endfor %}
+      {% endif %} {% endfor %}
     </div>
 
     <hr />
 
     <!-- Kings -->
     <div class="row mt-5">
-      {% for king in page.kings %}
+      {% for king in page.kings %} {% assign remainder = page.kings.size |
+      modulo: 2 %} {% if remainder != 0 and forloop.index == page.kings.size %}
+      <div class="col-md-12 text-center mb-5">
+        <h4 class="title mb-4 text-capitalize">{{ king.name }}</h4>
+        <img
+          src="{{ site.baseurl }}{{ king.img }}"
+          alt="{{ king.description }}"
+          class="img-fluid rounded mb-4"
+        />
+        <p class="caption text-center">{{ king.description }}</p>
+      </div>
+      {% else %}
       <div class="col-md-6 text-center mb-5">
         <h4 class="title mb-4 text-capitalize">{{ king.name }}</h4>
         <img
@@ -186,7 +208,7 @@ mink-ragdoll-gallery:
         />
         <p class="caption text-center">{{ king.description }}</p>
       </div>
-      {% endfor %}
+      {% endif %} {% endfor %}
     </div>
   </div>
 </section>
