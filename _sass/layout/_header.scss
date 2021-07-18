@@ -101,24 +101,35 @@ header {
 
 @media only screen and (min-width: 768px) {
   header {
-    margin: 0 16px;
-    border-radius: 10px;
+    &.header {
+      margin: 0 16px;
+      border-radius: 10px;
+      height: 65vh;
+      min-height: 500px;
+    }
+
+    & > .container-fluid {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      & > .row:first-child {
+        margin: 0;
+        padding-top: 40px;
+        flex-grow: 1;
+      }
+
+      & > .row:nth-child(2) {
+        padding-bottom: 40px !important;
+      }
+    }
 
     & .heading {
       font-size: 48px;
-      margin-bottom: 15px;
     }
 
     & .subheading {
       font-size: 26px;
-    }
-
-    & .row:first-child {
-      margin: 40px 0 200px;
-    }
-
-    & .row:nth-child(2) {
-      padding-bottom: 3rem !important;
     }
 
     & .fa-arrow-down {
@@ -131,23 +142,10 @@ header {
   header {
     & .heading {
       font-size: 52px;
-      margin-bottom: 15px;
     }
 
     & .subheading {
       font-size: 28px;
-    }
-
-    & .row:first-child {
-      margin: 40px 0 300px;
-    }
-  }
-}
-
-@media only screen and (min-width: 1367px) {
-  header {
-    & .row:first-child {
-      margin: 40px 0 400px;
     }
   }
 }
