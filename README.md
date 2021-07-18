@@ -35,3 +35,6 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 
 ### 🔴 Photo Gallery Before
 ![photo gallery before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes-before.PNG)
+
+### 🟢 404 Redirect
+![404 redirect](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/404-redirect.png)
