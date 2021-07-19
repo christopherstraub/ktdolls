@@ -108,3 +108,9 @@
 #available-kittens .img-fluid.available-kitten {
   max-height: 300px;
 }
+
+// Image styles
+.border-box-shadow {
+  border: 1px solid $clr-dark-accent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
