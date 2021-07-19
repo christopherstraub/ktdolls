@@ -25,13 +25,14 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 ![social buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/social-buttons-before.png)
 
 ### 🟢 Available Kittens
-![available kittens](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/available-kittens.PNG)
+![available kittens](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/available-kittens.png)
 
 ### 🔴 Available Kittens Before
 ![available kittens before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/available-kittens-before.png)
 
-### 🟢 PayPal Buttons
-![paypal buttons](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons.PNG)
+### 🟢 PayPal Buttons (Dynamic)
+![paypal buttons 1](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-1.PNG)
+![paypal buttons 2](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-2.PNG)
 
 ### 🔴 PayPal Buttons Before
 ![paypal buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-before.png)
