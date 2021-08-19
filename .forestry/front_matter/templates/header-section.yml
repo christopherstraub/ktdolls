@@ -86,8 +86,8 @@ fields:
       description: The name of the kitten.
     - name: reserved
       type: boolean
-      description: If the kitten is reserved, set the toggle to on; if it is not,
-        keep it on off.
+      description: If the kitten is reserved, set the toggle to on; otherwise, keep
+        it off.
       label: Reserved?
     - name: img
       type: file
