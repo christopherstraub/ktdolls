@@ -27,14 +27,6 @@
   @include btn-color(#f7f7f7, $clr-primary);
 }
 
-.mt-6 {
-  margin-top: 6rem !important;
-}
-
-.mb-6 {
-  margin-bottom: 6rem !important;
-}
-
 .section-heading {
   color: $clr-primary;
   margin-top: 0;
@@ -104,13 +96,29 @@
   min-height: 450px;
 }
 
-// Specific image sizes.
-#available-kittens .img-fluid.available-kitten {
-  max-height: 300px;
-}
-
-// Image styles
+// Image styles.
 .border-box-shadow {
   border: 1px solid $clr-dark-accent;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+// Extra spacing classes.
+.mt-6,
+.my-6 {
+  margin-top: 6rem !important;
+}
+.mb-6,
+.my-6 {
+  margin-bottom: 6rem !important;
+}
+
+@media (min-width: 992px) {
+  .mt-lg-6,
+  .my-lg-6 {
+    margin-top: 6rem !important;
+  }
+  .mb-lg-6,
+  .my-lg-6 {
+    margin-bottom: 6rem !important;
+  }
 }
