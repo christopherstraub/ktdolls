@@ -58,7 +58,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Available Kittens Text and Image Pairs
+  label: Expecting Litter Text and Image Pairs
   description: The text and image(s) of the Available Kittens section. Can be used
     for as many expecting litter paragraphs/images as needed or for a single litter
     description and image.
@@ -120,14 +120,14 @@ fields:
       min: 
       max: 
       labelField: 
-    label: Available Kittens
+    label: Litter
     description: List of available kittens, containing the name, reservation status,
       image, description, cost, and deposit.
   config:
     min: 
     max: 
     labelField: 
-  label: Available Kittens Gallery
+  label: Litter Gallery
   description: Each gallery contains the litter's name and its available kittens.
 - name: kitten-deposit-title
   type: text
