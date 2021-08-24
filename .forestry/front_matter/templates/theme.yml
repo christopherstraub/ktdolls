@@ -52,17 +52,7 @@ fields:
   - type: text
     name: primary
     label: Primary
-    description: The primary font. Used for headings, paragraphs, etc.
-  - type: text
-    name: secondary
-    label: Secondary
-    description: The secondary font. Used on the landing page.
-  - name: nav
-    type: text
-    config:
-      required: false
-    label: Navigation
-    description: The font used in the navigation menu.
+    description: The primary font.
   - name: logo
     type: text
     config:
