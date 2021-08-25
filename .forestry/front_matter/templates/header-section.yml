@@ -89,12 +89,6 @@ fields:
       description: If the kitten is reserved, set the toggle to on; otherwise, keep
         it off.
       label: Reserved?
-    - name: img
-      type: file
-      config:
-        maxSize: 64
-      label: Image
-      description: The image of the kitten.
     - name: description
       type: textarea
       default: ''
@@ -108,14 +102,19 @@ fields:
     - name: cost
       type: number
       label: Cost
-      description: The cost of the kitten. Number entry, for example "1150". Will
-        show up on website as "$1150 + tax".
+      description: The cost of the kitten. Number entry, for example "1350".
       default: 0
       required: true
       config:
         min: 
         max: 
         step: 
+    - name: img
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+      description: The image of the kitten.
     config:
       min: 
       max: 
