@@ -8,16 +8,8 @@
 
 .family-heading h3 {
   margin: 0 25px;
-}
-
-.family-subtitle {
-  text-align: justify;
-}
-
-@media only screen and (min-width: 768px) {
-  .family-subtitle {
-    text-align: center;
-  }
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .modal-body .image-container img {
@@ -32,6 +24,11 @@
 
 .modal-nav-mobile .btn-custom {
   display: none;
+}
+
+.fa.fa-arrow-left,
+.fa.fa-arrow-right {
+  font-size: 34px;
 }
 
 // Media queries.
@@ -67,5 +64,10 @@
 
   .modal-nav-mobile .btn-custom {
     display: inline-block;
+  }
+
+  .fa.fa-arrow-left,
+  .fa.fa-arrow-right {
+    font-size: 22px;
   }
 }

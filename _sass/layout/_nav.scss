@@ -39,11 +39,11 @@
 
   & .nav li a {
     color: $clr-dark;
-    font-family: $font-nav;
+    font-family: $font-primary;
     font-size: 24px;
     padding: 15px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 
     &:hover,
     &:focus {
@@ -112,7 +112,7 @@
     & .nav li.active a {
       color: $clr-primary;
       background-color: transparent;
-      font-weight: bold;
+      font-weight: 700;
 
       &:hover,
       &:focus {

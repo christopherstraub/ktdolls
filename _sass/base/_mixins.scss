@@ -15,13 +15,12 @@
 @mixin font-default(
   $color,
   $font-size,
-  $font-weight: normal,
+  $font-weight: 400,
   $font-family: $font-primary
 ) {
   color: $color;
   font-size: $font-size;
   font-family: $font-family;
-  font-weight: $font-weight;
   font-weight: $font-weight;
   text-transform: none;
 }

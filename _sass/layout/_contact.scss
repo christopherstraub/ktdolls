@@ -14,20 +14,21 @@
   }
 }
 
-section#contact {
-  padding: 100px 0 60px;
+body section:first-of-type#contact {
+  padding-top: calc(75px + 60px);
 }
 
 @media only screen and (min-width: 768px) {
-  section#contact {
-    padding: 60px 0;
+  section#contact,
+  body section:first-of-type#contact {
+    padding: 50px 0;
   }
 }
 
 .contact-info .subheading,
 .contact-info .subheading a {
   font-weight: normal;
-  font-family: $font-secondary;
+  font-family: $font-primary;
   text-transform: none;
   color: white;
   line-height: 1.2;

@@ -2,12 +2,9 @@
 colors:
   primary: '#4b0084'
   secondary: '#7300ca'
-  dark: '#333333'
+  dark: '#222222'
   dark-accent: '#777777'
   navbar-bg: '#4b0084'
 fonts:
-  primary: 'Montserrat'
-  secondary: 'Droid Serif'
-  nav: 'Montserrat'
-  logo: 'Kaushan Script'
-  backup: 'Helvetica Neue, Helvetica, Arial, sans-serif'
+  primary: '"Lato", sans-serif'
+  logo: '"Kaushan Script", cursive'
