@@ -102,8 +102,7 @@ fields:
     - name: cost
       type: number
       label: Cost
-      description: The cost of the kitten. Number entry, for example "1150". Will
-        show up on website as "$1150 + tax".
+      description: The cost of the kitten. Number entry, for example "1350".
       default: 0
       required: true
       config:
