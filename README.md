@@ -31,7 +31,9 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 ![available kittens before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/available-kittens-before.png)
 
 ### 🟢 PayPal Buttons (Dynamic)
+#### With kittens available to reserve:
 ![paypal buttons 1](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-1.PNG)
+#### Expecting litter:
 ![paypal buttons 2](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-2.PNG)
 
 ### 🔴 PayPal Buttons Before
