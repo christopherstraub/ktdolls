@@ -102,7 +102,7 @@ fields:
     - name: cost
       type: number
       label: Cost
-      description: The cost of the kitten. Number entry, for example "1350".
+      description: The cost of the kitten.
       default: 0
       required: true
       config:
@@ -119,7 +119,7 @@ fields:
       min: 
       max: 
       labelField: 
-    label: Litter
+    label: Kittens
     description: List of available kittens, containing the name, reservation status,
       image, description, cost, and deposit.
   config:
@@ -128,6 +128,55 @@ fields:
     labelField: 
   label: Litter Gallery
   description: Each gallery contains the litter's name and its kittens.
+- name: available-adults-title
+  type: text
+  config:
+    required: false
+  label: Available Adults Title
+  description: The title of the Available Adults Section.
+- name: adult-gallery
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: The name of the adult.
+  - name: reserved
+    type: boolean
+    label: Reserved?
+    description: If the adult is reserved, set the toggle to on; otherwise, keep it
+      off.
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: The description of the adult.
+  - name: cost
+    type: number
+    label: Cost
+    description: The cost of the adult.
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    description: The image of the adult.
+    label: Image
+  label: Adult Gallery
+  description: Gallery contains available adults.
 - name: kitten-deposit-title
   type: text
   config:
