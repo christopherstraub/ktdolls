@@ -28,7 +28,7 @@
 }
 
 .section-heading {
-  @include font-default($clr-primary, 48px, 700, $font-secondary);
+  @include font($clr-primary, 48px, 700, $font-secondary);
   margin-top: 0;
   margin-bottom: 25px;
 
@@ -44,18 +44,18 @@
 }
 
 .section-subheading {
-  @include font-default($clr-primary, 36px, 700, $font-secondary);
+  @include font($clr-primary, 36px, 700, $font-secondary);
   margin-top: 0;
   margin-bottom: 25px;
 }
 
 .section-body {
-  @include font-default($clr-dark, 20px);
+  @include font($clr-dark, 20px);
   line-height: 1.5;
 }
 
 .litter-title {
-  @include font-default(white, 22px, 400, $font-secondary);
+  @include font(white, 22px, 400, $font-secondary);
   background-color: $clr-primary;
   padding: 18px 28px;
   border-radius: 50rem;
@@ -63,16 +63,16 @@
 }
 
 .title {
-  @include font-default($clr-dark, 32px, 700);
+  @include font($clr-dark, 32px, 700);
 }
 
 .caption {
-  @include font-default($clr-dark-accent, 22px);
+  @include font($clr-dark-accent, 22px);
   line-height: 1.5;
 }
 
 .family-caption {
-  @include font-default($clr-dark, 22px);
+  @include font($clr-dark, 22px);
   line-height: 1.5;
 }
 

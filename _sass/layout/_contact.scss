@@ -27,7 +27,7 @@ body section:first-of-type#contact {
 
 .contact-info .subheading,
 .contact-info .subheading a {
-  @include font-default(white, 22px, 400, $font-secondary);
+  @include font(white, 22px, 400, $font-secondary);
   line-height: 1.25;
 }
 
