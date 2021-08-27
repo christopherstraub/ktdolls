@@ -120,8 +120,8 @@ fields:
       max: 
       labelField: 
     label: Kittens
-    description: List of available kittens containing the name, reservation status,
-      image, description, and cost.
+    description: List of available kittens containing their name, reservation status,
+      description, cost, and image.
   config:
     min: 
     max: 
@@ -183,8 +183,8 @@ fields:
       max: 
       labelField: 
     label: Adults
-    description: List of available adults containing the name, reservation status,
-      image, description, and cost.
+    description: List of available adults containing their name, reservation status,
+      description, cost, and image.
   label: Adult Gallery
   description: Gallery containing available adults.
 - name: kitten-deposit-title
