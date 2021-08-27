@@ -30,8 +30,12 @@ section {
     padding: 100px 0;
   }
 
+  section#social,
+  section#shipping {
+    padding: 75px 0;
+  }
+
   section#social {
-    padding: 50px;
     margin-bottom: 25px;
   }
 }
