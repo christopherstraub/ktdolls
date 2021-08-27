@@ -154,7 +154,7 @@ available-adults: []
         <div class="col text-center">
           {% if pair.img != '' %}
           <img
-            src="{{ site.baseurl }}{{ pair.img }}"
+            src="{{ pair.img }}"
             alt="{{ pair.text }}"
             class="img-fluid rounded mt-5 border-box-shadow"
           />
@@ -179,7 +179,7 @@ available-adults: []
         <h4 class="title mt-0 mb-4">{{ kitten.name }}</h4>
         {% endif %}
         <img
-          src="{{ site.baseurl }}{{ kitten.img }}"
+          src="{{ kitten.img }}"
           class="img-fluid rounded mb-4 border-box-shadow"
           alt="{{ kitten.description }}"
         />
@@ -492,7 +492,7 @@ available-adults: []
       {% for image in page.gallery %} {% if forloop.first %}
       <div class="carousel-item active">
         <img
-          src="{{ site.baseurl }}{{ image.path }}"
+          src="{{ image.path }}"
           alt="{{ image.caption }}"
           class="img-fluid"
         />
@@ -505,7 +505,7 @@ available-adults: []
       {% else %}
       <div class="carousel-item">
         <img
-          src="{{ site.baseurl }}{{ image.path }}"
+          src="{{ image.path }}"
           alt="{{ image.caption }}"
           class="img-fluid"
         />

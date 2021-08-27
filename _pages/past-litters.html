@@ -128,7 +128,7 @@ litters:
         {% for image in litter.gallery %} {% if forloop.first %}
         <div class="carousel-item active">
           <img
-            src="{{ site.baseurl }}{{ image.image }}"
+            src="{{ image.image }}"
             alt="{{ image.description }}"
             class="img-fluid"
           />
@@ -139,7 +139,7 @@ litters:
         {% else %}
         <div class="carousel-item">
           <img
-            src="{{ site.baseurl }}{{ image.image }}"
+            src="{{ image.image }}"
             alt="{{ image.description }}"
             class="img-fluid"
           />

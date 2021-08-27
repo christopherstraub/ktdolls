@@ -103,7 +103,7 @@ mink-ragdoll-gallery:
 
       <div class="col-md text-center">
         <img
-          src="{{ site.baseurl }}{{ page.first-img }}"
+          src="{{ page.first-img }}"
           alt="{{ page.first-img-alt }}"
           class="img-fluid rounded border-box-shadow"
         />
@@ -113,7 +113,7 @@ mink-ragdoll-gallery:
     <div class="row align-items-center">
       <div class="col-md text-center order-last order-md-first">
         <img
-          src="{{ site.baseurl }}{{ page.second-img }}"
+          src="{{ page.second-img }}"
           alt="{{ page.second-img-alt }}"
           class="img-fluid rounded border-box-shadow"
         />
@@ -132,7 +132,7 @@ mink-ragdoll-gallery:
           </div>
           <div class="col-12 text-center">
             <a
-              href="{{ site.baseurl }}/#available-kittens"
+              href="/#available-kittens"
               alt="Link to available kittens"
               class="btn btn-xl btn-default mt-5 mb-5 mb-md-0"
               >view available kittens
@@ -159,7 +159,7 @@ mink-ragdoll-gallery:
       <div class="col-md-12 text-center mb-5">
         <h4 class="title mb-4">{{ queen.name }}</h4>
         <img
-          src="{{ site.baseurl }}{{ queen.img }}"
+          src="{{ queen.img }}"
           alt="{{ queen.description }}"
           class="img-fluid rounded mb-4 border-box-shadow"
         />
@@ -169,7 +169,7 @@ mink-ragdoll-gallery:
       <div class="col-md-6 text-center mb-5">
         <h4 class="title mb-4">{{ queen.name }}</h4>
         <img
-          src="{{ site.baseurl }}{{ queen.img }}"
+          src="{{ queen.img }}"
           alt="{{ queen.description }}"
           class="img-fluid rounded mb-4 border-box-shadow"
         />
@@ -187,7 +187,7 @@ mink-ragdoll-gallery:
       <div class="col-md-12 text-center mb-5">
         <h4 class="title mb-4">{{ king.name }}</h4>
         <img
-          src="{{ site.baseurl }}{{ king.img }}"
+          src="{{ king.img }}"
           alt="{{ king.description }}"
           class="img-fluid rounded mb-4 border-box-shadow"
         />
@@ -197,7 +197,7 @@ mink-ragdoll-gallery:
       <div class="col-md-6 text-center mb-5">
         <h4 class="title mb-4">{{ king.name }}</h4>
         <img
-          src="{{ site.baseurl }}{{ king.img }}"
+          src="{{ king.img }}"
           alt="{{ king.description }}"
           class="img-fluid rounded mb-4 border-box-shadow"
         />
@@ -221,7 +221,7 @@ mink-ragdoll-gallery:
       </div>
       <div class="col-md-6">
         <img
-          src="{{ site.baseurl }}{{ page.ragdoll-history-img }}"
+          src="{{ page.ragdoll-history-img }}"
           alt="{{ page.ragdoll-history-img-alt }}"
           class="img-fluid rounded border-box-shadow"
         />
@@ -266,7 +266,7 @@ mink-ragdoll-gallery:
         {% for image in page.mink-ragdoll-gallery %} {% if forloop.first %}
         <div class="carousel-item active">
           <img
-            src="{{ site.baseurl }}{{ image.path }}"
+            src="{{ image.path }}"
             alt="{{ image.caption }}"
             class="img-fluid"
           />
@@ -279,7 +279,7 @@ mink-ragdoll-gallery:
         {% else %}
         <div class="carousel-item">
           <img
-            src="{{ site.baseurl }}{{ image.path }}"
+            src="{{ image.path }}"
             alt="{{ image.caption }}"
             class="img-fluid"
           />
