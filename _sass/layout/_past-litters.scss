@@ -10,10 +10,12 @@
   margin-bottom: -50px;
 }
 
-#past-litters a .litter-title:hover {
-  color: $clr-secondary;
-}
-
 #past-litters a .litter-title {
-  transition: color 0.15s;
+  border: 1px solid $clr-primary;
+  transition: all 0.15s;
+
+  &:hover {
+    color: $clr-primary;
+    background-color: white;
+  }
 }
