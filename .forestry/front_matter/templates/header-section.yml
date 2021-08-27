@@ -127,14 +127,14 @@ fields:
     max: 
     labelField: 
   label: Litter Gallery
-  description: Each gallery contains the litter's name and its kittens.
+  description: Galleries containing a litter's name and its kittens.
 - name: available-adults-title
   type: text
   config:
     required: false
   label: Available Adults Title
   description: The title of the Available Adults Section.
-- name: adult-gallery
+- name: available-adults-gallery
   type: field_group
   config: {}
   fields:
@@ -186,7 +186,7 @@ fields:
     description: List of available adults containing the name, reservation status,
       image, description, and cost.
   label: Adult Gallery
-  description: Gallery contains available adults.
+  description: Gallery containing available adults.
 - name: kitten-deposit-title
   type: text
   config:
