@@ -134,59 +134,53 @@ fields:
     required: false
   label: Available Adults Title
   description: The title of the Available Adults Section.
-- name: available-adults-gallery
-  type: field_group
-  config: {}
+- name: available-adults
+  type: field_group_list
   fields:
-  - name: available-adults
-    type: field_group_list
-    fields:
-    - name: name
-      type: text
-      config:
-        required: false
-      description: The name of the adult.
-      label: Name
-    - name: reserved
-      type: boolean
-      label: Reserved?
-      description: If the adult is reserved, set the toggle to on; otherwise, keep
-        it off.
-    - name: description
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      description: The description of the adult.
-      label: Description
-    - name: cost
-      type: number
-      label: Cost
-      description: The cost of the adult.
-      default: 0
-      required: true
-      config:
-        min: 
-        max: 
-        step: 
-    - name: img
-      type: file
-      config:
-        maxSize: 64
-      label: Image
-      description: The image of the adult.
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: The name of the adult.
+  - name: reserved
+    type: boolean
+    label: Reserved?
+    description: If the adult is reserved, set the toggle to on; otherwise, keep it
+      off.
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: The description of the adult.
+  - name: cost
+    type: number
+    label: Cost
+    description: The cost of the adult.
+    default: 0
+    required: true
     config:
       min: 
       max: 
-      labelField: 
-    label: Adults
-    description: List of available adults containing their name, reservation status,
-      description, cost, and image.
-  label: Adult Gallery
-  description: Gallery containing available adults.
+      step: 
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    description: The image of the adult.
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Adults
+  description: List of available adults containing their name, reservation status,
+    description, cost, and image.
 - name: kitten-deposit-title
   type: text
   config:
