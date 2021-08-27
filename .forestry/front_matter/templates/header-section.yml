@@ -120,8 +120,8 @@ fields:
       max: 
       labelField: 
     label: Kittens
-    description: List of available kittens, containing the name, reservation status,
-      image, description, cost, and deposit.
+    description: List of available kittens containing the name, reservation status,
+      image, description, and cost.
   config:
     min: 
     max: 
@@ -138,43 +138,53 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: name
-    type: text
-    config:
-      required: false
-    label: Name
-    description: The name of the adult.
-  - name: reserved
-    type: boolean
-    label: Reserved?
-    description: If the adult is reserved, set the toggle to on; otherwise, keep it
-      off.
-  - name: description
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Description
-    description: The description of the adult.
-  - name: cost
-    type: number
-    label: Cost
-    description: The cost of the adult.
-    default: 0
-    required: true
+  - name: available-adults
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      description: The name of the adult.
+      label: Name
+    - name: reserved
+      type: boolean
+      label: Reserved?
+      description: If the adult is reserved, set the toggle to on; otherwise, keep
+        it off.
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      description: The description of the adult.
+      label: Description
+    - name: cost
+      type: number
+      label: Cost
+      description: The cost of the adult.
+      default: 0
+      required: true
+      config:
+        min: 
+        max: 
+        step: 
+    - name: img
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+      description: The image of the adult.
     config:
       min: 
       max: 
-      step: 
-  - name: img
-    type: file
-    config:
-      maxSize: 64
-    description: The image of the adult.
-    label: Image
+      labelField: 
+    label: Adults
+    description: List of available adults containing the name, reservation status,
+      image, description, and cost.
   label: Adult Gallery
   description: Gallery contains available adults.
 - name: kitten-deposit-title
