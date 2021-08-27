@@ -24,14 +24,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
 
-  & .heading,
-  & .subheading {
-    font-family: $font-primary;
-    text-transform: none;
-    font-weight: normal;
-  }
-
   & .heading {
+    font-family: $font-secondary;
     font-size: 32px;
   }
 

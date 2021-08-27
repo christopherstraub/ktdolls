@@ -27,12 +27,8 @@ body section:first-of-type#contact {
 
 .contact-info .subheading,
 .contact-info .subheading a {
-  font-weight: normal;
-  font-family: $font-primary;
-  text-transform: none;
-  color: white;
-  line-height: 1.2;
-  font-size: 22px;
+  @include font-default(white, 22px, 400, $font-secondary);
+  line-height: 1.25;
 }
 
 @media only screen and (min-width: 768px) {

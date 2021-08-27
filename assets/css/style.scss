@@ -9,6 +9,7 @@ $clr-navbar-bg: {{ site.data.theme.colors.navbar-bg }};
 
 $font-primary: {{ site.data.theme.fonts.primary }};
 $font-logo: {{ site.data.theme.fonts.logo }};
+$font-secondary: {{ site.data.theme.fonts.secondary }};
 
 // Functional classes.
 @import 'base/reset';

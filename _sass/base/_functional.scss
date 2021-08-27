@@ -28,7 +28,7 @@
 }
 
 .section-heading {
-  @include font-default($clr-primary, 48px, 700);
+  @include font-default($clr-primary, 48px, 700, $font-secondary);
   margin-top: 0;
   margin-bottom: 25px;
 
@@ -44,7 +44,7 @@
 }
 
 .section-subheading {
-  @include font-default($clr-primary, 36px, 500);
+  @include font-default($clr-primary, 36px, 700, $font-secondary);
   margin-top: 0;
   margin-bottom: 25px;
 }
@@ -55,7 +55,11 @@
 }
 
 .litter-title {
-  @include font-default($clr-primary, 32px);
+  @include font-default(white, 22px, 400, $font-secondary);
+  background-color: $clr-primary;
+  padding: 18px 28px;
+  border-radius: 50rem;
+  display: inline-block;
 }
 
 .title {
@@ -104,7 +108,16 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
-// Extra spacing classes.
+// Spacing classes not in Bootstrap.
+.pt-6,
+.py-6 {
+  padding-top: 6rem !important;
+}
+.pb-6,
+.py-6 {
+  padding-bottom: 6rem !important;
+}
+
 .mt-6,
 .my-6 {
   margin-top: 6rem !important;

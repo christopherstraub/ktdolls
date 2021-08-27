@@ -76,7 +76,8 @@ gallery:
     caption: In Loving Memory of Lil' Wayne 2018
 kitten-deposit-title: Kitten Deposit
 available-kittens-gallery:
-  - available-kittens:
+  - litter-title: 'HOMEWARD BOUND 2021 (born July 13, 2021): Bella & Alex'
+    available-kittens:
       - name: 'Sassy'
         reserved: false
         img: '/uploads/2021/20210813_124955-1.jpg'
@@ -87,7 +88,6 @@ available-kittens-gallery:
         img: '/uploads/2021/20210812_195502-1.jpg'
         description: Male Blue Point
         cost: 1350
-    litter-title: 'HOMEWARD BOUND 2021 (born July 13, 2021): Bella & Alex'
   - litter-title: 'LONE STAR 2021 (born July 22, 2021): Sera & Alex'
     available-kittens:
       - name: 'Tara'
@@ -103,6 +103,8 @@ available-kittens-gallery:
         description: ''
         cost: 1350
 available-kittens-text-img-pair: []
+available-adults-title: Available Adults
+available-adults-gallery: []
 ---
 
 <!-- Landing Page -->
@@ -170,7 +172,7 @@ available-kittens-text-img-pair: []
     {% endif %}
     <div class="row justify-content-center">
       {% for kitten in gallery.available-kittens %}
-      <div class="col-12 col-lg-6 text-center mb-5 mb-lg-6">
+      <div class="col-12 col-lg-6 text-center mt-4 mb-5 mb-lg-6">
         {% if kitten.reserved %}
         <h4 class="title mt-0 mb-4">{{ kitten.name }} ‧ Reserved</h4>
         {% else %}
@@ -178,8 +180,8 @@ available-kittens-text-img-pair: []
         {% endif %}
         <img
           src="{{ site.baseurl }}{{ kitten.img }}"
-          class="img-fluid rounded mb-4 available-kitten border-box-shadow"
-          alt="Kitten"
+          class="img-fluid rounded mb-4 border-box-shadow"
+          alt="{{ kitten.description }}"
         />
         <p class="caption mb-0">
           {% if kitten.description != ''%} {{ kitten.description }}<br />
@@ -192,6 +194,44 @@ available-kittens-text-img-pair: []
     {% endfor %}
   </div>
 </section>
+
+<!-- Available Adults Section -->
+{% if page.available-adults-gallery.size > 0 %}
+<section id="available-adults" class="pt-6 pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="section-heading text-center">
+          {{ page.available-adults-title }}
+        </h2>
+      </div>
+    </div>
+    {% for gallery in page.available-adults-gallery %}
+    <div class="row justify-content-center mt-4">
+      {% for adult in gallery.available-adults %}
+      <div class="col-12 col-lg-6 text-center mb-5 mb-lg-6">
+        {% if adult.reserved %}
+        <h4 class="title mt-0 mb-4">{{ adult.name }} ‧ Reserved</h4>
+        {% else %}
+        <h4 class="title mt-0 mb-4">{{ adult.name }}</h4>
+        {% endif %}
+        <img
+          src="{{ adult.img | relative_url}}"
+          class="img-fluid rounded mb-4 border-box-shadow"
+          alt="{{ adult.description }}"
+        />
+        <p class="caption mb-0">
+          {% if adult.description != ''%} {{ adult.description }}<br />
+          {% endif %} ${{ adult.cost }} / ${{ page.deposit}} deposit
+        </p>
+        <hr class="d-lg-none mt-5 mt-lg-6" />
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
 <div class="container d-none d-lg-block">
   <hr class="mb-6" />
