@@ -6,7 +6,7 @@ var map = L.map('map', {
 });
 
 L.tileLayer(
-  'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x1OTgyMGw2eDJxcXRqYWs0YXNrNSJ9.Nx7D2d_DK_HxjN10WQZS7g',
+  'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tzemtiZGtqMmUxYjJ2cGppc2x0cTQ3NSJ9.j3luLHafS6h_z50Mi5AsQA',
   {
     attribution:
       'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -15,7 +15,7 @@ L.tileLayer(
     tileSize: 512,
     zoomOffset: -1,
     accessToken:
-      'pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x1OTgyMGw2eDJxcXRqYWs0YXNrNSJ9.Nx7D2d_DK_HxjN10WQZS7g',
+      'pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tzemtiZGtqMmUxYjJ2cGppc2x0cTQ3NSJ9.j3luLHafS6h_z50Mi5AsQA',
   }
 ).addTo(map);
 
