@@ -1,5 +1,9 @@
-// The latitude and longitude coordinates 29.785786, -95.824394 correspond to Katy, Texas.
-var mymap = L.map('map').setView([29.785786, -95.824394], 11);
+/* Latitude and longitude coordinates 29.785786, -95.824394
+correspond to Katy, Texas. */
+var map = L.map('map', {
+  center: [29.785786, -95.824394],
+  zoom: 11,
+});
 
 L.tileLayer(
   'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x1OTgyMGw2eDJxcXRqYWs0YXNrNSJ9.Nx7D2d_DK_HxjN10WQZS7g',
@@ -13,11 +17,11 @@ L.tileLayer(
     accessToken:
       'pk.eyJ1IjoiY2NzdHJhdWIiLCJhIjoiY2tpd2x1OTgyMGw2eDJxcXRqYWs0YXNrNSJ9.Nx7D2d_DK_HxjN10WQZS7g',
   }
-).addTo(mymap);
+).addTo(map);
 
 var circle = L.circle([29.785786, -95.824394], {
   color: 'purple',
   fillColor: 'purple',
   fillOpacity: 0.25,
   radius: 2000,
-}).addTo(mymap);
+}).addTo(map);
