@@ -13,7 +13,6 @@ $font-secondary: {{ site.data.theme.fonts.secondary }};
 
 // Functional classes.
 @import 'base/reset';
-@import 'base/variables';
 @import 'base/mixins';
 @import 'base/functional';
 

@@ -1,15 +1,13 @@
-html,
-body {
-  overflow-x: hidden;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  overflow-x: hidden;
+  background-color: white;
   color: $clr-dark;
   font-family: $font-primary;
+  font-size: 20px;
 }
 
 a:hover,
@@ -36,6 +34,6 @@ section {
   }
 
   section#social {
-    margin-bottom: 25px;
+    margin-bottom: 16px;
   }
 }

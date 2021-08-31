@@ -7,5 +7,5 @@ colors:
   navbar-bg: '#4b0084'
 fonts:
   primary: '"Lato", sans-serif'
-  secondary: '"Kaisei Decol"'
+  secondary: '"Merriweather", serif'
   logo: '"Kaushan Script", cursive'

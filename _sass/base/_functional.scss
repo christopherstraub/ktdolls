@@ -44,22 +44,22 @@
 }
 
 .section-subheading {
-  @include font($clr-primary, 36px, 700, $font-secondary);
+  @include font($clr-primary, 36px, 400, $font-secondary);
   margin-top: 0;
   margin-bottom: 25px;
 }
 
 .section-body {
   @include font($clr-dark, 20px);
-  line-height: 1.5;
 }
 
 .litter-title {
-  @include font(white, 22px, 400, $font-secondary);
+  @include font(white, 22px, 300, $font-secondary);
   background-color: $clr-primary;
   padding: 18px 28px;
   border-radius: 50rem;
   display: inline-block;
+  font-style: italic;
 }
 
 .title {
