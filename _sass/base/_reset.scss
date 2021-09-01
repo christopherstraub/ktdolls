@@ -1,9 +1,13 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  overflow-x: hidden;
   background-color: white;
   color: $clr-dark;
   font-family: $font-primary;
