@@ -488,7 +488,7 @@ available-adults: []
     class="carousel slide mx-auto"
     data-ride="carousel"
   >
-    <div class="carousel-inner">
+    <div class="carousel-inner text-center">
       {% for image in page.gallery %} {% if forloop.first %}
       <div class="carousel-item active">
         <img
@@ -522,8 +522,9 @@ available-adults: []
       href="#{{ page.gallery-title | slugify }}-carousel"
       role="button"
       data-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      ><div>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </div>
       <span class="sr-only">Previous</span>
     </a>
     <a
@@ -532,7 +533,9 @@ available-adults: []
       role="button"
       data-slide="next"
     >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <div>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </div>
       <span class="sr-only">Next</span>
     </a>
   </div>
