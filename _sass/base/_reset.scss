@@ -37,8 +37,8 @@ section {
     padding: 75px 0;
   }
 
-  section#social {
-    margin-bottom: 16px;
+  section#social ~ section#contact {
+    margin-top: 16px;
   }
 }
 
