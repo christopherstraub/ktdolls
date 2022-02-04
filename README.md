@@ -12,7 +12,7 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 2. Fork or download the project and open the project directory in the CLI.
 3. Build the site and make it available on a local server using command `bundle exec jekyll serve`. The site will be served at [http://localhost:4000](http://localhost:4000).
 
-## What the site looks like (with before and afters)
+## What the site looks like
 
 ### 🟢 Homepage
 
