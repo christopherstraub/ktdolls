@@ -37,3 +37,7 @@ body section:first-of-type#contact {
     font-size: 24px;
   }
 }
+
+#contact input.form-control {
+  color: $clr-dark;
+}
