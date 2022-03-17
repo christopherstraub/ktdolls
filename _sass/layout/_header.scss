@@ -98,6 +98,10 @@ header {
 
     & .subheading {
       font-size: 32px;
+
+      > span {
+        font-size: 28px;
+      }
     }
 
     & .fa-arrow-down {
