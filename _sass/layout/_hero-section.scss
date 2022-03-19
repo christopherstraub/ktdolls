@@ -1,0 +1,274 @@
+@mixin grid-animation-loop(
+  $class-animation-order,
+  $transition-duration: 2s,
+  $focus-duration: 2.25s,
+  $focus-property: transform,
+  $focus-value: scale(0.95),
+  $animation-delay: 0.5s
+) {
+  @if type-of($class-animation-order) == 'map' {
+    $animation-duration: ($transition-duration + $focus-duration) *
+      length($class-animation-order);
+
+    @each $class, $order in $class-animation-order {
+      .#{$class} {
+        animation: animation
+          $animation-duration
+          infinite
+          (
+            $animation-delay +
+              ($transition-duration + $focus-duration) *
+              ($order - 1)
+          );
+      }
+    }
+
+    @keyframes animation {
+      #{$transition-duration / $animation-duration * 100%} {
+        #{$focus-property}: $focus-value;
+      }
+      #{100% / length($class-animation-order)} {
+        #{$focus-property}: $focus-value;
+      }
+      #{100%
+        /
+        length($class-animation-order)
+        + $transition-duration
+        /
+        $animation-duration
+        *
+        100%} {
+        #{$focus-property}: unset;
+      }
+    }
+  } @else {
+    @error "$class-animation-order should be a Sass map.";
+  }
+}
+
+#hero-section {
+  padding: 60px 0 0;
+
+  > {
+    .heading {
+      background-color: hsl(280, 100%, 12%);
+      text-align: center;
+      padding: 10px;
+      font-size: 32px;
+
+      > {
+        h1 {
+          font-size: 1em;
+          font-family: $font-secondary;
+          margin-bottom: 10px;
+          color: white;
+        }
+        h2 {
+          font-size: 0.5em;
+          margin-top: 0;
+          color: hsl(0, 0, 80);
+        }
+      }
+    }
+
+    .grid {
+      display: flex;
+      flex-direction: column;
+
+      > {
+        @for $i from 2 through 9 {
+          .img-container-#{$i} {
+            display: none;
+          }
+        }
+
+        .img-container > img {
+          height: 100%;
+          width: 100%;
+          filter: brightness(0.75);
+
+          transition: all 250ms ease;
+
+          &:hover {
+            filter: brightness(1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #hero-section {
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero-section {
+    position: relative;
+    padding: 0 16px 75px;
+
+    > {
+      .heading {
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+        box-shadow: rgba(0, 0, 0, 1) 0px 22px 70px 4px;
+        z-index: 1;
+        border-radius: 50px;
+        padding: 10px 35px;
+        font-size: 36px;
+        cursor: default;
+
+        transition: opacity 1.25s linear;
+
+        &:hover {
+          opacity: 0.1;
+        }
+
+        > {
+          h1,
+          h2 {
+            &::selection {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+
+      .grid {
+        height: clamp(600px, calc(100vh - 150px), 1200px);
+
+        display: grid;
+        gap: 5px;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+          'img-container-1 img-container-1 img-container-2'
+          'img-container-1 img-container-1 img-container-2'
+          'img-container-1 img-container-1 img-container-7'
+          'img-container-5 img-container-6 img-container-7'
+          'img-container-5 img-container-6 img-container-7';
+
+        > {
+          @for $i from 1 through 9 {
+            .img-container-#{$i} {
+              grid-area: img-container-#{$i};
+            }
+          }
+
+          .img-container-2,
+          .img-container-5,
+          .img-container-6,
+          .img-container-7 {
+            display: block;
+          }
+
+          .img-container > img {
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero-section > {
+    .heading {
+      font-size: 40px;
+    }
+
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas:
+        'img-container-1 img-container-1 img-container-2 img-container-3'
+        'img-container-1 img-container-1 img-container-2 img-container-3'
+        'img-container-1 img-container-1 img-container-7 img-container-3'
+        'img-container-5 img-container-6 img-container-7 img-container-8'
+        'img-container-5 img-container-6 img-container-7 img-container-8';
+
+      > {
+        .img-container-3,
+        .img-container-8 {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1536px) {
+  #hero-section {
+    max-width: 2500px;
+    margin-inline: auto;
+
+    > {
+      $animation-duration: 4.5s;
+      $animation-delay: 1.5s;
+
+      .heading {
+        font-size: 44px;
+
+        animation: scale-up-down $animation-duration $animation-delay;
+
+        @keyframes scale-up-down {
+          30%,
+          45% {
+            transform: translateX(-50%) scale(1.1);
+          }
+        }
+      }
+
+      .grid {
+        min-height: 700px;
+
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+          'img-container-1 img-container-1 img-container-2 img-container-3 img-container-4'
+          'img-container-1 img-container-1 img-container-2 img-container-3 img-container-4'
+          'img-container-1 img-container-1 img-container-7 img-container-3 img-container-9'
+          'img-container-5 img-container-6 img-container-7 img-container-8 img-container-9'
+          'img-container-5 img-container-6 img-container-7 img-container-8 img-container-9';
+
+        > {
+          .img-container-4,
+          .img-container-9 {
+            display: block;
+          }
+
+          .img-container {
+            animation: scale-down-up $animation-duration $animation-delay;
+
+            @keyframes scale-down-up {
+              30%,
+              45% {
+                transform: scale(0.85);
+              }
+            }
+          }
+        }
+
+        $class-animation-order: (
+          'img-1': 1,
+          'img-2': 2,
+          'img-3': 3,
+          'img-4': 4,
+          'img-9': 5,
+          'img-8': 6,
+          'img-7': 7,
+          'img-6': 8,
+          'img-5': 9,
+        );
+
+        @include grid-animation-loop(
+          $class-animation-order,
+          $animation-delay: $animation-delay + $animation-duration / 2
+        );
+      }
+    }
+  }
+}

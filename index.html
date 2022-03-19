@@ -3,7 +3,25 @@ permalink: '/'
 layout: home
 heading: Katy, Texas Ragdolls
 subheading: Pedigreed Traditional & Mink Ragdoll Kittens.
-bg-img: '/uploads/2020/img_1312-edited.webp'
+hero-section-img-grid:
+  img-1: '/uploads/2020/img_1312.webp'
+  img-1-alt: A kitten lying on a bed
+  img-2: '/uploads/2021/20200922_134457-1.jpg'
+  img-2-alt: A kitten on a sofa
+  img-3: '/uploads/2020/20200310_145133-1.jpg'
+  img-3-alt: A kitten
+  img-4: '/assets/img/fur-ever-homes/3.webp'
+  img-4-alt: Cloe & Patricia from Kema, Texas
+  img-5: '/uploads/2022/20210916_131709-1.jpg'
+  img-5-alt: Three kittens lounging
+  img-6: '/assets/img/fur-ever-homes/17.webp'
+  img-6-alt: Skyla & Chris with their new family
+  img-7: '/uploads/2021/20210414_225048-1.jpg'
+  img-7-alt: Three kittens
+  img-8: '/uploads/2022/20210910_134232-1.jpg'
+  img-8-alt: Several kittens lying together on a bed
+  img-9: '/uploads/2022/20210914_181002-1.jpg'
+  img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 deposit: 500
 shipping-title: Shipping Temporarily Suspended
@@ -99,38 +117,26 @@ available-adults-title: Available Adults
 available-adults: []
 ---
 
-<!-- Landing Page -->
-<header
-  class="header"
-  style="background-image: linear-gradient(
-  rgba(0, 0, 0, .5) 25%,
-  rgba(0, 0, 0, 0),
-  rgba(0, 0, 0, .5) 85%
-), url('{{ page.bg-img }}');"
->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col px-0">
-        <h1 class="heading my-3">{{ page.heading }}</h1>
-        <h4 class="subheading">{{ page.subheading }}</h4>
-      </div>
-    </div>
-    <div class="row pb-4">
-      <div class="col">
-        <h4 class="subheading">
-          <span
-            ><a href="mailto:{{ site.email }}">Email us</a> at {{ site.email }}
-            for more information, or <a href="#contact">contact us</a> right
-            here.</span
-          >
-        </h4>
-      </div>
-    </div>
+<!-- Hero Section -->
+<section id="hero-section">
+  <div class="heading">
+    <h1>{{ page.heading }}</h1>
+    <h2>{{ page.subheading }}</h2>
   </div>
-  <a href="#available-kittens">
-    <i class="fa fa-arrow-down"></i>
-  </a>
-</header>
+  <div class="grid">
+    {% for i in (1..9) %}
+    <div class="img-container img-container-{{ i }}">
+      {% capture img %}img-{{i}}{% endcapture %} {% capture img-alt
+      %}img-{{i}}-alt{% endcapture %}
+      <img
+        class="img-{{ i }}"
+        src="{{ page.hero-section-img-grid[img] }}"
+        alt="{{ page.hero-section-img-grid[img-alt] }}"
+      />
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
 <!-- Available Kittens Section -->
 <section id="available-kittens" class="pb-0">
