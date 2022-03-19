@@ -22,12 +22,157 @@ fields:
       format: markdown
   label: Subheading
   description: The subheading of the hero section.
-- name: bg-img
-  type: file
-  config:
-    maxSize: 64
-  label: Background Image
-  description: The landing page background image.
+- name: hero-section-img-grid
+  type: field_group
+  config: {}
+  fields:
+  - name: img-1
+    type: file
+    config:
+      maxSize: 64
+    label: Image 1
+  - name: img-1-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+    label: Image 1 Alternative Text
+  - name: img-2
+    type: file
+    config:
+      maxSize: 64
+    label: Image 2
+  - name: img-2-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 2 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  - name: img-3
+    type: file
+    config:
+      maxSize: 64
+    label: Image 3
+  - name: img-3-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 3 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  - name: img-4
+    type: file
+    config:
+      maxSize: 64
+    label: Image 4
+  - name: img-4-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 4 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  - name: img-5
+    type: file
+    config:
+      maxSize: 64
+    label: Image 5
+  - name: img-5-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 5 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  - name: img-6
+    type: file
+    config:
+      maxSize: 64
+    label: Image 6
+  - name: img-6-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 6 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  - name: img-7
+    type: file
+    config:
+      maxSize: 64
+    label: Image 7
+  - name: img-7-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 7 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  - name: img-8
+    type: file
+    config:
+      maxSize: 64
+    label: Image 8
+  - name: img-8-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 8 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  - name: img-9
+    type: file
+    config:
+      maxSize: 64
+    label: Image 9
+  - name: img-9-alt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Image 9 Alternative Text
+    description: Alternative text helps visually impaired users using screen readers
+      and improves search engine optimization.
+  label: Hero Section Image Grid
+  description: The images of the grid are numbered left to right, as follows:<br>1
+    2 3 4<br>5 6 7 8 9
 - name: available-kittens-title
   type: text
   config:
