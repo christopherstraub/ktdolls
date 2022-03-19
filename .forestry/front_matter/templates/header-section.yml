@@ -11,7 +11,7 @@ fields:
     schema:
       format: markdown
   label: Heading
-  description: The heading of the landing page.
+  description: The heading of the hero section.
 - name: subheading
   type: textarea
   default: ''
@@ -21,7 +21,7 @@ fields:
     schema:
       format: markdown
   label: Subheading
-  description: The subheading of the landing page.
+  description: The subheading of the hero section.
 - name: bg-img
   type: file
   config:
