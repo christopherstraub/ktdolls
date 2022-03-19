@@ -1,6 +1,6 @@
 # KTDolls
 
-KTDolls is an engaging and responsive marketing website implementing the PayPal API for secure payments, that is built with Jekyll for my client who wanted to upgrade from their previous website that was unsightly and a hassle to update. The website is set up with the Forestry.io headless CMS so my client can easily edit and upload new content to their site as they frequently need to do so. Delivering this product to my client allowed them to cut yearly costs by $240, improve their workflow and engage their clientele with a more authentic website and better user experience across all devices.
+KTDolls is an engaging and responsive marketing website implementing the PayPal API for secure payments, that is built with Jekyll for my client who wanted to upgrade from their previous website that was unsightly and a hassle to update. The website is set up with the Forestry.io headless CMS so my client can easily edit and upload new content to their site as they frequently need to do so. Delivering this custom solution to my client allowed them to significantly cut yearly costs, improve their workflow and engage their clientele with a more authentic website and better user experience across all devices.
 
 ## View
 
