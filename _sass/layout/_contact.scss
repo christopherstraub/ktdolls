@@ -41,3 +41,49 @@ body section:first-of-type#contact {
 #contact input.form-control {
   color: $clr-dark;
 }
+
+#contact .contact-info {
+  display: flex;
+  justify-content: center;
+  margin-block: 10px 15px;
+
+  > .contact-info--types {
+    text-align: right;
+    padding-right: 15px;
+    border-right: 2px solid hsl(0, 0%, 80%);
+
+    > h3 {
+      margin: 0;
+      color: hsl(0, 0%, 80%);
+      font-size: 16px;
+      line-height: 3rem;
+    }
+  }
+  > .contact-info--values {
+    text-align: left;
+    margin-left: 15px;
+
+    > p {
+      margin: 0;
+      color: white;
+      font-size: 20px;
+      line-height: 3rem;
+
+      > a {
+        color: white;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-info {
+    > .contact-info--types > h3 {
+      font-size: 20px;
+    }
+
+    > .contact-info--values > p {
+      font-size: 24px;
+    }
+  }
+}

@@ -8,10 +8,16 @@
     <div class="row mb-5">
       <div class="col text-center">
         <div class="contact-info">
-          <h3 class="subheading mt-0 mb-2">Phone/Text {{ site.phone }}</h3>
-          <h3 class="subheading my-0 mb-4">
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </h3>
+          <div class="contact-info--types">
+            <h3>PHONE/TEXT</h3>
+            <h3>EMAIL</h3>
+          </div>
+          <div class="contact-info--values">
+            <p>{{ site.phone }}</p>
+            <p>
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
