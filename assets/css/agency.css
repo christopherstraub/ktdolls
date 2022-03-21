@@ -488,10 +488,21 @@ footer {
 }
 
 footer span.copyright {
-    font-size: 20px;
+    font-size: 14px;
     text-transform: capitalize;
     font-family: {{ site.data.theme.fonts.primary }};
     line-height: 1.6;
+}
+
+footer .section-body {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  footer span.copyright,
+  footer .section-body {
+    font-size: 20px;
+  }
 }
 
 footer ul.quicklinks {
