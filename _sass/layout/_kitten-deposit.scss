@@ -1,7 +1,8 @@
 .deposit-confirmation {
   padding-block: 10px 25px;
+  padding-inline: 10px;
   border: 2px solid $clr-primary;
-  border-radius: 25px;
+  border-radius: 5px;
   background-color: hsla(300, 100%, 60%, 0.05);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -10,4 +11,13 @@
     @include font($clr-primary, 24px, 400, $font-secondary);
     margin-top: 25px;
   }
+}
+
+.no-kitten-selected-alert--text {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 0;
 }
