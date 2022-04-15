@@ -489,7 +489,6 @@ footer {
 
 footer span.copyright {
     font-size: 14px;
-    text-transform: capitalize;
     font-family: {{ site.data.theme.fonts.primary }};
     line-height: 1.6;
 }
