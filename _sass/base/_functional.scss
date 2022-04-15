@@ -77,25 +77,26 @@
 }
 
 .carousel {
-  width: fit-content;
-  max-width: 400px;
-
   & .carousel-caption {
     position: absolute;
-    bottom: 0px;
-  }
+    bottom: 0;
+    width: fit-content;
+    max-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
 
-  & .carousel-caption > h3 {
-    font-size: 22px;
-    padding: 12px;
-    background-color: rgba($color: #000000, $alpha: 0.5);
-    border-radius: 10px;
+    > h3 {
+      font-size: 22px;
+      padding: 12px;
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      border-radius: 10px;
+    }
   }
 }
 
 // Default image sizes.
 .img-fluid {
-  max-height: 450px;
+  max-height: 600px;
 }
 
 .carousel .img-fluid {
