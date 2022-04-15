@@ -24,8 +24,9 @@
               <a
                 href="{{ network.url }}"
                 target="_blank"
-                class="{{ network.title | slugify }}-btn"
-                ><i class="fa fa-{{ network.title | slugify }}"></i
+                class="{{ network.title | downcase }}-btn"
+                title="Our {{ network.title | capitalize }}"
+                ><i class="fa fa-{{ network.title | downcase }}"></i
               ></a>
             </li>
             {% endfor %}
