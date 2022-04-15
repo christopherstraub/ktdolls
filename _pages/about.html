@@ -155,7 +155,7 @@ mink-ragdoll-gallery:
       {% for queen in page.queens %} {% assign remainder = page.queens.size |
       modulo: 2 %} {% if remainder != 0 and forloop.index == page.queens.size %}
       <div class="col-md-12 text-center mb-5">
-        <h4 class="title mb-4">{{ queen.name }}</h4>
+        <h3 class="title mb-4">{{ queen.name }}</h3>
         <img
           src="{{ queen.img }}"
           alt="{{ queen.description }}"
@@ -165,7 +165,7 @@ mink-ragdoll-gallery:
       </div>
       {% else %}
       <div class="col-md-6 text-center mb-5">
-        <h4 class="title mb-4">{{ queen.name }}</h4>
+        <h3 class="title mb-4">{{ queen.name }}</h3>
         <img
           src="{{ queen.img }}"
           alt="{{ queen.description }}"
@@ -183,7 +183,7 @@ mink-ragdoll-gallery:
       {% for king in page.kings %} {% assign remainder = page.kings.size |
       modulo: 2 %} {% if remainder != 0 and forloop.index == page.kings.size %}
       <div class="col-md-12 text-center mb-5">
-        <h4 class="title mb-4">{{ king.name }}</h4>
+        <h3 class="title mb-4">{{ king.name }}</h3>
         <img
           src="{{ king.img }}"
           alt="{{ king.description }}"
@@ -193,7 +193,7 @@ mink-ragdoll-gallery:
       </div>
       {% else %}
       <div class="col-md-6 text-center mb-5">
-        <h4 class="title mb-4">{{ king.name }}</h4>
+        <h3 class="title mb-4">{{ king.name }}</h3>
         <img
           src="{{ king.img }}"
           alt="{{ king.description }}"
