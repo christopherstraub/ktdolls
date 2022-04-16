@@ -412,7 +412,7 @@ section#contact {
       rgba(0, 0, 0, .25) 15%,
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, .25) 85%
-    ), url('/uploads/2020/img_1309-edited.webp');
+    ), url('/assets/img/contact/background.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
