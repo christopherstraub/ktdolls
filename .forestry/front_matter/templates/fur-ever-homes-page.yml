@@ -2,7 +2,7 @@
 label: Fur-ever Homes Page
 hide_body: true
 fields:
-- name: page-title
+- name: title
   type: text
   config:
     required: false

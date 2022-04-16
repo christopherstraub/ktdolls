@@ -25,7 +25,13 @@ fields:
   config:
     required: false
   label: Site Title
-  description: The title of the website. Appears in the browser.
+  description: The title of the website.
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Site Subtitle
+  description: The subtitle of the website.
 - name: description
   type: textarea
   default: ''
@@ -35,7 +41,7 @@ fields:
     schema:
       format: markdown
   label: Site Description
-  description: A description of the website. Appears in the browser.
+  description: A description of the website.
 - name: social
   type: field_group_list
   fields:
@@ -44,27 +50,24 @@ fields:
     config:
       required: false
     label: Title
-    description: Search on <a href="https://fontawesome.com/" title="https://fontawesome.com/"
-      target="_blank">https://fontawesome.com/</a> to see if they offer an icon of
-      the social media platform. If they do, enter the name of the platform here.
-      For example "facebook" or "instagram". MUST be in lowercase.
+    description: The title of the social media platform.
   - name: url
     type: text
     config:
       required: false
     label: Link
-    description: The link to your profile on the social media platform.
+    description: The link to your profile/page on the social media platform.
   config:
     min: 
     max: 
     labelField: 
   label: Social Media Links
-  description: List of your social media links.
+  description: List of social media links.
 - name: url
   type: text
   config:
     required: false
   label: Site URL
-  description: The site URL.
+  description: The site URL. Must not have a trailing slash.
 pages:
 - _config.yml
