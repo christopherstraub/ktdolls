@@ -31,11 +31,11 @@
             {% elsif page.url == item.link %}
             <a href="#top">{{ item.name }}</a>
             {% elsif item.name == 'available kittens' %}
-            <a href="{{ item.link | relative_url }}#{{ item.name | slugify }}"
+            <a href="{{ item.link }}#{{ item.name | slugify }}"
               >{{ item.name }}</a
             >
             {% else %}
-            <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+            <a href="{{ item.link }}">{{ item.name }}</a>
             {% endif %}
           </li>
           {% endfor %}
