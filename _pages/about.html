@@ -272,11 +272,11 @@ mink-ragdoll-gallery:
             alt="{{ image.caption }}"
             class="img-fluid"
           />
-          {% if image.caption != '' %}
+          {% unless image.caption == '' %}
           <div class="carousel-caption">
             <h3 class="mb-0">{{ image.caption }}</h3>
           </div>
-          {% endif %}
+          {% endunless %}
         </div>
         {% else %}
         <div class="carousel-item">
@@ -285,11 +285,11 @@ mink-ragdoll-gallery:
             alt="{{ image.caption }}"
             class="img-fluid"
           />
-          {% if image.caption != '' %}
+          {% unless image.caption == '' %}
           <div class="carousel-caption">
             <h3 class="mb-0">{{ image.caption }}</h3>
           </div>
-          {% endif %}
+          {% endunless %}
         </div>
         {% endif %} {% endfor %}
       </div>
