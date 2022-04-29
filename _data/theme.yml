@@ -3,7 +3,7 @@ colors:
   primary: '#4b0084'
   secondary: '#7300ca'
   dark: '#222222'
-  dark-accent: '#777777'
+  dark-accent: '#767676'
   navbar-bg: '#4b0084'
 fonts:
   primary: '"Lato", sans-serif'
