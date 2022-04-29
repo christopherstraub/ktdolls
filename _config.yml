@@ -23,4 +23,18 @@ social:
     url: https://www.facebook.com/KTDolls/
   - title: Instagram
     url: https://www.instagram.com/ktdolls2017/
-logo: '/assets/img/logo.webp'
+logo: '/assets/img/logo.jpg'
+
+# jekyll-imagemagick plugin configuration.
+imagemagick:
+  enabled: true
+  widths:
+    - 1024
+  input_directories:
+    - uploads
+  input_formats:
+    - '.jpg'
+    - '.jpeg'
+  output_formats:
+    jpg: '-auto-orient -strip -resize x650 -quality 85 -define jpeg:dct-method=float -interlace Plane'
+    webp: '-auto-orient -resize x650 -quality 85'

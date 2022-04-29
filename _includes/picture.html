@@ -1,0 +1,28 @@
+<!-- prettier-ignore -->
+{% assign directories = include.path | split: '/' %}
+{% if directories[1] != 'uploads' %}
+  {% assign path = include.path %}
+  {% assign webp_path = path | replace: '.jpg', '.webp' %}
+{% else %}
+  {% capture extReplacement %}-1024.jpg{% endcapture %}
+  {% assign path = include.path | replace: '.jpg', extReplacement
+                                | replace: '.jpeg', extReplacement
+                                | replace: '.JPG', extReplacement
+                                | replace: '.JPEG', extReplacement
+  %}
+  {% assign webp_path = path | replace: '.jpg', '.webp' %}
+{% endif %}
+
+<!-- prettier-ignore -->
+<picture>
+  <source srcset="{{ webp_path }}" type="image/webp" />
+  <img
+    src="{{ path }}"
+    {% if include.alt %}
+    alt="{{ include.alt }}"
+    {% endif %}
+    {% if include.class %}
+    class="{{ include.class }}"
+    {% endif %}
+  />
+</picture>

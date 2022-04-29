@@ -1,11 +1,7 @@
 <footer>
   <div class="container text-center">
-    <img
-      src="{{ site.logo }}"
-      alt="KTDolls: Purrfectly Spoiled"
-      height="100"
-      class="d-block mx-auto mb-4"
-    />
+    {% include picture.html path=site.logo alt="KTDolls: Purrfectly Spoiled"
+    class="d-block mx-auto mb-4" %}
     <span class="copyright"
       >Copyright &copy; 2017-{{ 'now' | date: "%Y" }} KTDolls. All rights
       reserved.
