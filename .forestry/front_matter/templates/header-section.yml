@@ -343,6 +343,10 @@ fields:
     max: 
     step: 
   label: Kitten Deposit Cost
+- name: allow-deposits
+  type: boolean
+  label: Allow Deposits?
+  description: Enable to allow deposits even when there are no unreserved kittens.
 - name: shipping-title
   type: text
   config:
