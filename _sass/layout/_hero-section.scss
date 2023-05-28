@@ -24,18 +24,18 @@
     }
 
     @keyframes animation {
-      #{$transition-duration / $animation-duration * 100%} {
+      #{calc($transition-duration / $animation-duration) * 100%} {
         #{$focus-property}: $focus-value;
       }
-      #{100% / length($class-animation-order)} {
+      #{calc(100% / length($class-animation-order))} {
         #{$focus-property}: $focus-value;
       }
-      #{100%
+      #{calc(100%
         /
-        length($class-animation-order)
-        + $transition-duration
+        length($class-animation-order))
+        + calc($transition-duration
         /
-        $animation-duration
+        $animation-duration)
         *
         100%} {
         #{$focus-property}: unset;
@@ -266,7 +266,7 @@
 
         @include grid-animation-loop(
           $class-animation-order,
-          $animation-delay: $animation-delay + $animation-duration / 2
+          $animation-delay: $animation-delay + calc($animation-duration / 2)
         );
       }
     }
