@@ -1,0 +1,17 @@
+{
+  "name": "ktdolls",
+  "version": "1.0.0",
+  "description": "KTDolls is an engaging and responsive marketing website implementing the PayPal API for secure payments, that is built with Jekyll for my client who wanted to upgrade from their previous website that was unsightly and a hassle to update. The website is set up with the Forestry.io headless CMS so my client can easily edit and upload new content to their site as they frequently need to do so. Delivering this custom solution to my client allowed them to significantly cut yearly costs, improve their workflow and engage their clientele with a more authentic website and better user experience across all devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.16",
+    "node": "^18.14.0",
+    "tinacms": "^1.5.8"
+  }
+}
