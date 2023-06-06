@@ -1,12 +1,12 @@
----
-url: https://ktdolls2017.net
+url: 'https://ktdolls2017.net'
 title: KTDolls
 subtitle: Pedigreed Traditional and Mink Ragdoll Kittens
 email: ktdolls2017@gmail.com
 phone: 281-766-0633
-description:
+description: >-
   KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens.
-  Established in 2017, we are located in Katy, Texas, 30 miles west of downtown Houston.
+  Established in 2017, we are located in Katy, Texas, 30 miles west of downtown
+  Houston.
 permalink: none
 markdown: kramdown
 defaults:
@@ -20,12 +20,10 @@ include:
   - _redirects
 social:
   - title: Facebook
-    url: https://www.facebook.com/KTDolls/
+    url: 'https://www.facebook.com/KTDolls/'
   - title: Instagram
-    url: https://www.instagram.com/ktdolls2017/
-logo: '/assets/img/logo.jpg'
-
-# jekyll-imagemagick plugin configuration.
+    url: 'https://www.instagram.com/ktdolls2017/'
+logo: /assets/img/logo.jpg
 imagemagick:
   enabled: true
   widths:
@@ -33,8 +31,11 @@ imagemagick:
   input_directories:
     - uploads
   input_formats:
-    - '.jpg'
-    - '.jpeg'
+    - .jpg
+    - .jpeg
   output_formats:
-    jpg: '-auto-orient -strip -resize x650 -quality 85 -define jpeg:dct-method=float -interlace Plane'
+    jpg: >-
+      -auto-orient -strip -resize x650 -quality 85 -define jpeg:dct-method=float
+      -interlace Plane
     webp: '-auto-orient -resize x650 -quality 85'
+_template: settings
