@@ -16,51 +16,51 @@ KTDolls is served live at [ktdolls2017.net](https://ktdolls2017.net/) (Ctrl + cl
 
 ### 🟢 Homepage
 
-![homepage](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage.png)
+![homepage](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/homepage.png)
 
 ### 🔴 Homepage Before
 
-![homepage before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/homepage-before.png)
+![homepage before](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/homepage-before.png)
 
 ### 🟢 Contact Page
 
-![contact page](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/contact-page.PNG)
+![contact page](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/contact-page.PNG)
 
 ### 🔴 Contact Page Before
 
-![contact page before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/contact-page-before.png)
-![social buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/social-buttons-before.png)
+![contact page before](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/contact-page-before.png)
+![social buttons before](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/social-buttons-before.png)
 
 ### 🟢 Available Kittens
 
-![available kittens](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/available-kittens.png)
+![available kittens](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/available-kittens.png)
 
 ### 🔴 Available Kittens Before
 
-![available kittens before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/available-kittens-before.png)
+![available kittens before](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/available-kittens-before.png)
 
 ### 🟢 PayPal Buttons (Dynamic)
 
 #### With kittens available to reserve:
 
-![paypal buttons 1](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-1.PNG)
+![paypal buttons 1](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/paypal-buttons-1.PNG)
 
 #### Expecting litter:
 
-![paypal buttons 2](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-2.PNG)
+![paypal buttons 2](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/paypal-buttons-2.PNG)
 
 ### 🔴 PayPal Buttons Before
 
-![paypal buttons before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/paypal-buttons-before.png)
+![paypal buttons before](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/paypal-buttons-before.png)
 
 ### 🟢 Photo Gallery
 
-![photo gallery](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes.png)
+![photo gallery](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/fur-ever-homes.png)
 
 ### 🔴 Photo Gallery Before
 
-![photo gallery before](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/fur-ever-homes-before.PNG)
+![photo gallery before](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/fur-ever-homes-before.PNG)
 
 ### 🟢 404 Redirect
 
-![404 redirect](https://github.com/christopherstraub/ktdolls/blob/forestry/screenshots/404-redirect.png)
+![404 redirect](https://github.com/christopherstraub/ktdolls/blob/master/screenshots/404-redirect.png)
