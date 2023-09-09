@@ -201,7 +201,7 @@ available-adults: []
       {% for kitten in gallery.available-kittens %}
       <div class="col-12 col-lg-6 text-center mt-4 mb-5 mb-lg-6">
         {% if kitten.reserved %}
-        <h3 class="title mt-0 mb-4">{{ kitten.name }} ‧ Reserved</h3>
+        <h3 class="title mt-0 mb-4">{{ kitten.name }} · Reserved</h3>
         {% else %}
         <h3 class="title mt-0 mb-4">{{ kitten.name }}</h3>
         {% endif %} {% include picture.html path=kitten.img
@@ -234,7 +234,7 @@ available-adults: []
       {% for adult in page.available-adults %}
       <div class="col-12 col-lg-6 text-center mb-5 mb-lg-6">
         {% if adult.reserved %}
-        <h4 class="title mt-0 mb-4">{{ adult.name }} ‧ Reserved</h4>
+        <h4 class="title mt-0 mb-4">{{ adult.name }} · Reserved</h4>
         {% else %}
         <h4 class="title mt-0 mb-4">{{ adult.name }}</h4>
         {% endif %} {% include picture.html path=adult.img alt=adult.description
