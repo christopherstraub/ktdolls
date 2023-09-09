@@ -3,6 +3,8 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: /20220717_151334.jpg
+    title: Thomas
   - path: /20220717_131628.jpg
     title: Dawn
   - path: /20220716_112739.jpg
