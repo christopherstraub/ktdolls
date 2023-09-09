@@ -145,8 +145,6 @@ available-kittens-gallery:
 available-kittens-text-img-pair:
   - text: 'Babies are here!'
     img: '/assets/img/available-kittens/patience-x-glenn.webp'
-  - text: ''
-    img: ''
 available-adults-title: Available Adults
 available-adults: []
 ---
@@ -220,7 +218,9 @@ available-adults: []
 </section>
 
 <!-- Available Adults Section -->
+
 {% if page.available-adults.size > 0 %}
+
 <section id="available-adults" class="pt-6 pb-0">
   <div class="container">
     <div class="row">
@@ -538,6 +538,7 @@ available-adults: []
     </div>
 
     {% endif %}
+
   </div>
 </section>
 
@@ -555,6 +556,7 @@ available-adults: []
         <p class="section-body">{{ page.shipping-body }}</p>
       </div>
     </div>
+
   </div>
   <div class="row mt-5">
     <div class="col-12 text-center">
