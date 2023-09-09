@@ -666,6 +666,11 @@ export function siteSettingsFields() {
       name: 'social',
       label: 'Social Media Links',
       list: true,
+      ui: {
+        itemProps: (item) => ({
+          label: item?.title,
+        }),
+      },
       fields: [
         {
           type: 'string',
