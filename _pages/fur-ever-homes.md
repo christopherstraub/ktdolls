@@ -3,6 +3,8 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: /20220528_165615.jpg
+    title: George
   - path: /20220527_163619.jpg
     title: Marquis
   - path: /20220527_150232.jpg
@@ -104,6 +106,7 @@ gallery:
   - path: /assets/img/fur-ever-homes/libby.jpg
     title: Libby
 ---
+
 
 
 
