@@ -3,6 +3,8 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: /20220521_121121.jpg
+    title: Eric
   - path: /20220521_110916.jpg
     title: Dylan
   - path: /assets/img/fur-ever-homes/gabriel.jpg
@@ -96,6 +98,7 @@ gallery:
   - path: /assets/img/fur-ever-homes/libby.jpg
     title: Libby
 ---
+
 
 
 <section>
