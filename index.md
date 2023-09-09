@@ -1,153 +1,154 @@
 ---
-permalink: '/'
-heading: Katy, Texas Ragdolls
+permalink: /
+heading: 'Katy, Texas Ragdolls'
 subheading: Pedigreed Traditional and Mink Ragdoll Kittens.
 hero-section-img-grid:
-  img-1: '/assets/img/home/hero-section/1.jpg'
+  img-1: /assets/img/home/hero-section/1.jpg
   img-1-alt: A kitten lying on a blanket
-  img-2: '/assets/img/home/hero-section/2.jpg'
+  img-2: /assets/img/home/hero-section/2.jpg
   img-2-alt: A kitten on a sofa
-  img-3: '/assets/img/home/hero-section/3.jpg'
+  img-3: /assets/img/home/hero-section/3.jpg
   img-3-alt: A kitten
-  img-4: '/assets/img/home/hero-section/4.jpg'
-  img-4-alt: Cloe and Patricia from Kema, Texas
-  img-5: '/assets/img/home/hero-section/5.jpg'
+  img-4: /assets/img/home/hero-section/4.jpg
+  img-4-alt: 'Cloe and Patricia from Kema, Texas'
+  img-5: /assets/img/home/hero-section/5.jpg
   img-5-alt: Three kittens lounging
-  img-6: '/assets/img/home/hero-section/6.jpg'
+  img-6: /assets/img/home/hero-section/6.jpg
   img-6-alt: Skyla and Chris with their new family
-  img-7: '/assets/img/home/hero-section/7.jpg'
+  img-7: /assets/img/home/hero-section/7.jpg
   img-7-alt: Three kittens
-  img-8: '/assets/img/home/hero-section/8.jpg'
+  img-8: /assets/img/home/hero-section/8.jpg
   img-8-alt: Several kittens playing
-  img-9: '/assets/img/home/hero-section/9.jpg'
+  img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 deposit: 500
 shipping-title: Shipping Temporarily Suspended
-shipping-body:
-  PetSafe shipping has been suspended due to Covid-19. We'll update you
-  once the situation changes.
+shipping-body: >-
+  PetSafe shipping has been suspended due to Covid-19. We'll update you once the
+  situation changes.
 gallery-title: Photo Gallery
 gallery:
-  - path: '/assets/img/home/gallery/20210910_134232-1.jpg'
+  - path: /assets/img/home/gallery/20210910_134232-1.jpg
     caption: Oopsie 2021
-  - path: '/assets/img/home/gallery/img_20210903_115555_743-1.jpg'
+  - path: /assets/img/home/gallery/img_20210903_115555_743-1.jpg
     caption: 'Lone Star 2021: Tara'
-  - path: '/assets/img/home/gallery/20210821_130938-1.jpg'
+  - path: /assets/img/home/gallery/20210821_130938-1.jpg
     caption: 'Lone Star 2021: Dallas'
-  - path: '/assets/img/home/gallery/20210916_131709-1.jpg'
+  - path: /assets/img/home/gallery/20210916_131709-1.jpg
     caption: 'Homeward Bound 2021: Boston, Indiana, Kylie'
-  - path: '/assets/img/home/gallery/20201010_145534-1.jpg'
+  - path: /assets/img/home/gallery/20201010_145534-1.jpg
     caption: 'Wedded Bliss: Zaya'
-  - path: '/assets/img/home/gallery/20201004_114734-1.jpg'
+  - path: /assets/img/home/gallery/20201004_114734-1.jpg
     caption: 'Wedded Bliss: Skyla'
-  - path: '/assets/img/home/gallery/20200922_201255-1.jpg'
+  - path: /assets/img/home/gallery/20200922_201255-1.jpg
     caption: 'Wedded Bliss: Kaden'
-  - path: '/assets/img/home/gallery/20200922_134457-1.jpg'
+  - path: /assets/img/home/gallery/20200922_134457-1.jpg
     caption: 'Wedded Bliss: Chris'
-  - path: '/assets/img/home/gallery/20200906_164802-1.jpg'
+  - path: /assets/img/home/gallery/20200906_164802-1.jpg
     caption: 'Wedded Bliss: Amanda and Skyla'
-  - path: '/assets/img/home/gallery/20201007_231522-1.jpg'
+  - path: /assets/img/home/gallery/20201007_231522-1.jpg
     caption: 'Wedded Bliss: Libby and Jack'
-  - path: '/assets/img/home/gallery/20200302_222354.jpg'
+  - path: /assets/img/home/gallery/20200302_222354.jpg
     caption: 'Jedi 2020: Malla'
-  - path: '/assets/img/home/gallery/20200323_101832.jpg'
+  - path: /assets/img/home/gallery/20200323_101832.jpg
     caption: 'Jedi 2020: Leia'
-  - path: '/assets/img/home/gallery/20200407_122421.jpg'
+  - path: /assets/img/home/gallery/20200407_122421.jpg
     caption: 'Jedi 2020: Shmi'
-  - path: '/assets/img/home/gallery/20200401_115152.jpg'
+  - path: /assets/img/home/gallery/20200401_115152.jpg
     caption: 'Jedi 2020: Rose'
-  - path: '/assets/img/home/gallery/20200227_115636.jpg'
+  - path: /assets/img/home/gallery/20200227_115636.jpg
     caption: 'Jedi 2020: Padme'
-  - path: '/assets/img/home/gallery/20200224_111623.jpg'
+  - path: /assets/img/home/gallery/20200224_111623.jpg
     caption: 'Jedi 2020: Binks'
-  - path: '/assets/img/home/gallery/20200222_152442.jpg'
+  - path: /assets/img/home/gallery/20200222_152442.jpg
     caption: 'Jedi 2020: Anakin'
-  - path: '/assets/img/home/gallery/19.jpg'
+  - path: /assets/img/home/gallery/19.jpg
     caption: 'Summer 2019: Summer'
-  - path: '/assets/img/home/gallery/18.jpg'
+  - path: /assets/img/home/gallery/18.jpg
     caption: 'Summer 2019: Kyra'
-  - path: '/assets/img/home/gallery/20.jpg'
+  - path: /assets/img/home/gallery/20.jpg
     caption: 'Summer 2019: Dayton'
-  - path: '/assets/img/home/gallery/21.jpg'
+  - path: /assets/img/home/gallery/21.jpg
     caption: 'Summer 2019: Idalia and Kyra'
-  - path: '/assets/img/home/gallery/22.jpg'
+  - path: /assets/img/home/gallery/22.jpg
     caption: 'Summer 2019: Ray'
-  - path: '/assets/img/home/gallery/23.jpg'
+  - path: /assets/img/home/gallery/23.jpg
     caption: 'Summer 2019: Dayton'
-  - path: '/assets/img/home/gallery/24.jpg'
+  - path: /assets/img/home/gallery/24.jpg
     caption: 'Summer 2019: Beckett'
-  - path: '/assets/img/home/gallery/25.jpg'
+  - path: /assets/img/home/gallery/25.jpg
     caption: 'Summer 2019: Kai'
-  - path: '/assets/img/home/gallery/14.jpg'
+  - path: /assets/img/home/gallery/14.jpg
     caption: 'Fall 2018: Keith and Glenda'
-  - path: '/assets/img/home/gallery/15.jpg'
+  - path: /assets/img/home/gallery/15.jpg
     caption: 'Fall 2018: Todd, Keith and Glenda'
-  - path: '/assets/img/home/gallery/16.jpg'
+  - path: /assets/img/home/gallery/16.jpg
     caption: 'Fall 2018: Bryan and Todd'
-  - path: '/assets/img/home/gallery/17.jpg'
+  - path: /assets/img/home/gallery/17.jpg
     caption: 'Fall 2018: Glenda, Keith and Luke'
-  - path: '/assets/img/home/gallery/3.jpg'
+  - path: /assets/img/home/gallery/3.jpg
     caption: Sir Glenn
-  - path: '/assets/img/home/gallery/26.jpg'
+  - path: /assets/img/home/gallery/26.jpg
     caption: In Loving Memory of Cyrus 2019
-  - path: '/assets/img/home/gallery/11.jpg'
+  - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 kitten-deposit-title: Kitten Deposit
 allow-deposits: true
 available-kittens-gallery:
-  - litter-title: 'Patience x Glenn 2023'
+  - litter-title: Patience x Glenn 2023
     available-kittens:
       - name: Penelope
+        reserved: true
         description: Female Seal Point
-        reserved: true
-        img: '/assets/img/available-kittens/penelope.webp'
         cost: 1450
+        img: /assets/img/available-kittens/penelope.webp
       - name: Rory
-        description: Male Blue Mink
         reserved: true
-        img: '/assets/img/available-kittens/rory.webp'
+        description: Male Blue Mink
         cost: 1450
+        img: /assets/img/available-kittens/rory.webp
       - name: Henry
-        description: Male Blue Mink
         reserved: true
-        img: '/assets/img/available-kittens/henry.webp'
+        description: Male Blue Mink
         cost: 1450
+        img: /assets/img/available-kittens/henry.webp
       - name: Nelson
+        reserved: true
         description: Male Blue Mink
-        reserved: true
-        img: '/assets/img/available-kittens/nelson.webp'
         cost: 1450
+        img: /assets/img/available-kittens/nelson.webp
       - name: Clyde
-        description: Male Blue Point
         reserved: true
-        img: '/assets/img/available-kittens/clyde.webp'
+        description: Male Blue Point
         cost: 1450
-  - litter-title: 'Bella x Alex 2023'
+        img: /assets/img/available-kittens/clyde.webp
+  - litter-title: Bella x Alex 2023
     available-kittens:
       - name: Mialee
-        description: Female Blue Mink
         reserved: true
-        img: '/assets/img/available-kittens/mialee.webp'
+        description: Female Blue Mink
         cost: 1450
-  - litter-title: 'Lina x Alex 2023'
+        img: /assets/img/available-kittens/mialee.webp
+  - litter-title: Lina x Alex 2023
     available-kittens:
       - name: Irina
-        description: Female Seal Point Mitted
         reserved: true
-        img: '/assets/img/available-kittens/irina.webp'
+        description: Female Seal Point Mitted
         cost: 1450
+        img: /assets/img/available-kittens/irina.webp
       - name: Marion
-        description: Female Seal Point Mitted
         reserved: true
-        img: '/assets/img/available-kittens/marion.webp'
+        description: Female Seal Point Mitted
         cost: 1450
+        img: /assets/img/available-kittens/marion.webp
 available-kittens-text-img-pair:
-  - text: 'Babies are here!'
-    img: '/assets/img/available-kittens/patience-x-glenn.webp'
+  - text: We do not have any available kittens at this time.
+    img: /assets/img/available-kittens/patience-x-glenn.webp
 available-adults-title: Available Adults
 available-adults: []
 ---
+
 
 <!-- Hero Section -->
 <section id="hero-section">
