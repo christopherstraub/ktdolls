@@ -1,152 +1,102 @@
 ---
-permalink: '/fur-ever-homes/'
+permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
-  - path: '/assets/img/fur-ever-homes/gabriel.jpg'
+  - path: /20220521_110916.jpg
+    title: Dylan
+  - path: /assets/img/fur-ever-homes/gabriel.jpg
     title: Gabriel
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/colton.jpg'
+  - path: /assets/img/fur-ever-homes/colton.jpg
     title: Colton
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/abigail-and-grant.jpg'
+  - path: /assets/img/fur-ever-homes/abigail-and-grant.jpg
     title: Abigail and Grant
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/joseph.jpg'
+  - path: /assets/img/fur-ever-homes/joseph.jpg
     title: Joseph
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/dane.jpg'
+  - path: /assets/img/fur-ever-homes/dane.jpg
     title: Dane
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/jackson-and-xena.jpg'
+  - path: /assets/img/fur-ever-homes/jackson-and-xena.jpg
     title: Jackson and Xena
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/sealy.jpg'
+  - path: /assets/img/fur-ever-homes/sealy.jpg
     title: Sealy
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/frisco.jpg'
+  - path: /assets/img/fur-ever-homes/frisco.jpg
     title: Frisco
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/dallas.jpg'
+  - path: /assets/img/fur-ever-homes/dallas.jpg
     title: Dallas
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/katy-and-tara.jpg'
+  - path: /assets/img/fur-ever-homes/katy-and-tara.jpg
     title: Katy and Tara
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/houston.jpg'
+  - path: /assets/img/fur-ever-homes/houston.jpg
     title: Houston
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/kylie.jpg'
+  - path: /assets/img/fur-ever-homes/kylie.jpg
     title: Kylie
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/sassy-and-indiana.jpg'
+  - path: /assets/img/fur-ever-homes/sassy-and-indiana.jpg
     title: Sassy and Indiana
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/boston.jpg'
+  - path: /assets/img/fur-ever-homes/boston.jpg
     title: Boston
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/mocha.jpg'
+  - path: /assets/img/fur-ever-homes/mocha.jpg
     title: Mocha
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/sven.jpg'
+  - path: /assets/img/fur-ever-homes/sven.jpg
     title: Sven
-    subtitle: Warren, RI
-  - path: '/assets/img/fur-ever-homes/ryder.jpg'
+  - path: /assets/img/fur-ever-homes/ryder.jpg
     title: Ryder
-    subtitle: Cypress, TX
-  - path: '/assets/img/fur-ever-homes/brianna.jpg'
+  - path: /assets/img/fur-ever-homes/brianna.jpg
     title: Brianna
-    subtitle: Baytown, TX
-  - path: '/assets/img/fur-ever-homes/ella.jpg'
+  - path: /assets/img/fur-ever-homes/ella.jpg
     title: Ella
-    subtitle: Montgomery, TX
-  - path: '/assets/img/fur-ever-homes/laura.jpg'
+  - path: /assets/img/fur-ever-homes/laura.jpg
     title: Laura
-    subtitle: Katy, TX
-  - path: '/assets/img/fur-ever-homes/owen.jpg'
+  - path: /assets/img/fur-ever-homes/owen.jpg
     title: Owen
-    subtitle: Schertz, TX
-  - path: '/assets/img/fur-ever-homes/silas.jpg'
+  - path: /assets/img/fur-ever-homes/silas.jpg
     title: Silas
-    subtitle: Ballinger, TX moved to Alaska
-  - path: '/assets/img/fur-ever-homes/tina.jpg'
+  - path: /assets/img/fur-ever-homes/tina.jpg
     title: Tina
-    subtitle: Beaumont, TX
-  - path: '/assets/img/fur-ever-homes/gail.jpg'
+  - path: /assets/img/fur-ever-homes/gail.jpg
     title: Gail
-    subtitle: Houston, TX
-  - path: '/assets/img/fur-ever-homes/hans.jpg'
+  - path: /assets/img/fur-ever-homes/hans.jpg
     title: Hans
-    subtitle: Laredo, TX
-  - path: '/assets/img/fur-ever-homes/olaf.jpg'
+  - path: /assets/img/fur-ever-homes/olaf.jpg
     title: Olaf
-    subtitle: Rosharon, TX
-  - path: '/assets/img/fur-ever-homes/kristoff.jpg'
+  - path: /assets/img/fur-ever-homes/kristoff.jpg
     title: Kristoff
-    subtitle: ''
-  - path: '/assets/img/fur-ever-homes/bryan-and-vanessa.jpg'
+  - path: /assets/img/fur-ever-homes/bryan-and-vanessa.jpg
     title: Bryan and Vanessa
-    subtitle: Austin, TX
-  - path: '/assets/img/fur-ever-homes/todd-and-leslie.jpg'
+  - path: /assets/img/fur-ever-homes/todd-and-leslie.jpg
     title: Todd and Leslie
-    subtitle: Houston, TX
-  - path: '/assets/img/fur-ever-homes/keith-and-kimberly.jpg'
+  - path: /assets/img/fur-ever-homes/keith-and-kimberly.jpg
     title: Keith and Kimberly
-    subtitle: Houston, TX
-  - path: '/assets/img/fur-ever-homes/cloe-and-patricia.jpg'
+  - path: /assets/img/fur-ever-homes/cloe-and-patricia.jpg
     title: Cloe and Patricia
-    subtitle: Kema, TX
-  - path: '/assets/img/fur-ever-homes/glenda-and-joyce.jpg'
+  - path: /assets/img/fur-ever-homes/glenda-and-joyce.jpg
     title: Glenda and Joyce
-    subtitle: Rockport, TX
-  - path: '/assets/img/fur-ever-homes/ray-and-kai.jpg'
+  - path: /assets/img/fur-ever-homes/ray-and-kai.jpg
     title: Ray and Kai
-    subtitle: Ray and Kai now live with their kids in Weston Lakes, TX.
-  - path: '/assets/img/fur-ever-homes/dayton-and-mike.jpg'
+  - path: /assets/img/fur-ever-homes/dayton-and-mike.jpg
     title: Dayton and Mike
-    subtitle: Dayton now lives with Mike and Family in Houston, TX.
-  - path: '/assets/img/fur-ever-homes/idalia-and-her-brother.jpg'
+  - path: /assets/img/fur-ever-homes/idalia-and-her-brother.jpg
     title: Idalia and her brother
-    subtitle: Idalia lives with her new brother in Corpus Christi, TX.
-  - path: '/assets/img/fur-ever-homes/binks-padme-and-josie.jpg'
-    title: Binks, Padme and Josie
-    subtitle: Binks and Padme now live with Josie in Cat Springs, Texas.
-  - path: '/assets/img/fur-ever-homes/anakin-malla-and-brian.jpg'
-    title: Anakin, Malla and Brian
-    subtitle:
-      "Anakin and Malla (Beaux and Cloe) now live in Indiana with their furever
-      mom and dad; Wendy and Brian. \nYou can follow her on Instagram @molly_chloe_beaux_dixie."
-  - path: '/assets/img/fur-ever-homes/rose-and-ben.jpg'
+  - path: /assets/img/fur-ever-homes/binks-padme-and-josie.jpg
+    title: 'Binks, Padme and Josie'
+  - path: /assets/img/fur-ever-homes/anakin-malla-and-brian.jpg
+    title: 'Anakin, Malla and Brian'
+  - path: /assets/img/fur-ever-homes/rose-and-ben.jpg
     title: Rose and Ben
-    subtitle: Rose now lives with her dad Ben in Las Vegas, NV.
-  - path: '/assets/img/fur-ever-homes/shmi-and-her-parents.jpg'
+  - path: /assets/img/fur-ever-homes/shmi-and-her-parents.jpg
     title: Shmi and her parents
-    subtitle: Shmi now lives with her mommy and daddy in Tampa, Florida.
-  - path: '/assets/img/fur-ever-homes/zaya-pickle.jpg'
+  - path: /assets/img/fur-ever-homes/zaya-pickle.jpg
     title: Zaya Pickle
-    subtitle:
-      Zaya Pickle now lives with her older brother and sister kitties in Morristown,
-      IN. You can follow her on Instagram @molly_chloe_beaux_dixie.
-  - path: '/assets/img/fur-ever-homes/kaden.jpg'
+  - path: /assets/img/fur-ever-homes/kaden.jpg
     title: Kaden
-    subtitle:
-      Kaden now lives with his big kitty brother in Providence, RI. You can
-      follow him on Instagram @ragdolls_bristol_teddy.
-  - path: '/assets/img/fur-ever-homes/skyla-and-chris.jpg'
+  - path: /assets/img/fur-ever-homes/skyla-and-chris.jpg
     title: Skyla and Chris
-    subtitle: Skyla and Chris have gone to Dallas, TX to join TexasDollhouseRagdoll.com.
-  - path: '/assets/img/fur-ever-homes/amanda.jpg'
+  - path: /assets/img/fur-ever-homes/amanda.jpg
     title: Amanda
-    subtitle: Amanda now lives with her new family in Sugar Land, TX.
-  - path: '/assets/img/fur-ever-homes/jack.jpg'
+  - path: /assets/img/fur-ever-homes/jack.jpg
     title: Jack
-    subtitle:
-      Jack now lives in Pearland, TX with his furever family. You can follow
-      him on Instagram @bbenjithecat.
-  - path: '/assets/img/fur-ever-homes/libby.jpg'
+  - path: /assets/img/fur-ever-homes/libby.jpg
     title: Libby
-    subtitle: Libby now lives in Baltimore, MD with her furever mom.
 ---
+
 
 <section>
   <div class="container">
