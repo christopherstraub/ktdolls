@@ -39,3 +39,7 @@ imagemagick:
       -interlace Plane
     webp: '-auto-orient -resize x650 -quality 85'
 _template: settings
+exclude:
+  - screenshots/
+  - Forestry.io Guide.docx
+  - README.md
