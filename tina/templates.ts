@@ -168,7 +168,17 @@ export function homePageFields() {
       list: true,
       ui: {
         itemProps: (item) => ({
-          label: item?.litter_title,
+          label: item?.available_kittens?.every((kitten) => kitten.reserved)
+            ? `${item?.litter_title} · Fully Reserved (${
+                item?.available_kittens?.length
+              } Kitten${item?.available_kittens?.length === 1 ? '' : 's'})`
+            : `${item?.litter_title} · ${
+                item?.available_kittens?.filter((kitten) => kitten.reserved)
+                  .length
+              }/${item?.available_kittens?.length} Kittens Reserved`,
+          style: item?.available_kittens?.every((kitten) => kitten.reserved)
+            ? { backgroundColor: '#f0fdf4' }
+            : {},
         }),
       },
       fields: [
@@ -187,6 +197,7 @@ export function homePageFields() {
           ui: {
             itemProps: (item) => ({
               label: item?.reserved ? `${item?.name} · Reserved` : item?.name,
+              style: item?.reserved ? { backgroundColor: '#f0fdf4' } : {},
             }),
           },
           fields: [
@@ -234,6 +245,7 @@ export function homePageFields() {
       ui: {
         itemProps: (item) => ({
           label: item?.reserved ? `${item?.name} · Reserved` : item?.name,
+          style: item?.reserved ? { backgroundColor: '#f0fdf4' } : {},
         }),
       },
       fields: [
