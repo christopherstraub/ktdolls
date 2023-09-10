@@ -23,13 +23,13 @@ social:
     url: 'https://www.facebook.com/KTDolls/'
   - title: Instagram
     url: 'https://www.instagram.com/ktdolls2017/'
-logo: /assets/img/logo.jpg
+logo: /assets/img/config/logo.jpg
 imagemagick:
   enabled: true
   widths:
     - 1024
   input_directories:
-    - uploads
+    - assets/img
   input_formats:
     - .jpg
     - .jpeg

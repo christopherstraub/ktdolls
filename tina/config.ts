@@ -22,7 +22,7 @@ export default defineConfig({
   media: {
     tina: {
       publicFolder: './',
-      mediaRoot: 'uploads',
+      mediaRoot: 'assets/img',
     },
   },
   schema: {

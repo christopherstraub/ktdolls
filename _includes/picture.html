@@ -1,6 +1,6 @@
 <!-- prettier-ignore -->
 {% assign directories = include.path | split: '/' %}
-{% if directories[1] != 'uploads' %}
+{% if directories[1] != 'assets/img' %}
   {% assign path = include.path %}
   {% assign webp_path = path | replace: '.jpg', '.webp' %}
 {% else %}
