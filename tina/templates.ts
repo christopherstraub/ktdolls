@@ -166,20 +166,31 @@ export function homePageFields() {
       nameOverride: 'available-kittens-gallery',
       label: 'Litter Gallery',
       list: true,
+      min: 1,
       ui: {
-        itemProps: (item) => ({
-          label: item?.available_kittens?.every((kitten) => kitten.reserved)
-            ? `${item?.litter_title} · Fully Reserved (${
-                item?.available_kittens?.length
-              } Kitten${item?.available_kittens?.length === 1 ? '' : 's'})`
-            : `${item?.litter_title} · ${
-                item?.available_kittens?.filter((kitten) => kitten.reserved)
-                  .length
-              }/${item?.available_kittens?.length} Kittens Reserved`,
-          style: item?.available_kittens?.every((kitten) => kitten.reserved)
-            ? { backgroundColor: '#f0fdf4' }
-            : {},
-        }),
+        itemProps: (item) => {
+          const litterTitle = item?.litter_title || 'Unnamed Litter';
+          const litterSize = item?.available_kittens?.length;
+
+          return {
+            label:
+              item?.litter_title === '' && item?.available_kittens === undefined
+                ? 'No Litters'
+                : item?.available_kittens === undefined
+                ? `${litterTitle} · No Kittens`
+                : item?.available_kittens?.every((kitten) => kitten.reserved)
+                ? `${litterTitle} · Fully Reserved (${litterSize} Kitten${
+                    litterSize === 1 ? '' : 's'
+                  })`
+                : `${litterTitle} · ${
+                    item?.available_kittens?.filter((kitten) => kitten.reserved)
+                      .length
+                  }/${litterSize} Kittens Reserved`,
+            style: item?.available_kittens?.every((kitten) => kitten.reserved)
+              ? { backgroundColor: '#f0fdf4' }
+              : {},
+          };
+        },
       },
       fields: [
         {
