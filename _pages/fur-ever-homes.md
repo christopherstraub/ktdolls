@@ -3,38 +3,37 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
-  - {}
-  - path: /20220529_153241.jpg
+  - path: /assets/img/fur-ever-homes/patrick.jpg
     title: Patrick
-  - path: /20220617_165903.jpg
+  - path: /assets/img/fur-ever-homes/lily.jpg
     title: Lily
-  - path: /20221015_124947.jpg
+  - path: /assets/img/fur-ever-homes/smudge.jpg
     title: Smudge
-  - path: /20221015_121335.jpg
+  - path: /assets/img/fur-ever-homes/frankie.jpg
     title: Frankie
-  - path: /20221014_100302.jpg
+  - path: /assets/img/fur-ever-homes/mia.jpg
     title: Mia
-  - path: /20220717_151334.jpg
+  - path: /assets/img/fur-ever-homes/thomas.jpg
     title: Thomas
-  - path: /20220717_131628.jpg
+  - path: /assets/img/fur-ever-homes/dawn.jpg
     title: Dawn
-  - path: /20220716_112739.jpg
+  - path: /assets/img/fur-ever-homes/matthew.jpg
     title: Matthew
-  - path: /20220530_155942.jpg
+  - path: /assets/img/fur-ever-homes/shane.jpg
     title: Shane
-  - path: /20220529_125040.jpg
+  - path: /assets/img/fur-ever-homes/pierre.jpg
     title: Pierre
-  - path: /20220528_165615.jpg
+  - path: /assets/img/fur-ever-homes/george.jpg
     title: George
-  - path: /20220527_163619.jpg
+  - path: /assets/img/fur-ever-homes/marquis.jpg
     title: Marquis
-  - path: /20220527_150232.jpg
+  - path: /assets/img/fur-ever-homes/ariel.jpg
     title: Ariel
-  - path: /20220521_125200.jpg
+  - path: /assets/img/fur-ever-homes/caspian.jpg
     title: Caspian
-  - path: /20220521_121121.jpg
+  - path: /assets/img/fur-ever-homes/eric.jpg
     title: Eric
-  - path: /20220521_110916.jpg
+  - path: /assets/img/fur-ever-homes/dylan.jpg
     title: Dylan
   - path: /assets/img/fur-ever-homes/gabriel.jpg
     title: Gabriel
@@ -128,17 +127,6 @@ gallery:
     title: Libby
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 <section>
   <div class="container">
     <hr class="hr-dark" />
@@ -167,11 +155,14 @@ gallery:
         {% endfor %}
       </div>
     </div>
+
   </div>
 </section>
 
 <!-- Fur-ever Homes Modals -->
+
 {% for image in page.gallery %}
+
 <div
   class="portfolio-modal modal"
   id="{{ forloop.index }}"
@@ -293,6 +284,7 @@ gallery:
         </div>
       </div>
     </div>
+
   </div>
 </div>
 {% endfor %}
