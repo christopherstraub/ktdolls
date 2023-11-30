@@ -103,7 +103,6 @@ gallery:
     caption: In Loving Memory of Lil' Wayne 2018
 ---
 
-
 <!-- Hero Section -->
 <section id="hero-section">
   <div class="heading">
@@ -246,7 +245,7 @@ gallery:
     {% assign unreserved-kittens = available-kittens | where: "reserved", false %}
 
     <!-- prettier-ignore -->
-    {% if page.available-kittens-gallery.size != 0 and unreserved-kittens.size != 0 %}
+    {% if page.available-kittens-gallery.size != 0 and unreserved-kittens.size >= 1 %}
     <div class="row justify-content-center mt-4">
       <div class="form-group col col-lg-6">
         <label for="select-deposit-option" class="section-body mb-3"
