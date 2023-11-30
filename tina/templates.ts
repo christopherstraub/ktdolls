@@ -237,6 +237,7 @@ export function homePageFields() {
               type: 'boolean',
               name: 'reserved',
               label: 'Reserved?',
+              required: true,
             },
             {
               type: 'string',
@@ -285,6 +286,7 @@ export function homePageFields() {
           type: 'boolean',
           name: 'reserved',
           label: 'Reserved?',
+          required: true,
         },
         {
           type: 'string',
