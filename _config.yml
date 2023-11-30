@@ -38,7 +38,6 @@ imagemagick:
       -auto-orient -strip -resize x650 -quality 85 -define jpeg:dct-method=float
       -interlace Plane
     webp: '-auto-orient -resize x650 -quality 85'
-_template: settings
 exclude:
   - screenshots/
   - Forestry.io Guide.docx
