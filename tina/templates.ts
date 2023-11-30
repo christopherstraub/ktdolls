@@ -1,4 +1,20 @@
 import type { TinaField } from 'tinacms';
+
+/**
+ * Each page must have this field. Otherwise, the body is deleted when any
+ * change is made in the editor.
+ */
+const bodyField = {
+  type: 'string',
+  name: 'body',
+  label: 'PAGE CODE—DO NOT EDIT',
+  // isBody must be set to true.
+  isBody: true,
+  ui: {
+    component: 'textarea',
+  },
+};
+
 export function homePageFields() {
   return [
     {
@@ -348,8 +364,10 @@ export function homePageFields() {
         },
       ],
     },
+    bodyField,
   ] as TinaField[];
 }
+
 export function aboutPageFields() {
   return [
     {
@@ -539,8 +557,10 @@ export function aboutPageFields() {
         },
       ],
     },
+    bodyField,
   ] as TinaField[];
 }
+
 export function pastLittersPageFields() {
   return [
     {
@@ -589,8 +609,10 @@ export function pastLittersPageFields() {
         },
       ],
     },
+    bodyField,
   ] as TinaField[];
 }
+
 export function furEverHomesPageFields() {
   return [
     {
@@ -635,8 +657,10 @@ export function furEverHomesPageFields() {
         },
       ],
     },
+    bodyField,
   ] as TinaField[];
 }
+
 export function siteSettingsFields() {
   return [
     {
@@ -702,6 +726,7 @@ export function siteSettingsFields() {
     },
   ] as TinaField[];
 }
+
 export function siteThemeFields() {
   return [
     {
