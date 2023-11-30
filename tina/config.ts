@@ -30,7 +30,7 @@ export default defineConfig({
       {
         name: 'home_page',
         label: 'Home Page',
-        path: '',
+        path: '/',
         match: {
           include: 'index',
         },
@@ -94,7 +94,7 @@ export default defineConfig({
       {
         name: 'site_settings',
         label: 'Site Settings',
-        path: '',
+        path: '/',
         match: {
           include: '_config',
         },
