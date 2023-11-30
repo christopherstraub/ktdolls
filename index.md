@@ -95,53 +95,7 @@ gallery:
     caption: In Loving Memory of Lil' Wayne 2018
 kitten-deposit-title: Kitten Deposit
 allow-deposits: true
-available-kittens-gallery:
-  - litter-title: Patience x Glenn 2023
-    available-kittens:
-      - name: Penelope
-        reserved: true
-        description: Female Seal Point
-        cost: 1450
-        img: /assets/img/available-kittens/penelope.webp
-      - name: Rory
-        reserved: true
-        description: Male Blue Mink
-        cost: 1450
-        img: /assets/img/available-kittens/rory.webp
-      - name: Henry
-        reserved: true
-        description: Male Blue Mink
-        cost: 1450
-        img: /assets/img/available-kittens/henry.webp
-      - name: Nelson
-        reserved: true
-        description: Male Blue Mink
-        cost: 1450
-        img: /assets/img/available-kittens/nelson.webp
-      - name: Clyde
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: /assets/img/available-kittens/clyde.webp
-  - litter-title: Bella x Alex 2023
-    available-kittens:
-      - name: Mialee
-        reserved: true
-        description: Female Blue Mink
-        cost: 1450
-        img: /assets/img/available-kittens/mialee.webp
-  - litter-title: Lina x Alex 2023
-    available-kittens:
-      - name: Irina
-        reserved: true
-        description: Female Seal Point Mitted
-        cost: 1450
-        img: /assets/img/available-kittens/irina.webp
-      - name: Marion
-        reserved: true
-        description: Female Seal Point Mitted
-        cost: 1450
-        img: /assets/img/available-kittens/marion.webp
+available-kittens-gallery: []
 available-kittens-text-img-pair:
   - text: We do not have any available kittens at this time.
     img: /assets/img/available-kittens/patience-x-glenn.webp
