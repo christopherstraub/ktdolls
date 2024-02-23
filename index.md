@@ -31,7 +31,7 @@ available-kittens-gallery:
   - litter-title: 'Patience x Glenn Feb 01, 2024'
     available-kittens:
       - name: Johnathan
-        reserved: false
+        reserved: true
         description: Male Seal Mink
         cost: 1450
         img: /assets/img/20240223_100840.jpg
@@ -117,6 +117,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
