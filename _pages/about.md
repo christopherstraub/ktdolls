@@ -23,9 +23,9 @@ queens:
   - name: Lady Annabella
     img: /assets/img/about/queens-and-kings/bella.jpg
     description: Bella is a beautiful Blue Point Bicolor
-  - name: Princess Maia
+  - name: Lady Jessamina
     img: /assets/img/about/queens-and-kings/maia.jpg
-    description: Maia is a beautiful Seal Point/Bicolor
+    description: Jessa is a beautiful Blue Point Lynx
 kings:
   - name: Sir Glenn
     img: /assets/img/about/queens-and-kings/glenn.jpg
@@ -75,6 +75,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 <section id="about">
