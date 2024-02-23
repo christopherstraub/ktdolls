@@ -27,6 +27,9 @@ queens:
     img: /assets/img/20240103_141411.jpg
     description: Marian is a beautiful Seal Point Mitted
 kings:
+  - name: Prince Tobias
+    img: /assets/img/Screenshot_20240222_215140_Instagram.jpg
+    description: Toby is a handsome Blue Point
   - name: Sir Glenn
     img: /assets/img/about/queens-and-kings/glenn.jpg
     description: Glenn is a handsome Seal Point and is our first King
@@ -75,6 +78,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 
