@@ -18,7 +18,7 @@ second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
 queens:
   - name: Lady Annabella
-    img: /assets/img/about/queens-and-kings/bella.jpg
+    img: '/assets/img/20230514_142613[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
   - name: Lady Jessamina
     img: /assets/img/20231125_110542.jpg
@@ -78,6 +78,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 
