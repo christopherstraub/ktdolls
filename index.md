@@ -26,7 +26,7 @@ available-kittens-text-img-pair:
   - text: ''
     img: /assets/img/available-kittens/patience-x-glenn.webp
 available-kittens-gallery:
-  - litter-title: ''
+  - litter-title: 'Patience x Glenn Feb 01, 2024'
 available-adults-title: Available Adults
 kitten-deposit-title: Kitten Deposit
 deposit: 500
