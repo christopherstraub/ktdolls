@@ -27,6 +27,12 @@ available-kittens-text-img-pair:
     img: /assets/img/available-kittens/patience-x-glenn.webp
 available-kittens-gallery:
   - litter-title: 'Patience x Glenn Feb 01, 2024'
+    available-kittens:
+      - name: Johnathan
+        reserved: false
+        description: Male Seal Mink
+        cost: 1450
+        img: /assets/img/20240223_100840.jpg
 available-adults-title: Available Adults
 kitten-deposit-title: Kitten Deposit
 deposit: 500
