@@ -23,8 +23,10 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
-  - text: ''
-    img: /assets/img/available-kittens/patience-x-glenn.webp
+  - text: |-
+      Expecting March 2024
+      Bella x Alex
+    img: /assets/img/20231226_180622.jpg
 available-kittens-gallery:
   - litter-title: 'Patience x Glenn Feb 01, 2024'
     available-kittens:
