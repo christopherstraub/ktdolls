@@ -17,9 +17,9 @@ second-img: /assets/img/about/2.jpg
 second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
 queens:
-  - name: Princess Patience
-    img: /assets/img/about/queens-and-kings/patience.jpg
-    description: Patience is a beautiful Blue Point Mink and is our first Queen
+  - name: Lady Marian
+    img: /assets/img/20240103_141411.jpg
+    description: Marian is a beautiful Seal Point Mitted
   - name: Lady Annabella
     img: /assets/img/about/queens-and-kings/bella.jpg
     description: Bella is a beautiful Blue Point Bicolor
