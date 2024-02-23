@@ -27,15 +27,15 @@ queens:
     img: /assets/img/20240103_141411.jpg
     description: Marian is a beautiful Seal Point Mitted
 kings:
-  - name: Prince Tobias
-    img: /assets/img/Screenshot_20240222_215140_Instagram.jpg
-    description: Toby is a handsome Blue Point
   - name: Sir Glenn
     img: /assets/img/about/queens-and-kings/glenn.jpg
     description: Glenn is a handsome Seal Point and is our first King
   - name: Alexander the Great
     img: /assets/img/about/queens-and-kings/alex.jpg
     description: Alex is a handsome Blue Point Mink
+  - name: Prince Tobias
+    img: /assets/img/Screenshot_20240222_215140_Instagram.jpg
+    description: Toby is a handsome Blue Point
 ragdoll-history-title: Ragdoll History
 ragdoll-history-body: >-
   The Ragdoll is a cat breed with blue eyes and varying colours and patterns. It
