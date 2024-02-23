@@ -23,7 +23,7 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
-  - text: We do not have any available kittens at this time.
+  - text: ''
     img: /assets/img/available-kittens/patience-x-glenn.webp
 available-kittens-gallery:
   - litter-title: ''
@@ -102,6 +102,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 <!-- Hero Section -->
 <section id="hero-section">
