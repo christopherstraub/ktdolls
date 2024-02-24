@@ -39,7 +39,7 @@ available-kittens-gallery:
     available-kittens:
       - name: Lina
         reserved: false
-        description: Seal Point Mitted
+        description: Seal Point
         cost: 1450
         img: /assets/img/20240222_210850.jpg
 available-adults-title: Available Adults
@@ -117,6 +117,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
