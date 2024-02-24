@@ -1,15 +1,18 @@
-<!-- prettier-ignore -->
 {% assign directories = include.path | split: '/' %}
-{% if directories[1] != 'assets/img' %}
-  {% assign path = include.path %}
-  {% assign webp_path = path | replace: '.jpg', '.webp' %}
-{% else %}
+<!-- Is a "jekyll-imagemagick" input directory. -->
+<!-- prettier-ignore -->
+{% if directories[1] ==  'assets' and directories[2] == 'img' and directories.size == 4 %}
   {% capture extReplacement %}-1024.jpg{% endcapture %}
   {% assign path = include.path | replace: '.jpg', extReplacement
                                 | replace: '.jpeg', extReplacement
                                 | replace: '.JPG', extReplacement
                                 | replace: '.JPEG', extReplacement
   %}
+  {% assign webp_path = path | replace: '.jpg', '.webp' %}
+<!-- Is not a "jekyll-imagemagick" input directory. -->
+<!-- prettier-ignore -->
+{% else %}
+  {% assign path = include.path %}
   {% assign webp_path = path | replace: '.jpg', '.webp' %}
 {% endif %}
 
