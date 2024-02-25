@@ -38,7 +38,7 @@ available-kittens-gallery:
   - litter-title: 'Marian x Toby Feb 17, 2024'
     available-kittens:
       - name: Lina
-        reserved: false
+        reserved: true
         description: Seal Point
         cost: 1450
         img: /assets/img/20240222_210850.jpg
@@ -117,6 +117,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
