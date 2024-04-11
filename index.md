@@ -24,9 +24,9 @@ hero-section-img-grid:
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
-      Expecting March 2024
-      Bella x Alex
-    img: /assets/img/20231226_180622.jpg
+      Expecting May 2024
+      Jessa x Toby
+    img: ''
 available-kittens-gallery:
   - litter-title: No available kittens at this time.
 available-adults-title: Available Adults
