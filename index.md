@@ -29,7 +29,6 @@ available-kittens-text-img-pair:
     img: /assets/img/20231226_180622.jpg
 available-kittens-gallery:
   - litter-title: No available kittens at this time.
-  - litter-title: 'Marian x Toby Feb 17, 2024'
 available-adults-title: Available Adults
 kitten-deposit-title: Kitten Deposit
 deposit: 500
