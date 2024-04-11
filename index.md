@@ -30,12 +30,6 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: No available kittens at this time.
   - litter-title: 'Marian x Toby Feb 17, 2024'
-    available-kittens:
-      - name: Lina
-        reserved: true
-        description: Seal Point
-        cost: 1450
-        img: /assets/img/20240222_210850.jpg
 available-adults-title: Available Adults
 kitten-deposit-title: Kitten Deposit
 deposit: 500
