@@ -28,13 +28,7 @@ available-kittens-text-img-pair:
       Bella x Alex
     img: /assets/img/20231226_180622.jpg
 available-kittens-gallery:
-  - litter-title: 'Patience x Glenn Feb 01, 2024'
-    available-kittens:
-      - name: Johnathan
-        reserved: true
-        description: Male Seal Mink
-        cost: 1450
-        img: /assets/img/20240223_100840.jpg
+  - litter-title: No available kittens at this time.
   - litter-title: 'Marian x Toby Feb 17, 2024'
     available-kittens:
       - name: Lina
@@ -117,6 +111,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
