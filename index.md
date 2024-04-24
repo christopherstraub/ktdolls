@@ -26,7 +26,7 @@ available-kittens-text-img-pair:
   - text: |-
       Expecting May 2024
       Jessa x Toby
-    img: '/assets/img/20231125_110542[1].jpg'
+    img: '/assets/img/Screenshot_20240424_123201_Gallery[1].jpg'
 available-kittens-gallery:
   - litter-title: No available kittens at this time.
 available-adults-title: Available Adults
