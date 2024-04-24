@@ -31,16 +31,16 @@ available-kittens-gallery:
   - litter-title: No available kittens at this time.
 available-adults-title: Available Adults
 available-adults:
-  - name: Alexander the Great
-    reserved: false
-    description: 'Male Blue Point Mink dob:08/18/2020'
-    cost: 750
-    img: '/assets/img/20210525_222648[1].jpg'
   - name: Sir Glenn
     reserved: false
     description: 'Male Seal Point dob: 08/29/2017'
     cost: 650
     img: '/assets/img/20200701_113257[1].jpg'
+  - name: Alexander the Great
+    reserved: false
+    description: 'Male Blue Point Mink dob:08/18/2020'
+    cost: 750
+    img: '/assets/img/20210525_222648[1].jpg'
 kitten-deposit-title: Kitten Deposit
 deposit: 500
 allow-deposits: true
