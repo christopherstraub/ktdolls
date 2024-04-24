@@ -17,15 +17,15 @@ second-img: /assets/img/about/2.jpg
 second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
 queens:
+  - name: Lady Marian
+    img: '/assets/img/20240103_141411[1].jpg'
+    description: Marian is a beautiful Seal Point Mitted
   - name: Lady Annabella
     img: '/assets/img/20230514_142613[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
   - name: Lady Jessamina
     img: /assets/img/20231125_110542.jpg
     description: Jessa is a beautiful Blue Point Lynx
-  - name: Lady Marian
-    img: /assets/img/20240103_141411.jpg
-    description: Marian is a beautiful Seal Point Mitted
 kings:
   - name: Sir Glenn
     img: /assets/img/about/queens-and-kings/glenn.jpg
@@ -78,6 +78,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 
