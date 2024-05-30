@@ -312,17 +312,6 @@ export function homePageFields() {
       label: 'Kitten Deposit Title',
     },
     {
-      type: 'number',
-      name: 'deposit',
-      label: 'Kitten Deposit Cost',
-    },
-    {
-      type: 'boolean',
-      name: 'allow_deposits',
-      nameOverride: 'allow-deposits',
-      label: 'Allow Deposits?',
-    },
-    {
       type: 'string',
       name: 'shipping_title',
       nameOverride: 'shipping-title',
@@ -665,6 +654,21 @@ export function furEverHomesPageFields() {
 
 export function siteSettingsFields() {
   return [
+    {
+      type: 'number',
+      name: 'kitten_deposit',
+      label: 'Kitten Deposit ($)',
+    },
+    {
+      type: 'number',
+      name: 'adult_deposit',
+      label: 'Adult Deposit ($)',
+    },
+    {
+      type: 'boolean',
+      name: 'allow_deposits',
+      label: 'Allow Deposits?',
+    },
     {
       type: 'string',
       name: 'email',

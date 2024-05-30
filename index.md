@@ -42,8 +42,6 @@ available-adults:
     cost: 750
     img: '/assets/img/20210525_222648[1].jpg'
 kitten-deposit-title: Kitten Deposit
-deposit: 500
-allow-deposits: true
 shipping-title: Shipping Temporarily Suspended
 shipping-body: >-
   PetSafe shipping has been suspended due to Covid-19. We'll update you once the
@@ -116,13 +114,6 @@ gallery:
     caption: In Loving Memory of Lil' Wayne 2018
 ---
 
-
-
-
-
-
-
-
 <!-- Hero Section -->
 <section id="hero-section">
   <div class="heading">
@@ -181,7 +172,7 @@ gallery:
         %}
         <p class="caption mb-0">
           {% unless kitten.description == '' %} {{ kitten.description }}<br />
-          {% endunless %} ${{ kitten.cost }} / ${{ page.deposit}} deposit
+          {% endunless %} ${{ kitten.cost }} / ${{ site.kitten_deposit }} deposit
         </p>
         <hr class="d-lg-none mt-5 mt-lg-6" />
       </div>
@@ -215,7 +206,7 @@ gallery:
         class="img-fluid rounded mb-4 border-box-shadow" %}
         <p class="caption mb-0">
           {% unless adult.description == '' %} {{ adult.description }}<br />
-          {% endunless %} ${{ adult.cost }} / ${{ page.deposit}} deposit
+          {% endunless %} ${{ adult.cost }} / ${{ site.adult_deposit }} deposit
         </p>
         <hr class="d-lg-none mt-5 mt-lg-6" />
       </div>
@@ -242,8 +233,11 @@ gallery:
     <div class="row justify-content-center">
       <div class="col col-lg-6">
         <p class="section-body mt-0 mb-4">
-          A non-refundable ${{ page.deposit }} deposit will reserve your kitten
+          A non-refundable ${{ site.kitten_deposit }} deposit will reserve your kitten
           until they are ready to go to their fur-ever home at 12 weeks.
+        </p>
+        <p class="section-body mt-0 mb-4">
+          To reserve an adult, <a href="/adult-deposit/">click here</a>.
         </p>
       </div>
     </div>
@@ -317,7 +311,7 @@ gallery:
         data-sdk-integration-source="button-factory"
       ></script>
       <script>
-        var depositCost = '{{ page.deposit }}';
+        var depositCost = '{{ site.kitten_deposit }}';
         var depositOption = document.getElementById(
           'select-deposit-option'
         ).value;
@@ -396,7 +390,98 @@ gallery:
       </script>
     </div>
 
-    {% elsif page.allow-deposits %}
+    <!-- PayPal Smart Buttons -->
+    <div class="row justify-content-center mt-5">
+      <div id="smart-button-container" class="col col-lg-6">
+        <div style="text-align: center">
+          <div id="paypal-button-container"></div>
+        </div>
+      </div>
+      <script
+        src="https://www.paypal.com/sdk/js?client-id=AcTyn-LfmJLGLfRyvuyExAAivIVsD-WqkX1wWCQFON_CkecIBU5e_sxlJizdWi6AoCSsFBh5IFfRGG7J&enable-funding=venmo&currency=USD"
+        data-sdk-integration-source="button-factory"
+      ></script>
+      <script>
+        var depositCost = '{{ site.kitten_deposit }}';
+        var depositOption = document.getElementById(
+          'select-deposit-option'
+        ).value;
+
+        document
+          .getElementById('select-deposit-option')
+          .addEventListener('change', (event) => {
+            depositOption = event.target.value;
+            if (depositOption !== '')
+              document
+                .querySelector('.kitten-deposit-alert')
+                .classList.add('hidden');
+          });
+
+        function initPayPalButton() {
+          paypal
+            .Buttons({
+              style: {
+                shape: 'rect',
+                color: 'gold',
+                layout: 'vertical',
+                label: 'pay',
+              },
+
+              createOrder: function (data, actions) {
+                if (depositOption === '') throw new Error('No kitten selected');
+
+                return actions.order.create({
+                  purchase_units: [
+                    {
+                      description: `Kitten deposit—${depositOption}`,
+                      amount: {
+                        currency_code: 'USD',
+                        value: depositCost,
+                      },
+                    },
+                  ],
+                  application_context: {
+                    shipping_preference: 'NO_SHIPPING',
+                  },
+                });
+              },
+
+              onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                  var buttonContainer = document.getElementById(
+                    'paypal-button-container'
+                  );
+                  var template = document.querySelector(
+                    '.deposit-confirmation--template'
+                  );
+                  var clone = template.content.cloneNode(true);
+
+                  clone.querySelector(
+                    '.deposit-confirmation--payer-name'
+                  ).textContent = details.payer.name.given_name;
+                  clone.querySelector(
+                    '.deposit-confirmation--deposit-option'
+                  ).textContent = depositOption;
+
+                  buttonContainer.innerHTML = '';
+                  buttonContainer.appendChild(clone);
+                });
+              },
+
+              onError: function (error) {
+                if (error.message === 'No kitten selected')
+                  document
+                    .querySelector('.kitten-deposit-alert')
+                    .classList.remove('hidden');
+              },
+            })
+            .render('#paypal-button-container');
+        }
+        initPayPalButton();
+      </script>
+    </div>
+
+    {% elsif site.allow_deposits %}
     <template class="deposit-confirmation--template"
       ><section class="deposit-confirmation">
         <h3 class="deposit-confirmation--title">Deposit Confirmation</h3>
@@ -432,7 +517,7 @@ gallery:
         data-sdk-integration-source="button-factory"
       ></script>
       <script>
-        var depositCost = '{{ page.deposit }}';
+        var depositCost = '{{ site.kitten_deposit }}';
 
         function initPayPalButton() {
           paypal
