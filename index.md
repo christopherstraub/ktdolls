@@ -23,10 +23,8 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
-  - text: |-
-      Expecting May 2024
-      Jessa x Toby
-    img: '/assets/img/Screenshot_20240424_123201_Gallery[1].jpg'
+  - text: 'We are expecting more kittens in October. '
+    img: ''
 available-kittens-gallery:
   - litter-title: No available kittens at this time.
 available-adults-title: Available Adults
@@ -113,6 +111,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 <!-- Hero Section -->
 <section id="hero-section">
