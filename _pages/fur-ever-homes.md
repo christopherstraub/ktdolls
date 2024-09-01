@@ -3,6 +3,9 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: '/assets/img/20240622_142038[1].jpg'
+    title: Princess Patience
+  - {}
   - path: '/assets/img/20240731_104930[1].jpg'
     title: Bailey
   - path: '/assets/img/20240811_130645[1].jpg'
