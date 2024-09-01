@@ -32,7 +32,7 @@ queens:
     description: Seal Point Mink
 kings:
   - name: Prince Tobias
-    img: /assets/img/Screenshot_20240222_215140_Instagram.jpg
+    img: '/assets/img/IMG_20240616_115118_895[1].jpg'
     description: Toby is a handsome Blue Point
   - name: 'Blazen Glory: Future King'
     img: '/assets/img/20240813_110405[1].jpg'
@@ -79,6 +79,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 
