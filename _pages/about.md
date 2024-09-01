@@ -18,9 +18,6 @@ second-img: /assets/img/about/2.jpg
 second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
 queens:
-  - name: 'Princess Pollyanna: Future Queen'
-    img: '/assets/img/20240823_215100[1].jpg'
-    description: Seal Point Mink
   - name: Lady Annabella
     img: '/assets/img/20230514_142613[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
@@ -30,13 +27,13 @@ queens:
   - name: Lady Marian
     img: '/assets/img/20240103_141411[1].jpg'
     description: Marian is a beautiful Seal Point Mitted
+  - name: 'Princess Pollyanna: Future Queen'
+    img: '/assets/img/20240823_215100[1].jpg'
+    description: Seal Point Mink
 kings:
-  - name: Sir Glenn
-    img: /assets/img/about/queens-and-kings/glenn.jpg
-    description: Glenn is a handsome Seal Point and is our first King
-  - name: Alexander the Great
-    img: /assets/img/about/queens-and-kings/alex.jpg
-    description: Alex is a handsome Blue Point Mink
+  - name: 'Blazen Glory: Future King'
+    img: '/assets/img/20240813_110405[1].jpg'
+    description: Blue Point Bicolor
   - name: Prince Tobias
     img: /assets/img/Screenshot_20240222_215140_Instagram.jpg
     description: Toby is a handsome Blue Point
