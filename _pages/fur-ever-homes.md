@@ -6,7 +6,7 @@ gallery:
   - path: '/assets/img/20240817_145713[1].jpg'
     title: Morgan
   - path: '/assets/img/20240817_090558[1].jpg'
-    title: Morgan
+    title: Ginny
   - path: /assets/img/20240209_150147.jpg
     title: BJ
   - path: /assets/img/fur-ever-homes/patrick.jpg
