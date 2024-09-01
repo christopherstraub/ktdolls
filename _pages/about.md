@@ -25,7 +25,7 @@ queens:
     img: '/assets/img/20240425_163247[1].jpg'
     description: Jessa is a beautiful Blue  Point Torbie
   - name: Lady Marian
-    img: '/assets/img/20240103_141411[1].jpg'
+    img: '/assets/img/20240713_104319[1].jpg'
     description: Marian is a beautiful Seal Point Mitted
   - name: 'Princess Pollyanna: Future Queen'
     img: '/assets/img/20240823_215100[1].jpg'
