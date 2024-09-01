@@ -22,8 +22,8 @@ queens:
     img: '/assets/img/20240529_102244[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
   - name: Lady Jessamina
-    img: /assets/img/20231125_110542.jpg
-    description: Jessa is a beautiful Blue Point Lynx
+    img: '/assets/img/20240425_163247[1].jpg'
+    description: Jessa is a beautiful Blue  Point Torbie
   - name: Lady Marian
     img: '/assets/img/20240103_141411[1].jpg'
     description: Marian is a beautiful Seal Point Mitted
