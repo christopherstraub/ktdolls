@@ -3,6 +3,8 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: '/assets/img/20240427_181025[1].jpg'
+    title: Liam
   - path: '/assets/img/20240509_160845[1].jpg'
     title: Geri
   - path: '/assets/img/20240511_182539[1].jpg'
