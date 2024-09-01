@@ -29,7 +29,7 @@ queens:
     description: Jessa is a beautiful Blue  Point Torbie
   - name: 'Princess Pollyanna: Future Queen'
     img: '/assets/img/20240823_215100[1].jpg'
-    description: Seal Point Mink
+    description: Polly is a beautiful Seal Point Mink
 kings:
   - name: Prince Tobias
     img: '/assets/img/IMG_20240616_115118_895[1].jpg'
