@@ -12,11 +12,15 @@ second-heading: Healthy and Social Kittens
 second-body: >-
   All our litters are registered with TICA. Kittens go to their fur-ever homes
   at 12 weeks of age pre-spoiled, de-wormed and given two rounds of kitten
-  vaccines. They are micro-chipped and have a health guarantee for up to 1 year.
+  vaccines. They are micro-chipped and have a genetic health guarantee for up to
+  1 year.
 second-img: /assets/img/about/2.jpg
 second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
 queens:
+  - name: 'Princess Pollyanna: Future Queen'
+    img: '/assets/img/20240823_215100[1].jpg'
+    description: Seal Point Mink
   - name: Lady Annabella
     img: '/assets/img/20230514_142613[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
@@ -78,6 +82,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 
