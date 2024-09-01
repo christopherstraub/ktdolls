@@ -24,6 +24,10 @@ hero-section-img-grid:
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
+      Jessa x Toby
+      Expecting late September 2024
+    img: '/assets/img/1725203711061[1].jpg'
+  - text: |-
       Marian x Toby
       Due late September 2024
     img: '/assets/img/1725202237286[1].jpg'
