@@ -19,7 +19,7 @@ second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
 queens:
   - name: Lady Annabella
-    img: '/assets/img/20230514_142613[1].jpg'
+    img: '/assets/img/20240529_102244[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
   - name: Lady Jessamina
     img: /assets/img/20231125_110542.jpg
