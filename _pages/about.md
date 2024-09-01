@@ -31,12 +31,12 @@ queens:
     img: '/assets/img/20240823_215100[1].jpg'
     description: Seal Point Mink
 kings:
-  - name: 'Blazen Glory: Future King'
-    img: '/assets/img/20240813_110405[1].jpg'
-    description: Blue Point Bicolor
   - name: Prince Tobias
     img: /assets/img/Screenshot_20240222_215140_Instagram.jpg
     description: Toby is a handsome Blue Point
+  - name: 'Blazen Glory: Future King'
+    img: '/assets/img/20240813_110405[1].jpg'
+    description: Blue Point Bicolor
 ragdoll-history-title: Ragdoll History
 ragdoll-history-body: >-
   The Ragdoll is a cat breed with blue eyes and varying colours and patterns. It
