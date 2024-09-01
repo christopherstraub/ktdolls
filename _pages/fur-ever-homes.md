@@ -3,6 +3,8 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: '/assets/img/20240511_182539[1].jpg'
+    title: Lina
   - path: '/assets/img/20240525_183140[1].jpg'
     title: Nora
   - path: '/assets/img/20240531_134046[1].jpg'
