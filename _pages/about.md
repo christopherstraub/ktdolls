@@ -36,7 +36,7 @@ kings:
     description: Toby is a handsome Blue Point
   - name: 'Blazen Glory: Future King'
     img: '/assets/img/20240813_110405[1].jpg'
-    description: Blue Point Bicolor
+    description: Blaze is a beautiful Blue Point Bicolor
 ragdoll-history-title: Ragdoll History
 ragdoll-history-body: >-
   The Ragdoll is a cat breed with blue eyes and varying colours and patterns. It
