@@ -3,6 +3,8 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: '/assets/img/20240817_145713[1].jpg'
+    title: Morgan
   - path: '/assets/img/20240817_090558[1].jpg'
     title: Morgan
   - path: /assets/img/20240209_150147.jpg
