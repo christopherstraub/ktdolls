@@ -21,12 +21,12 @@ queens:
   - name: Lady Annabella
     img: '/assets/img/20240529_102244[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
-  - name: Lady Jessamina
-    img: '/assets/img/20240425_163247[1].jpg'
-    description: Jessa is a beautiful Blue  Point Torbie
   - name: Lady Marian
     img: '/assets/img/20240713_104319[1].jpg'
     description: Marian is a beautiful Seal Point Mitted
+  - name: Lady Jessamina
+    img: '/assets/img/20240425_163247[1].jpg'
+    description: Jessa is a beautiful Blue  Point Torbie
   - name: 'Princess Pollyanna: Future Queen'
     img: '/assets/img/20240823_215100[1].jpg'
     description: Seal Point Mink
