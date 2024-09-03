@@ -39,6 +39,11 @@ available-kittens-gallery:
   - litter-title: No available kittens at this time.
 available-adults-title: Available Adults
 available-adults:
+  - name: Oliver (Seal Point) & Georgie (Blue Bicolor)
+    reserved: false
+    description: 2 year old neutered males. Must rehome together.
+    cost: 750
+    img: '/assets/img/IMG_9523[1].jpg'
   - name: Sir Glenn
     reserved: false
     description: 'Male Seal Point dob: 08/29/2017'
@@ -121,6 +126,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
