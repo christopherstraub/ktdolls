@@ -40,7 +40,7 @@ available-kittens-gallery:
 available-adults-title: Available Adults
 available-adults:
   - name: Oliver (Seal Point) & Georgie (Blue Bicolor)
-    reserved: false
+    reserved: true
     description: 2 year old neutered males. Must rehome together.
     cost: 750
     img: '/assets/img/IMG_9523[1].jpg'
