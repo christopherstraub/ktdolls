@@ -47,7 +47,7 @@ available-adults:
   - name: Sir Glenn
     reserved: false
     description: 'Male Seal Point dob: 08/29/2017'
-    cost: 650
+    cost: 500
     img: '/assets/img/20200701_113257[1].jpg'
   - name: Alexander the Great
     reserved: false
@@ -126,6 +126,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
