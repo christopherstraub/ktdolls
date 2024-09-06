@@ -52,7 +52,7 @@ available-adults:
   - name: Alexander the Great
     reserved: false
     description: 'Male Blue Point Mink dob:08/18/2020'
-    cost: 750
+    cost: 500
     img: '/assets/img/20210525_222648[1].jpg'
 kitten-deposit-title: Kitten Deposit
 shipping-title: Shipping Temporarily Suspended
