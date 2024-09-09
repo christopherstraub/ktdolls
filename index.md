@@ -37,6 +37,11 @@ available-kittens-text-img-pair:
     img: '/assets/img/1725202831266[1].jpg'
 available-kittens-gallery:
   - litter-title: No available kittens at this time.
+    available-kittens:
+      - name: 'Sparrow dob: 02/17/2024'
+        reserved: false
+        description: Seal Point Mitted Neutered Male
+        cost: 1050
 available-adults-title: Available Adults
 available-adults:
   - name: Oliver (Seal Point) & Georgie (Blue Bicolor)
@@ -126,6 +131,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
