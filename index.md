@@ -42,12 +42,6 @@ available-kittens-text-img-pair:
     img: '/assets/img/1725202831266[1].jpg'
 available-kittens-gallery:
   - litter-title: ''
-    available-kittens:
-      - name: 'Sparrow dob: 02/17/2024'
-        reserved: false
-        description: 'Neutered Male: Seal Point Mitted'
-        cost: 1050
-        img: /assets/img/20240905_230748.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'Sir Glenn dob: 08/29/2017'
