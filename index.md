@@ -27,7 +27,7 @@ available-kittens-text-img-pair:
       SPARROW dob 2/17/2024
       Neutered Male: Seal Point Mitted
       $1050 / $500 deposit
-    img: /assets/img/20240905_230748.jpg
+    img: '/assets/img/20240905_230748[1].jpg'
   - text: |-
       Marian x Toby
       Expecting late September 2024
@@ -126,6 +126,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
