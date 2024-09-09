@@ -45,9 +45,9 @@ available-kittens-gallery:
         img: /assets/img/20240905_230748.jpg
 available-adults-title: Available Adults
 available-adults:
-  - name: Sir Glenn
+  - name: 'Sir Glenn dob: 08/29/2017'
     reserved: false
-    description: 'Male Seal Point dob: 08/29/2017'
+    description: 'Neutered Male: Seal Point '
     cost: 500
     img: '/assets/img/20200701_113257[1].jpg'
   - name: Alexander the Great
