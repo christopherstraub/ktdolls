@@ -44,7 +44,7 @@ available-kittens-gallery:
   - litter-title: ''
 available-adults-title: Available Adults
 available-adults:
-  - name: 'Sir Glenn dob: 08/29/2017'
+  - name: 'SIR GLENN dob: 08/29/2017'
     reserved: false
     description: 'Neutered Male: Seal Point '
     cost: 500
