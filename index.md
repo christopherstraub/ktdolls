@@ -49,7 +49,7 @@ available-adults:
     description: 'Neutered Male: Seal Point '
     cost: 500
     img: '/assets/img/20200701_113257[1].jpg'
-  - name: 'Alexander the Great dob:08/18/2020'
+  - name: 'ALEXANDER the GREAT dob:08/18/2020'
     reserved: false
     description: 'Neutered Male Blue Point Mink '
     cost: 500
