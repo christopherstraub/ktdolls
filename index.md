@@ -24,6 +24,11 @@ hero-section-img-grid:
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
+      SPARROW dob 2/17/2024
+      Neutered Male: Seal Point Mitted
+      $1050 / $500 deposit
+    img: /assets/img/20240905_230748.jpg
+  - text: |-
       Marian x Toby
       Expecting late September 2024
     img: '/assets/img/1725202237286[1].jpg'
@@ -127,6 +132,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
