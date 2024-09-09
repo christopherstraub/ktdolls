@@ -136,6 +136,7 @@ gallery:
 
 
 
+
 <!-- Hero Section -->
 <section id="hero-section">
   <div class="heading">
