@@ -22,26 +22,14 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
-available-kittens-text-img-pair:
-  - text: |-
-      SPARROW dob 2/17/2024
-      Neutered Male: Seal Point Mitted
-      $1050 / $500 deposit
-    img: '/assets/img/20240905_230748[1].jpg'
-  - text: |-
-      GoFRST!
-      Marian x Toby DOB: Sept. 26, 2024
-    img: '/assets/img/20241104_104852[1].jpg'
-  - text: |-
-      Jessa x Toby
-      Expecting late September 2024
-    img: '/assets/img/1725203711061[1].jpg'
-  - text: |-
-      Bella x Toby
-      Expecting Early October 2024
-    img: '/assets/img/1725202831266[1].jpg'
 available-kittens-gallery:
-  - litter-title: ''
+  - litter-title: GoFRST!
+    available-kittens:
+      - name: Oliver
+        reserved: false
+        description: Male Blue Point/Mitted
+        cost: 1450
+        img: '/assets/img/20241104_104852[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
