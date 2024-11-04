@@ -25,6 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: 'Christ is King! DOB: Sept. 27, 2024'
     available-kittens:
+      - name: Abraham
+        reserved: false
+        description: Male Flame Point
+        cost: 1450
+        img: '/assets/img/20241104_104719[1].jpg'
       - name: Noah
         reserved: true
         description: Male Blue Point
