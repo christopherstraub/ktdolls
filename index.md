@@ -25,6 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: GoFRST!
     available-kittens:
+      - name: Samantha
+        reserved: false
+        description: Female Blue Point/Mitted
+        cost: 1450
+        img: '/assets/img/20241104_105050[1].jpg'
       - name: Oliver
         reserved: false
         description: Male Blue Point/Mitted
