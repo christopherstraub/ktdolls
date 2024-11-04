@@ -29,9 +29,9 @@ available-kittens-text-img-pair:
       $1050 / $500 deposit
     img: '/assets/img/20240905_230748[1].jpg'
   - text: |-
-      Marian x Toby
-      Expecting late September 2024
-    img: '/assets/img/1725202237286[1].jpg'
+      GoFRST!
+      Marian x Toby DOB: Sept. 26, 2024
+    img: '/assets/img/20241104_104852[1].jpg'
   - text: |-
       Jessa x Toby
       Expecting late September 2024
@@ -126,6 +126,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
