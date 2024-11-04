@@ -23,28 +23,13 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-gallery:
-  - litter-title: 'Christ is King! DOB: Sept. 27, 2024'
+  - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
     available-kittens:
-      - name: Abraham
-        reserved: false
-        description: Male Flame Point
-        cost: 1450
-        img: '/assets/img/20241104_104719[1].jpg'
-      - name: Isaac
-        reserved: false
-        description: Male Blue Point Lynx
-        cost: 1450
-        img: '/assets/img/20241104_104821[1].jpg'
-      - name: Jacob
+      - name: Clove
         reserved: true
-        description: Male Blue Point Lynx
+        description: Male Blue Point/Bicolor
         cost: 1450
-        img: '/assets/img/20241104_105541[1].jpg'
-      - name: Noah
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20241104_113217[1].jpg'
+        img: '/assets/img/20241104_110323[1].jpg'
   - litter-title: 'GoFRST! DOB: Sept. 26, 2024'
     available-kittens:
       - name: Gwen
@@ -82,6 +67,28 @@ available-kittens-gallery:
         description: Male Seal Point/Mitted with Blaze
         cost: 1450
         img: '/assets/img/20241104_105221[1].jpg'
+  - litter-title: 'Christ is King! DOB: Sept. 27, 2024'
+    available-kittens:
+      - name: Abraham
+        reserved: false
+        description: Male Flame Point
+        cost: 1450
+        img: '/assets/img/20241104_104719[1].jpg'
+      - name: Isaac
+        reserved: false
+        description: Male Blue Point Lynx
+        cost: 1450
+        img: '/assets/img/20241104_104821[1].jpg'
+      - name: Jacob
+        reserved: true
+        description: Male Blue Point Lynx
+        cost: 1450
+        img: '/assets/img/20241104_105541[1].jpg'
+      - name: Noah
+        reserved: true
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20241104_113217[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
