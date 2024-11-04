@@ -25,6 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: GoFRST!
     available-kittens:
+      - name: Theo
+        reserved: false
+        description: Male Blue Point/Mitted with Blaze
+        cost: 1450
+        img: '/assets/img/20241104_105645[1].jpg'
       - name: Franklin
         reserved: true
         description: Male Seal Point
