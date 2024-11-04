@@ -25,6 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
     available-kittens:
+      - name: Ginger
+        reserved: false
+        description: Female Blue Point/Bicolor
+        cost: 1450
+        img: '/assets/img/20241104_110146[1].jpg'
       - name: Clove
         reserved: false
         description: Male Blue Point/Bicolor
