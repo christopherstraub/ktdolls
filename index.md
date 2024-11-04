@@ -25,6 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: GoFRST!
     available-kittens:
+      - name: Gwen
+        reserved: false
+        description: Female Blue Point
+        cost: 1450
+        img: '/assets/img/20241104_105120[1].jpg'
       - name: Samantha
         reserved: false
         description: Female Blue Point/Mitted
