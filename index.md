@@ -25,6 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
     available-kittens:
+      - name: Pumpkin
+        reserved: false
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20241104_110048[1].jpg'
       - name: Ginger
         reserved: false
         description: Female Blue Point/Bicolor
