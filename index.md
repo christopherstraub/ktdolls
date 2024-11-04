@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
     available-kittens:
       - name: Clove
-        reserved: true
+        reserved: false
         description: Male Blue Point/Bicolor
         cost: 1450
         img: '/assets/img/20241104_110323[1].jpg'
