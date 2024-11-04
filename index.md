@@ -25,21 +25,26 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: GoFRST!
     available-kittens:
+      - name: Edward
+        reserved: true
+        description: Male Seal Point/Mitted with Blaze
+        cost: 1450
+        img: '/assets/img/20241104_105221[1].jpg'
       - name: Gwen
         reserved: false
         description: Female Blue Point
         cost: 1450
         img: '/assets/img/20241104_105120[1].jpg'
-      - name: Samantha
-        reserved: false
-        description: Female Blue Point/Mitted
-        cost: 1450
-        img: '/assets/img/20241104_105050[1].jpg'
       - name: Oliver
         reserved: false
         description: Male Blue Point/Mitted
         cost: 1450
         img: '/assets/img/20241104_104852[1].jpg'
+      - name: Samantha
+        reserved: false
+        description: Female Blue Point/Mitted
+        cost: 1450
+        img: '/assets/img/20241104_105050[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
