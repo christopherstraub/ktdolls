@@ -23,6 +23,13 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-gallery:
+  - litter-title: 'Christ is King! DOB: Sept. 27, 2024'
+    available-kittens:
+      - name: Noah
+        reserved: true
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20241104_113217[1].jpg'
   - litter-title: GoFRST!
     available-kittens:
       - name: Gwen
@@ -144,6 +151,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
