@@ -25,6 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: 'Christ is King! DOB: Sept. 27, 2024'
     available-kittens:
+      - name: Isaac
+        reserved: false
+        description: Male Blue Point Lynx
+        cost: 1450
+        img: '/assets/img/20241104_104821[1].jpg'
       - name: Abraham
         reserved: false
         description: Male Flame Point
