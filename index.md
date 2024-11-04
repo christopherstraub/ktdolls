@@ -23,33 +23,6 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-gallery:
-  - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
-    available-kittens:
-      - name: Ginger
-        reserved: false
-        description: Female Blue Point/Bicolor
-        cost: 1450
-        img: '/assets/img/20241104_110146[1].jpg'
-      - name: Cinnamon
-        reserved: false
-        description: Male Blue Point/Bicolor
-        cost: 1450
-        img: '/assets/img/20241104_110011[1].jpg'
-      - name: Clove
-        reserved: false
-        description: Male Blue Point/Bicolor
-        cost: 1450
-        img: '/assets/img/20241104_110323[1].jpg'
-      - name: Pumpkin
-        reserved: false
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20241104_110048[1].jpg'
-      - name: Nutmeg
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20241104_105939[1].jpg'
   - litter-title: 'GoFRST! DOB: Sept. 26, 2024'
     available-kittens:
       - name: Gwen
@@ -109,6 +82,33 @@ available-kittens-gallery:
         description: Male Blue Point
         cost: 1450
         img: '/assets/img/20241104_113217[1].jpg'
+  - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
+    available-kittens:
+      - name: Ginger
+        reserved: false
+        description: Female Blue Point/Bicolor
+        cost: 1450
+        img: '/assets/img/20241104_110146[1].jpg'
+      - name: Cinnamon
+        reserved: false
+        description: Male Blue Point/Bicolor
+        cost: 1450
+        img: '/assets/img/20241104_110011[1].jpg'
+      - name: Clove
+        reserved: false
+        description: Male Blue Point/Bicolor
+        cost: 1450
+        img: '/assets/img/20241104_110323[1].jpg'
+      - name: Pumpkin
+        reserved: false
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20241104_110048[1].jpg'
+      - name: Nutmeg
+        reserved: true
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20241104_105939[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
