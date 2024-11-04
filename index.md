@@ -45,7 +45,7 @@ available-kittens-gallery:
         description: Male Blue Point
         cost: 1450
         img: '/assets/img/20241104_113217[1].jpg'
-  - litter-title: GoFRST!
+  - litter-title: 'GoFRST! DOB: Sept. 26, 2024'
     available-kittens:
       - name: Gwen
         reserved: false
