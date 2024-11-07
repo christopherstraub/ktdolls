@@ -41,7 +41,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20241104_104852[1].jpg'
       - name: Theo
-        reserved: false
+        reserved: true
         description: Male Blue Point/Mitted with Blaze
         cost: 1450
         img: '/assets/img/20241104_105645[1].jpg'
