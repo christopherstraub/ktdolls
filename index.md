@@ -100,7 +100,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20241104_110323[1].jpg'
       - name: Pumpkin
-        reserved: false
+        reserved: true
         description: Male Blue Point
         cost: 1450
         img: '/assets/img/20241104_110048[1].jpg'
@@ -193,6 +193,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
