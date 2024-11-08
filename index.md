@@ -89,16 +89,16 @@ available-kittens-gallery:
         description: Female Blue Point/Bicolor
         cost: 1450
         img: '/assets/img/20241104_110146[1].jpg'
-      - name: Cinnamon
-        reserved: true
-        description: Male Blue Point/Bicolor
-        cost: 1450
-        img: '/assets/img/20241104_110011[1].jpg'
       - name: Clove
         reserved: false
         description: Male Blue Point/Bicolor
         cost: 1450
         img: '/assets/img/20241104_110323[1].jpg'
+      - name: Cinnamon
+        reserved: true
+        description: Male Blue Point/Bicolor
+        cost: 1450
+        img: '/assets/img/20241104_110011[1].jpg'
       - name: Pumpkin
         reserved: true
         description: Male Blue Point
