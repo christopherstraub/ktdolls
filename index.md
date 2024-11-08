@@ -30,16 +30,16 @@ available-kittens-gallery:
         description: Female Blue Point
         cost: 1450
         img: '/assets/img/20241104_105120[1].jpg'
-      - name: Samantha
-        reserved: true
-        description: Female Blue Point/Mitted
-        cost: 1450
-        img: '/assets/img/20241104_105050[1].jpg'
       - name: Oliver
         reserved: false
         description: Male Blue Point/Mitted
         cost: 1450
         img: '/assets/img/20241104_104852[1].jpg'
+      - name: Samantha
+        reserved: true
+        description: Female Blue Point/Mitted
+        cost: 1450
+        img: '/assets/img/20241104_105050[1].jpg'
       - name: Theo
         reserved: true
         description: Male Blue Point/Mitted with Blaze
