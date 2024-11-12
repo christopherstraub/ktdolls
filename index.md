@@ -68,7 +68,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20241104_104719[1].jpg'
       - name: Isaac
-        reserved: false
+        reserved: true
         description: Male Blue Point Lynx
         cost: 1450
         img: '/assets/img/20241104_104821[1].jpg'
@@ -193,6 +193,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
