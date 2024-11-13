@@ -49,21 +49,6 @@ available-kittens-gallery:
         description: Male Blue Point/Bicolor
         cost: 1450
         img: '/assets/img/20241104_110323[1].jpg'
-      - name: Cinnamon
-        reserved: true
-        description: Male Blue Point/Bicolor
-        cost: 1450
-        img: '/assets/img/20241104_110011[1].jpg'
-      - name: Pumpkin
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20241104_110048[1].jpg'
-      - name: Nutmeg
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20241104_105939[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
