@@ -30,36 +30,6 @@ available-kittens-gallery:
         description: Male Blue Point/Mitted
         cost: 1450
         img: '/assets/img/20241104_104852[1].jpg'
-      - name: Gwen
-        reserved: true
-        description: Female Blue Point
-        cost: 1450
-        img: '/assets/img/20241104_105120[1].jpg'
-      - name: Samantha
-        reserved: true
-        description: Female Blue Point/Mitted
-        cost: 1450
-        img: '/assets/img/20241104_105050[1].jpg'
-      - name: Theo
-        reserved: true
-        description: Male Blue Point/Mitted with Blaze
-        cost: 1450
-        img: '/assets/img/20241104_105645[1].jpg'
-      - name: Randi
-        reserved: true
-        description: Female Seal Point/Mitted
-        cost: 1450
-        img: '/assets/img/20241104_105754[1].jpg'
-      - name: Franklin
-        reserved: true
-        description: Male Seal Point
-        cost: 1450
-        img: '/assets/img/20241104_105354[1].jpg'
-      - name: Edward
-        reserved: true
-        description: Male Seal Point/Mitted with Blaze
-        cost: 1450
-        img: '/assets/img/20241104_105221[1].jpg'
   - litter-title: 'Christ is King! DOB: Sept. 27, 2024'
     available-kittens:
       - name: Abraham
@@ -193,6 +163,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
