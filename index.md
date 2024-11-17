@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: 'GoFRST! DOB: Sept. 26, 2024'
     available-kittens:
       - name: Oliver
-        reserved: false
+        reserved: true
         description: Male Blue Point/Mitted
         cost: 1450
         img: '/assets/img/20241104_104852[1].jpg'
@@ -133,6 +133,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
