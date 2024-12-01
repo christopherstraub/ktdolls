@@ -45,7 +45,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20241104_110146[1].jpg'
       - name: Clove
-        reserved: false
+        reserved: true
         description: Male Blue Point/Bicolor
         cost: 1450
         img: '/assets/img/20241104_110323[1].jpg'
