@@ -40,7 +40,7 @@ available-kittens-gallery:
   - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
     available-kittens:
       - name: Ginger
-        reserved: false
+        reserved: true
         description: Female Blue Point/Bicolor
         cost: 1450
         img: '/assets/img/20241104_110146[1].jpg'
@@ -133,6 +133,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
