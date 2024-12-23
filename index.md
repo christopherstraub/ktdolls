@@ -23,32 +23,7 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-gallery:
-  - litter-title: 'GoFRST! DOB: Sept. 26, 2024'
-    available-kittens:
-      - name: Oliver
-        reserved: true
-        description: Male Blue Point/Mitted
-        cost: 1450
-        img: '/assets/img/20241104_104852[1].jpg'
-  - litter-title: 'Christ is King! DOB: Sept. 27, 2024'
-    available-kittens:
-      - name: Abraham
-        reserved: true
-        description: Male Flame Point
-        cost: 1450
-        img: '/assets/img/20241104_104719[1].jpg'
-  - litter-title: 'Fall Spices! DOB: Oct. 05, 2024'
-    available-kittens:
-      - name: Ginger
-        reserved: true
-        description: Female Blue Point/Bicolor
-        cost: 1450
-        img: '/assets/img/20241104_110146[1].jpg'
-      - name: Clove
-        reserved: true
-        description: Male Blue Point/Bicolor
-        cost: 1450
-        img: '/assets/img/20241104_110323[1].jpg'
+  - litter-title: 'We do not have any available kittens at this time. '
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
@@ -133,6 +108,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
