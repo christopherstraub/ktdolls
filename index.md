@@ -27,6 +27,10 @@ available-kittens-text-img-pair:
       Late Feb 2025!
       Mariam x Blaze
     img: '/assets/img/1738606539831[1].jpg'
+  - text: |-
+      Late Feb 2025!
+      Bella x Blaze
+    img: '/assets/img/1738606792229[1].jpg'
 available-kittens-gallery:
   - litter-title: 'We do not have any available kittens at this time. '
 available-adults-title: Available Adults
