@@ -34,9 +34,11 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'We do not have any available kittens at this time. '
     available-kittens:
-      - name: Kittens expected late Feb 2025!
+      - name: >-
+          Kittens expected late Feb 2025! Contact us to get on the waiting list
+          for upcoming litters.
         reserved: false
-        description: Contact us to get on the waiting list for available kittens
+        description: ''
         cost: 1500
 available-adults-title: Available Adults
 available-adults:
