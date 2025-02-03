@@ -33,6 +33,11 @@ available-kittens-text-img-pair:
     img: '/assets/img/1738606792229[1].jpg'
 available-kittens-gallery:
   - litter-title: 'We do not have any available kittens at this time. '
+    available-kittens:
+      - name: Kittens expected late Feb 2025!
+        reserved: false
+        description: Contact us to get on the waiting list for available kittens
+        cost: 1500
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
