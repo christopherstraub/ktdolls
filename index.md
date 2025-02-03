@@ -49,7 +49,7 @@ available-adults:
     img: '/assets/img/20200701_113257[1].jpg'
   - name: 'ALEXANDER the GREAT dob:08/18/2020'
     reserved: false
-    description: 'Neutered Male Blue Point Mink '
+    description: 'Neutered Male: Blue Point Mink '
     cost: 500
     img: '/assets/img/20210525_222648[1].jpg'
 kitten-deposit-title: Kitten Deposit
@@ -124,6 +124,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
