@@ -30,7 +30,8 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
-      - reserved: false
+      - name: Pink Girl (Marian)
+        reserved: false
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_110205[1].jpg'
