@@ -30,6 +30,11 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
+      - name: Yellow Boy (Marian)
+        reserved: false
+        description: Blue Point / Mitted
+        cost: 1500
+        img: '/assets/img/20250317_111344[1].jpg'
       - name: Blue Boy (Marian)
         reserved: false
         description: Seal Point / Mitted
