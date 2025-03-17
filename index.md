@@ -24,13 +24,9 @@ hero-section-img-grid:
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
-      Late Feb 2025!
-      Mariam x Blaze
-    img: '/assets/img/1738606539831[1].jpg'
-  - text: |-
-      Late Feb 2025!
-      Bella x Blaze
-    img: '/assets/img/1738606792229[1].jpg'
+      April 2025!
+      Polly x Blaze
+    img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
   - litter-title: 'We do not have any available kittens at this time. '
     available-kittens:
@@ -124,6 +120,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
