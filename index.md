@@ -31,7 +31,7 @@ available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
       - name: Green Boy (Marian)
-        reserved: true
+        reserved: false
         description: Seal Colorpoint
         cost: 1500
         img: '/assets/img/20250317_111002[1].jpg'
