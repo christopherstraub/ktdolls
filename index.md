@@ -72,7 +72,11 @@ available-kittens-gallery:
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_112318[1].jpg'
-      - {}
+      - name: Blue Boy (Bella)
+        reserved: false
+        description: Blue Bicolor
+        cost: 1500
+        img: '/assets/img/20250317_112739[1].jpg'
       - {}
       - {}
 available-adults-title: Available Adults
