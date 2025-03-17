@@ -67,26 +67,26 @@ available-kittens-gallery:
         img: '/assets/img/20250317_110205[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
-      - name: Green Boy (Bella)
-        reserved: false
-        description: Blue Bicolor
-        cost: 1500
-        img: '/assets/img/20250317_112318[1].jpg'
-      - name: Blue Boy (Bella)
-        reserved: false
-        description: Blue Bicolor
-        cost: 1500
-        img: '/assets/img/20250317_112739[1].jpg'
-      - name: Black Boy
-        reserved: false
-        description: Blue Bicolor
-        cost: 1500
-        img: '/assets/img/20250317_113431[1].jpg'
       - name: Pink Girl (Bella)
         reserved: false
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_113913[1].jpg'
+      - name: Green Boy (Bella)
+        reserved: false
+        description: Blue Bicolor
+        cost: 1500
+        img: '/assets/img/20250317_112318[1].jpg'
+      - name: Black Boy (Bella)
+        reserved: false
+        description: Blue Bicolor
+        cost: 1500
+        img: '/assets/img/20250317_113431[1].jpg'
+      - name: Blue Boy (Bella)
+        reserved: false
+        description: Blue Bicolor
+        cost: 1500
+        img: '/assets/img/20250317_112739[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
