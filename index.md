@@ -65,6 +65,16 @@ available-kittens-gallery:
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_110205[1].jpg'
+  - litter-title: 'Bella x Blaze; Feb 27, 2025'
+    available-kittens:
+      - name: Green Boy (Bella)
+        reserved: false
+        description: Blue Bicolor
+        cost: 1500
+        img: '/assets/img/20250317_112318[1].jpg'
+      - {}
+      - {}
+      - {}
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
