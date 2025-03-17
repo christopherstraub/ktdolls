@@ -77,7 +77,11 @@ available-kittens-gallery:
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_112739[1].jpg'
-      - {}
+      - name: Black Boy
+        reserved: false
+        description: Blue Bicolor
+        cost: 1500
+        img: '/assets/img/20250317_113431[1].jpg'
       - {}
 available-adults-title: Available Adults
 available-adults:
