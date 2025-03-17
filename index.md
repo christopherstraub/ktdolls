@@ -32,7 +32,7 @@ available-kittens-gallery:
     available-kittens:
       - name: Red Girl (Marian)
         reserved: false
-        description: Blue Colorpoint
+        description: Blue Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_110023[1].jpg'
       - name: Pink Girl (Marian)
