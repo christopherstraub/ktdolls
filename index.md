@@ -35,7 +35,11 @@ available-kittens-gallery:
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_110205[1].jpg'
-      - {}
+      - name: Orange Boy
+        reserved: false
+        description: Seal Colorpoint
+        cost: 1500
+        img: '/assets/img/20250317_110712[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
