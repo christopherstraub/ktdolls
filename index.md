@@ -30,6 +30,11 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
+      - name: Red Girl (Marian)
+        reserved: false
+        description: Blue Colorpoint
+        cost: 1500
+        img: '/assets/img/20250317_110023[1].jpg'
       - name: Pink Girl (Marian)
         reserved: false
         description: Blue Bicolor
