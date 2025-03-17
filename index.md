@@ -30,11 +30,21 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
+      - name: Blue Boy (Marian)
+        reserved: false
+        description: Seal Point / Mitted
+        cost: 1500
+        img: '/assets/img/20250317_111154[1].jpg'
       - name: Green Boy (Marian)
         reserved: false
         description: Seal Colorpoint
         cost: 1500
         img: '/assets/img/20250317_111002[1].jpg'
+      - name: Orange Boy (Marian)
+        reserved: false
+        description: Seal Colorpoint
+        cost: 1500
+        img: '/assets/img/20250317_110712[1].jpg'
       - name: Red Girl (Marian)
         reserved: false
         description: Blue Point / Mitted
@@ -45,11 +55,6 @@ available-kittens-gallery:
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_110205[1].jpg'
-      - name: Orange Boy (Marian)
-        reserved: false
-        description: Seal Colorpoint
-        cost: 1500
-        img: '/assets/img/20250317_110712[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
