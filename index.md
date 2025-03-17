@@ -35,7 +35,7 @@ available-kittens-gallery:
         description: Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_110205[1].jpg'
-      - name: Orange Boy
+      - name: Orange Boy (Marian)
         reserved: false
         description: Seal Colorpoint
         cost: 1500
