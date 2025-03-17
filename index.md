@@ -94,11 +94,6 @@ available-adults:
     description: 'Neutered Male: Seal Point '
     cost: 500
     img: '/assets/img/20200701_113257[1].jpg'
-  - name: 'ALEXANDER the GREAT dob:08/18/2020'
-    reserved: true
-    description: 'Neutered Male: Blue Point Mink '
-    cost: 500
-    img: '/assets/img/20210525_222648[1].jpg'
 kitten-deposit-title: Kitten Deposit
 shipping-title: Shipping Temporarily Suspended
 shipping-body: >-
