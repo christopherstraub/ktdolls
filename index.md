@@ -28,14 +28,13 @@ available-kittens-text-img-pair:
       Polly x Blaze
     img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
-  - litter-title: 'We do not have any available kittens at this time. '
+  - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
-      - name: >-
-          Kittens expected late Feb 2025! Contact us to get on the waiting list
-          for upcoming litters.
-        reserved: false
-        description: ''
+      - reserved: false
+        description: Blue Bicolor
         cost: 1500
+        img: '/assets/img/20250317_110205[1].jpg'
+      - {}
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
