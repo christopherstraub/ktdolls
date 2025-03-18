@@ -67,9 +67,9 @@ available-kittens-gallery:
         img: '/assets/img/20250317_110205[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
-      - name: Pink Girl (Bella)
+      - name: Saphira
         reserved: false
-        description: Blue Bicolor
+        description: Female Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_113913[1].jpg'
       - name: Green Boy (Bella)
