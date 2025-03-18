@@ -50,9 +50,9 @@ available-kittens-gallery:
         description: Male Seal Colorpoint
         cost: 1500
         img: '/assets/img/20250317_110712[1].jpg'
-      - name: Purple Girl (Marian)
+      - name: Susan
         reserved: false
-        description: Blue Point / Mitted
+        description: Female Blue Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_112009[1].jpg'
       - name: Red Girl (Marian)
