@@ -40,9 +40,9 @@ available-kittens-gallery:
         description: Male Seal Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_111154[1].jpg'
-      - name: Green Boy (Marian)
+      - name: Edmund (Marian)
         reserved: false
-        description: Seal Colorpoint
+        description: Male Seal Colorpoint
         cost: 1500
         img: '/assets/img/20250317_111002[1].jpg'
       - name: Orange Boy (Marian)
