@@ -72,9 +72,9 @@ available-kittens-gallery:
         description: Female Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_113913[1].jpg'
-      - name: Green Boy (Bella)
+      - name: Eragon
         reserved: false
-        description: Blue Bicolor
+        description: Male Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_112318[1].jpg'
       - name: Black Boy (Bella)
