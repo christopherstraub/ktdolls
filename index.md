@@ -32,7 +32,7 @@ available-kittens-gallery:
     available-kittens:
       - name: Peter (Marian)
         reserved: false
-        description: Blue Point / Mitted
+        description: Male Blue Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_111344[1].jpg'
       - name: Caspian (Marian)
