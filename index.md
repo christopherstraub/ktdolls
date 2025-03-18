@@ -35,9 +35,9 @@ available-kittens-gallery:
         description: Blue Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_111344[1].jpg'
-      - name: Blue Boy (Marian)
+      - name: Caspian (Marian)
         reserved: false
-        description: Seal Point / Mitted
+        description: Male Seal Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_111154[1].jpg'
       - name: Green Boy (Marian)
