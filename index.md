@@ -40,7 +40,7 @@ available-kittens-gallery:
         description: Male Seal Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_111154[1].jpg'
-      - name: Edmund (Marian)
+      - name: Edmund
         reserved: false
         description: Male Seal Colorpoint
         cost: 1500
