@@ -30,7 +30,7 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
-      - name: Peter (Marian)
+      - name: Aslan
         reserved: false
         description: Male Blue Point / Mitted
         cost: 1500
