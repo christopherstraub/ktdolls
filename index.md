@@ -45,7 +45,7 @@ available-kittens-gallery:
         description: Male Seal Colorpoint
         cost: 1500
         img: '/assets/img/20250317_111002[1].jpg'
-      - name: Caspian (Marian)
+      - name: Caspian
         reserved: false
         description: Male Seal Colorpoint
         cost: 1500
