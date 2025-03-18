@@ -60,9 +60,9 @@ available-kittens-gallery:
         description: Female Blue Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_110023[1].jpg'
-      - name: Pink Girl (Marian)
+      - name: Jadis
         reserved: false
-        description: Blue Bicolor
+        description: Female Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_110205[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
