@@ -77,9 +77,9 @@ available-kittens-gallery:
         description: Male Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_112318[1].jpg'
-      - name: Black Boy (Bella)
+      - name: Brom
         reserved: false
-        description: Blue Bicolor
+        description: Male Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_113431[1].jpg'
       - name: Blue Boy (Bella)
