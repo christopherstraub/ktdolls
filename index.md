@@ -30,7 +30,7 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
-      - name: Yellow Boy (Marian)
+      - name: Peter (Marian)
         reserved: false
         description: Blue Point / Mitted
         cost: 1500
@@ -166,6 +166,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
