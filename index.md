@@ -55,9 +55,9 @@ available-kittens-gallery:
         description: Female Blue Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_112009[1].jpg'
-      - name: Red Girl (Marian)
+      - name: Lucy
         reserved: false
-        description: Blue Point / Mitted
+        description: Female Blue Point / Mitted
         cost: 1500
         img: '/assets/img/20250317_110023[1].jpg'
       - name: Pink Girl (Marian)
