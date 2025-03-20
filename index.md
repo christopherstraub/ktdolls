@@ -82,9 +82,9 @@ available-kittens-gallery:
         description: Male Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_113431[1].jpg'
-      - name: Blue Boy (Bella)
+      - name: Roran
         reserved: false
-        description: Blue Bicolor
+        description: Male Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_112739[1].jpg'
 available-adults-title: Available Adults
@@ -166,6 +166,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
