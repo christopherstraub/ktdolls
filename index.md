@@ -30,7 +30,7 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
-      - name: Aslan
+      - name: Peter
         reserved: false
         description: Male Blue Point / Mitted
         cost: 1500
@@ -166,6 +166,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
