@@ -77,16 +77,16 @@ available-kittens-gallery:
         description: Male Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_112318[1].jpg'
-      - name: Brom
-        reserved: false
-        description: Male Blue Bicolor
-        cost: 1500
-        img: '/assets/img/20250317_113431[1].jpg'
       - name: Roran
         reserved: false
         description: Male Blue Bicolor
         cost: 1500
         img: '/assets/img/20250317_112739[1].jpg'
+      - name: Brom
+        reserved: false
+        description: Male Blue Bicolor
+        cost: 1500
+        img: '/assets/img/20250317_113431[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
