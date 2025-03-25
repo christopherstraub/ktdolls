@@ -22,11 +22,6 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
-available-kittens-text-img-pair:
-  - text: |-
-      April 2025!
-      Polly x Blaze
-    img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
   - litter-title: 'Marian x Blaze: Feb 20, 2025 '
     available-kittens:
@@ -70,7 +65,7 @@ available-kittens-gallery:
       - name: Saphira
         reserved: false
         description: Female Blue Bicolor
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_113913[1].jpg'
       - name: Eragon
         reserved: false
