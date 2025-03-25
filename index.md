@@ -63,7 +63,7 @@ available-kittens-gallery:
       - name: Jadis
         reserved: false
         description: Female Blue Bicolor
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_110205[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
