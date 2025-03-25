@@ -80,7 +80,7 @@ available-kittens-gallery:
       - name: Brom
         reserved: false
         description: Male Blue Bicolor
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_113431[1].jpg'
 available-adults-title: Available Adults
 available-adults:
