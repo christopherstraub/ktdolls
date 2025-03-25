@@ -38,7 +38,7 @@ available-kittens-gallery:
       - name: Edmund
         reserved: false
         description: Male Seal Point / Mitted
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_111154[1].jpg'
       - name: Aslan
         reserved: false
