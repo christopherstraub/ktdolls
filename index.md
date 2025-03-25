@@ -70,7 +70,7 @@ available-kittens-gallery:
       - name: Eragon
         reserved: false
         description: Male Blue Bicolor
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_112318[1].jpg'
       - name: Roran
         reserved: false
