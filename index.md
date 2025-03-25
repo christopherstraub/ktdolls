@@ -33,7 +33,7 @@ available-kittens-gallery:
       - name: Peter
         reserved: false
         description: Male Blue Point / Mitted
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_111344[1].jpg'
       - name: Edmund
         reserved: false
@@ -166,6 +166,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
