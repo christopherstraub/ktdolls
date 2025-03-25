@@ -53,7 +53,7 @@ available-kittens-gallery:
       - name: Susan
         reserved: false
         description: Female Blue Point / Mitted
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_112009[1].jpg'
       - name: Lucy
         reserved: false
@@ -166,6 +166,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
