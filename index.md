@@ -75,7 +75,7 @@ available-kittens-gallery:
       - name: Roran
         reserved: false
         description: Male Blue Bicolor
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_112739[1].jpg'
       - name: Brom
         reserved: false
