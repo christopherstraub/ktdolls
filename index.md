@@ -58,7 +58,7 @@ available-kittens-gallery:
       - name: Lucy
         reserved: false
         description: Female Blue Point / Mitted
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_110023[1].jpg'
       - name: Jadis
         reserved: false
