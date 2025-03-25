@@ -43,7 +43,7 @@ available-kittens-gallery:
       - name: Aslan
         reserved: false
         description: Male Seal Colorpoint
-        cost: 1500
+        cost: 1450
         img: '/assets/img/20250317_111002[1].jpg'
       - name: Caspian
         reserved: false
