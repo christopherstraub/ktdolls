@@ -62,11 +62,6 @@ available-kittens-gallery:
         img: '/assets/img/20250317_110023[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
-      - name: Saphira
-        reserved: true
-        description: Female Blue Bicolor
-        cost: 1450
-        img: '/assets/img/20250317_113913[1].jpg'
       - name: Eragon
         reserved: false
         description: Male Blue Bicolor
@@ -82,6 +77,11 @@ available-kittens-gallery:
         description: Male Blue Bicolor
         cost: 1450
         img: '/assets/img/20250317_113431[1].jpg'
+      - name: Saphira
+        reserved: true
+        description: Female Blue Bicolor
+        cost: 1450
+        img: '/assets/img/20250317_113913[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
