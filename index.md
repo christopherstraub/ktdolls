@@ -51,7 +51,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20250317_112009[1].jpg'
       - name: Lucy
-        reserved: false
+        reserved: true
         description: Female Blue Point / Mitted
         cost: 1450
         img: '/assets/img/20250317_110023[1].jpg'
