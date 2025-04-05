@@ -45,6 +45,11 @@ available-kittens-gallery:
         description: Male Seal Colorpoint
         cost: 1450
         img: '/assets/img/20250317_110712[1].jpg'
+      - name: Jadis
+        reserved: false
+        description: Female Blue Bicolor
+        cost: 1450
+        img: '/assets/img/20250317_110205[1].jpg'
       - name: Susan
         reserved: true
         description: Female Blue Point / Mitted
@@ -55,11 +60,6 @@ available-kittens-gallery:
         description: Female Blue Point / Mitted
         cost: 1450
         img: '/assets/img/20250317_110023[1].jpg'
-      - name: Jadis
-        reserved: false
-        description: Female Blue Bicolor
-        cost: 1450
-        img: '/assets/img/20250317_110205[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
       - name: Saphira
