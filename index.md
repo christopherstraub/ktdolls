@@ -63,7 +63,7 @@ available-kittens-gallery:
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
       - name: Saphira
-        reserved: false
+        reserved: true
         description: Female Blue Bicolor
         cost: 1450
         img: '/assets/img/20250317_113913[1].jpg'
