@@ -46,7 +46,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20250317_110712[1].jpg'
       - name: Jadis
-        reserved: false
+        reserved: true
         description: Female Blue Bicolor
         cost: 1450
         img: '/assets/img/20250317_110205[1].jpg'
