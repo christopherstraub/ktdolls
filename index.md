@@ -63,7 +63,7 @@ available-kittens-gallery:
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
       - name: Eragon
-        reserved: false
+        reserved: true
         description: Male Blue Bicolor
         cost: 1450
         img: '/assets/img/20250317_112318[1].jpg'
@@ -161,6 +161,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
