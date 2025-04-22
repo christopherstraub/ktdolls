@@ -62,11 +62,6 @@ available-kittens-gallery:
         img: '/assets/img/20250317_112009[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
-      - name: Eragon
-        reserved: true
-        description: Male Blue Bicolor
-        cost: 1450
-        img: '/assets/img/20250317_112318[1].jpg'
       - name: Roran
         reserved: false
         description: Male Blue Bicolor
@@ -74,9 +69,14 @@ available-kittens-gallery:
         img: '/assets/img/20250317_112739[1].jpg'
       - name: Brom
         reserved: false
-        description: Male Blue Bicolor
+        description: Male Blue Colorpoint
         cost: 1450
         img: '/assets/img/20250317_113431[1].jpg'
+      - name: Eragon
+        reserved: true
+        description: Male Blue Bicolor
+        cost: 1450
+        img: '/assets/img/20250317_112318[1].jpg'
       - name: Saphira
         reserved: true
         description: Female Blue Bicolor
