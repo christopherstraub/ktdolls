@@ -31,7 +31,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20250317_111344[1].jpg'
       - name: Edmund
-        reserved: false
+        reserved: true
         description: Male Seal Point / Mitted
         cost: 1450
         img: '/assets/img/20250317_111154[1].jpg'
@@ -161,6 +161,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
