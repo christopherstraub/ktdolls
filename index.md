@@ -30,11 +30,6 @@ available-kittens-gallery:
         description: Male Blue Point / Mitted
         cost: 1450
         img: '/assets/img/20250317_111344[1].jpg'
-      - name: Edmund
-        reserved: true
-        description: Male Seal Point / Mitted
-        cost: 1450
-        img: '/assets/img/20250317_111154[1].jpg'
       - name: Aslan
         reserved: false
         description: Male Seal Colorpoint
@@ -60,6 +55,11 @@ available-kittens-gallery:
         description: Female Blue Point / Mitted
         cost: 1450
         img: '/assets/img/20250317_112009[1].jpg'
+      - name: Edmund
+        reserved: true
+        description: Male Seal Point / Mitted
+        cost: 1450
+        img: '/assets/img/20250317_111154[1].jpg'
   - litter-title: 'Bella x Blaze; Feb 27, 2025'
     available-kittens:
       - name: Roran
