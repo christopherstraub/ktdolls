@@ -39,7 +39,7 @@ available-kittens-gallery:
         reserved: false
         description: Male Seal Colorpoint
         cost: 1450
-        img: '/assets/img/20250317_110712[1].jpg'
+        img: '/assets/img/20250327_165721[1].jpg'
       - name: Lucy
         reserved: true
         description: Female Blue Point / Mitted
