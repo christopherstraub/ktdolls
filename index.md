@@ -29,7 +29,7 @@ available-kittens-gallery:
         reserved: false
         description: Male Blue Point / Mitted
         cost: 1450
-        img: '/assets/img/20250317_111344[1].jpg'
+        img: '/assets/img/20250420_192357[1].jpg'
       - name: Aslan
         reserved: false
         description: Male Seal Colorpoint
@@ -161,6 +161,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
