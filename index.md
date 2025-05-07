@@ -25,21 +25,6 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: Spring Kittens 2025
     available-kittens:
-      - name: Roran
-        reserved: false
-        description: Male Blue Bicolor
-        cost: 1450
-        img: '/assets/img/20250505_121657[1].jpg'
-      - name: Brom
-        reserved: false
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20250507_122116[1].jpg'
-      - name: Peter
-        reserved: false
-        description: Male Blue Point / Mitted
-        cost: 1450
-        img: '/assets/img/20250420_192357[1].jpg'
       - name: Aslan
         reserved: false
         description: Male Seal Colorpoint
@@ -50,6 +35,21 @@ available-kittens-gallery:
         description: Male Seal Colorpoint
         cost: 1450
         img: '/assets/img/20250327_165721[1].jpg'
+      - name: Peter
+        reserved: false
+        description: Male Blue Point / Mitted
+        cost: 1450
+        img: '/assets/img/20250420_192357[1].jpg'
+      - name: Roran
+        reserved: false
+        description: Male Blue Bicolor
+        cost: 1450
+        img: '/assets/img/20250505_121657[1].jpg'
+      - name: Brom
+        reserved: false
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20250507_122116[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
