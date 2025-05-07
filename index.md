@@ -30,7 +30,11 @@ available-kittens-gallery:
         description: Male Blue Bicolor
         cost: 1450
         img: '/assets/img/20250505_121657[1].jpg'
-      - {}
+      - name: Brom
+        reserved: false
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20250507_122116[1].jpg'
       - name: Peter
         reserved: false
         description: Male Blue Point / Mitted
