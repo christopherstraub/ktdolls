@@ -35,6 +35,11 @@ available-kittens-gallery:
         description: Male Seal Colorpoint
         cost: 1450
         img: '/assets/img/20250327_165721[1].jpg'
+      - name: Brom
+        reserved: false
+        description: Male Blue Point
+        cost: 1450
+        img: '/assets/img/20250507_122116[1].jpg'
       - name: Peter
         reserved: true
         description: Male Blue Point / Mitted
@@ -45,11 +50,6 @@ available-kittens-gallery:
         description: Male Blue Bicolor
         cost: 1450
         img: '/assets/img/20250505_121657[1].jpg'
-      - name: Brom
-        reserved: false
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20250507_122116[1].jpg'
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
