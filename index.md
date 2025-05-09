@@ -36,7 +36,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20250327_165721[1].jpg'
       - name: Brom
-        reserved: false
+        reserved: true
         description: Male Blue Point
         cost: 1450
         img: '/assets/img/20250507_122116[1].jpg'
@@ -129,6 +129,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
