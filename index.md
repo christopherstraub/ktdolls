@@ -31,7 +31,7 @@ available-kittens-gallery:
         cost: 1450
         img: '/assets/img/20250505_114729[1].jpg'
       - name: Caspian
-        reserved: false
+        reserved: true
         description: Male Seal Colorpoint
         cost: 1450
         img: '/assets/img/20250327_165721[1].jpg'
@@ -129,6 +129,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
