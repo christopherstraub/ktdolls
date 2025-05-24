@@ -25,16 +25,16 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: Spring Kittens 2025
     available-kittens:
-      - name: Aslan
-        reserved: true
-        description: Male Seal Colorpoint
-        cost: 1450
-        img: '/assets/img/20250505_114729[1].jpg'
       - name: Caspian
         reserved: false
         description: Male Seal Colorpoint
         cost: 1450
         img: /assets/img/20250517_201549.jpg
+      - name: Aslan
+        reserved: true
+        description: Male Seal Colorpoint
+        cost: 1450
+        img: '/assets/img/20250505_114729[1].jpg'
       - name: Brom
         reserved: true
         description: Male Blue Point
