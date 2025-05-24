@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: Spring Kittens 2025
     available-kittens:
       - name: Aslan
-        reserved: false
+        reserved: true
         description: Male Seal Colorpoint
         cost: 1450
         img: '/assets/img/20250505_114729[1].jpg'
@@ -129,6 +129,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
