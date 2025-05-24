@@ -30,11 +30,6 @@ available-kittens-gallery:
         description: Male Seal Colorpoint
         cost: 1450
         img: /assets/img/20250517_201549.jpg
-      - name: Aslan
-        reserved: true
-        description: Male Seal Colorpoint
-        cost: 1450
-        img: '/assets/img/20250505_114729[1].jpg'
       - name: Brom
         reserved: true
         description: Male Blue Point
