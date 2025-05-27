@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: Spring Kittens 2025
     available-kittens:
       - name: Caspian
-        reserved: false
+        reserved: true
         description: Male Seal Colorpoint
         cost: 1450
         img: /assets/img/20250517_201549.jpg
@@ -124,6 +124,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
