@@ -25,11 +25,11 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: Spring Kittens 2025
     available-kittens:
-      - name: Peter
-        reserved: true
-        description: Male Blue Point / Mitted
+      - name: Lily
+        reserved: false
+        description: Blue Point Mink
         cost: 1450
-        img: '/assets/img/20250420_192357[1].jpg'
+        img: ''
       - name: Roran
         reserved: true
         description: Male Blue Bicolor
