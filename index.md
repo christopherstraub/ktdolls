@@ -27,7 +27,7 @@ available-kittens-gallery:
     available-kittens:
       - name: Lily
         reserved: false
-        description: Blue Point Mink
+        description: Female Blue Point Mink
         cost: 1450
         img: ''
       - name: George
