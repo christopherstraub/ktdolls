@@ -25,16 +25,6 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: Spring Kittens 2025
     available-kittens:
-      - name: Caspian
-        reserved: true
-        description: Male Seal Colorpoint
-        cost: 1450
-        img: /assets/img/20250517_201549.jpg
-      - name: Brom
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: '/assets/img/20250507_122116[1].jpg'
       - name: Peter
         reserved: true
         description: Male Blue Point / Mitted
@@ -124,6 +114,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
