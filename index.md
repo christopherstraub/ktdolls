@@ -30,11 +30,11 @@ available-kittens-gallery:
         description: Blue Point Mink
         cost: 1450
         img: ''
-      - name: Roran
-        reserved: true
-        description: Male Blue Bicolor
+      - name: George
+        reserved: false
+        description: Male Blue Point Mink
         cost: 1450
-        img: '/assets/img/20250505_121657[1].jpg'
+        img: ''
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
