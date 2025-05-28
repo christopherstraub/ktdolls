@@ -23,7 +23,7 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-gallery:
-  - litter-title: Spring Kittens 2025
+  - litter-title: Summer Kittens 2025
     available-kittens:
       - name: Lily
         reserved: false
@@ -114,6 +114,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
