@@ -34,7 +34,7 @@ available-kittens-gallery:
         reserved: false
         description: Male Blue Point Mink
         cost: 1450
-        img: ''
+        img: /assets/img/20250527_141707.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
