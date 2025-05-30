@@ -29,7 +29,7 @@ available-kittens-gallery:
         reserved: false
         description: Female Blue Point Mink
         cost: 1450
-        img: ''
+        img: /assets/img/20250527_141707.jpg
       - name: George
         reserved: false
         description: Male Blue Point Mink
@@ -114,6 +114,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
