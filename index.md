@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: Summer Kittens 2025
     available-kittens:
       - name: George
-        reserved: false
+        reserved: true
         description: Male Blue Point Mink
         cost: 1450
         img: /assets/img/20250527_141633.jpg
@@ -114,6 +114,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
