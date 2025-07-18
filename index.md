@@ -30,11 +30,6 @@ available-kittens-gallery:
         description: Male Seal Point Mitted w/Blaze
         cost: 500
         img: /assets/img/20250718_115727.jpg
-      - name: Expecting kittens in August 2025
-        reserved: false
-        description: Jessa x Blaze
-        cost: 1450
-        img: /assets/img/1752859605718.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
