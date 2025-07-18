@@ -34,7 +34,7 @@ available-kittens-gallery:
         reserved: false
         description: Male Seal Point Mitted w/Blaze
         cost: 500
-        img: /assets/img/20250718_115727.jpg
+        img: /assets/img/20250718_140705.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
@@ -114,6 +114,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
