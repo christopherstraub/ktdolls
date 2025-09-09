@@ -29,12 +29,6 @@ available-kittens-text-img-pair:
     img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
   - litter-title: Available Kitten
-    available-kittens:
-      - name: 'Edward dob:09/26/2024'
-        reserved: false
-        description: Male Seal Point Mitted w/Blaze
-        cost: 500
-        img: /assets/img/20250718_140705.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
@@ -114,6 +108,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
