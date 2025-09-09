@@ -25,7 +25,7 @@ available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
       Expecting late October 2025
-      Jessa x Blaze
+      Polly (Seal Mink) x Blaze (Blue Bicolor)
     img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
   - litter-title: Available Kitten
