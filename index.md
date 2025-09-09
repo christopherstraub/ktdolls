@@ -24,9 +24,9 @@ hero-section-img-grid:
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
-      Expecting late August 2025
+      Expecting late October 2025
       Jessa x Blaze
-    img: /assets/img/1752859605718.jpg
+    img: ''
 available-kittens-gallery:
   - litter-title: Available Kitten
     available-kittens:
@@ -114,6 +114,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
