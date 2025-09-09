@@ -26,7 +26,7 @@ available-kittens-text-img-pair:
   - text: |-
       Expecting late October 2025
       Jessa x Blaze
-    img: ''
+    img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
   - litter-title: Available Kitten
     available-kittens:
