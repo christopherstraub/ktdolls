@@ -35,7 +35,11 @@ available-kittens-gallery:
         description: 'Male Blue Point DOB: December 07, 2025'
         cost: 1450
         img: /assets/img/20251224_115817.jpg
-      - {}
+      - name: Nicholas
+        reserved: false
+        description: Male Blue Point
+        cost: 1450
+        img: /assets/img/20251224_115839.jpg
       - {}
 available-adults-title: Available Adults
 available-adults:
