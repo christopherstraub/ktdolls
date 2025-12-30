@@ -27,6 +27,10 @@ available-kittens-text-img-pair:
       Marian x Blaze 
       Expecting January 2026
     img: '/assets/img/1738606539831[1].jpg'
+  - text: |-
+      Jessa x Toby
+      Expecting January 2026
+    img: '/assets/img/1725203711061[1].jpg'
 available-kittens-gallery:
   - litter-title: 'Bella x Toby DOB: December 07, 2025'
     available-kittens:
