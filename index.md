@@ -22,13 +22,17 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
-available-kittens-text-img-pair:
-  - text: |-
-      Expecting late October 2025
-      Polly (Seal Mink) x Blaze (Blue Bicolor)
-    img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
-  - litter-title: Available Kitten
+  - litter-title: Bella x Toby
+    available-kittens:
+      - name: Kris
+        reserved: false
+        description: 'Male Blue Point DOB: December 07, 2025'
+        cost: 1450
+        img: /assets/img/20251224_115857.jpg
+      - {}
+      - {}
+      - {}
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
@@ -108,6 +112,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
