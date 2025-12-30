@@ -32,7 +32,7 @@ available-kittens-gallery:
         img: /assets/img/20251224_115857.jpg
       - name: Kringle
         reserved: false
-        description: 'Male Blue Point DOB: December 07, 2025'
+        description: Male Blue Point
         cost: 1450
         img: /assets/img/20251224_115817.jpg
       - name: Nicholas
