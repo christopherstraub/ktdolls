@@ -22,6 +22,11 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
+available-kittens-text-img-pair:
+  - text: |-
+      Marian x Blaze 
+      Expecting January 2026
+    img: '/assets/img/1738606539831[1].jpg'
 available-kittens-gallery:
   - litter-title: 'Bella x Toby DOB: December 07, 2025'
     available-kittens:
