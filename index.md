@@ -51,7 +51,7 @@ available-kittens-gallery:
         img: /assets/img/20251224_115839.jpg
       - name: Klaus (Miko)
         reserved: true
-        description: Male Blue Point Bicolor
+        description: 'Male Blue Point Bicolor '
         cost: 1450
         img: /assets/img/20251224_120001.jpg
 available-adults-title: Available Adults
