@@ -35,7 +35,7 @@ available-kittens-gallery:
   - litter-title: 'Bella x Toby DOB: December 07, 2025'
     available-kittens:
       - name: Kris
-        reserved: false
+        reserved: true
         description: Male Blue Point
         cost: 1450
         img: /assets/img/20251224_115857.jpg
@@ -133,6 +133,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
