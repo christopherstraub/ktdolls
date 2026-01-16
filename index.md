@@ -34,11 +34,6 @@ available-kittens-text-img-pair:
 available-kittens-gallery:
   - litter-title: 'Bella x Toby DOB: December 07, 2025'
     available-kittens:
-      - name: Kris
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: /assets/img/20251224_115857.jpg
       - name: Kringle
         reserved: false
         description: Male Blue Point
@@ -49,6 +44,11 @@ available-kittens-gallery:
         description: Male Blue Point
         cost: 1450
         img: /assets/img/20251224_115839.jpg
+      - name: Kris
+        reserved: true
+        description: Male Blue Point
+        cost: 1450
+        img: /assets/img/20251224_115857.jpg
       - name: Klaus (Miko)
         reserved: true
         description: 'Male Blue Point Bicolor '
