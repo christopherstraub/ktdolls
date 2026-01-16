@@ -27,7 +27,7 @@ queens:
   - name: Lady Jessamina
     img: '/assets/img/20240425_163247[1].jpg'
     description: Jessa is a beautiful Blue  Point Torbie
-  - name: 'Princess Pollyanna: Future Queen'
+  - name: Princess Pollyanna
     img: '/assets/img/20240823_215100[1].jpg'
     description: Polly is a beautiful Seal Point Mink
 kings:
@@ -79,6 +79,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 
