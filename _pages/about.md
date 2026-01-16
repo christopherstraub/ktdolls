@@ -34,7 +34,7 @@ kings:
   - name: Prince Tobias
     img: '/assets/img/20240901_124637[1].jpg'
     description: Toby is a handsome Blue Point
-  - name: 'Blazen Glory: Future King'
+  - name: Blazen Glory
     img: '/assets/img/20240813_110405[1].jpg'
     description: Blaze is a beautiful Blue Point Bicolor
 ragdoll-history-title: Ragdoll History
