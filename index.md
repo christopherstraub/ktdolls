@@ -24,10 +24,6 @@ hero-section-img-grid:
 available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
-      Marian x Blaze 
-      Expecting January 2026
-    img: '/assets/img/1738606539831[1].jpg'
-  - text: |-
       Jessa x Toby
       Expecting January 2026
     img: '/assets/img/1725203711061[1].jpg'
@@ -133,6 +129,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
