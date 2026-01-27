@@ -39,7 +39,7 @@ available-kittens-gallery:
         reserved: false
         description: Male Blue Point
         cost: 1450
-        img: /assets/img/20251224_115839.jpg
+        img: /assets/img/20260126_203434.jpg
       - name: Kris
         reserved: true
         description: Male Blue Point
