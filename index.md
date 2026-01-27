@@ -34,7 +34,7 @@ available-kittens-gallery:
         reserved: false
         description: Male Blue Point
         cost: 1450
-        img: /assets/img/20251224_115817.jpg
+        img: /assets/img/20260126_203241.jpg
       - name: Nicholas
         reserved: false
         description: Male Blue Point
@@ -129,6 +129,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
