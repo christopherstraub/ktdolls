@@ -25,7 +25,7 @@ available-kittens-title: Available Kittens
 available-kittens-text-img-pair:
   - text: |-
       Jessa x Toby
-      Expecting January 2026
+      Expecting Feb 2026
     img: '/assets/img/1725203711061[1].jpg'
 available-kittens-gallery:
   - litter-title: 'Bella x Toby DOB: December 07, 2025'
