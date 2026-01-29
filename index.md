@@ -31,7 +31,7 @@ available-kittens-gallery:
   - litter-title: 'Bella x Toby DOB: December 07, 2025'
     available-kittens:
       - name: Kringle
-        reserved: false
+        reserved: true
         description: Male Blue Point
         cost: 1450
         img: /assets/img/20260126_203241.jpg
@@ -59,9 +59,7 @@ available-adults:
     img: '/assets/img/20200701_113257[1].jpg'
 kitten-deposit-title: Kitten Deposit
 shipping-title: Shipping Temporarily Suspended
-shipping-body: >-
-  PetSafe shipping has been suspended due to Covid-19. We'll update you once the
-  situation changes.
+shipping-body: PetSafe shipping has been suspended due to Covid-19. We'll update you once the situation changes.
 gallery-title: Photo Gallery
 gallery:
   - path: /assets/img/home/gallery/20210910_134232-1.jpg
@@ -129,6 +127,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
