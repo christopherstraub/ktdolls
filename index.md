@@ -36,7 +36,7 @@ available-kittens-gallery:
         cost: 1450
         img: /assets/img/20260126_203241.jpg
       - name: Nicholas
-        reserved: false
+        reserved: true
         description: Male Blue Point
         cost: 1450
         img: /assets/img/20260126_203434.jpg
