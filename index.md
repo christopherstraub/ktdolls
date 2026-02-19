@@ -30,11 +30,11 @@ available-kittens-gallery:
         description: Male Blue Point
         cost: 1450
         img: /assets/img/Screenshot_20260214_133032_Video Player.jpg
-      - name: Nicholas
-        reserved: true
+      - name: Valentino
+        reserved: false
         description: Male Blue Point
         cost: 1450
-        img: /assets/img/20260126_203434.jpg
+        img: /assets/img/Screenshot_20260214_133102_Video Player.jpg
       - name: Kris
         reserved: true
         description: Male Blue Point
