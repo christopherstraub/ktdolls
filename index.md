@@ -37,7 +37,7 @@ available-kittens-gallery:
         img: /assets/img/Screenshot_20260214_133102_Video Player.jpg
       - name: Caleb
         reserved: true
-        description: Male Creme Point
+        description: Male Cream Point
         cost: 1450
         img: /assets/img/Screenshot_20260214_132956_Video Player.jpg
       - name: Romeo
@@ -122,6 +122,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
