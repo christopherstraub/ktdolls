@@ -22,19 +22,14 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
-available-kittens-text-img-pair:
-  - text: |-
-      Jessa x Toby
-      Expecting Feb 2026
-    img: '/assets/img/1725203711061[1].jpg'
 available-kittens-gallery:
-  - litter-title: 'Bella x Toby DOB: December 07, 2025'
+  - litter-title: 'Jessa x Toby DOB: January 31, 2026'
     available-kittens:
-      - name: Kringle
-        reserved: true
+      - name: Levin
+        reserved: false
         description: Male Blue Point
         cost: 1450
-        img: /assets/img/20260126_203241.jpg
+        img: /assets/img/Screenshot_20260214_133032_Video Player.jpg
       - name: Nicholas
         reserved: true
         description: Male Blue Point
@@ -127,6 +122,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
