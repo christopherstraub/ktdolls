@@ -35,11 +35,11 @@ available-kittens-gallery:
         description: Male Blue Point
         cost: 1450
         img: /assets/img/Screenshot_20260214_133102_Video Player.jpg
-      - name: Kris
+      - name: Caleb
         reserved: true
-        description: Male Blue Point
+        description: Male Creme Point
         cost: 1450
-        img: /assets/img/20251224_115857.jpg
+        img: /assets/img/Screenshot_20260214_132956_Video Player.jpg
       - name: Klaus (Miko)
         reserved: true
         description: 'Male Blue Point Bicolor '
