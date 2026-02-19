@@ -40,11 +40,11 @@ available-kittens-gallery:
         description: Male Creme Point
         cost: 1450
         img: /assets/img/Screenshot_20260214_132956_Video Player.jpg
-      - name: Klaus (Miko)
+      - name: Romeo
         reserved: true
-        description: 'Male Blue Point Bicolor '
+        description: Male Creme Point
         cost: 1450
-        img: /assets/img/20251224_120001.jpg
+        img: /assets/img/Screenshot_20260214_132925_Video Player.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
