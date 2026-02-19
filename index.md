@@ -42,7 +42,7 @@ available-kittens-gallery:
         img: /assets/img/Screenshot_20260214_132956_Video Player.jpg
       - name: Romeo
         reserved: true
-        description: Male Creme Point
+        description: Male Cream Point
         cost: 1450
         img: /assets/img/Screenshot_20260214_132925_Video Player.jpg
 available-adults-title: Available Adults
