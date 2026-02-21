@@ -25,16 +25,16 @@ available-kittens-title: Available Kittens
 available-kittens-gallery:
   - litter-title: 'Jessa x Toby DOB: January 31, 2026'
     available-kittens:
-      - name: Levin
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: /assets/img/Screenshot_20260214_133032_Video Player.jpg
       - name: Valentino
         reserved: false
         description: Male Blue Point
         cost: 1450
         img: /assets/img/Screenshot_20260214_133102_Video Player.jpg
+      - name: Levin
+        reserved: true
+        description: Male Blue Point
+        cost: 1450
+        img: /assets/img/Screenshot_20260214_133032_Video Player.jpg
       - name: Caleb
         reserved: true
         description: Male Cream Point
@@ -122,6 +122,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
