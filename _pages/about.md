@@ -12,30 +12,31 @@ second-heading: Healthy and Social Kittens
 second-body: >-
   All our litters are registered with TICA. Kittens go to their fur-ever homes
   at 12 weeks of age pre-spoiled, de-wormed and given two rounds of kitten
-  vaccines. They are micro-chipped and have a health guarantee for up to 1 year.
+  vaccines. They are micro-chipped and have a genetic health guarantee for up to
+  1 year.
 second-img: /assets/img/about/2.jpg
 second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
 queens:
   - name: Lady Annabella
-    img: '/assets/img/20230514_142613[1].jpg'
+    img: '/assets/img/20240529_102244[1].jpg'
     description: Bella is a beautiful Blue Point Bicolor
-  - name: Lady Jessamina
-    img: /assets/img/20231125_110542.jpg
-    description: Jessa is a beautiful Blue Point Lynx
   - name: Lady Marian
-    img: '/assets/img/20240103_141411[1].jpg'
+    img: '/assets/img/20240713_104319[1].jpg'
     description: Marian is a beautiful Seal Point Mitted
+  - name: Lady Jessamina
+    img: '/assets/img/20240425_163247[1].jpg'
+    description: Jessa is a beautiful Blue  Point Torbie
+  - name: Princess Pollyanna
+    img: '/assets/img/20240823_215100[1].jpg'
+    description: Polly is a beautiful Seal Point Mink
 kings:
-  - name: Sir Glenn
-    img: /assets/img/about/queens-and-kings/glenn.jpg
-    description: Glenn is a handsome Seal Point and is our first King
-  - name: Alexander the Great
-    img: /assets/img/about/queens-and-kings/alex.jpg
-    description: Alex is a handsome Blue Point Mink
   - name: Prince Tobias
-    img: /assets/img/Screenshot_20240222_215140_Instagram.jpg
+    img: '/assets/img/20240901_124637[1].jpg'
     description: Toby is a handsome Blue Point
+  - name: Blazen Glory
+    img: '/assets/img/20240813_110405[1].jpg'
+    description: Blaze is a beautiful Blue Point Bicolor
 ragdoll-history-title: Ragdoll History
 ragdoll-history-body: >-
   The Ragdoll is a cat breed with blue eyes and varying colours and patterns. It
@@ -78,6 +79,11 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
+
+
+
+
 
 
 

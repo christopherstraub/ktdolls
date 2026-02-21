@@ -1,7 +1,7 @@
 ---
 permalink: /
 heading: 'Katy, Texas Ragdolls'
-subheading: Pedigreed Traditional and Mink Ragdoll Kittens.
+subheading: Pedigreed Traditional and Mink Ragdoll Kittens..
 hero-section-img-grid:
   img-1: /assets/img/home/hero-section/1.jpg
   img-1-alt: A kitten lying on a blanket
@@ -22,30 +22,39 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
-available-kittens-text-img-pair:
-  - text: |-
-      Expecting May 2024
-      Jessa x Toby
-    img: '/assets/img/Screenshot_20240424_123201_Gallery[1].jpg'
 available-kittens-gallery:
-  - litter-title: No available kittens at this time.
+  - litter-title: 'Jessa x Toby DOB: January 31, 2026'
+    available-kittens:
+      - name: Valentino
+        reserved: false
+        description: Male Blue Point
+        cost: 1450
+        img: /assets/img/Screenshot_20260214_133102_Video Player.jpg
+      - name: Levin
+        reserved: true
+        description: Male Blue Point
+        cost: 1450
+        img: /assets/img/Screenshot_20260214_133032_Video Player.jpg
+      - name: Caleb
+        reserved: true
+        description: Male Cream Point
+        cost: 1450
+        img: /assets/img/Screenshot_20260214_132956_Video Player.jpg
+      - name: Romeo
+        reserved: true
+        description: Male Cream Point
+        cost: 1450
+        img: /assets/img/Screenshot_20260214_132925_Video Player.jpg
 available-adults-title: Available Adults
 available-adults:
-  - name: Sir Glenn
+  - name: 'SIR GLENN dob: 08/29/2017'
     reserved: false
-    description: 'Male Seal Point dob: 08/29/2017'
-    cost: 650
+    description: 'Neutered Male: Seal Point '
+    cost: 500
     img: '/assets/img/20200701_113257[1].jpg'
-  - name: Alexander the Great
-    reserved: false
-    description: 'Male Blue Point Mink dob:08/18/2020'
-    cost: 750
-    img: '/assets/img/20210525_222648[1].jpg'
 kitten-deposit-title: Kitten Deposit
 shipping-title: Shipping Temporarily Suspended
-shipping-body: >-
-  PetSafe shipping has been suspended due to Covid-19. We'll update you once the
-  situation changes.
+shipping-body: PetSafe shipping has been suspended due to Covid-19. We'll update you once the situation changes.
 gallery-title: Photo Gallery
 gallery:
   - path: /assets/img/home/gallery/20210910_134232-1.jpg
@@ -113,6 +122,71 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Hero Section -->
 <section id="hero-section">

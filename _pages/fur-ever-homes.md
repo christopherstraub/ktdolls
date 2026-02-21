@@ -3,6 +3,37 @@ permalink: /fur-ever-homes/
 title: Fur-ever Homes
 page-body: Meet our families!
 gallery:
+  - path: '/assets/img/20240907_130024[1].jpg'
+    title: Daniel
+  - path: '/assets/img/20240427_151157[1].jpg'
+    title: Johnathan
+  - path: '/assets/img/20240427_153208[1].jpg'
+    title: Magnus
+  - path: '/assets/img/20240427_181025[1].jpg'
+    title: Liam
+  - path: '/assets/img/20240509_160845[1].jpg'
+    title: Geri
+  - path: '/assets/img/20240511_182539[1].jpg'
+    title: Lina
+  - path: '/assets/img/20240525_183140[1].jpg'
+    title: Nora
+  - path: '/assets/img/20240531_134046[1].jpg'
+    title: Kera
+  - path: '/assets/img/20240601_153430[1].jpg'
+    title: Rowan
+  - path: '/assets/img/20240614_143552[1].jpg'
+    title: Lila
+  - path: '/assets/img/20240622_142038[1].jpg'
+    title: Princess Patience
+  - {}
+  - path: '/assets/img/20240731_104930[1].jpg'
+    title: Bailey
+  - path: '/assets/img/20240811_130645[1].jpg'
+    title: Brandy
+  - path: '/assets/img/20240817_145713[1].jpg'
+    title: Morgan
+  - path: '/assets/img/20240817_090558[1].jpg'
+    title: Ginny
   - path: /assets/img/20240209_150147.jpg
     title: BJ
   - path: /assets/img/fur-ever-homes/patrick.jpg
@@ -128,6 +159,8 @@ gallery:
   - path: /assets/img/fur-ever-homes/libby.jpg
     title: Libby
 ---
+
+
 
 
 <section>
