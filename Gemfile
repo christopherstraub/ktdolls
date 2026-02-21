@@ -13,3 +13,5 @@ group :jekyll_plugins do
   gem "jekyll-imagemagick"
 end
 gem "webrick", "~> 1.7"
+
+ruby "3.2.2"
