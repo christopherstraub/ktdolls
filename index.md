@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: 'Jessa x Toby DOB: January 31, 2026'
     available-kittens:
       - name: Levin
-        reserved: false
+        reserved: true
         description: Male Blue Point
         cost: 1450
         img: /assets/img/Screenshot_20260214_133032_Video Player.jpg
@@ -122,6 +122,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
