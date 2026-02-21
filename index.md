@@ -1,7 +1,7 @@
 ---
 permalink: /
 heading: 'Katy, Texas Ragdolls'
-subheading: Pedigreed Traditional and Mink Ragdoll Kittens..
+subheading: Pedigreed Traditional and Mink Ragdoll Kittens.
 hero-section-img-grid:
   img-1: /assets/img/home/hero-section/1.jpg
   img-1-alt: A kitten lying on a blanket
@@ -122,6 +122,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
