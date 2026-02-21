@@ -1,6 +1,6 @@
 ---
 permalink: /
-heading: 'Katy, Texas Ragdolls'
+heading: 'Katy, Texas Ragdoll'
 subheading: Pedigreed Traditional and Mink Ragdoll Kittens.
 hero-section-img-grid:
   img-1: /assets/img/home/hero-section/1.jpg
