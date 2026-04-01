@@ -22,6 +22,11 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
+available-kittens-text-img-pair:
+  - text: |
+      Expecting Early May
+      Polly x Blaze
+    img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
   - litter-title: 'Jessa x Toby DOB: January 31, 2026'
     available-kittens:
@@ -122,6 +127,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
