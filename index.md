@@ -22,34 +22,13 @@ hero-section-img-grid:
   img-9: /assets/img/home/hero-section/9.jpg
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
-available-kittens-text-img-pair:
-  - text: |
-      Expecting Early May
-      Polly x Blaze
-    img: '/assets/img/1742234040961[1].jpg'
 available-kittens-gallery:
-  - litter-title: 'Jessa x Toby DOB: January 31, 2026'
+  - litter-title: 'Jessa x Blaze DOB: June 30, 2026'
     available-kittens:
-      - name: Valentino
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: /assets/img/Screenshot_20260214_133102_Video Player.jpg
-      - name: Levin
-        reserved: true
-        description: Male Blue Point
-        cost: 1450
-        img: /assets/img/Screenshot_20260214_133032_Video Player.jpg
-      - name: Caleb
-        reserved: true
-        description: Male Cream Point
-        cost: 1450
-        img: /assets/img/Screenshot_20260214_132956_Video Player.jpg
-      - name: Romeo
-        reserved: true
-        description: Male Cream Point
-        cost: 1450
-        img: /assets/img/Screenshot_20260214_132925_Video Player.jpg
+      - name: Jessa's Kittens
+        reserved: false
+        cost: 1500
+        img: /assets/img/1000027811.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
@@ -127,6 +106,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
