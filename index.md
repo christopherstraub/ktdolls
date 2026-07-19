@@ -29,6 +29,12 @@ available-kittens-gallery:
         reserved: false
         cost: 1500
         img: /assets/img/1000027811.jpg
+  - litter-title: 'Bella x Toby DOB: July 18, 2026'
+    available-kittens:
+      - name: Bella's Kittens
+        reserved: false
+        cost: 1500
+        img: /assets/img/20260719_115334.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
