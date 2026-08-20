@@ -31,6 +31,11 @@ available-kittens-gallery:
         img: /assets/img/1000027811.jpg
   - litter-title: 'Bella x Toby DOB: July 18, 2026'
     available-kittens:
+      - name: Teal Female
+        reserved: false
+        description: Blue Point Female
+        cost: 1500
+        img: /assets/img/20260812_111121.jpg
       - name: Blue Male
         reserved: false
         description: Blue Bicolor Male
