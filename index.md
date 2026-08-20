@@ -31,10 +31,11 @@ available-kittens-gallery:
         img: /assets/img/1000027811.jpg
   - litter-title: 'Bella x Toby DOB: July 18, 2026'
     available-kittens:
-      - name: Bella's Kittens
+      - name: Blue Male
         reserved: false
+        description: Blue Bicolor Male
         cost: 1500
-        img: /assets/img/20260719_115334.jpg
+        img: /assets/img/20260812_111151.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
@@ -112,6 +113,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
