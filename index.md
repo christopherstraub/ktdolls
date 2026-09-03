@@ -38,7 +38,7 @@ available-kittens-gallery:
         cost: 1500
         img: /assets/img/20260812_111121.jpg
       - name: Blue Male
-        reserved: false
+        reserved: true
         description: Blue Point / Bicolor Male
         cost: 1500
         img: /assets/img/20260812_111151.jpg
