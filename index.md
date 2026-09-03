@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: 'Jessa x Blaze DOB: June 30, 2026'
     available-kittens:
       - name: Pink Girl
-        reserved: false
+        reserved: true
         description: Blue Torti Point / Bicolor
         cost: 1500
         img: /assets/img/20260805_205129.jpg
@@ -119,6 +119,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
