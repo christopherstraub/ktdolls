@@ -2,18 +2,11 @@
 permalink: /about/
 title: About Us
 first-heading: Family-owned Ragdoll Breeder
-first-body: >-
-  KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens.
-  Established in 2017, we are located in Katy, Texas, 30 miles west of downtown
-  Houston.
+first-body: 'KTDolls is a family-owned cattery breeding pedigreed Ragdoll kittens. Established in 2017, we are located in Katy, Texas, 30 miles west of downtown Houston.'
 first-img: /assets/img/about/1.jpg
 first-img-alt: Two cute kittens
 second-heading: Healthy and Social Kittens
-second-body: >-
-  All our litters are registered with TICA. Kittens go to their fur-ever homes
-  at 12 weeks of age pre-spoiled, de-wormed and given two rounds of kitten
-  vaccines. They are micro-chipped and have a genetic health guarantee for up to
-  1 year.
+second-body: 'All our litters are registered with TICA. Kittens go to their fur-ever homes at 14 weeks of age pre-spoiled, de-wormed and given two rounds of kitten vaccines. They are micro-chipped and have a genetic health guarantee for up to 1 year.'
 second-img: /assets/img/about/2.jpg
 second-img-alt: Peekaboo kitten
 queens-and-kings-title: Queens and Kings
@@ -38,32 +31,14 @@ kings:
     img: '/assets/img/20240813_110405[1].jpg'
     description: Blaze is a beautiful Blue Point Bicolor
 ragdoll-history-title: Ragdoll History
-ragdoll-history-body: >-
-  The Ragdoll is a cat breed with blue eyes and varying colours and patterns. It
-  is a large and muscular semi-longhair cat with a soft and silky coat. Like all
-  long haired cats, Ragdolls need grooming to ensure that their fur does not
-  mat. It is recommended Ragdolls are given baths once a month. Developed by
-  American breeder Ann Baker in the 1960s, it is best known for its docile and
-  placid temperament and affectionate nature. The name "Ragdoll" is derived from
-  the tendency of individuals from the original breeding stock to go limp and
-  relaxed when picked up. Particularly popular in both the United Kingdom and
-  the breed's native United States, ragdoll cats often are known as "dog-like
-  cats" or "puppy-like cats" due to behaviors such as their tendency to follow
-  people around, their ease at being physically handled, and their relative lack
-  of aggression toward other pets.
+ragdoll-history-body: 'The Ragdoll is a cat breed with blue eyes and varying colours and patterns. It is a large and muscular semi-longhair cat with a soft and silky coat. Like all long haired cats, Ragdolls need grooming to ensure that their fur does not mat. It is recommended Ragdolls are given baths once a month. Developed by American breeder Ann Baker in the 1960s, it is best known for its docile and placid temperament and affectionate nature. The name "Ragdoll" is derived from the tendency of individuals from the original breeding stock to go limp and relaxed when picked up. Particularly popular in both the United Kingdom and the breed''s native United States, ragdoll cats often are known as "dog-like cats" or "puppy-like cats" due to behaviors such as their tendency to follow people around, their ease at being physically handled, and their relative lack of aggression toward other pets.'
 ragdoll-history-img: /assets/img/about/ragdoll-history.jpg
 ragdoll-history-img-alt: A Ragdoll kitten
 mink-ragdoll-title: What is a Mink Ragdoll?
-mink-ragdoll-body: >-
-  Mink Ragdolls have a thicker, plusher coat than traditional Ragdolls, often
-  with an extremely plush tail. The coat of a mink is smoother and much softer
-  than traditional Ragdolls. Minks usually have aqua colored eyes (sea blue
-  green) instead of the blue eyes that the traditional Ragdolls have.
+mink-ragdoll-body: 'Mink Ragdolls have a thicker, plusher coat than traditional Ragdolls, often with an extremely plush tail. The coat of a mink is smoother and much softer than traditional Ragdolls. Minks usually have aqua colored eyes (sea blue green) instead of the blue eyes that the traditional Ragdolls have.'
 mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/1.jpg
-    caption: >-
-      Mink kittens are born with their color. Whereas, Traditional kittens are
-      born all white.
+    caption: 'Mink kittens are born with their color. Whereas, Traditional kittens are born all white.'
   - path: /assets/img/about/gallery/2.jpg
     caption: Blue Colorpoint Mink
   - path: /assets/img/about/gallery/3.jpg
@@ -79,6 +54,7 @@ mink-ragdoll-gallery:
   - path: /assets/img/about/gallery/8.jpg
     caption: Seal Colorpoint Mink and Seal Colorpoint Traditional Kittens
 ---
+
 
 
 
