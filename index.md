@@ -26,7 +26,7 @@ available-kittens-gallery:
   - litter-title: 'Bella x Toby DOB: July 18, 2026'
     available-kittens:
       - name: Gus
-        reserved: true
+        reserved: false
         description: Blue Point
         cost: 1500
         img: /assets/img/IMG_20261105_133050.jpg
