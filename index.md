@@ -23,25 +23,13 @@ hero-section-img-grid:
   img-9-alt: Two kittens cuddling
 available-kittens-title: Available Kittens
 available-kittens-gallery:
-  - litter-title: 'Jessa x Blaze DOB: June 30, 2026'
-    available-kittens:
-      - name: Pink Girl
-        reserved: true
-        description: Blue Torti Point / Bicolor
-        cost: 1500
-        img: /assets/img/20260805_205129.jpg
   - litter-title: 'Bella x Toby DOB: July 18, 2026'
     available-kittens:
-      - name: Teal Female
+      - name: Gus
         reserved: true
-        description: Blue Point Female
+        description: Blue Point
         cost: 1500
-        img: /assets/img/20260812_111121.jpg
-      - name: Blue Male
-        reserved: true
-        description: Blue Point / Bicolor Male
-        cost: 1500
-        img: /assets/img/20260812_111151.jpg
+        img: /assets/img/IMG_20261105_133050.jpg
 available-adults-title: Available Adults
 available-adults:
   - name: 'SIR GLENN dob: 08/29/2017'
@@ -119,6 +107,7 @@ gallery:
   - path: /assets/img/home/gallery/11.jpg
     caption: In Loving Memory of Lil' Wayne 2018
 ---
+
 
 
 
